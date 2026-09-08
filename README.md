@@ -1,28 +1,23 @@
-# Standalone grading app
+# TopoPilot grading app
 
-Copy this entire folder to another location or machine. It contains the app,
-browser assets, trial artifacts, requirements, benchmark scores, and grades.
-No other repository folders, network downloads, or pip packages are needed.
-A Python 3.9+ interpreter and a web browser are required on the destination.
-The trial scripts are review artifacts; the grading app does not execute them.
+Grading app from the TopoPilot submission. This app can be used to insepct the grading results from using Claude Code and Codex, including the manual grading and the evaluation using the SciVisAgentBench scores. By logging in as a grader, you also can see what the grading interface is like.
 
-Run from this folder:
+## Prerequisites
 
-```sh
+No libraries are required. Requires Python 3.9+
+
+## Usage
+
+```
 python3 grading_app.py
 ```
 
 Open http://127.0.0.1:8080. All grading writes stay inside this folder.
 
-Nathan's login credentials have been removed. Existing grades and their Nathan
-attribution are preserved. As Nathan was the only account, this copy initially
-has no active logins. Spectator browsing remains available; the existing app
-anonymizes grader names for spectators and displays names to logged-in graders.
+### Logging in as a grader
 
-To enable grading, add a new account to `grader_accounts.csv`, retaining its
-`username,password` header. Use a new username and a password you choose.
-The app uses plaintext local authentication: run it only on a trusted machine.
+There are currently no active grading credentials, although the previous grading results are present. To enable grading, add a new account to `grader_accounts.csv`, retaining its `username,password` header. The login uses unencrypted login information, so only use it on a trusted machine.
 
-`results/` contains independent copies of all original trial artifacts, and
-`prompts/trials.json` contains their grading requirements. The original app
-and original data have not been changed.
+### Artifacts and grading requirements
+
+All independent copies of the trial argifacts are found in `results/`. The prompts along with their requirements can be found in `prompts/trials.json`.
