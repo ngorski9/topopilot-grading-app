@@ -1,0 +1,9 @@
+The pipeline ran successfully and rendered the piecewise-linear persistence diagram (orders 0 and 2, sublevel set filtration via the FTM backend) after persistence simplification with ε=0.04 (relative). Output saved to `/workspace/qmcpack_pd.png`.
+
+Summary of the pipeline built in `qmcpack_pd.py`:
+- `LoadScalarField` → QMCPACK.vti, array `Scalars_`
+- `PersistenceSimplification` (epsilon=0.04, relative)
+- `ComputePersistenceDiagram` (FTM backend — inherently gives orders 0 and D−1=2 from the sublevel set filtration)
+- `EmbedPersistenceDiagram` → rendered and reset camera to fit the diagram bounds
+
+The diagram shows persistence pairs as balls/tubes along the diagonal, with the tall isolated pairs on the left/right representing the most persistent 0- and 2-dimensional features.

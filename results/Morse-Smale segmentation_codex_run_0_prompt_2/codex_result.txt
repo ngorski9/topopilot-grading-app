@@ -1,0 +1,10 @@
+Done. The rendered Morse–Smale segmentation is here:
+
+[fracture_morse_smale.png](/workspace/fracture_morse_smale.png)
+
+I also saved the reproducible ParaView state and script:
+
+[fracture_morse_smale.pvsm](/workspace/fracture_morse_smale.pvsm)  
+[render_fracture_msc.py](/workspace/render_fracture_msc.py)
+
+Used persistence simplification threshold 0.05. The result has 15 minima (blue), 22 saddles (white), and 8 maxima (red), all rendered as radius-2 spheres.

@@ -1,0 +1,395 @@
+agent,trial,run,prompt,api,time,total input,total output,cost (usd)
+claude,isocontours,0,0,False,81.1966,543239,6254,0.47202279999999996
+claude,isocontours,0,1,False,74.8872,418803,5437,0.2936780499999999
+claude,isocontours,0,2,False,81.1135,515447,5877,0.3248913
+claude,contour_tree,0,0,False,117.246,993783,6366,0.5238264
+claude,contour_tree,0,1,False,93.6013,872935,4810,0.4631602999999999
+claude,contour_tree,0,2,False,198.47,1681590,11776,0.8752963500000001
+claude,vector_critical_point_tracking,0,0,False,107.603,387754,8928,0.30805305000000005
+claude,vector_critical_point_tracking,0,1,False,201.728,766284,15409,0.5523214999999999
+claude,vector_critical_point_tracking,0,2,False,171.829,927220,11936,0.5569121
+claude,scalar_critical_point_tracking,0,0,False,809.92,6005302,38010,2.8215637499999997
+claude,scalar_critical_point_tracking,0,1,False,552.827,9468403,37112,4.05554835
+claude,scalar_critical_point_tracking,0,2,False,370.952,2364787,18689,1.1898094
+claude,Morse-Smale segmentation,0,0,False,153.766,1328438,9450,0.6798045500000001
+claude,Morse-Smale segmentation,0,1,False,95.8435,885541,6824,0.47724435
+claude,Morse-Smale segmentation,0,2,False,160.188,1672567,10769,0.9128655
+claude,hyperLIC,0,0,False,180.931,889107,14121,0.5674383
+claude,hyperLIC,0,1,False,149.193,863640,10213,0.49888885
+claude,hyperLIC,0,2,False,129.781,742614,10463,0.49250995000000003
+claude,asymmetric_tensor,0,0,False,240.713,726867,12771,0.7664814999999999
+claude,asymmetric_tensor,0,1,False,141.806,486172,10500,0.3851162
+claude,asymmetric_tensor,0,2,False,149.417,547548,12294,0.41670594999999994
+claude,isocontours,0,0,True,69.6665,506508,5406,0.43556934999999997
+claude,isocontours,0,1,True,74.2048,432484,5053,0.31224040000000003
+claude,isocontours,0,2,True,73.7138,527711,4790,0.33807634999999997
+claude,contour_tree,0,0,True,53.8692,509816,4069,0.3322365499999999
+claude,contour_tree,0,1,True,140.564,305382,3890,0.22676365000000004
+claude,contour_tree,0,2,True,53.6846,605360,3990,0.35835715
+claude,vector_critical_point_tracking,0,0,True,99.5721,614585,5252,0.3669138
+claude,vector_critical_point_tracking,0,1,True,63.8655,404226,4361,0.26340214999999995
+claude,vector_critical_point_tracking,0,2,True,171.305,640450,4761,0.3727559
+claude,scalar_critical_point_tracking,0,0,True,344.026,296091,3448,0.19908264999999997
+claude,scalar_critical_point_tracking,0,1,True,89.126,604462,5522,0.35710335
+claude,scalar_critical_point_tracking,0,2,True,236.234,1193573,5613,0.5346376
+claude,Morse-Smale segmentation,0,0,True,52.2377,500369,4078,0.32695684999999997
+claude,Morse-Smale segmentation,0,1,True,48.8534,409168,4051,0.27311615
+claude,Morse-Smale segmentation,0,2,True,58.1233,501888,3973,0.3207468
+claude,hyperLIC,0,0,True,91.4912,677622,4644,0.37382624999999997
+claude,hyperLIC,0,1,True,51.581,364618,3641,0.2511136
+claude,hyperLIC,0,2,True,73.9233,592447,3920,0.33169399999999993
+claude,asymmetric_tensor,0,0,True,54.1636,600344,3861,0.3383671
+claude,asymmetric_tensor,0,1,True,51.9548,399068,3691,0.26162885
+claude,asymmetric_tensor,0,2,True,65.6531,595315,4009,0.33602695
+codex,isocontours,0,0,False,60.9678,422664,4330,0.2070276
+codex,isocontours,0,1,False,89.5836,698856,5096,0.29051459999999996
+codex,isocontours,0,2,False,60.9388,338793,4419,0.1907634
+codex,contour_tree,0,0,False,81.7607,756387,5160,0.3243492
+codex,contour_tree,0,1,False,93.5805,789640,5543,0.30939320000000003
+codex,contour_tree,0,2,False,152.203,1250958,8126,0.463341
+codex,vector_critical_point_tracking,0,0,False,89.9997,460198,6812,0.24226640000000002
+codex,vector_critical_point_tracking,0,1,False,130.188,447966,8975,0.24790740000000003
+codex,vector_critical_point_tracking,0,2,False,56.3604,196062,4698,0.1457598
+codex,scalar_critical_point_tracking,0,0,False,100.382,1341995,6864,0.4870162
+codex,scalar_critical_point_tracking,0,1,False,64.0264,224717,4645,0.1479676
+codex,scalar_critical_point_tracking,0,2,False,82.7994,694925,5700,0.31261479999999997
+codex,Morse-Smale segmentation,0,0,False,92.1145,978721,6462,0.35688559999999997
+codex,Morse-Smale segmentation,0,1,False,161.207,1635431,11987,0.577429
+codex,Morse-Smale segmentation,0,2,False,78.414,575394,5686,0.2596992
+codex,hyperLIC,0,0,False,48.4213,206632,3943,0.1258016
+codex,hyperLIC,0,1,False,55.9375,387635,4064,0.1974166
+codex,hyperLIC,0,2,False,66.3824,446335,5044,0.2144204
+codex,asymmetric_tensor,0,0,False,80.7468,725203,5689,0.33400759999999996
+codex,asymmetric_tensor,0,1,False,70.7306,361209,6173,0.20537040000000004
+codex,asymmetric_tensor,0,2,False,90.7675,489059,6416,0.2392852
+codex,isocontours,0,0,True,32.5336,281007,2470,0.16618439999999998
+codex,isocontours,0,1,True,35.2903,244538,2839,0.15426820000000002
+codex,isocontours,0,2,True,36.6862,398270,2336,0.1948042
+codex,contour_tree,0,0,True,290.864,1716895,7336,0.5285534000000001
+codex,contour_tree,0,1,True,174.008,1101875,6047,0.39616
+codex,contour_tree,0,2,True,239.849,1418502,5729,0.5599434
+codex,vector_critical_point_tracking,0,0,True,58.3841,463640,3230,0.2342968
+codex,vector_critical_point_tracking,0,1,True,62.6966,612175,3499,0.26461640000000003
+codex,vector_critical_point_tracking,0,2,True,44.7316,247701,3156,0.1481406
+codex,scalar_critical_point_tracking,0,0,True,101.231,867978,4272,0.361854
+codex,scalar_critical_point_tracking,0,1,True,118.163,1232537,4048,0.446287
+codex,scalar_critical_point_tracking,0,2,True,46.4422,484589,3081,0.26496759999999997
+codex,Morse-Smale segmentation,0,0,True,41.071,291023,3125,0.1631938
+codex,Morse-Smale segmentation,0,1,True,36.7808,258659,3150,0.152944
+codex,Morse-Smale segmentation,0,2,True,41.0945,287275,3261,0.1649564
+codex,hyperLIC,0,0,True,31.1259,324617,1664,0.1664422
+codex,hyperLIC,0,1,True,38.1423,297456,1802,0.1489428
+codex,hyperLIC,0,2,True,38.9683,397604,2671,0.2087314
+codex,asymmetric_tensor,0,0,True,53.1546,670885,3026,0.28325540000000005
+codex,asymmetric_tensor,0,1,True,35.0141,390049,2430,0.2047406
+codex,asymmetric_tensor,0,2,True,38.539,318580,2953,0.16460539999999999
+claude,isocontours,1,0,False,69.6487,582647,5139,0.5046577000000001
+claude,isocontours,1,1,False,129.826,1074235,9150,0.5938875
+claude,isocontours,1,2,False,99.6353,600017,6711,0.358837
+claude,contour_tree,1,0,False,135.961,1090310,6454,0.5636268
+claude,contour_tree,1,1,False,79.5849,502752,4161,0.28713269999999996
+claude,contour_tree,1,2,False,153.252,1429126,7957,0.7370774999999999
+claude,vector_critical_point_tracking,1,0,False,221.455,1157924,17591,0.7409448499999999
+claude,vector_critical_point_tracking,1,1,False,180.929,713704,13775,0.5033032499999999
+claude,vector_critical_point_tracking,1,2,False,151.083,720073,11654,0.5004883999999999
+claude,scalar_critical_point_tracking,1,0,False,465.719,5698146,29826,2.5429343500000003
+claude,scalar_critical_point_tracking,1,1,False,361.189,1588481,10300,0.8446673
+claude,scalar_critical_point_tracking,1,2,False,511.119,6612824,32690,2.922419799999999
+claude,Morse-Smale segmentation,1,0,False,127.127,1060098,10260,0.6129466
+claude,Morse-Smale segmentation,1,1,False,156.742,1781193,9555,0.8692445000000001
+claude,Morse-Smale segmentation,1,2,False,117.364,879173,8928,0.5160270499999999
+claude,hyperLIC,1,0,False,298.241,2719537,20544,1.2905237000000003
+claude,hyperLIC,1,1,False,203.277,1144552,14999,0.9557654499999999
+claude,hyperLIC,1,2,False,137.117,754324,10764,0.47646389999999994
+claude,asymmetric_tensor,1,0,False,163.53,606086,13687,0.4851721
+claude,asymmetric_tensor,1,1,False,212.321,495104,18923,0.5306402
+claude,asymmetric_tensor,1,2,False,121.942,392471,9242,0.31659309999999996
+claude,isocontours,1,0,True,59.4142,505019,4999,0.42935229999999996
+claude,isocontours,1,1,True,53.3712,416441,4340,0.28635645
+claude,isocontours,1,2,True,65.3465,706668,5185,0.41602184999999997
+claude,contour_tree,1,0,True,155.186,662640,4586,0.36474290000000004
+claude,contour_tree,1,1,True,152.882,502556,4842,0.31246339999999995
+claude,contour_tree,1,2,True,57.0975,547345,4121,0.314377
+claude,vector_critical_point_tracking,1,0,True,76.9842,568915,4857,0.35281964999999993
+claude,vector_critical_point_tracking,1,1,True,52.6395,421015,3970,0.28061044999999996
+claude,vector_critical_point_tracking,1,2,True,131.763,472395,4024,0.29766035
+claude,scalar_critical_point_tracking,1,0,True,69.6026,442260,4159,0.29227175
+claude,scalar_critical_point_tracking,1,1,True,70.252,451143,4931,0.29623534999999995
+claude,scalar_critical_point_tracking,1,2,True,81.8694,463118,4847,0.30713365
+claude,Morse-Smale segmentation,1,0,True,49.2549,446769,3643,0.29891115
+claude,Morse-Smale segmentation,1,1,True,44.0988,355626,3543,0.23737919999999996
+claude,Morse-Smale segmentation,1,2,True,60.4277,448823,3788,0.27590715
+claude,hyperLIC,1,0,True,253.352,429615,3707,0.29092545
+claude,hyperLIC,1,1,True,70.2008,433245,3642,0.29154339999999995
+claude,hyperLIC,1,2,True,55.9122,431648,3548,0.28889460000000006
+claude,asymmetric_tensor,1,0,True,48.2107,452715,3674,0.28230445
+claude,asymmetric_tensor,1,1,True,42.8104,333844,3382,0.24811775
+claude,asymmetric_tensor,1,2,True,61.2854,454037,4024,0.29051965
+codex,isocontours,1,0,False,72.2988,439957,4425,0.2122886
+codex,isocontours,1,1,False,77.1337,608266,4640,0.24297020000000003
+codex,isocontours,1,2,False,58.2985,332664,4275,0.1787646
+codex,contour_tree,1,0,False,106.542,707006,5866,0.2864662
+codex,contour_tree,1,1,False,73.0062,329851,4185,0.1862174
+codex,contour_tree,1,2,False,61.7946,584536,3755,0.25515679999999996
+codex,vector_critical_point_tracking,1,0,False,68.2497,264973,4327,0.1504532
+codex,vector_critical_point_tracking,1,1,False,126.261,569646,7115,0.2506794
+codex,vector_critical_point_tracking,1,2,False,104.641,192759,7365,0.1657614
+codex,scalar_critical_point_tracking,1,0,False,99.9797,1421418,6204,0.5178786000000001
+codex,scalar_critical_point_tracking,1,1,False,127.175,994462,6924,0.40652059999999995
+codex,scalar_critical_point_tracking,1,2,False,97.5814,1306587,6314,0.5130228
+codex,Morse-Smale segmentation,1,0,False,98.4388,778274,6080,0.3245602
+codex,Morse-Smale segmentation,1,1,False,61.7917,463497,3961,0.20544179999999998
+codex,Morse-Smale segmentation,1,2,False,57.0195,307486,3853,0.181463
+codex,hyperLIC,1,0,False,68.7115,277657,5358,0.1839272
+codex,hyperLIC,1,1,False,53.5519,206007,3186,0.1300584
+codex,hyperLIC,1,2,False,51.4934,119150,3362,0.11111439999999999
+codex,asymmetric_tensor,1,0,False,262.33,1360908,9269,0.47736059999999997
+codex,asymmetric_tensor,1,1,False,75.3435,437792,4741,0.21901
+codex,asymmetric_tensor,1,2,False,75.5537,539949,5725,0.2618136
+codex,isocontours,1,0,True,47.2848,337604,2984,0.1904218
+codex,isocontours,1,1,True,35.6744,330609,2251,0.1707912
+codex,isocontours,1,2,True,46.2399,412403,2709,0.2079676
+codex,contour_tree,1,0,True,170.944,1021242,4151,0.350715
+codex,contour_tree,1,1,True,137.742,1029752,5271,0.384433
+codex,contour_tree,1,2,True,91.8264,570749,2859,0.242056
+codex,vector_critical_point_tracking,1,0,True,52.5216,484514,3046,0.22783420000000001
+codex,vector_critical_point_tracking,1,1,True,49.062,414285,3277,0.2343138
+codex,vector_critical_point_tracking,1,2,True,66.7731,552384,2720,0.2301666
+codex,scalar_critical_point_tracking,1,0,True,87.5194,676331,3761,0.305743
+codex,scalar_critical_point_tracking,1,1,True,80.448,817675,3301,0.334682
+codex,scalar_critical_point_tracking,1,2,True,39.952,512073,3032,0.2816862
+codex,Morse-Smale segmentation,1,0,True,36.0664,293860,2751,0.16719679999999998
+codex,Morse-Smale segmentation,1,1,True,34.5939,349367,3037,0.183937
+codex,Morse-Smale segmentation,1,2,True,37.0917,374874,2923,0.1988034
+codex,hyperLIC,1,0,True,40.8974,364769,2782,0.179614
+codex,hyperLIC,1,1,True,47.4462,235772,2469,0.13145379999999998
+codex,hyperLIC,1,2,True,69.3258,674100,3968,0.2897826
+codex,asymmetric_tensor,1,0,True,35.9097,322616,2516,0.1740556
+codex,asymmetric_tensor,1,1,True,27.8464,253189,2081,0.131309
+codex,asymmetric_tensor,1,2,True,34.4908,235826,2771,0.13422820000000002
+claude,vector_critical_point_tracking,2,0,False,101.693,381488,8220,0.3949524
+claude,vector_critical_point_tracking,2,1,False,185.36,735254,15991,0.5589867500000001
+claude,vector_critical_point_tracking,2,2,False,254.814,1697483,19889,0.9834212999999999
+claude,scalar_critical_point_tracking,2,0,False,497.088,5179735,27661,2.34136075
+claude,scalar_critical_point_tracking,2,1,False,1063.75,5397260,28782,2.4559515499999995
+claude,scalar_critical_point_tracking,2,2,False,783.913,7396105,31496,3.2252834500000005
+claude,Morse-Smale segmentation,2,0,False,580.39,8896029,39609,3.74070255
+claude,Morse-Smale segmentation,2,1,False,210.252,2205552,14529,1.09629185
+claude,Morse-Smale segmentation,2,2,False,346.952,4483834,22562,1.9778406000000002
+claude,hyperLIC,2,0,False,482.961,3876369,32709,1.8803690999999996
+claude,hyperLIC,2,1,False,121.689,580082,9048,0.37007680000000004
+claude,hyperLIC,2,2,False,250.143,830201,11090,0.5184824
+claude,asymmetric_tensor,2,0,False,155.289,506044,13726,0.44214955
+claude,asymmetric_tensor,2,1,False,374.251,1656009,29377,1.13597885
+claude,asymmetric_tensor,2,2,False,480.366,4067362,32818,2.2574959000000003
+claude,vector_critical_point_tracking,2,0,True,67.5559,490497,4534,0.39507329999999996
+claude,vector_critical_point_tracking,2,1,True,92.3807,529623,4832,0.36154595
+claude,vector_critical_point_tracking,2,2,True,77.8059,509897,5030,0.3251414
+claude,scalar_critical_point_tracking,2,0,True,505.703,712389,5146,0.3852169000000001
+claude,scalar_critical_point_tracking,2,1,True,185.12,1018784,7823,0.5361509999999999
+claude,scalar_critical_point_tracking,2,2,True,215.173,638679,4807,0.36109494999999997
+claude,Morse-Smale segmentation,2,0,True,50.3781,528727,4248,0.30648324999999993
+claude,Morse-Smale segmentation,2,1,True,49.8447,444160,4256,0.28069530000000004
+claude,Morse-Smale segmentation,2,2,True,43.1657,404300,3624,0.2611428
+claude,hyperLIC,2,0,True,82.6184,728586,4333,0.38542875
+claude,hyperLIC,2,1,True,58.539,408999,3800,0.27238694999999996
+claude,hyperLIC,2,2,True,56.8214,466693,3661,0.29811115000000005
+claude,asymmetric_tensor,2,0,True,51.3511,451628,3818,0.2877229
+claude,asymmetric_tensor,2,1,True,49.2594,462696,3870,0.29651764999999997
+claude,asymmetric_tensor,2,2,True,120.125,549787,3784,0.3176944
+codex,vector_critical_point_tracking,2,0,False,64.0112,440160,4522,0.2131458
+codex,vector_critical_point_tracking,2,1,False,84.2153,456373,5201,0.2150792
+codex,vector_critical_point_tracking,2,2,False,73.2026,458301,5697,0.21929640000000003
+codex,scalar_critical_point_tracking,2,0,False,154.617,742491,7478,0.3295428
+codex,scalar_critical_point_tracking,2,1,False,134.414,384823,5441,0.1960982
+codex,scalar_critical_point_tracking,2,2,False,149.788,522556,7420,0.2417552
+codex,Morse-Smale segmentation,2,0,False,88.1344,1079569,6652,0.4010342
+codex,Morse-Smale segmentation,2,1,False,94.671,732926,6993,0.305563
+codex,Morse-Smale segmentation,2,2,False,58.0961,351352,4417,0.1806962
+codex,hyperLIC,2,0,False,42.406,183600,3618,0.113535
+codex,hyperLIC,2,1,False,76.2326,442192,5537,0.211307
+codex,hyperLIC,2,2,False,69.9535,358411,6143,0.2050952
+codex,asymmetric_tensor,2,0,False,95.6313,502570,7274,0.24996140000000003
+codex,asymmetric_tensor,2,1,False,144.488,1935721,10123,0.6356876000000001
+codex,asymmetric_tensor,2,2,False,65.3636,651381,4959,0.2873424
+codex,vector_critical_point_tracking,2,0,True,35.1072,298586,2516,0.15819039999999998
+codex,vector_critical_point_tracking,2,1,True,54.3225,579276,2677,0.242517
+codex,vector_critical_point_tracking,2,2,True,68.0955,455537,3622,0.2249458
+codex,scalar_critical_point_tracking,2,0,True,103.899,1326636,4723,0.5133468
+codex,scalar_critical_point_tracking,2,1,True,57.1573,580460,2996,0.262762
+codex,scalar_critical_point_tracking,2,2,True,94.0141,1038027,3885,0.395997
+codex,Morse-Smale segmentation,2,0,True,37.3086,266745,2508,0.1483476
+codex,Morse-Smale segmentation,2,1,True,47.6533,562438,4148,0.2563748
+codex,Morse-Smale segmentation,2,2,True,39.8602,271959,2975,0.1532772
+codex,hyperLIC,2,0,True,41.141,275164,2980,0.1549646
+codex,hyperLIC,2,1,True,87.9788,563660,4532,0.2463142
+codex,hyperLIC,2,2,True,36.7166,333743,2028,0.16074639999999998
+codex,asymmetric_tensor,2,0,True,39.0568,302266,4019,0.1659302
+codex,asymmetric_tensor,2,1,True,24.9334,231546,1732,0.1164654
+codex,asymmetric_tensor,2,2,True,39.2773,330003,3295,0.1662186
+claude,isocontours,2,0,False,113.265,838648,6611,0.4871934
+claude,isocontours,2,1,False,90.2531,492609,6659,0.3199896
+claude,isocontours,2,2,False,73.8853,530938,4730,0.32513500000000006
+claude,contour_tree,2,0,False,375.707,2007344,13399,1.01527505
+claude,contour_tree,2,1,False,94.1066,661147,4694,0.358619
+claude,contour_tree,2,2,False,299.041,1337968,12247,0.76718665
+claude,isocontours,2,0,True,64.2657,564891,4469,0.4401524499999999
+claude,isocontours,2,1,True,84.0392,740540,6149,0.4296975
+claude,isocontours,2,2,True,48.6819,446901,3900,0.30636979999999997
+claude,contour_tree,2,0,True,134.33,403423,3702,0.26728725
+claude,contour_tree,2,1,True,109.328,770685,5563,0.4311528
+claude,contour_tree,2,2,True,137.397,394354,3936,0.25331905
+codex,isocontours,2,0,False,70.1537,453892,4696,0.2139788
+codex,isocontours,2,1,False,80.0513,624418,5213,0.26806159999999996
+codex,isocontours,2,2,False,93.6572,1134622,6744,0.415955
+codex,contour_tree,2,0,False,87.7764,849466,5567,0.3606236
+codex,contour_tree,2,1,False,78.2445,773266,5145,0.324386
+codex,contour_tree,2,2,False,88.127,806255,5670,0.306358
+codex,isocontours,2,0,True,29.971,203911,2690,0.1320626
+codex,isocontours,2,1,True,32.4045,336643,2790,0.191669
+codex,isocontours,2,2,True,49.341,569459,4033,0.25411120000000004
+codex,contour_tree,2,0,True,113.9,887584,4185,0.3404906
+codex,contour_tree,2,1,True,173.379,1391621,7254,0.48052360000000005
+codex,contour_tree,2,2,True,136.612,1650984,7936,0.5129826000000001
+codex,isocontours,3,0,False,80.7589,594351,5054,0.24160379999999998
+codex,isocontours,3,1,False,76.815,520722,5084,0.2334516
+codex,isocontours,3,2,False,52.7232,371924,3591,0.19138840000000001
+codex,contour_tree,3,0,False,224.618,1950892,12262,0.6488881999999999
+codex,contour_tree,3,1,False,97.6198,580792,7103,0.2637104
+codex,isocontours,3,0,False,65.4718,461717,5047,0.2249596
+codex,isocontours,3,1,False,68.6219,491704,5543,0.23421979999999998
+codex,isocontours,3,2,False,51.7517,233141,4679,0.1471948
+codex,contour_tree,3,0,False,70.9114,756375,4908,0.3236952
+codex,contour_tree,3,1,False,69.2282,886086,4633,0.3845586
+codex,contour_tree,3,2,False,94.6066,819135,5311,0.3155952
+codex,vector_critical_point_tracking,3,0,False,47.2176,187303,3526,0.1287938
+codex,vector_critical_point_tracking,3,1,False,83.4949,417866,5541,0.2082034
+codex,vector_critical_point_tracking,3,2,False,108.182,493864,7106,0.235298
+codex,scalar_critical_point_tracking,3,0,False,77.2955,672513,5715,0.2867052
+codex,scalar_critical_point_tracking,3,1,False,96.7238,834648,7463,0.34789680000000006
+codex,scalar_critical_point_tracking,3,2,False,61.8655,781094,4921,0.32792920000000003
+codex,Morse-Smale segmentation,3,0,False,65.4129,562742,4792,0.24887440000000002
+codex,Morse-Smale segmentation,3,1,False,66.1124,773925,5059,0.2988672
+codex,Morse-Smale segmentation,3,2,False,64.7,429847,5178,0.21384140000000001
+codex,hyperLIC,3,0,False,51.5848,452615,4768,0.2168842
+codex,hyperLIC,3,1,False,51.9085,331607,3885,0.1624054
+codex,hyperLIC,3,2,False,50.0384,267852,4487,0.160248
+codex,asymmetric_tensor,3,0,False,59.3331,436348,5043,0.22216160000000001
+codex,asymmetric_tensor,3,1,False,73.7149,347731,6319,0.2163392
+codex,asymmetric_tensor,3,2,False,83.8485,560176,7751,0.27417440000000004
+codex,isocontours,3,0,True,35.5902,354712,2673,0.1752542
+codex,isocontours,3,1,True,30.1567,473106,3229,0.2324898
+codex,isocontours,3,2,True,85.0641,560327,4170,0.255232
+codex,contour_tree,3,0,True,140.042,897460,4460,0.3328958
+codex,contour_tree,3,1,True,134.546,863457,3988,0.331161
+codex,contour_tree,3,2,True,263.924,1673258,6629,0.5230528000000001
+codex,vector_critical_point_tracking,3,0,True,47.3112,280660,2720,0.14892439999999998
+codex,vector_critical_point_tracking,3,1,True,48.1195,436329,3387,0.2579346
+codex,vector_critical_point_tracking,3,2,True,41.5966,492854,2433,0.210862
+codex,scalar_critical_point_tracking,3,0,True,144.009,1487749,3607,0.5024234000000001
+codex,scalar_critical_point_tracking,3,1,True,51.4794,303539,3342,0.183763
+codex,scalar_critical_point_tracking,3,2,True,104.76,760133,3721,0.3415444
+codex,Morse-Smale segmentation,3,0,True,32.2412,263002,2063,0.1370084
+codex,Morse-Smale segmentation,3,1,True,38.8462,373807,3296,0.1878938
+codex,Morse-Smale segmentation,3,2,True,224.758,309798,2150,0.16001520000000002
+codex,hyperLIC,3,0,True,44.4445,303793,2749,0.1696472
+codex,hyperLIC,3,1,True,38.8093,213311,2565,0.127849
+codex,hyperLIC,3,2,True,290.373,249123,2348,0.13919520000000002
+codex,asymmetric_tensor,3,0,True,42.4857,291086,2944,0.1538668
+codex,asymmetric_tensor,3,1,True,36.4695,507363,2405,0.2267946
+codex,asymmetric_tensor,3,2,True,27.6886,401813,1923,0.19157740000000004
+claude,isocontours,3,0,False,60.1068,467975,3833,0.34626369999999995
+claude,isocontours,3,1,False,146.041,1550732,9589,0.80964525
+claude,isocontours,3,2,False,77.6038,480095,5378,0.2988538
+claude,contour_tree,3,0,False,466.7,2624874,20258,1.3080465000000003
+claude,contour_tree,3,1,False,282.998,1976794,13267,0.97700035
+claude,contour_tree,3,2,False,281.527,2623345,17822,1.2955912000000003
+claude,vector_critical_point_tracking,3,0,False,141.553,528349,12391,0.42490184999999997
+claude,vector_critical_point_tracking,3,1,False,203.019,1204150,13921,0.6765086000000002
+claude,vector_critical_point_tracking,3,2,False,622.153,7714823,50725,3.5896457499999994
+claude,scalar_critical_point_tracking,3,0,False,541.597,5065316,21705,2.2555759500000003
+claude,scalar_critical_point_tracking,3,1,False,366.421,3859460,25506,1.8777200499999998
+claude,scalar_critical_point_tracking,3,2,False,662.819,11285211,47448,4.7209675
+claude,Morse-Smale segmentation,3,0,False,161.498,1180072,11348,0.6694414999999998
+claude,Morse-Smale segmentation,3,1,False,144.712,1445576,10897,0.7766004
+claude,Morse-Smale segmentation,3,2,False,207.647,2024978,14751,1.0411847499999998
+claude,hyperLIC,3,0,False,156.547,643274,11834,0.47571585
+claude,hyperLIC,3,1,False,259.996,1668191,18428,1.0613218000000002
+claude,hyperLIC,3,2,False,149.034,667609,12152,0.4716327
+claude,asymmetric_tensor,3,0,False,407.368,1458613,13431,1.2438814000000002
+claude,asymmetric_tensor,3,1,False,319.185,2078987,24658,1.2481185499999996
+claude,asymmetric_tensor,3,2,False,289.887,697134,6756,0.9246561999999999
+claude,isocontours,3,0,True,56.9276,549025,4432,0.34777565
+claude,isocontours,3,1,True,79.2337,711211,5951,0.41624669999999997
+claude,isocontours,3,2,True,67.5268,572917,5061,0.336604
+claude,contour_tree,3,0,True,135.297,346010,3926,0.23933884999999996
+claude,contour_tree,3,1,True,173.354,787986,5261,0.41878934999999995
+claude,contour_tree,3,2,True,72.2807,599872,4279,0.34380579999999994
+claude,vector_critical_point_tracking,3,0,True,70.0191,405333,4473,0.2686128
+claude,vector_critical_point_tracking,3,1,True,76.7053,603822,4526,0.3524288
+claude,vector_critical_point_tracking,3,2,True,102.141,458252,4628,0.30119165
+claude,scalar_critical_point_tracking,3,0,True,182.288,511839,4084,0.28657645
+claude,scalar_critical_point_tracking,3,1,True,194.841,786393,5585,0.4276755
+claude,scalar_critical_point_tracking,3,2,True,370.845,593712,4228,0.32062105
+claude,Morse-Smale segmentation,3,0,True,51.5879,355627,3747,0.24449815000000003
+claude,Morse-Smale segmentation,3,1,True,51.4979,461392,4076,0.29428529999999997
+claude,Morse-Smale segmentation,3,2,True,43.1762,363676,3800,0.25524030000000003
+claude,hyperLIC,3,0,True,60.1467,524760,3890,0.3238773
+claude,hyperLIC,3,1,True,49.8747,404926,3575,0.2658239
+claude,hyperLIC,3,2,True,61.2722,542735,3819,0.31481839999999994
+claude,asymmetric_tensor,3,0,True,49.1233,502146,3840,0.30746789999999996
+claude,asymmetric_tensor,3,1,True,48.5707,461476,3883,0.29655105
+claude,asymmetric_tensor,3,2,True,48.9753,581828,2264,0.31927615
+codex,persistence_diagram,0,0,False,46.8216,295010,2954,0.1630714
+codex,persistence_diagram,0,1,False,66.1999,737124,3929,0.282285
+codex,persistence_diagram,0,2,False,86.0768,1254295,6273,0.4485152
+codex,persistence_diagram,0,0,False,40.5902,189413,3404,0.13601560000000001
+codex,persistence_diagram,0,0,False,60.2278,553347,4027,0.2456778
+codex,persistence_diagram,0,0,False,64.6751,429189,5031,0.2231652
+codex,persistence_diagram,0,1,False,70.9083,768170,4887,0.308938
+codex,persistence_diagram,0,2,False,65.3609,535537,4867,0.2367878
+codex,persistence_diagram,1,0,False,61.2678,355811,4723,0.1863022
+codex,persistence_diagram,1,1,False,53.4917,395792,4158,0.1982068
+codex,persistence_diagram,1,2,False,51.3881,448137,4242,0.2438766
+codex,persistence_diagram,2,0,False,73.6262,611314,5887,0.2704634
+codex,persistence_diagram,2,1,False,80.6133,779458,5373,0.30113
+codex,persistence_diagram,2,2,False,66.7879,650840,4745,0.2652532
+codex,persistence_diagram,3,0,False,38.6895,204919,2768,0.1318628
+codex,persistence_diagram,3,1,False,77.3763,531613,5589,0.2532044
+codex,persistence_diagram,3,2,False,43.7223,407825,3401,0.1914898
+codex,persistence_diagram,0,0,True,51.3483,585501,4137,0.262731
+codex,persistence_diagram,0,1,True,36.4819,304668,3030,0.16359479999999998
+codex,persistence_diagram,0,2,True,33.9573,325923,3025,0.1741722
+codex,persistence_diagram,1,0,True,39.078,355441,3940,0.1979138
+codex,persistence_diagram,1,1,True,37.9986,388039,3159,0.188711
+codex,persistence_diagram,1,2,True,44.3668,349076,2986,0.1738006
+codex,persistence_diagram,2,0,True,41.0726,292776,3647,0.1739862
+codex,persistence_diagram,2,1,True,34.6901,420736,2748,0.207449
+codex,persistence_diagram,2,2,True,35.1247,302882,2897,0.1840048
+codex,persistence_diagram,3,0,True,80.0902,406384,3917,0.2006498
+codex,persistence_diagram,3,1,True,37.2472,470796,2545,0.21226740000000002
+codex,persistence_diagram,3,2,True,40.8216,508038,3152,0.24770340000000002
+claude,persistence_diagram,0,0,False,110.787,777371,8488,0.43645955
+claude,persistence_diagram,0,1,False,94.0411,953437,6443,0.496026
+claude,persistence_diagram,0,2,False,132.855,870487,9161,0.46801904999999994
+claude,persistence_diagram,1,0,False,82.027,543857,5821,0.33773075
+claude,persistence_diagram,1,1,False,97.4703,814003,7792,0.51453075
+claude,persistence_diagram,1,2,False,90.7968,837647,6286,0.43360604999999997
+claude,persistence_diagram,2,0,False,93.9808,750093,6982,0.47178605
+claude,persistence_diagram,2,1,False,3051.63,3020015,13959,1.3385115
+claude,persistence_diagram,2,2,False,148.052,1329121,9766,0.7038918
+claude,persistence_diagram,3,0,False,156.497,1204045,12718,0.7587312500000001
+claude,persistence_diagram,3,1,False,94.8668,663494,6655,0.3716625
+claude,persistence_diagram,3,2,False,106.595,935628,7562,0.5127507
+claude,persistence_diagram,0,0,True,59.9002,912249,3225,0.44910644999999993
+claude,persistence_diagram,0,1,True,76.6002,822085,5300,0.4271096999999999
+claude,persistence_diagram,0,2,True,81.853,1347198,4553,0.6373788
+claude,persistence_diagram,1,0,True,108.434,1145723,7328,0.6344658
+claude,persistence_diagram,1,1,True,76.259,984165,5298,0.5120376
+claude,persistence_diagram,1,2,True,79.4437,812618,5637,0.45635535000000005
+claude,persistence_diagram,2,0,True,67.3354,675101,5190,0.48805079999999995
+claude,persistence_diagram,2,1,True,80.5157,991249,5886,0.49273710000000004
+claude,persistence_diagram,2,2,True,95.2842,1033672,6610,0.5555436
+claude,persistence_diagram,3,0,True,67.1627,773908,4898,0.42644879999999996
+claude,persistence_diagram,3,1,True,52.3572,502613,4262,0.29366505000000004
+claude,persistence_diagram,3,2,True,51.5031,469209,4132,0.34600185

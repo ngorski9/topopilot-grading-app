@@ -1,0 +1,6 @@
+The visualization is complete. Summary of what was built:
+
+- `/workspace/compute_degenerate_points.py` — since this TTK build doesn't ship a tensor-field degenerate-point filter, I implemented the classic Delmarcelle–Hesselink algorithm directly: for the symmetric tensor `T=[[A,B],[B,D]]`, it solves for zeros of the deviator `(a,b)=((A-D)/2, B)` on each triangle of the piecewise-linear grid and classifies each root by the sign of `delta = a_x b_y − a_y b_x` (wedge if >0, trisector if <0). Found 716 degenerate points (357 trisectors, 359 wedges), written to `degenerate_points.vtp`.
+- `/workspace/visualize.py` (pvpython) — loads `brain.vti`/`brain_tensor.vti`, renders the tensor field (TTK `TensorGlyph` + a faint surface colored by `A`), then glyphs the trisectors as pink spheres and wedges as white spheres, both radius 1. Saved a screenshot (`degenerate_points.png`) and a ParaView state file (`brain_degenerate_points.pvsm`) you can reopen in the ParaView GUI.
+
+The rendered image shows degenerate points concentrated along the brain boundary/sulcal contours, with pink (trisector) and white (wedge) spheres alternating as expected for a tensor topology skeleton.

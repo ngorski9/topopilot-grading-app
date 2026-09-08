@@ -1,0 +1,3 @@
+The visualization rendered correctly: the brain tensor field's glyph/streamline embedding as a grayscale surface, with degenerate points shown as radius-1 spheres — pink trisectors and white wedges.
+
+Script saved at `/workspace/brain_tensor_pipeline.py`, output at `/workspace/brain_output.png`. It loads `A`/`B`/`D` via `LoadSymmetricTensorField`, embeds the tensor field, computes/embeds degenerate points with `radius=1.0` and `color_scheme=["#ff8cc6", "#ffffff"]` (trisector=pink, wedge=white).

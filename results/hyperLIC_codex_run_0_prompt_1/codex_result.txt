@@ -1,0 +1,11 @@
+Rendered the brain tensor field with its degenerate points in ParaView.
+
+- Trisectors: pink, radius 1
+- Wedges: white, radius 1
+- Extracted 441 points: 221 trisectors and 220 wedges
+
+Outputs:
+
+- [Rendered image](/workspace/brain_tensor_degenerate_points.png)
+- [ParaView state](/workspace/brain_tensor_degenerate_points.pvsm)
+- [Degenerate-point geometry](/workspace/brain_degenerate_points.vtp)

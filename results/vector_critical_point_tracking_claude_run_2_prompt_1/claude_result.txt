@@ -1,0 +1,9 @@
+Done. Pipeline in `/workspace`:
+
+1. **`extract_critical_points.py`** – reads each `.vti`, splits the piecewise-linear `(u,v)` field per cell into 2 triangles, solves for exact zeros via barycentric coordinates, and classifies each as saddle/source/sink from the local Jacobian.
+2. **`track_critical_points.py`** – runs `ot.partial.partial_wasserstein` between consecutive timesteps' critical-point sets (cost = distance² + type-mismatch penalty, transporting only ~92% of the smaller set's mass so births/deaths are left unmatched instead of forced). Chains the 3 timesteps into trajectories.
+   - Result: 89/87/87 critical points across t1–t3; 80 matched t1→t2, 80 matched t2→t3; 77 trajectories tracked through all 3 steps, 6 partial (birth/death), 20 unmatched singletons.
+   - Outputs `critical_points.vtp`, `trajectories.vtp`.
+3. **`visualize.py`** – ParaView render: velocity-magnitude field + arrow glyphs of the vector field, tracked critical points colored by type (red=saddle, green=source, blue=sink), trajectories as yellow tubes. Saved `cylinder_tracked_critical_points.png` and an interactive `cylinder_tracking.pvsm` state.
+
+The critical points cluster correctly in the cylinder's vortex-shedding wake, and the render confirms the tracking is spatially coherent across the 3 steps.

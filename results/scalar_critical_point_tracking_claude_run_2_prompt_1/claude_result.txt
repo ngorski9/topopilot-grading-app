@@ -1,0 +1,12 @@
+The full pipeline ran successfully. Summary of what was built at `/workspace/cloud_ttk_pipeline.py`:
+
+1. **Load & render original field** — loaded the 34-frame `./cloud` time series (`Scalars_` point array, 256×256 image data) and rendered frame 1 with a warm-cold (Cool-to-Warm) colormap → `out/01_original_scalar_field.png`.
+2. **Persistence simplification (0.5)** — `TTKTopologicalSimplificationByPersistence` on the maximum-saddle pairs, relative threshold 0.5 (half the function span) → `out/02_simplified_scalar_field.png` (visibly smoother/de-noised).
+3. **Maxima tracking over 3 steps via EMD** — for each of the first 3 frames: computed a PL persistence diagram (`TTKPersistenceDiagram`), kept only saddle-maximum pairs above the same 0.5-relative persistence cutoff, then fed the 3 simplified diagrams as separate input connections into `TTKTrackingFromPersistenceDiagrams` (its default `pMunkres` assignment method solves the optimal-transport/Earth-Mover's-Distance matching between consecutive diagrams). This tracked 1052 maxima instances across the 3 steps.
+4. **Visualization** — glyphed the tracked maxima as radius-2 spheres, overlaid with the matching trajectory edges and the background scalar field, all colored with the warm-cold colormap → `out/03_tracked_maxima.png`.
+
+Key technical snags resolved along the way:
+- `TTKTrackingFromPersistenceDiagrams` requires **separate input connections** (one persistence diagram per timestep), not a single time-varying source or a grouped multiblock — that caused the initial segfault.
+- Running it on the *full, unsimplified* diagrams (thousands of pairs) made the underlying assignment-problem solver hang; pre-filtering each diagram down to persistent maxima-saddle pairs before tracking fixed both correctness and performance.
+
+All three output images are in `/workspace/out/`.

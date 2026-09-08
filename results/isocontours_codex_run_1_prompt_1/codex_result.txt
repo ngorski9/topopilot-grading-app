@@ -1,0 +1,7 @@
+Completed the persistence simplification (threshold 0.04) and rendered the requested topology view.
+
+- [Rendered PNG](/workspace/QMCPACK_persistence_0.04.png)
+- [ParaView state](/workspace/QMCPACK_persistence_0.04.pvsm)
+- [Reproducible script](/workspace/render_qmcpack.py)
+
+The four equal-volume quantile isovalues are 0.393137, 0.404711, 0.409601, and 0.418580. Critical points are colored as requested: maxima red, 2-saddles orange, 1-saddles white, minima blue.

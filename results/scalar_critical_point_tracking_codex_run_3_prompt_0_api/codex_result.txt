@@ -1,0 +1,8 @@
+Completed the TopoPilot2 pipeline and rendered the first three tracked time steps.
+
+- [Pipeline script](/workspace/cloud_tracking.py)
+- [Time step 1](/workspace/output/cloud_tracked_t1.png)
+- [Time step 2](/workspace/output/cloud_tracked_t2.png)
+- [Time step 3](/workspace/output/cloud_tracked_t3.png)
+
+It loads `Scalars_`, displays the original field using the `cool warm` colormap, applies persistence simplification with `epsilon=0.5`, extracts piecewise-linear maxima, tracks them over 3 steps with EMD, and overlays radius-2 tracked spheres.

@@ -1,0 +1,5 @@
+Done — the TopoPilot2 visualization is available at [QMCPACK_topology.png](/workspace/QMCPACK_topology.png), with the reproducible pipeline in [qmcpack_topology.py](/workspace/qmcpack_topology.py).
+
+Persistence threshold: 0.04. Four quantile-spaced isocontours divide the volume into five equally populated regions.
+
+Critical points displayed: 16 minima (blue), 288 1-saddles (white), 315 2-saddles (orange), and 20 maxima (red).

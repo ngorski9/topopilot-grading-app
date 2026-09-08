@@ -1,0 +1,6 @@
+Completed the TopoPilot2 visualization.
+
+- Render: [qmcpack_topology.png](/workspace/qmcpack_topology.png)
+- Reproducible pipeline: [qmcpack_topology.py](/workspace/qmcpack_topology.py)
+
+Applied persistence simplification with ε = 0.04, generated 4 quantile isocontours (five evenly sized scalar-value regions), and visualized all PL critical points: minima blue, 1-saddles white, 2-saddles orange, maxima red. The simplified field contains 16 minima, 288 1-saddles, 315 2-saddles, and 20 maxima.

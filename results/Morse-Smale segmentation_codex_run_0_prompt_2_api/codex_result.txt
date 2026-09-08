@@ -1,0 +1,6 @@
+Rendered the simplified (persistence 0.05) piecewise-linear Morse–Smale segmentation with critical points.
+
+- Output: [fracture_morse_smale.png](/workspace/fracture_morse_smale.png)
+- Reproducible TopoPilot2 script: [render_fracture_morse_smale.py](/workspace/render_fracture_morse_smale.py)
+
+Verified critical points: 15 minima (blue), 31 saddles (white), and 10 maxima (red), all with radius 2.

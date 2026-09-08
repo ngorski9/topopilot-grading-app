@@ -1,0 +1,8 @@
+Rendered the symmetric tensor field with all 434 detected degenerate points.
+
+- Trisectors: pink
+- Wedges: white
+- Point radius: 1
+
+Output: [brain_tensor_degenerate_points.png](/workspace/brain_tensor_degenerate_points.png)  
+Script: [render_brain_tensor.py](/workspace/render_brain_tensor.py)

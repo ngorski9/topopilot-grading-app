@@ -1,0 +1,7 @@
+Created and rendered the requested TopoPilot2 visualization.
+
+- Video (21 time steps): [ionization_contour_tree.mp4](/workspace/ionization_contour_tree.mp4)
+- First-frame preview: [ionization_preview.png](/workspace/ionization_preview.png)
+- Reusable TopoPilot2 pipeline: [ionization_topopilot.py](/workspace/ionization_topopilot.py)
+
+The pipeline uses viridis for the original field, persistence simplification at 0.1, and a contour tree with radius-1 edges and radius-2 vertices. Colors: minima blue, 1-saddles white, 2-saddles orange, maxima red.

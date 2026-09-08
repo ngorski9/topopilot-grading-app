@@ -1,0 +1,6 @@
+Done. The rendered visualization is available at [fracture_morse_smale.png](/workspace/fracture_morse_smale.png), with the reproducible ParaView state in [fracture_morse_smale.pvsm](/workspace/fracture_morse_smale.pvsm).
+
+Applied persistence threshold 0.05; critical points use radius 2:
+- Maxima: red
+- Saddles: white
+- Minima: blue

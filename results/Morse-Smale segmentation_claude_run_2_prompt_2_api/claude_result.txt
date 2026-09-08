@@ -1,0 +1,3 @@
+Rendered successfully — output saved to `/workspace/fracture_ms.png` (script at `/workspace/fracture_ms_pipeline.py`).
+
+The image shows the piecewise-linear Morse-Smale segmentation of `fracture.vti`'s `Scalars_` field after 0.05 persistence simplification, with critical points overlaid: red spheres = maxima, blue = minima, white = saddles, all at radius 2.

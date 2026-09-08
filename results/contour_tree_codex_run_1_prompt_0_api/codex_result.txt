@@ -1,0 +1,7 @@
+Completed the TopoPilot2 visualization.
+
+- Time-varying animation: [ionization_contour_tree.mp4](/workspace/ionization_contour_tree.mp4)
+- Representative first frame: [ionization_contour_tree_t01.png](/workspace/ionization_contour_tree_t01.png)
+- Reusable TopoPilot2 pipeline: [ionization_contour_tree.py](/workspace/ionization_contour_tree.py)
+
+It renders the original `Scalars_` field with viridis and overlays the 0.1 persistence-simplified contour tree: minima blue, 1-saddles white, 2-saddles orange, maxima red; edges radius 1 and vertices radius 2.

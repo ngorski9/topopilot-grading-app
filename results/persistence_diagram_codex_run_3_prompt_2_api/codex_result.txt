@@ -1,0 +1,5 @@
+Rendered the requested TopoPilot2 persistence diagram:
+
+[QMCPACK_persistence_H0_H2.png](/workspace/QMCPACK_persistence_H0_H2.png)
+
+The pipeline applies relative persistence simplification ε = 0.04, then computes the piecewise-linear sub-level filtration diagram. TopoPilot2’s FTM backend outputs H0 and H2 for this 3D field. The reproducible script is [render_qmcpack_persistence.py](/workspace/render_qmcpack_persistence.py).

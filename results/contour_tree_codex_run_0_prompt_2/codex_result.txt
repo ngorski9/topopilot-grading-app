@@ -1,0 +1,7 @@
+Completed the ParaView/TTK visualization pipeline and saved:
+
+- [Rendered visualization](sandbox:/workspace/ionization_contour_tree.png)
+- [ParaView state file](sandbox:/workspace/ionization_contour_tree.pvsm)
+- [Reproducible pvpython script](sandbox:/workspace/render_ionization.py)
+
+It loads all 21 timesteps, colors raw `Scalars_` with Viridis, applies persistence threshold 0.1, and configures contour-tree tubes (radius 1) plus critical-point sphere glyphs (radius 2) with the requested colors.

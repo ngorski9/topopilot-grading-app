@@ -1,0 +1,4 @@
+TTK persistence simplification threshold: 0.5 (absolute)
+EMD / optimal transport maxima tracking across cloud1, cloud2, cloud3
+Sphere radius: 2
+Maxima per step: 30, 30, 30

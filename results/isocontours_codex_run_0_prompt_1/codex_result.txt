@@ -1,0 +1,9 @@
+Completed. The rendered visualization is at [QMCPACK_persistence_0.04.png](/workspace/QMCPACK_persistence_0.04.png).
+
+Also exported:
+
+- [ParaView state](/workspace/QMCPACK_persistence_0.04.pvsm)
+- [Simplified volume](/workspace/QMCPACK_simplified_0.04.vti)
+- [Critical points](/workspace/QMCPACK_critical_points_0.04.vtp)
+
+Threshold: 0.04 absolute persistence. The four equal-volume isovalues are 0.39314, 0.40471, 0.40960, and 0.41858. Critical points are color-coded as requested; 10 degenerate multi-saddles are additionally shown in yellow so every detected point is represented.

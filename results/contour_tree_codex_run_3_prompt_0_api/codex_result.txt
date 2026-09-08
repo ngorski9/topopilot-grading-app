@@ -1,0 +1,7 @@
+Completed the TopoPilot2 visualization.
+
+- Animation: [ionization_contour_tree.mp4](/workspace/ionization_contour_tree.mp4)
+- First-frame preview: [ionization_contour_tree_t1.png](/workspace/ionization_contour_tree_t1.png)
+- Reusable pipeline script: [ionization_contour_tree.py](/workspace/ionization_contour_tree.py)
+
+The 21-frame MP4 uses viridis for the original scalar volume and a contour tree from ε=0.1 persistence simplification. Vertices are radius 2: minima blue, 1-saddles white, 2-saddles orange, maxima red; edges have radius 1.

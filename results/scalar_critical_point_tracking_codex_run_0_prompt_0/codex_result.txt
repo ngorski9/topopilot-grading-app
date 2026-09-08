@@ -1,0 +1,7 @@
+Completed the three-step TTK persistence/EMD tracking visualization.
+
+- [Visualization PNG](/workspace/cloud_tracking.png)
+- [Tracked critical points CSV](/workspace/tracked_critical_points.csv)
+- [Reproducible pipeline script](/workspace/cloud_tracking.py)
+
+The output uses the original `Scalars_` field with a cool–warm map, persistence threshold 0.5, EMD correspondences, and radius-2 critical-point glyphs. Retained maxima: 3,144 → 2,924 → 2,817.

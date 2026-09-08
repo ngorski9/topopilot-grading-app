@@ -1,0 +1,12 @@
+Both visualizations are complete and rendered as requested.
+
+Summary of results (both saved to `/workspace/`):
+
+1. **`ionization_original_viridis.png`** — the original time-varying Ionization scalar field (first timestep, `Scalars_` array) volume-rendered with the viridis colormap.
+
+2. **`ionization_simplified_contour_tree.png`** — the piecewise-linear contour tree computed after persistence simplification:
+   - Pipeline: `TTKPersistenceDiagram` → `Threshold` (keep pairs with persistence > 0.1) → `TTKTopologicalSimplification` → `TTKContourTree`
+   - Vertices colored by critical type: maxima = red, 2-saddles = orange, 1-saddles = white, minima = blue
+   - Edges rendered as tubes with radius 1 (line width 2), vertices as spheres with radius 2 (point size 4)
+
+Full pvpython script is at `/workspace/ionization_contour_tree.py`, runnable end-to-end with `pvpython ionization_contour_tree.py`.

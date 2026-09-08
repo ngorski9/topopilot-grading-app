@@ -1,0 +1,9 @@
+The spurious cylinder-boundary artifact is gone, and the extracted critical points now clearly align with the vortex-street swirl centers in the wake above the cylinder. The visualization overlays all 3 time steps' critical points (circle=t1, square=t2, triangle=t3, colored by type) plus black lines showing the tracks matched via partial optimal transport, on top of the normalized vector field (grey quiver).
+
+Summary of the pipeline (`/workspace/cylinder_track.py`):
+1. **Import**: read `cylinder1/2/3.vti`, extract point-data arrays `u`,`v` as a 2-component PL vector field on the 150×450 grid.
+2. **Critical points**: each grid cell split into 2 triangles; for each triangle solve for barycentric weights where the linearly-interpolated vector is exactly zero (origin in convex hull of vertex vectors) → position; classify via the local Jacobian (source/sink/saddle). Triangles touching the blanked solid-cylinder region (identically-zero velocity) are excluded to avoid spurious boundary detections.
+3. **Tracking**: for each consecutive step pair, build a Euclidean cost matrix between critical-point sets and match them with **partial optimal transport** (`ot.partial.partial_wasserstein`), which naturally handles differing point counts (births/deaths) since only ~85% of the mass is required to transport.
+4. **Visualization**: matplotlib figure — normalized quiver of the t=1 vector field in the background, critical points from all 3 steps overlaid (marker shape = time, color = type), and track edges connecting matched points across time. Saved to `/workspace/cylinder_tracking.png`.
+
+Console output: 26/24/24 critical points at t=1/2/3, with 23 and 21 tracked matches between consecutive steps respectively (the rest are births/deaths, as expected in a vortex street).

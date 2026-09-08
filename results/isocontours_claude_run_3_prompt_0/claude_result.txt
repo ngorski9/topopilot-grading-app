@@ -1,0 +1,9 @@
+The pipeline ran successfully with the expected color mapping (blue minima, white 1-saddles, orange 2-saddles, red maxima) over translucent isocontour surfaces.
+
+Result summary:
+- Loaded `QMCPACK.vti` (69×69×115 grid, scalar array `Scalars_`, range [0,1]).
+- Computed the TTK persistence diagram, thresholded pairs with persistence ≥ 0.04, and fed that into `TTKTopologicalSimplification` to simplify the scalar field.
+- Ran `TTKScalarFieldCriticalPoints` on the simplified field: 16 minima, 288 1-saddles, 312 2-saddles, 6 maxima (plus 10 multi-saddles at non-manifold vertices).
+- Contoured the simplified field at 4 isovalues (0.2, 0.4, 0.6, 0.8) splitting the [0,1] scalar range into 5 even bands, rendered as translucent grey surfaces.
+- Colored critical points by `CriticalType`: minima blue, 1-saddles white, 2-saddles orange, maxima red.
+- Saved the render to `/workspace/qmcpack_critical_points.png` (script at `/workspace/qmcpack_ttk.py`).

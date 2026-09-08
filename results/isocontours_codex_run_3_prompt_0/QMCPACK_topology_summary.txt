@@ -1,0 +1,1 @@
+Persistence threshold (absolute): 0.04\nEqual-volume isovalues: 0.393136739, 0.404710997, 0.409601447, 0.418580103\nCritical point colors: maxima=red, 2-saddles=orange, 1-saddles=white, minima=blue\n

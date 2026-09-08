@@ -1,0 +1,9 @@
+Completed the 3-step cloud analysis and visualization.
+
+- Visualization: [cloud_tracking_emd_3d.png](/workspace/output/cloud_tracking_emd_3d.png)
+- Per-time-step field/maxima view: [cloud_tracking.png](/workspace/output/cloud_tracking.png)
+- ParaView state (sphere glyph radius 2): [cloud_tracking.pvsm](/workspace/output/cloud_tracking.pvsm)
+- EMD piecewise-linear track geometry: [tracked_maxima_emd.vtp](/workspace/output/tracked_maxima_emd.vtp)
+- Reproducible script: [render_cloud_tracking.py](/workspace/render_cloud_tracking.py)
+
+It uses the first three frames, threshold 0.5, warm-cold coloring, and produces 240 retained maxima with 160 EMD track segments.

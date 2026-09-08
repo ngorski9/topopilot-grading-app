@@ -1,0 +1,6 @@
+Created and rendered the requested visualization.
+
+- Image: [brain_tensor_degenerate_points.png](/workspace/brain_tensor_degenerate_points.png)
+- Reproducible TopoPilot2 pipeline: [brain_tensor_visualization.py](/workspace/brain_tensor_visualization.py)
+
+It loads `A`, `B`, and `D` as a symmetric tensor field, overlays degenerate points with radius 1, and colors trisectors pink and wedges white.

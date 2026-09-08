@@ -1,0 +1,8 @@
+Completed with TopoPilot2.
+
+- Original scalar field: [cloud_original_t1.png](/workspace/cloud_original_t1.png)
+- Tracked, persistence-simplified maxima (3 steps): [cloud_tracked_3steps.mp4](/workspace/cloud_tracked_3steps.mp4)
+- Individual tracked frames: [t1](/workspace/cloud_tracked_t1.png), [t2](/workspace/cloud_tracked_t2.png), [t3](/workspace/cloud_tracked_t3.png)
+- Reproducible pipeline: [cloud_tracking.py](/workspace/cloud_tracking.py)
+
+The pipeline uses `Scalars_`, persistence simplification `epsilon=0.5`, piecewise-linear maxima, 3-step EMD tracking, sphere radius `2.0`, and the `cool warm` colormap.

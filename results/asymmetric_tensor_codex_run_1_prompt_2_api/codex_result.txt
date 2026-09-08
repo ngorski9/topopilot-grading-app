@@ -1,0 +1,9 @@
+Rendered the requested 1000×1000 eigenvector partition with all 90 degenerate points.
+
+- Trisectors: pink, radius 1
+- Wedges: white, radius 1
+- Partition resolution: 10 subdivisions per grid cell
+
+Output: [Ocean_eigenvector_partition.png](/workspace/Ocean_eigenvector_partition.png)
+
+Reproducible script: [render_ocean_partition.py](/workspace/render_ocean_partition.py)

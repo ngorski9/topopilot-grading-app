@@ -1,0 +1,453 @@
+<GenericParaViewApplication>
+  <ServerManagerState version="5.13.3">
+    <Proxy group="animation" type="AnimationScene" id="261" servers="16">
+      <Property name="AnimationTime" id="261.AnimationTime" number_of_elements="1">
+        <Element index="0" value="0"/>
+      </Property>
+      <Property name="Cues" id="261.Cues" number_of_elements="1">
+        <Proxy value="263"/>
+        <Domain name="groups" id="261.Cues.groups"/>
+      </Property>
+      <Property name="EndTime" id="261.EndTime" number_of_elements="1">
+        <Element index="0" value="1"/>
+      </Property>
+      <Property name="ForceDisableCaching" id="261.ForceDisableCaching" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="bool" id="261.ForceDisableCaching.bool"/>
+      </Property>
+      <Property name="FramesPerTimestep" id="261.FramesPerTimestep" number_of_elements="1">
+        <Element index="0" value="1"/>
+        <Domain name="range" id="261.FramesPerTimestep.range"/>
+      </Property>
+      <Property name="GoToFirst" id="261.GoToFirst"/>
+      <Property name="GoToLast" id="261.GoToLast"/>
+      <Property name="GoToNext" id="261.GoToNext"/>
+      <Property name="GoToPrevious" id="261.GoToPrevious"/>
+      <Property name="LockEndTime" id="261.LockEndTime" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="bool" id="261.LockEndTime.bool"/>
+      </Property>
+      <Property name="LockStartTime" id="261.LockStartTime" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="bool" id="261.LockStartTime.bool"/>
+      </Property>
+      <Property name="Loop" id="261.Loop" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="bool" id="261.Loop.bool"/>
+      </Property>
+      <Property name="NumberOfFrames" id="261.NumberOfFrames" number_of_elements="1">
+        <Element index="0" value="10"/>
+        <Domain name="range" id="261.NumberOfFrames.range"/>
+      </Property>
+      <Property name="Play" id="261.Play"/>
+      <Property name="PlayMode" id="261.PlayMode" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="enum" id="261.PlayMode.enum">
+          <Entry value="0" text="Sequence"/>
+          <Entry value="2" text="Snap To TimeSteps"/>
+        </Domain>
+      </Property>
+      <Property name="Reverse" id="261.Reverse"/>
+      <Property name="StartTime" id="261.StartTime" number_of_elements="1">
+        <Element index="0" value="0"/>
+      </Property>
+      <Property name="Stop" id="261.Stop"/>
+      <Property name="Stride" id="261.Stride" number_of_elements="1">
+        <Element index="0" value="1"/>
+        <Domain name="range" id="261.Stride.range"/>
+      </Property>
+      <Property name="TimeKeeper" id="261.TimeKeeper" number_of_elements="1">
+        <Proxy value="256"/>
+      </Property>
+      <Property name="ViewModules" id="261.ViewModules">
+        <Domain name="groups" id="261.ViewModules.groups"/>
+      </Property>
+    </Proxy>
+    <Proxy group="animation" type="TimeAnimationCue" id="263" servers="16">
+      <Property name="AnimatedDomainName" id="263.AnimatedDomainName" number_of_elements="1">
+        <Element index="0" value=""/>
+      </Property>
+      <Property name="AnimatedElement" id="263.AnimatedElement" number_of_elements="1">
+        <Element index="0" value="0"/>
+      </Property>
+      <Property name="AnimatedPropertyName" id="263.AnimatedPropertyName" number_of_elements="1">
+        <Element index="0" value="Time"/>
+      </Property>
+      <Property name="AnimatedProxy" id="263.AnimatedProxy" number_of_elements="1">
+        <Proxy value="256"/>
+        <Domain name="groups" id="263.AnimatedProxy.groups"/>
+      </Property>
+      <Property name="Enabled" id="263.Enabled" number_of_elements="1">
+        <Element index="0" value="1"/>
+        <Domain name="bool" id="263.Enabled.bool"/>
+      </Property>
+      <Property name="EndTime" id="263.EndTime" number_of_elements="1">
+        <Element index="0" value="1"/>
+      </Property>
+      <Property name="KeyFrames" id="263.KeyFrames">
+        <Domain name="groups" id="263.KeyFrames.groups"/>
+      </Property>
+      <Property name="LastAddedKeyFrameIndex" id="263.LastAddedKeyFrameIndex"/>
+      <Property name="StartTime" id="263.StartTime" number_of_elements="1">
+        <Element index="0" value="0"/>
+      </Property>
+      <Property name="TimeMode" id="263.TimeMode" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="enum" id="263.TimeMode.enum">
+          <Entry value="0" text="Normalized"/>
+          <Entry value="1" text="Relative"/>
+        </Domain>
+      </Property>
+      <Property name="UseAnimationTime" id="263.UseAnimationTime" number_of_elements="1">
+        <Element index="0" value="1"/>
+        <Domain name="bool" id="263.UseAnimationTime.bool"/>
+      </Property>
+    </Proxy>
+    <Proxy group="misc" type="RepresentationAnimationHelper" id="3513" servers="16">
+      <Property name="Source" id="3513.Source" number_of_elements="1">
+        <Proxy value="3501"/>
+      </Property>
+    </Proxy>
+    <Proxy group="misc" type="RepresentationAnimationHelper" id="3536" servers="16">
+      <Property name="Source" id="3536.Source" number_of_elements="1">
+        <Proxy value="3525"/>
+      </Property>
+    </Proxy>
+    <Proxy group="misc" type="RepresentationAnimationHelper" id="3559" servers="16">
+      <Property name="Source" id="3559.Source" number_of_elements="1">
+        <Proxy value="3548"/>
+      </Property>
+    </Proxy>
+    <Proxy group="settings" type="ColorPalette" id="265" servers="21">
+      <Property name="BackgroundColor" id="265.BackgroundColor" number_of_elements="3">
+        <Element index="0" value="0.32"/>
+        <Element index="1" value="0.34"/>
+        <Element index="2" value="0.43"/>
+        <Domain name="range" id="265.BackgroundColor.range"/>
+      </Property>
+      <Property name="BackgroundColor2" id="265.BackgroundColor2" number_of_elements="3">
+        <Element index="0" value="0"/>
+        <Element index="1" value="0"/>
+        <Element index="2" value="0.16"/>
+        <Domain name="range" id="265.BackgroundColor2.range"/>
+      </Property>
+      <Property name="BackgroundColorMode" id="265.BackgroundColorMode" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="enum" id="265.BackgroundColorMode.enum">
+          <Entry value="0" text="Single Color"/>
+          <Entry value="1" text="Gradient"/>
+        </Domain>
+      </Property>
+      <Property name="BorderColor" id="265.BorderColor" number_of_elements="3">
+        <Element index="0" value="1"/>
+        <Element index="1" value="0"/>
+        <Element index="2" value="1"/>
+        <Domain name="range" id="265.BorderColor.range"/>
+      </Property>
+      <Property name="EdgeColor" id="265.EdgeColor" number_of_elements="3">
+        <Element index="0" value="0"/>
+        <Element index="1" value="0"/>
+        <Element index="2" value="0.5"/>
+        <Domain name="range" id="265.EdgeColor.range"/>
+      </Property>
+      <Property name="ForegroundColor" id="265.ForegroundColor" number_of_elements="3">
+        <Element index="0" value="1"/>
+        <Element index="1" value="1"/>
+        <Element index="2" value="1"/>
+        <Domain name="range" id="265.ForegroundColor.range"/>
+      </Property>
+      <Property name="InteractiveSelectionColor" id="265.InteractiveSelectionColor" number_of_elements="3">
+        <Element index="0" value="0.5"/>
+        <Element index="1" value="0"/>
+        <Element index="2" value="1"/>
+        <Domain name="range" id="265.InteractiveSelectionColor.range"/>
+      </Property>
+      <Property name="InteractiveWidgetColor" id="265.InteractiveWidgetColor" number_of_elements="3">
+        <Element index="0" value="0"/>
+        <Element index="1" value="1"/>
+        <Element index="2" value="0"/>
+        <Domain name="range" id="265.InteractiveWidgetColor.range"/>
+      </Property>
+      <Property name="LoadPalette" id="265.LoadPalette"/>
+      <Property name="SelectionColor" id="265.SelectionColor" number_of_elements="3">
+        <Element index="0" value="1"/>
+        <Element index="1" value="0"/>
+        <Element index="2" value="1"/>
+        <Domain name="range" id="265.SelectionColor.range"/>
+      </Property>
+      <Property name="SurfaceColor" id="265.SurfaceColor" number_of_elements="3">
+        <Element index="0" value="1"/>
+        <Element index="1" value="1"/>
+        <Element index="2" value="1"/>
+        <Domain name="range" id="265.SurfaceColor.range"/>
+      </Property>
+      <Property name="TextAnnotationColor" id="265.TextAnnotationColor" number_of_elements="3">
+        <Element index="0" value="1"/>
+        <Element index="1" value="1"/>
+        <Element index="2" value="1"/>
+        <Domain name="range" id="265.TextAnnotationColor.range"/>
+      </Property>
+      <Property name="WidgetColor" id="265.WidgetColor" number_of_elements="3">
+        <Element index="0" value="1"/>
+        <Element index="1" value="0"/>
+        <Element index="2" value="0"/>
+        <Domain name="range" id="265.WidgetColor.range"/>
+      </Property>
+    </Proxy>
+    <Proxy group="filters" type="ttkPersistenceDiagram" id="3548" servers="1">
+      <Property name="BackEnd" id="3548.BackEnd" number_of_elements="1">
+        <Element index="0" value="2"/>
+        <Domain name="enum" id="3548.BackEnd.enum">
+          <Entry value="0" text="FTM (IEEE TPSD 2019)"/>
+          <Entry value="1" text="Progressive Approach (IEEE TVCG 2020)"/>
+          <Entry value="2" text="Discrete Morse Sandwich (IEEE TVCG 2023)"/>
+          <Entry value="3" text="Approximation Approach (IEEE LDAV 2021)"/>
+          <Entry value="4" text="Persistent Simplex (Zomorodian 2010)"/>
+        </Domain>
+      </Property>
+      <Property name="ClearDGCache" id="3548.ClearDGCache" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="bool" id="3548.ClearDGCache.bool"/>
+      </Property>
+      <Property name="CompactTriangulationCacheSize" id="3548.CompactTriangulationCacheSize" number_of_elements="1">
+        <Element index="0" value="0.2"/>
+        <Domain name="range" id="3548.CompactTriangulationCacheSize.range"/>
+      </Property>
+      <Property name="ComputeMinSad" id="3548.ComputeMinSad" number_of_elements="1">
+        <Element index="0" value="1"/>
+        <Domain name="bool" id="3548.ComputeMinSad.bool"/>
+      </Property>
+      <Property name="ComputeSadMax" id="3548.ComputeSadMax" number_of_elements="1">
+        <Element index="0" value="1"/>
+        <Domain name="bool" id="3548.ComputeSadMax.bool"/>
+      </Property>
+      <Property name="ComputeSadSad" id="3548.ComputeSadSad" number_of_elements="1">
+        <Element index="0" value="1"/>
+        <Domain name="bool" id="3548.ComputeSadSad.bool"/>
+      </Property>
+      <Property name="DMSDimensions" id="3548.DMSDimensions" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="enum" id="3548.DMSDimensions.enum">
+          <Entry value="0" text="All Dimensions"/>
+          <Entry value="1" text="Selected Dimensions (no infinite pairs)"/>
+        </Domain>
+      </Property>
+      <Property name="Debug_DebugLevel" id="3548.Debug_DebugLevel" number_of_elements="1">
+        <Element index="0" value="3"/>
+        <Domain name="range" id="3548.Debug_DebugLevel.range"/>
+      </Property>
+      <Property name="Debug_Execute" id="3548.Debug_Execute"/>
+      <Property name="Debug_ThreadNumber" id="3548.Debug_ThreadNumber" number_of_elements="1">
+        <Element index="0" value="8"/>
+        <Domain name="range" id="3548.Debug_ThreadNumber.range"/>
+      </Property>
+      <Property name="Debug_UseAllCores" id="3548.Debug_UseAllCores" number_of_elements="1">
+        <Element index="0" value="1"/>
+        <Domain name="bool" id="3548.Debug_UseAllCores.bool"/>
+      </Property>
+      <Property name="Epsilon" id="3548.Epsilon" number_of_elements="1">
+        <Element index="0" value="0.05"/>
+      </Property>
+      <Property name="ForceInputOffsetScalarField" id="3548.ForceInputOffsetScalarField" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="bool" id="3548.ForceInputOffsetScalarField.bool"/>
+      </Property>
+      <Property name="Ignore Boundary" id="3548.Ignore Boundary" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="bool" id="3548.Ignore Boundary.bool"/>
+      </Property>
+      <Property name="Input" id="3548.Input" number_of_elements="1">
+        <Proxy value="3525" output_port="0"/>
+        <Domain name="groups" id="3548.Input.groups"/>
+        <Domain name="input_scalars" id="3548.Input.input_scalars"/>
+        <Domain name="input_type" id="3548.Input.input_type"/>
+      </Property>
+      <Property name="InputOffsetScalarFieldNameNew" id="3548.InputOffsetScalarFieldNameNew" number_of_elements="5">
+        <Element index="0" value="1"/>
+        <Element index="1" value="0"/>
+        <Element index="2" value="0"/>
+        <Element index="3" value=""/>
+        <Element index="4" value="1"/>
+        <Domain name="array_list" id="3548.InputOffsetScalarFieldNameNew.array_list"/>
+      </Property>
+      <Property name="IsResumable" id="3548.IsResumable" number_of_elements="1">
+        <Element index="0" value="1"/>
+        <Domain name="bool" id="3548.IsResumable.bool"/>
+      </Property>
+      <Property name="ScalarFieldNew" id="3548.ScalarFieldNew" number_of_elements="5">
+        <Element index="0" value="0"/>
+        <Element index="1" value="0"/>
+        <Element index="2" value="0"/>
+        <Element index="3" value="0"/>
+        <Element index="4" value="Scalars_"/>
+        <Domain name="array_list" id="3548.ScalarFieldNew.array_list"/>
+      </Property>
+      <Property name="ShowInsideDomain" id="3548.ShowInsideDomain" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="bool" id="3548.ShowInsideDomain.bool"/>
+      </Property>
+      <Property name="StartingResolutionLevel" id="3548.StartingResolutionLevel" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="range" id="3548.StartingResolutionLevel.range"/>
+      </Property>
+      <Property name="StoppingResolutionLevel" id="3548.StoppingResolutionLevel" number_of_elements="1">
+        <Element index="0" value="-1"/>
+        <Domain name="range" id="3548.StoppingResolutionLevel.range"/>
+      </Property>
+      <Property name="TimeLimit" id="3548.TimeLimit" number_of_elements="1">
+        <Element index="0" value="0"/>
+      </Property>
+    </Proxy>
+    <Proxy group="filters" type="ttkTopologicalSimplificationByPersistence" id="3525" servers="1">
+      <Property name="CompactTriangulationCacheSize" id="3525.CompactTriangulationCacheSize" number_of_elements="1">
+        <Element index="0" value="0.2"/>
+        <Domain name="range" id="3525.CompactTriangulationCacheSize.range"/>
+      </Property>
+      <Property name="Debug_DebugLevel" id="3525.Debug_DebugLevel" number_of_elements="1">
+        <Element index="0" value="3"/>
+        <Domain name="range" id="3525.Debug_DebugLevel.range"/>
+      </Property>
+      <Property name="Debug_Execute" id="3525.Debug_Execute"/>
+      <Property name="Debug_ThreadNumber" id="3525.Debug_ThreadNumber" number_of_elements="1">
+        <Element index="0" value="1"/>
+        <Domain name="range" id="3525.Debug_ThreadNumber.range"/>
+      </Property>
+      <Property name="Debug_UseAllCores" id="3525.Debug_UseAllCores" number_of_elements="1">
+        <Element index="0" value="1"/>
+        <Domain name="bool" id="3525.Debug_UseAllCores.bool"/>
+      </Property>
+      <Property name="Input" id="3525.Input" number_of_elements="1">
+        <Proxy value="3501" output_port="0"/>
+        <Domain name="groups" id="3525.Input.groups"/>
+        <Domain name="input_array" id="3525.Input.input_array"/>
+        <Domain name="input_type" id="3525.Input.input_type"/>
+      </Property>
+      <Property name="InputArray" id="3525.InputArray" number_of_elements="5">
+        <Element index="0" value="0"/>
+        <Element index="1" value="0"/>
+        <Element index="2" value="0"/>
+        <Element index="3" value="0"/>
+        <Element index="4" value="Scalars_"/>
+        <Domain name="array_list" id="3525.InputArray.array_list"/>
+      </Property>
+      <Property name="NumericalPerturbation" id="3525.NumericalPerturbation" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="bool" id="3525.NumericalPerturbation.bool"/>
+      </Property>
+      <Property name="PairType" id="3525.PairType" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="enum" id="3525.PairType.enum">
+          <Entry value="0" text="Extremum-Saddle"/>
+          <Entry value="1" text="Minimum-Saddle"/>
+          <Entry value="2" text="Maximum-Saddle"/>
+        </Domain>
+      </Property>
+      <Property name="PersistenceThreshold" id="3525.PersistenceThreshold" number_of_elements="1">
+        <Element index="0" value="0.04"/>
+      </Property>
+      <Property name="ThresholdIsAbsolute" id="3525.ThresholdIsAbsolute" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="bool" id="3525.ThresholdIsAbsolute.bool"/>
+      </Property>
+    </Proxy>
+    <Proxy group="sources" type="XMLImageDataReader" id="3501" servers="1">
+      <Property name="FileName" id="3501.FileName" number_of_elements="1">
+        <Element index="0" value="/workspace/QMCPACK.vti"/>
+        <Domain name="files" id="3501.FileName.files"/>
+      </Property>
+      <Property name="FileNameInfo" id="3501.FileNameInfo" number_of_elements="1">
+        <Element index="0" value="/workspace/QMCPACK.vti"/>
+      </Property>
+      <Property name="TimestepValues" id="3501.TimestepValues"/>
+      <Property name="CellArrayInfo" id="3501.CellArrayInfo"/>
+      <Property name="CellArrayStatus" id="3501.CellArrayStatus">
+        <Domain name="array_list" id="3501.CellArrayStatus.array_list"/>
+      </Property>
+      <Property name="PointArrayInfo" id="3501.PointArrayInfo" number_of_elements="2">
+        <Element index="0" value="Scalars_"/>
+        <Element index="1" value="1"/>
+      </Property>
+      <Property name="PointArrayStatus" id="3501.PointArrayStatus" number_of_elements="2">
+        <Element index="0" value="Scalars_"/>
+        <Element index="1" value="1"/>
+        <Domain name="array_list" id="3501.PointArrayStatus.array_list">
+          <String text="Scalars_"/>
+        </Domain>
+      </Property>
+      <Property name="TimeArray" id="3501.TimeArray" number_of_elements="1">
+        <Element index="0" value="TimeValue"/>
+        <Domain name="array_list" id="3501.TimeArray.array_list">
+          <String text="None"/>
+        </Domain>
+      </Property>
+      <Property name="TimeArrayInfo" id="3501.TimeArrayInfo"/>
+    </Proxy>
+    <Proxy group="misc" type="TimeKeeper" id="256" servers="16">
+      <Property name="SuppressedTimeSources" id="256.SuppressedTimeSources"/>
+      <Property name="Time" id="256.Time" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="range" id="256.Time.range"/>
+      </Property>
+      <Property name="TimeLabel" id="256.TimeLabel" number_of_elements="1">
+        <Element index="0" value="Time"/>
+      </Property>
+      <Property name="TimeRange" id="256.TimeRange" number_of_elements="2">
+        <Element index="0" value="0"/>
+        <Element index="1" value="1"/>
+      </Property>
+      <Property name="TimeSources" id="256.TimeSources" number_of_elements="3">
+        <Proxy value="3501"/>
+        <Proxy value="3525"/>
+        <Proxy value="3548"/>
+      </Property>
+      <Property name="TimestepValues" id="256.TimestepValues"/>
+      <Property name="Views" id="256.Views"/>
+    </Proxy>
+    <ProxyCollection name="animation">
+      <Item id="261" name="AnimationScene1"/>
+      <Item id="263" name="TimeAnimationCue1"/>
+    </ProxyCollection>
+    <ProxyCollection name="pq_helper_proxies.3501">
+      <Item id="3513" name="RepresentationAnimationHelper"/>
+    </ProxyCollection>
+    <ProxyCollection name="pq_helper_proxies.3525">
+      <Item id="3536" name="RepresentationAnimationHelper"/>
+    </ProxyCollection>
+    <ProxyCollection name="pq_helper_proxies.3548">
+      <Item id="3559" name="RepresentationAnimationHelper"/>
+    </ProxyCollection>
+    <ProxyCollection name="settings">
+      <Item id="265" name="ColorPalette"/>
+    </ProxyCollection>
+    <ProxyCollection name="sources">
+      <Item id="3548" name="TTKPersistenceDiagram1" logname="TTKPersistenceDiagram1"/>
+      <Item id="3525" name="TTKTopologicalSimplificationByPersistence1" logname="TTKTopologicalSimplificationByPersistence1"/>
+      <Item id="3501" name="XMLImageDataReader1" logname="XMLImageDataReader1"/>
+    </ProxyCollection>
+    <ProxyCollection name="timekeeper">
+      <Item id="256" name="TimeKeeper1"/>
+    </ProxyCollection>
+    <CustomProxyDefinitions/>
+    <Links/>
+    <Settings>
+      <SettingsProxy group="settings" type="ColorPalette">
+        <Links/>
+      </SettingsProxy>
+      <SettingsProxy group="settings" type="GeneralSettings">
+        <Links/>
+      </SettingsProxy>
+      <SettingsProxy group="settings" type="IOSettings">
+        <Links/>
+      </SettingsProxy>
+      <SettingsProxy group="settings" type="RenderViewInteractionSettings">
+        <Links/>
+      </SettingsProxy>
+      <SettingsProxy group="settings" type="RenderViewSettings">
+        <Links/>
+      </SettingsProxy>
+      <SettingsProxy group="settings" type="RepresentedArrayListSettings">
+        <Links/>
+      </SettingsProxy>
+    </Settings>
+  </ServerManagerState>
+</GenericParaViewApplication>

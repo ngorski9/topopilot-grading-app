@@ -1,0 +1,6 @@
+Rendered successfully at `/workspace/output.png`. It shows the piecewise-linear Morse-Smale segmentation (colored regions) of `fracture.vti`'s scalar field after 0.05 persistence simplification, with critical points overlaid: red = maxima, blue = minima, white = saddles, all at radius 2.
+
+Script used: `/workspace/ms_segmentation.py` (based on TopoPilot2's `script_template.py`), run via:
+```
+pvbatch ms_segmentation.py -i ./fracture.vti -t 1 -o output.png
+```

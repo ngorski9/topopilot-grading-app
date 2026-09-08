@@ -1,0 +1,5 @@
+This is the piecewise-linear sub-level set filtration persistence diagram for QMCPACK.vti, computed via TopoPilot2's FTM backend (which yields the H0 and H(D-1) diagrams — here H0 and H2 since the field is 3D), after applying 0.04 relative persistence simplification. The diagonal represents birth=death, and each ball/tube pair is a persistence pair colored by matching birth/death points.
+
+Script: `/workspace/qmcpack_pd.py`. Output: `/workspace/qmcpack_pd.png`.
+
+Pipeline: `LoadScalarField("Scalars_") → PersistenceSimplification(epsilon=0.04, relative) → ComputePersistenceDiagram → EmbedPersistenceDiagram`, rendered orthographically in the diagram's XY plane (bounds were births/deaths in x∈[0,0.46], y∈[0,1]).

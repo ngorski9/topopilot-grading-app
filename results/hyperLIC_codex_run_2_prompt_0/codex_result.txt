@@ -1,0 +1,7 @@
+ParaView is open with the requested visualization.
+
+- Wedges: white, radius 1
+- Trisectors: pink, radius 1
+- Detected 717 degenerate points total (360 wedges, 357 trisectors)
+
+The scene is saved as [brain_degenerate_visualization.pvsm](/workspace/brain_degenerate_visualization.pvsm), with extracted points in [brain_degenerate_points.vtp](/workspace/brain_degenerate_points.vtp).

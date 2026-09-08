@@ -1,0 +1,6 @@
+Rendered the TopoPilot2 piecewise-linear sublevel-set persistence diagram after relative persistence simplification ε = 0.04.
+
+- [Persistence diagram PNG](/workspace/QMCPACK_persistence_H0_H2_epsilon_0.04.png)
+- [Reproducible TopoPilot2 script](/workspace/render_qmcpack_persistence.py)
+
+The FTM persistence-diagram backend used by TopoPilot2 yields the H₀ and H₂ groups for this 3D scalar field.

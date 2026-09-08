@@ -1,0 +1,5 @@
+Rendered persistence diagram: [PNG](/workspace/QMCPACK_persistence_diagram_H0_H2_threshold_0.04.png)
+
+TTK simplification threshold: 0.04 (relative). Displayed classes: H₀ (16 pairs) and H₂ (6 pairs).
+
+Reproducible ParaView state: [pipeline](/workspace/QMCPACK_persistence_diagram_pipeline.pvsm) and [script](/workspace/render_persistence.py).

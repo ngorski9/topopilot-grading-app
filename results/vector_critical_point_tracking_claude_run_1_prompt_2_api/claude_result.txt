@@ -1,0 +1,9 @@
+The video rendered successfully across all 21 available time steps (using the tracking config's `time_steps=3` window internally, but rendering every frame of the series as required).
+
+Done. Created `/workspace/cylinder_tracking.py`:
+- `LoadVectorField` on `./cylinder` using arrays `u`/`v`
+- `EmbedVectorField` for the background LIC visualization of the original field
+- `ComputeVectorCriticalPoints` → `TrackVectorCriticalPoints(time_steps=3, backend="partial")` for partial-optimal-transport tracking
+- `EmbedTrackedVectorFieldCriticalPoints` colored by tracked identity, overlaid on the field
+
+Verified with a single-frame PNG (`test_frame.png`) showing colored critical points in the cylinder wake, then rendered the full time series to `/workspace/cylinder_tracked.mp4`.

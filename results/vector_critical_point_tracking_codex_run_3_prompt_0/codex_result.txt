@@ -1,0 +1,7 @@
+Completed the 3-step partial-OT tracking using `cylinder1.vti`–`cylinder3.vti`.
+
+- Detected 63, 53, and 50 piecewise-linear critical points.
+- Partial OT found 49 complete three-step tracks.
+- Visualization: [cylinder_critical_point_tracks.png](/workspace/cylinder_critical_point_tracks.png)
+- Track coordinates/data: [cylinder_critical_point_tracks.json](/workspace/cylinder_critical_point_tracks.json)
+- Reproducible analysis: [analyze_cylinder.py](/workspace/analyze_cylinder.py)

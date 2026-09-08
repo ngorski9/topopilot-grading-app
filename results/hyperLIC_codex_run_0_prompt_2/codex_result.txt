@@ -1,0 +1,8 @@
+Rendered the tensor field with radius-1 degenerate-point markers:
+
+- Trisectors: pink (221)
+- Wedges: white (220)
+
+Output: [brain_tensor_degeneracies.png](/workspace/brain_tensor_degeneracies.png)
+
+The reproducible ParaView/VTK script is [render_brain_tensor.py](/workspace/render_brain_tensor.py).

@@ -1,0 +1,14 @@
+Completed the three-step critical-point tracking workflow.
+
+- Detected 72, 70, and 69 PL critical points in `cylinder1–3.vti`.
+- Matched consecutive frames using POT partial Wasserstein transport (90% transported mass): 128 links.
+- Saved a reproducible ParaView scene and rendered visualization.
+
+Outputs:
+
+- [ParaView state](</workspace/cylinder_tracking/cylinder_critical_tracking.pvsm>)
+- [Visualization PNG](</workspace/cylinder_tracking/cylinder_critical_tracking.png>)
+- [Critical points with step/type/track ID](</workspace/cylinder_tracking/critical_points.vtp>)
+- [Tracked trajectories](</workspace/cylinder_tracking/trajectories.vtp>)
+- [Partial-OT transport links](</workspace/cylinder_tracking/transport_links.csv>)
+- [Reproducible processing script](</workspace/track_cylinder.py>)

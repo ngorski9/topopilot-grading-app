@@ -1,0 +1,10 @@
+Both figures look good — the cylinder body's blanked-vector artifacts are gone, and critical points sit correctly on top of the actual streamline vortices/saddles of the wake, with track IDs stable across the three time steps.
+
+Summary of what was done (`/workspace/cylinder_track.py`):
+
+1. **Import**: Read `cylinder1/2/3.vti` (150×450 regular grid, point-data arrays `u`,`v`) with VTK's `vtkXMLImageDataReader`.
+2. **Critical points of the PL vector field**: each pixel cell is split into 2 triangles; on each triangle the linear interpolant of `(u,v)` is solved for the barycentric coordinates where it vanishes (standard Marching-triangles zero-set algorithm). Triangles touching the blanked cylinder body (exact zero vectors) are skipped to avoid spurious points on the cylinder wall. Classified into sink/source/saddle/foci via the local (constant) Jacobian's trace/determinant.
+3. **Tracking**: consecutive time steps matched with **partial optimal transport** (`ot.partial.partial_wasserstein` from the POT library) on squared-Euclidean cost, allowing points to be born/die rather than forcing a full assignment — track IDs are chained across all 3 steps.
+4. **Visualization**: matplotlib streamlines of the original `(u,v)` field with the extracted, colored/labeled (by track id) critical points overlaid per time step (`cylinder_critical_points.png`), plus a combined trajectory plot connecting each track across the 3 steps (`cylinder_tracks.png`).
+
+Output artifacts in `/workspace`: `cylinder_track.py`, `cylinder_critical_points.png`, `cylinder_tracks.png`, `cylinder_tracks.npz` (raw points/ids/types).

@@ -1,0 +1,3 @@
+Rendered successfully with TopoPilot2: [PNG output](/workspace/brain_tensor_degeneracies.png).
+
+The reusable pipeline script is [brain_tensor_degeneracies.py](/workspace/brain_tensor_degeneracies.py), loading `A`, `B`, `D`, rendering the tensor field, and overlaying 434 detected points at radius 1: trisectors pink and wedges white.

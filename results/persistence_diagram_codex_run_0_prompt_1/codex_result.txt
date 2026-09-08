@@ -1,0 +1,11 @@
+Completed the requested ParaView/TTK pipeline.
+
+- Simplification: absolute persistence `0.04`
+- Filtration: sublevel set
+- Diagram orders displayed: 0 and 2
+
+Artifacts:
+
+- [ParaView state](sandbox:/workspace/QMCPACK_persistence_diagram.pvsm)
+- [Rendered persistence diagram](sandbox:/workspace/QMCPACK_persistence_diagram.png)
+- [Reproduction script](sandbox:/workspace/create_qmcpack_persistence_state.py)

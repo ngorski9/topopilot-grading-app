@@ -1,0 +1,10 @@
+Completed the three-step partial-OT tracking using `cylinder1.vti`–`cylinder3.vti`.
+
+Outputs:
+
+- [Visualization PNG](/workspace/cylinder_critical_points_partial_ot.png)
+- [Detected critical points CSV](/workspace/cylinder_critical_points.csv)
+- [Partial optimal-transport matches CSV](/workspace/cylinder_partial_ot_matches.csv)
+- [Reproducible analysis script](/workspace/track_cylinder_critical_points.py)
+
+The PL extraction found 26, 24, and 24 critical points across the three steps; partial OT (85% transported mass) matched 23 points from step 1→2 and 21 from step 2→3. Red X marks saddles, cyan circles mark node/focus-type points, and yellow arrows show tracked displacements over the vector-field streamlines.

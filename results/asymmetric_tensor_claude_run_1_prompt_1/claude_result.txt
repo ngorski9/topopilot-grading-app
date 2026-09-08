@@ -1,0 +1,11 @@
+The render is complete and saved to `/workspace/Ocean_eigenvector_partition.png`.
+
+**Approach used** (TTK ships no ready-made "asymmetric tensor topology" filter, so this was computed directly from the field, using the standard Delmarcelle & Hesselink 1994 construction that the terms "trisector"/"wedge" come from):
+
+- Read `Ocean.vti` (101×101 grid, `A,B,C,D` → tensor `[[A,B],[C,D]]`).
+- Degenerate points: zeros of the symmetric-deviator vector field `E=(A−D)/2, F=(B+C)/2`, found per-cell via exact bilinear-zero solving. Classified by the local Jacobian sign of `(E,F)`: negative → **trisector**, positive → **wedge**.
+- Found **88 degenerate points**: 44 trisectors, 44 wedges.
+- Eigenvector partition: domain tiled into 10×10-pixel squares (matching the requested "10 pixels per square" resolution); each square shows a cross glyph of the local (symmetric-part) eigenvector directions, with background shading indicating which axis the major eigenvector is aligned with.
+- Degenerate points rendered as radius-1 spheres: **pink** = trisectors, **white** = wedges.
+
+Script: `/workspace/ocean_eigenvector_partition.py`. Output image: `/workspace/Ocean_eigenvector_partition.png`.

@@ -1,0 +1,10 @@
+Both outputs are complete and correct. Summary:
+
+**Pipeline** (`/workspace/ttk_contour_tree.py`, run via `pvpython`):
+1. Loaded the 21-timestep Ionization `.vti` time series (`Scalars_` field, 300×124×124).
+2. Rendered the original scalar field as a volume with the **Viridis** colormap → `output/original_scalar_field_viridis.png`.
+3. Computed the persistence diagram (`TTKPersistenceDiagram`), thresholded pairs with persistence ≥ 0.1, and fed that as a simplification constraint into `TTKTopologicalSimplification`.
+4. Built the piecewise-linear contour tree (`TTKContourTree`) on the simplified field.
+5. Rendered the tree: nodes as radius-2 spheres colored by critical type (blue = minima, white = 1-saddles, orange = 2-saddles, red = maxima) and arcs as radius-1 tubes → `output/simplified_contour_tree.png`.
+
+Both PNGs are saved in `/workspace/output/`.

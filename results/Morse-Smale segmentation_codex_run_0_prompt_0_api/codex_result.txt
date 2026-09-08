@@ -1,0 +1,6 @@
+Rendered the requested simplified Morse–Smale segmentation with critical points overlay.
+
+- Output: [fracture_morse_smale.png](/workspace/fracture_morse_smale.png)
+- Reusable pipeline: [render_fracture_morse_smale.py](/workspace/render_fracture_morse_smale.py)
+
+Applied persistence threshold 0.05. Critical points use radius 2: minima blue, maxima red, saddles white. The result contains 15 minima, 31 saddles, and 10 maxima.

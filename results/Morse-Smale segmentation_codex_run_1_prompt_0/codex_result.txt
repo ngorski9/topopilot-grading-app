@@ -1,0 +1,7 @@
+Completed the persistence-simplified (0.05) Morse–Smale visualization.
+
+- [Rendered image](/workspace/outputs/fracture_morse_smale.png)
+- [ParaView state](/workspace/outputs/fracture_morse_smale.pvsm)
+- [Reproducible pipeline script](/workspace/create_fracture_morse_smale.py)
+
+Critical points use radius 2: minima blue, saddles white, maxima red.

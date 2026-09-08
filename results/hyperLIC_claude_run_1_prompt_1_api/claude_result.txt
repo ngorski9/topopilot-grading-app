@@ -1,0 +1,3 @@
+The visualization rendered successfully: the symmetric tensor field's glyph embedding is shown as the brain-shaped underlying texture, with degenerate points overlaid as radius-1 spheres — pink for trisectors, white for wedges.
+
+The script is saved at `/workspace/brain_pipeline.py` and output image at `/workspace/brain_output.png`. To regenerate: `pvbatch brain_pipeline.py -i ./brain.vti -t 1 -o brain_output.png -q session`.

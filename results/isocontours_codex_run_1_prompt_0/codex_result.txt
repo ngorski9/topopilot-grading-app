@@ -1,0 +1,7 @@
+Completed the ParaView/TTK visualization.
+
+- [Rendered PNG](/workspace/QMCPACK_topology_visualization.png)
+- [ParaView state](/workspace/QMCPACK_topology_visualization.pvsm)
+- [Reproducible script](/workspace/make_qmcpack_visualization.py)
+
+Applied persistence simplification at 0.04. The four equal-volume isovalues are 0.39313674, 0.404711, 0.40960145, and 0.41858010. Critical points use the requested colors; degenerate multi-saddles are also retained in purple.

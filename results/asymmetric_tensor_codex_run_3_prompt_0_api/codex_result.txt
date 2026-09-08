@@ -1,0 +1,6 @@
+Created and rendered the requested visualization.
+
+- Output: [Ocean_eigenvector_partition.png](/workspace/Ocean_eigenvector_partition.png)
+- Reproducible TopoPilot2 script: [render_ocean_eigenvector_partition.py](/workspace/render_ocean_eigenvector_partition.py)
+
+It uses partition resolution 10, degenerate-point radius 1, pink trisectors, and white wedges.

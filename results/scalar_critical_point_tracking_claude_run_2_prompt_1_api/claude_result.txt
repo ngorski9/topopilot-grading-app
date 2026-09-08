@@ -1,0 +1,7 @@
+Both the simplified field and tracked maxima (colored by tracked identity) are rendering correctly. The pipeline is complete and validated.
+
+Summary — outputs are in `/workspace/output/`:
+- `original_scalar.png` — the raw scalar field (`Scalars_`) rendered with the cool-warm colormap.
+- `tracked_t1.png`, `tracked_t2.png`, `tracked_t3.png` — the persistence-simplified (ε=0.5) scalar field with piecewise-linear maxima tracked across the 3 time steps via earth mover's distance (`backend="emd"`), shown as radius-2 spheres colored by tracked identity.
+
+Pipeline scripts: `/workspace/cloud_pipeline_original.py` (original field) and `/workspace/cloud_pipeline_tracked.py` (simplification + tracking + visualization), both built on the TopoPilot2 `script_template.py` API, using array name `Scalars_` (the only point array in the `./cloud` VTI time series) and `which_points="maxima"`.

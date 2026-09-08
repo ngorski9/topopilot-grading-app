@@ -1,0 +1,3 @@
+The render is correct: colored Morse-Smale segmentation regions with critical points overlaid — red spheres (maxima), white spheres (saddles), blue spheres (minima), all radius 2.
+
+Rendered `/workspace/fracture_output.png` using the pipeline in `/workspace/fracture_pipeline.py`: loaded `fracture.vti` (array `Scalars_`), applied `PersistenceSimplification(epsilon=0.05)`, computed/embedded the Morse-Smale segmentation, and overlaid all critical points (radius 2) colored red/white/blue for maxima/saddles/minima.

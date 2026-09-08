@@ -1,0 +1,3 @@
+The render succeeded: the eigenvector partition of the Ocean asymmetric tensor field at 10px/cell resolution, with degenerate points overlaid — pink trisectors and white wedges, radius 1.
+
+Saved to `/workspace/ocean_eigenvector_partition.png`, generated via `/workspace/ocean_eigenvector_partition.py` (loads A/B/C/D as an asymmetric tensor, feeds `EmbedAsymmetricTensorFieldEigenvectorPartition(resolution=10)` and `ComputeAsymmetricTensorDegeneratePoints` → `EmbedAsymmetricTensorDegeneratePoints(radius=1, color_scheme=["#ff8cc6","#ffffff"])`).

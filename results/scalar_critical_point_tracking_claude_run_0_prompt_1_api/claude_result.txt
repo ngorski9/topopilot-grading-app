@@ -1,0 +1,8 @@
+The pipeline ran successfully end-to-end.
+
+Summary:
+- Wrote `/workspace/cloud_pipeline.py` (based on `script_template.py`): loads the `Scalars_` field from the `./cloud` time series, embeds the original scalar field with the "cool warm" colormap, applies `PersistenceSimplification(epsilon=0.5)`, computes maxima, tracks them across 3 time steps with `TrackScalarCriticalPoints(time_steps=3, backend="emd")`, and embeds tracked points with sphere `radius=2.0`, layered over the scalar field.
+- Rendered a single-frame PNG (`out_step1.png`) showing the original scalar field alone (used as sanity check).
+- Built a 3-step subset directory `./cloud3` (`cloud31/32/33.vti`) and rendered `cloud_tracked.mp4`, showing the scalar field with the EMD-tracked maxima overlaid across the 3 time steps.
+
+Both outputs are in `/workspace`: `out_step1.png` and `cloud_tracked.mp4`.

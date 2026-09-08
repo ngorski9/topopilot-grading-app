@@ -1,0 +1,7 @@
+This matches the expected result well — the tensor field (rendered as grayscale by trace A+D) shows the brain slice, with degenerate points overlaid as radius-1 spheres: pink for trisectors, white for wedges, clustered densely along tissue boundaries and structural edges as expected for a noisy piecewise-linear tensor field.
+
+Summary of what I did:
+1. Read `brain.vti` (108×66 grid, symmetric 2D tensor via components A, B, D).
+2. Since this TTK build lacks `TensorFieldDegenerateLocations`, implemented the standard Delmarcelle–Hesselink piecewise-linear degenerate-point extraction directly: computed the deviator (E=A−D, F=2B), triangulated each grid cell, solved for zero-crossings of (E,F) via barycentric interpolation, and classified each point by the sign of the local Jacobian (wedge for +1 index, trisector for −1 index).
+3. Deduplicated points shared across adjacent triangles (717 → 629 unique points: 316 wedges, 313 trisectors).
+4. Rendered the tensor field (trace A+D, grayscale) in ParaView with the degenerate points glyphed as radius-1 spheres, colored pink (trisectors) and white (wedges), and saved to `/workspace/brain_degenerate_points.png`.

@@ -1,0 +1,12 @@
+This is much clearer — the tracked maxima and their EMD-matched trajectories over 3 timesteps are legible against the scalar field. The pipeline is complete.
+
+## Summary
+
+I loaded the time-varying `cloud` dataset (34 `.vti` files, 256×256, field `Scalars_`, values 0–50) and built a working pipeline using ParaView + TTK (the TTK `TrackingFromFields`/`TrackingFromPersistenceDiagrams` filters hit repeated segfaults on this dataset — likely tens of thousands of critical points — and their `multiple_input`/temporal-input requirements didn't match the file-series reader cleanly), so per your instruction to use whatever means necessary I completed the pipeline with a hybrid approach:
+
+1. **Original scalar field**: rendered directly from `cloud1.vti` with a warm-cold (coolwarm) colormap → `cloud_scalarfield.png`.
+2. **Persistence simplification (threshold 0.5)**: for each of the first 3 timesteps, computed the PL persistence diagram with `TTKPersistenceDiagram` and kept only saddle-maximum pairs with persistence > 0.5, extracting each surviving maximum's spatial coordinates.
+3. **Tracking via Earth Mover's Distance**: used Python Optimal Transport (`ot.emd`) with a Euclidean cost matrix between consecutive timesteps to compute the optimal transport plan matching maxima, chaining matches into trajectories across all 3 timesteps.
+4. **Visualization**: overlaid the tracked maxima (rendered as radius-2 markers, colored cool→warm across the 3 timesteps) with connecting trajectory lines on top of the original scalar field, warm-cold colormap → `cloud_tracked_maxima.png` (showing the 60 most persistent trajectories for legibility; the underlying tracking covers all 3144 maxima that passed the threshold).
+
+Both images are in `/workspace/`.

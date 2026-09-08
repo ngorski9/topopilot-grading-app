@@ -1,0 +1,3 @@
+Done. The pipeline (`/workspace/qmcpack_pd.py`) loads `QMCPACK.vti` (array `Scalars_`), applies `PersistenceSimplification(epsilon=0.04, threshold_is_absolute=True)`, computes and embeds the persistence diagram, and rendered it to `/workspace/qmcpack_pd.png`.
+
+Note: `ComputePersistenceDiagram` in TopoPilot2 always uses TTK's FTM backend, which inherently produces the 0th and (D−1)th order sublevel-set persistence pairs — for this 3D volume that's exactly orders 0 and 2, so no extra filtering parameter was needed.

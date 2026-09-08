@@ -1,0 +1,7 @@
+Rendered the tensor field and its degenerate points.
+
+- Wedges: white, radius 1
+- Trisectors: pink, radius 1
+- Detected 306 wedges and 320 trisectors
+
+Saved the ParaView scene as [brain_degenerate_points.pvsm](/workspace/brain_degenerate_points.pvsm) and the rendered view as [brain_degenerate_points.png](/workspace/brain_degenerate_points.png).

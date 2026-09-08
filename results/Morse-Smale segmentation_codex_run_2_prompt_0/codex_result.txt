@@ -1,0 +1,7 @@
+Completed the TTK persistence simplification (threshold 0.05) and Morse–Smale visualization.
+
+- [Rendered visualization](sandbox:/workspace/output/fracture_morse_smale.png)
+- [ParaView state](sandbox:/workspace/output/fracture_morse_smale.pvsm)
+- [Reproducible pipeline script](sandbox:/workspace/create_fracture_morse_smale.py)
+
+The render includes the piecewise-linear segmentation and 45 simplified-field critical points: maxima red, saddles white, minima blue, each with radius 2.

@@ -1,0 +1,7 @@
+The pipeline ran successfully and produced a render at `/workspace/output.png` showing:
+
+- The QMCPACK volume with persistence simplification (ε=0.04) applied
+- 4 isocontours (grey shells) dividing the scalar range into 5 equal bands
+- Critical points colored as requested: maxima red, 2-saddles orange, 1-saddles white, minima blue
+
+The pipeline script is saved at `/workspace/qmcpack_pipeline.py`. Note it uses grey colormaps for the field/contours since no color was specified for those — let me know if you'd like a different colormap or camera angle.

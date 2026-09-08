@@ -1,0 +1,5 @@
+Reading additional input from stdin...
+2026-08-28T22:09:59.937247Z ERROR codex_core::tools::router: error=exec_command failed for `/bin/bash -lc 'rm -rf ionization_video_session
+/opt/conda/bin/pvbatch ionization_contour_tree.py -i ./Ionization -t -1 -o ionization_contour_tree.mp4 -q ./ionization_video_session > ionization_video.log 2>&1; task_status=$?; tail -80 ionization_video.log; exit $task_status'`: CreateProcess { message: "Rejected(\"`/bin/bash -lc 'rm -rf ionization_video_session\\n/opt/conda/bin/pvbatch ionization_contour_tree.py -i ./Ionization -t -1 -o ionization_contour_tree.mp4 -q ./ionization_video_session > ionization_video.log 2>&1; task_status=$?; tail -80 ionization_video.log; exit $task_status'` rejected: rm -f style commands are not permitted. Use a safer approach\")" }
+2026-08-28T22:10:43.389229Z ERROR codex_core::session: failed to record rollout items: thread 01a04a6b-20a1-7651-8dca-1110bf7260f4 not found
+2026-08-28T22:10:43.390568Z ERROR codex_core::session: failed to record rollout items: thread 01a04a6b-20a1-7651-8dca-1110bf7260f4 not found

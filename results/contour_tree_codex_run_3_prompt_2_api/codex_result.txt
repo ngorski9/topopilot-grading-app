@@ -1,0 +1,7 @@
+Created and rendered the requested 21-step visualization.
+
+- Video: [ionization_topology.mp4](/workspace/ionization_topology.mp4)
+- Step-1 preview: [ionization_topology_step1.png](/workspace/ionization_topology_step1.png)
+- Reproducible TopoPilot2 script: [ionization_topology.py](/workspace/ionization_topology.py)
+
+It uses raw viridis scalar volume, persistence threshold 0.1, contour-tree edge radius 1 and vertex radius 2; minima blue, 1-saddles white, 2-saddles orange, and maxima red.

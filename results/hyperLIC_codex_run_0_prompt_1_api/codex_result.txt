@@ -1,0 +1,8 @@
+Rendered the symmetric tensor field and its 434 degenerate points.
+
+- Trisectors: pink (`#ff8cc6`), radius 1
+- Wedges: white (`#ffffff`), radius 1
+
+Output: [brain_tensor_degenerate_points.png](/workspace/brain_tensor_degenerate_points.png)
+
+The reproducible TopoPilot2 script is [brain_tensor_degenerate_points.py](/workspace/brain_tensor_degenerate_points.py).

@@ -1,0 +1,11 @@
+This successfully renders the brain tensor field with all detected degenerate points overlaid.
+
+**Approach:** TTK 1.3.0 in this environment doesn't ship a dedicated tensor-degeneracy filter, so I implemented the Delmarcelle–Hesselink algorithm directly: for the symmetric 2×2 tensor field `[[A,B],[B,D]]`, degenerate points are zeros of the piecewise-linear vector field `E = (A−D, 2B)`. Each grid cell was split into two triangles, and within each triangle the linear system for `E=0` was solved in barycentric coordinates; points falling inside the triangle were kept. Classification uses the sign of the local Jacobian determinant of `E`: negative → trisector, positive → wedge.
+
+**Result:** 629 degenerate points found (313 trisectors, 316 wedges), written to `degenerate_points.vtp`.
+
+**Rendering** (`render.py`, run headlessly via `xvfb-run pvpython`):
+- Background surface colored by tensor anisotropy `sqrt((A−D)²+4B²)` (Cool-to-Warm colormap) to show the field structure.
+- Degenerate points split by `type` via `Threshold`, glyphed as radius-1 spheres: trisectors in pink, wedges in white.
+
+Output saved to `/workspace/brain_degenerate_points.png` (shown above). Most degenerate points cluster along the tissue boundary (high-anisotropy edge) and around the internal fiber-crossing structures, which is expected for this kind of tensor field.

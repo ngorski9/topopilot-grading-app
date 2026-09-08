@@ -1,0 +1,10 @@
+Completed the three-step partial-OT tracking (frames 1, 11, 21).
+
+- Visualization: [tracked_critical_points.png](/workspace/cylinder_tracking_output/tracked_critical_points.png)
+- Openable ParaView state: [cylinder_partial_ot_tracking.pvsm](/workspace/cylinder_tracking_output/cylinder_partial_ot_tracking.pvsm)
+- Tracked critical-point geometry: [tracked_critical_points.vtp](/workspace/cylinder_tracking_output/tracked_critical_points.vtp)
+- Track polylines: [critical_point_tracks.vtp](/workspace/cylinder_tracking_output/critical_point_tracks.vtp)
+- CSV summary: [tracking_summary.csv](/workspace/cylinder_tracking_output/tracking_summary.csv)
+- Reproducible script: [track_cylinder_critical_points.py](/workspace/track_cylinder_critical_points.py)
+
+The PL extraction found 70, 66, and 64 critical points, respectively. Partial OT matched the strongest 85% transport mass, permitting point births/deaths.

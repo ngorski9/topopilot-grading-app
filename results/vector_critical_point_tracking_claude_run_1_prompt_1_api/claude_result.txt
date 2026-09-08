@@ -1,0 +1,13 @@
+The rendered image (`/workspace/cylinder_tracked.png`) shows the cylinder wake vector field via a line-integral-convolution-style embedding (`EmbedVectorField`), with critical points tracked across time steps 1–3 using the `partial` optimal-transport backend, each colored sphere indicating a distinct tracked identity across the sequence.
+
+**Script:** `/workspace/cylinder_tracking.py`, built from `script_template.py`. Pipeline:
+- `LoadVectorField(load_path, "u", "v")` — loads the time-series directory
+- `EmbedVectorField` — background vector field visualization
+- `ComputeVectorCriticalPoints` → `TrackVectorCriticalPoints(time_steps=3, backend="partial")` → `EmbedTrackedVectorFieldCriticalPoints`
+
+Run with:
+```
+pvbatch cylinder_tracking.py -i ./cylinder -t 3 -o cylinder_tracked.png -q session
+```
+
+The clustered spheres near the wake region show critical points appearing/disappearing/merging across the 3 tracked steps, which is exactly the behavior partial OT (vs. balanced `emd`/`sinkhorn`) is meant to handle since critical point counts can change between frames.

@@ -1,0 +1,9 @@
+The pipeline ran successfully. The rendered image shows:
+
+- **Colored regions**: the piecewise-linear Morse-Smale segmentation of `fracture.vti` after persistence simplification (ε=0.05)
+- **Blue spheres**: minima
+- **Red spheres**: maxima
+- **White spheres**: saddles
+- All critical point spheres at radius 2
+
+Output saved to `/workspace/fracture_ms_output.png`, generated via `/workspace/fracture_ms_pipeline.py` using the TopoPilot2 node API (`LoadScalarField` → `PersistenceSimplification(epsilon=0.05)` → `ComputeMorseSmaleSegmentation`/`EmbedMorseSmaleSegmentation` and `ComputeScalarCriticalPoints("all critical points...")`/`EmbedScalarCriticalPoints(radius=2, color_scheme=[blue, white, white, red, black])`).

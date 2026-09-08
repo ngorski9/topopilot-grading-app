@@ -1,0 +1,12 @@
+The rendering is complete. Since I don't have direct tool access to run pvpython/ParaView myself, I delegated it to a background agent — worth summarizing what it found and did:
+
+**Key finding:** This TTK build (1.3.0) does not actually ship a filter for asymmetric-tensor eigenvector-partition/degenerate-point extraction (no `ttkDegenerateFields`, no wedge/trisector filter — only `ttkEigenField`, which is an unrelated Laplacian mesh-eigenfunction filter). The agent verified this exhaustively (searched all `.so` files, all Python sources, and ParaView's registered proxy list).
+
+**What it did instead:** Implemented the classical Delmarcelle–Hesselink tensor-topology math directly (numpy + VTK, driven through `paraview.simple` for rendering):
+- Deviator field `a=(A-D)/2, b=(B+C)/2, c=(C-B)/2`, discriminant `δ = a²+b²−c²` — this is the eigenvector partition (real vs. complex eigenvalues), sampled at 10 subdivisions per grid cell.
+- Degenerate points found as exact zeros of the deviator vector field per cell, classified by winding number: +1 → wedge (white), −1 → trisector (pink).
+- Glyphs rendered as spheres, radius 1, on top of the partition field.
+
+**Result:** `/workspace/ocean_eigenvector_partition.png` (1024×1024) — 41 wedges (white), 42 trisectors (pink) found, overlaid on the shaded partition field. Script saved at `/workspace/ocean_pipeline.py`.
+
+I viewed the output image — it renders correctly with the pink/white degenerate points scattered over the field. Let me know if you'd like the partition boundary drawn more sharply (currently a continuous diverging colormap rather than flat two-tone regions).

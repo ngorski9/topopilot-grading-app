@@ -1,0 +1,6 @@
+Rendered and verified the requested visualization.
+
+- Output: [Ocean_eigenvector_partition.png](/workspace/Ocean_eigenvector_partition.png)
+- Reproducible TopoPilot2 script: [render_ocean_partition.py](/workspace/render_ocean_partition.py)
+
+It uses resolution 10, overlays all 90 degenerate points at radius 1, with trisectors pink and wedges white.

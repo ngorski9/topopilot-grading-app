@@ -1,0 +1,8 @@
+Rendered successfully: [fracture_morse_smale.png](/workspace/fracture_morse_smale.png).
+
+Used persistence simplification ε = 0.05 with the piecewise-linear Morse–Smale segmentation and 56 critical points:
+- 15 minima — blue
+- 31 saddles — white
+- 10 maxima — red
+
+The reproducible TopoPilot2 script is [render_fracture_morse_smale.py](/workspace/render_fracture_morse_smale.py).

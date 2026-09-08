@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<VTKFile type="vtkMultiBlockDataSet" version="1.0" byte_order="LittleEndian" header_type="UInt32" compressor="vtkZLibDataCompressor">
+  <vtkMultiBlockDataSet>
+    <DataSet index="0" file="cloud_3steps/cloud_3steps_0.vti"/>
+    <DataSet index="1" file="cloud_3steps/cloud_3steps_1.vti"/>
+    <DataSet index="2" file="cloud_3steps/cloud_3steps_2.vti"/>
+  </vtkMultiBlockDataSet>
+</VTKFile>

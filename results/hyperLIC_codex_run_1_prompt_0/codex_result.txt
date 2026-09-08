@@ -1,0 +1,8 @@
+Created the ParaView visualization and saved it as [brain_degeneracies.pvsm](/workspace/brain_degeneracies.pvsm).
+
+It includes the tensor dataset plus 371 degenerate points:
+- 184 trisectors in pink
+- 187 wedges in white
+- spherical glyph radius 1
+
+A rendered preview is available at [brain_degeneracies.png](/workspace/brain_degeneracies.png), with point data in [brain_degenerate_points.vtp](/workspace/brain_degenerate_points.vtp).

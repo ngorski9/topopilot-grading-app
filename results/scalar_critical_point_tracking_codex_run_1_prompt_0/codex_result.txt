@@ -1,0 +1,8 @@
+Completed the visualization pipeline.
+
+- [Visualization PNG](/workspace/output/cloud_emd_tracking.png)
+- [ParaView state](/workspace/output/cloud_emd_tracking.pvsm)
+- [Tracked maxima geometry](/workspace/output/emd_maxima_tracks.vtp)
+- [Reproducible script](/workspace/build_cloud_tracking.py)
+
+It uses `cloud1.vti`–`cloud3.vti`, TTK persistence simplification at absolute threshold 0.5, EMD/optimal-transport tracking, 2-unit spheres, and a warm–cold scalar colormap.

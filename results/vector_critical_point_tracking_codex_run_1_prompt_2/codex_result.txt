@@ -1,0 +1,9 @@
+Completed the three-step partial-OT critical-point tracking.
+
+- Found 70, 68, and 68 critical points in steps 1–3.
+- Matched 63 (step 1→2) and 62 (step 2→3) correspondences using POT partial Wasserstein transport.
+- Saved the combined vector-field/critical-point/trajectory visualization: [cylinder_partial_ot_tracking.png](/workspace/cylinder_tracking/cylinder_partial_ot_tracking.png)
+- Saved ParaView-readable tracked points: [tracked_critical_points.vtp](/workspace/cylinder_tracking/tracked_critical_points.vtp)
+- Saved CSV and full transport correspondences: [critical_points.csv](/workspace/cylinder_tracking/critical_points.csv), [partial_ot_matches.json](/workspace/cylinder_tracking/partial_ot_matches.json)
+
+The reproducible workflow is in [track_cylinder.py](/workspace/track_cylinder.py).

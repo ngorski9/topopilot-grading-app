@@ -1,0 +1,6 @@
+Completed the TopoPilot2 workflow.
+
+- Original scalar field (step 1): [cloud_original_scalar.png](/workspace/cloud_original_scalar.png)
+- Simplified field with EMD-tracked piecewise-linear maxima at step 3: [cloud_tracked_maxima_t3.png](/workspace/cloud_tracked_maxima_t3.png)
+
+The tracking uses persistence simplification `epsilon=0.5`, 3 time steps, EMD, radius `2.0`, and the `cool warm` colormap. Reproducible scripts are [cloud_original_scalar.py](/workspace/cloud_original_scalar.py) and [cloud_tracked_maxima.py](/workspace/cloud_tracked_maxima.py).

@@ -1,0 +1,8 @@
+Completed and opened the ParaView view.
+
+- Persistence simplification: absolute value `0.04`
+- Filtration: sublevel set
+- Diagram: piecewise-linear persistence diagram
+- Shown pair orders: 0 (blue) and 2 (red)
+
+Artifacts: [ParaView state](sandbox:/workspace/QMCPACK_persistence_diagram.pvsm) and [rendered diagram](sandbox:/workspace/QMCPACK_persistence_diagram.png).

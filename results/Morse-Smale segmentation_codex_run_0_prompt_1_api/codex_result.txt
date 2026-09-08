@@ -1,0 +1,11 @@
+Created and rendered the requested TopoPilot2 visualization.
+
+- Simplification persistence: `0.05`
+- Piecewise-linear Morse–Smale segmentation displayed
+- Critical points overlaid, radius `2`:
+  - minima: blue
+  - saddles: white
+  - maxima: red
+
+Output: [fracture_morse_smale.png](/workspace/fracture_morse_smale.png)  
+Pipeline script: [fracture_morse_smale.py](/workspace/fracture_morse_smale.py)

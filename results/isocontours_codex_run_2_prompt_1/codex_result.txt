@@ -1,0 +1,7 @@
+Completed the TTK persistence simplification at threshold 0.04 and rendered the requested visualization.
+
+- [Rendered PNG](/workspace/output/QMCPACK_persistence_004.png)
+- [ParaView state](/workspace/output/QMCPACK_persistence_004.pvsm)
+- [Reproducible script](/workspace/render_qmcpack.py)
+
+The four isocontours use volume quantiles (0.39313, 0.40440, 0.40960, 0.41858), creating five equally sized sampled-volume regions.

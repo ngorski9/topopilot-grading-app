@@ -1,0 +1,11 @@
+Completed the 3-step TTK persistence/EMD tracking workflow.
+
+Outputs:
+
+- [Visualization PNG](/workspace/output/cloud_tracking.png)
+- [Tracked maxima with TrackId](/workspace/output/tracked_maxima.vtp)
+- [EMD piecewise-linear track segments](/workspace/output/emd_tracks.vtp)
+- [Reproducible script](/workspace/track_cloud.py)
+- [Run summary](/workspace/output/README.txt)
+
+Used `cloud1.vti` through `cloud3.vti`, persistence threshold 0.5, sphere radius 2, and a warm-cold scalar colormap. Maxima counts were 3145, 2925, and 2818 respectively.

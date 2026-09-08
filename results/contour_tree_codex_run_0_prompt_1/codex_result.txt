@@ -1,0 +1,8 @@
+Completed the ParaView/TTK workflow.
+
+- Original scalar field, Viridis: [ionization_original_viridis.png](/workspace/ionization_original_viridis.png)
+- Simplified piecewise-linear contour tree: [ionization_simplified_contour_tree.png](/workspace/ionization_simplified_contour_tree.png)
+- Reopenable ParaView state: [ionization_contour_tree.pvsm](/workspace/ionization_contour_tree.pvsm)
+- Reproducible rendering script: [render_ionization.py](/workspace/render_ionization.py)
+
+The state imports all 21 Ionization frames, applies normalized persistence simplification of 0.1, and uses radius-2 glyphs with the requested critical-point colors and edge thickness 1.

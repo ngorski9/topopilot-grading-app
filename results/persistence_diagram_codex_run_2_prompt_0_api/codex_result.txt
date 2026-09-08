@@ -1,0 +1,6 @@
+Created the requested TopoPilot2 visualization.
+
+- [Persistence diagram PNG](/workspace/qmcpack_persistence_diagram_orders_0_2.png)
+- [Reproducible TopoPilot2 script](/workspace/qmcpack_persistence_diagram.py)
+
+It loads `Scalars_`, applies relative persistence simplification at `0.04`, then renders the FTM sublevel-set persistence diagram, which provides orders 0 and 2 for this 3D field.

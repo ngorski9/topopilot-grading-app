@@ -1,0 +1,7 @@
+Completed the requested TopoPilot2 visualization.
+
+- Animation: [ionization_contour_tree.mp4](/workspace/ionization_contour_tree.mp4)
+- First-frame preview: [ionization_preview.png](/workspace/ionization_preview.png)
+- Reproducible pipeline: [ionization_topopilot.py](/workspace/ionization_topopilot.py)
+
+It uses raw `Scalars_` in viridis; topology from persistence simplification `epsilon=0.1`; contour-tree edges radius 1 and vertices radius 2; minima blue, 1-saddles white, 2-saddles orange, and maxima red.

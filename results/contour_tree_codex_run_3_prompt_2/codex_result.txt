@@ -1,0 +1,10 @@
+Done. Open [Ionization_contour_tree.pvsm](/workspace/Ionization_contour_tree.pvsm) in ParaView.
+
+It loads all 21 timesteps and includes:
+
+- Raw scalar slice colored with Viridis
+- Persistence simplification threshold `0.1`
+- Simplified contour-tree edges tubed at radius `1`
+- Critical vertices as radius-`2` spheres: maxima red, 2-saddles orange, 1-saddles white, minima blue
+
+A rendered preview is available at [Ionization_contour_tree.png](/workspace/Ionization_contour_tree.png). The reproducible builder is [build_ionization_view.py](/workspace/build_ionization_view.py).

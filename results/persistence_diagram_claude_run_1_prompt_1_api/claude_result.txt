@@ -1,0 +1,3 @@
+The persistence diagram now renders correctly and fits the view. The pipeline loaded `QMCPACK.vti` as a scalar field (`Scalars_`), applied persistence simplification with a relative threshold of 0.04, and computed/displayed the piecewise-linear persistence diagram — TopoPilot's `ComputePersistenceDiagram` node uses the FTM backend, which inherently produces the order-0 and order-(D-1) diagram from the sublevel set filtration (here D=3, so orders 0 and 2), matching the request exactly.
+
+Output saved to `/workspace/qmcpack_persistence_diagram.png`, script at `/workspace/qmcpack_pd.py`.

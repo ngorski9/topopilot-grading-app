@@ -1,0 +1,1 @@
+The tensor field renders with degenerate points overlaid (pink trisectors, white wedges, radius 1). Rendered to `/workspace/brain_output.png` using `/workspace/brain_pipeline.py`.

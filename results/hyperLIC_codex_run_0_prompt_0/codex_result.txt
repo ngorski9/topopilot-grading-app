@@ -1,0 +1,7 @@
+Created the ParaView visualization with radius-1 degenerate-point spheres:
+
+- Trisectors: pink (313)
+- Wedges: white (316)
+- Dataset shown as a translucent tensor-component field
+
+Open [brain_degenerate_points.pvsm](/workspace/brain_degenerate_points.pvsm) in ParaView. A rendered preview is at [brain_degenerate_points.png](/workspace/brain_degenerate_points.png).

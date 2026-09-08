@@ -1,0 +1,10 @@
+This is a proper persistence diagram. All pairs sit above the diagonal as expected, with H0 (min-saddle, blue) pairs clustered near the bottom-left and H2 (saddle-max, red) pairs offset toward larger birth/death values, correctly reflecting the piecewise-linear sub-level set filtration.
+
+Summary of the pipeline (script at `/workspace/ttk_persistence_diagram.py`):
+
+1. **Read** `QMCPACK.vti` (scalar array `Scalars_`) with `XMLImageDataReader`.
+2. **Compute initial persistence diagram** via `TTKPersistenceDiagram` (sub-level set filtration).
+3. **Simplify** the scalar field with `TTKTopologicalSimplification` (LTS backend), using the initial diagram as constraints and `Threshold = 0.04` on `Persistence`.
+4. **Recompute the persistence diagram** on the simplified field — this is the piecewise-linear diagram reflecting the simplified filtration.
+5. **Filter to H0/H2** using `PairType` (0 = min-saddle, 2 = saddle-max), discarding the H1 saddle-saddle pairs.
+6. **Export** `.vtu` data (`persistence_diagram_h0_h2.vtu`, `persistence_diagram_full.vtu`) and **render** a proper birth/death scatter diagram (`persistence_diagram_h0_h2.png`), shown above — 33 H0 pairs and 6 H2 pairs survive the 0.04 simplification.

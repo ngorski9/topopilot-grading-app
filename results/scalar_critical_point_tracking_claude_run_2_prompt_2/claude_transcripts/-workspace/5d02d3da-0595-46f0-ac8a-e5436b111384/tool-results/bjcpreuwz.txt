@@ -1,0 +1,251 @@
+[32;1m[Common] [0m[32;1m                           [0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m
+[32;1m[Common] [0m[32;1m                    ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m
+[32;1m[Common] [0m[32;1m                [0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m
+[32;1m[Common] [0m[32;1m             ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░[0m[2;1m░[0m[2;1m▒░░░▒▒░[0m[32;1m░[0m[32;1m░[0m[32;1m▒▒▒▒▒▒▒[0m
+[32;1m[Common] [0m[32;1m          ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[2;1m░[0m[30;1m░[0m[30;1m░░░[0m[2;1m░   [0m[34;1m░[0m[34;1m░░░░░░[0m[30;1m░[0m[30;1m░░░▒[0m[2;1m▒[0m[32;1m▒[0m[32;1m▒▒▒▒[0m
+[32;1m[Common] [0m[32;1m        ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░[0m[30;1m░                    [0m[34;1m░[0m[34;1m░░[0m[30;1m░[0m[30;1m░░[0m[32;1m░[0m[32;1m▒▒▒[0m
+[32;1m[Common] [0m[32;1m      ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[2;1m░[0m[30;1m░    [0m[30;1m▒▒▒▒▒▒▒▒▒▒▒▒          [0m[34;1m░[0m[34;1m▒▒ [0m[30;1m░[0m[2;1m░[0m[32;1m▒[0m[32;1m▒▒[0m
+[32;1m[Common] [0m[32;1m     ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[30;1m░[0m[30;1m░   ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░▒▒       [0m[34;1m░[0m[34;1m░▒ [0m[30;1m░[0m[30;1m░[0m[32;1m▒[0m[32;1m▒[0m
+[32;1m[Common] [0m[32;1m    ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[30;1m░[0m[30;1m░  [0m[2;1m▒[0m[2;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[30;1m▒[0m[30;1m▒▒▒▒░▒▒    [0m[34;1m░[0m[34;1m░░░▒ [0m[30;1m░[0m[2;1m░[0m[32;1m▒[0m[32;1m▒[0m
+[32;1m[Common] [0m[32;1m   ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[30;1m░[0m[30;1m░ ▒[0m[2;1m▒[0m[2;1m▒▒▒▒▒[0m[2;1m▒[0m[2;1m▒▒▒[0m[37;1m▒[0m[37;1m▄[0m[37;1m▓█[0m[37;1m█▓████[0m[37;1m█▓▄[0m[2;1m▄[0m[2;1m░[0m[30;1m░[0m[30;1m░▒   [0m[34;1m░[0m[34;1m░░░░░[0m[30;1m░[0m[30;1m░[0m[32;1m░[0m[32;1m▒[0m
+[32;1m[Common] [0m[32;1m  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░  [0m[2;1m▒[0m[2;1m▒▒▒[0m[2;1m▒[0m[2;1m▒▒▒▒▓[0m[37;1m▓[0m[37;1m▓▀[0m[2;1m▀[0m[2;1m▀▀[0m[37;1m▀[0m[37;1m▀[0m[37;1m▀████▓▓▓▓[0m[2;1m▄[0m[30;1m░[0m[30;1m░   [0m[34;1m░[0m[34;1m░░░░▒ [0m[30;1m░[0m[2;1m░[0m[32;1m▒[0m
+[32;1m[Common] [0m[32;1m ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m░[0m[30;1m░ [0m[30;1m▒[0m[2;1m▒[0m[2;1m▒▒[0m[2;1m▒[0m[2;1m▒▒▒▒           [0m[30;1m░[0m[30;1m░[0m[2;1m░[0m[37;1m▀[0m[37;1m██▓▓▓▓[0m[2;1m▓[0m[30;1m░[0m[2;1m░    [0m[34;1m░[0m[34;1m░░▒ [0m[30;1m░[0m[2;1m░[0m[32;1m▒[0m
+[32;1m[Common] [0m[32;1m ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m▒[0m[32;1m░[0m[30;1m░ [0m[30;1m▒[0m[2;1m▒[0m[2;1m▒▒▒▒                  [0m[30;1m░[0m[2;1m▀[0m[37;1m█[0m[37;1m█▓▓▓[0m[37;1m▓[0m[2;1m░    [0m[34;1m░[0m[34;1m░░░▒ [0m[30;1m░[0m[32;1m░[0m[32;1m░[0m
+[32;1m[Common] [0m[32;1m ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m▒[0m[32;1m░[0m[32;1m▒[0m[30;1m░[0m[30;1m░ [0m[2;1m▒[0m[2;1m▒▒                     [0m[30;1m░[0m[30;1m░[0m[37;1m▀[0m[37;1m▓[0m[37;1m▓▓[0m[37;1m▓▒[0m[2;1m░    [0m[34;1m░[0m[34;1m░░▒░[0m[30;1m░[0m[30;1m░[0m[32;1m▒[0m
+[32;1m[Common] [0m[32;1m ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░[0m[30;1m░ [0m[30;1m▒▒                        ░[0m[2;1m▐[0m[37;1m▓[0m[37;1m▓[0m[37;1m▓▒[0m[37;1m▒    [0m[34;1m░[0m[34;1m░░░▒ [0m[30;1m░[0m[32;1m░[0m
+[32;1m[Common] [0m[32;1m ░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░                         [0m[32;1m░[0m[30;1m░[0m[30;1m░[0m[37;1m▐[0m[37;1m▓[0m[37;1m▓[0m[37;1m▒[0m[2;1m▒[0m[2;1m▒ [0m[34;1m░[0m[34;1m░░░░▒▒ [0m[30;1m░[0m[2;1m░[0m[32;1m▒[0m
+[32;1m[Common] [0m[30;1m░[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░                        ░░[0m[30;1m░[0m[2;1m▐[0m[37;1m▓[0m[37;1m▒[0m[37;1m▒[0m[2;1m▒[0m[30;1m░[0m[34;1m░[0m[34;1m░░░░░▒▒ [0m[30;1m░[0m[30;1m░[0m[32;1m▒[0m
+[32;1m[Common] [0m[30;1m░[0m[32;1m░[0m[32;1m░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░                   ░░░░░[0m[30;1m░[0m[2;1m▐[0m[37;1m▓[0m[37;1m▒[0m[2;1m▒[0m[2;1m▒[0m[34;1m░[0m[34;1m░░░░░░▒▒ [0m[30;1m░[0m[30;1m░[0m
+[32;1m[Common] [0m[32;1m  ░[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░           ░░░░░░▒[0m[30;1m▒[0m[30;1m░[0m[37;1m▓[0m[37;1m▒[0m[2;1m▒[0m[2;1m▒[0m[30;1m░[0m[34;1m░[0m[34;1m░░░░░▒▒▒░[0m[30;1m░[0m[32;1m░[0m
+[32;1m[Common] [0m[32;1m   [0m[30;1m░[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░[0m[30;1m░ [0m[37;1m▓[0m[2;1m▒[0m[2;1m▒[0m[30;1m░[0m[34;1m░[0m[34;1m░░░░▒▒▒▒▒[0m[30;1m░[0m[30;1m░[0m[32;1m░[0m
+[32;1m[Common] [0m[32;1m    [0m[30;1m░[0m[32;1m░[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m▒▒[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░▒░[0m[30;1m░[0m[30;1m░[0m[37;1m▓[0m[2;1m▒[0m[2;1m▒[0m[30;1m░[0m[34;1m▒[0m[34;1m░░▒▒▒▒▒▒▒░[0m[30;1m░[0m[30;1m░[0m
+[32;1m[Common] [0m[32;1m     ░░[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m▒▓▓▓▒▒[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░ [0m[2;1m▓[0m[2;1m▒[0m[30;1m░ [0m[34;1m▒[0m[34;1m▒▒▒▒▒▒▒▒▒▒[0m[30;1m░[0m[30;1m░[0m[32;1m▒[0m
+[32;1m[Common] [0m[32;1m      [0m[34;1m▒[0m[30;1m░[0m[2;1m░[0m[32;1m░[0m[32;1m▒▒▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m▒[0m[37;1m▓[0m[37;1m▓▓[0m[32;1m▓[0m[32;1m▒[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░[0m[30;1m░ [0m[37;1m▒[0m[2;1m▒  [0m[34;1m▒[0m[34;1m▒▒▒▒▒▒▒▒▒▒[0m[30;1m░[0m[30;1m░[0m[32;1m░[0m
+[32;1m[Common] [0m[32;1m      [0m[34;1m░[0m[34;1m░░[0m[30;1m░[0m[30;1m░[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░[0m[30;1m░ [0m[2;1m▒[0m[2;1m▒   [0m[34;1m▒[0m[34;1m▒▒▒▒▒▒▒▒▒▒[0m[30;1m░[0m[30;1m░[0m[32;1m░[0m
+[32;1m[Common] [0m[32;1m       [0m[34;1m░[0m[34;1m░░░░[0m[30;1m░[0m[2;1m░[0m[32;1m░[0m[32;1m▒▒▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m▒[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░[0m[30;1m░░[0m[2;1m░[0m[2;1m▒     [0m[34;1m▒[0m[34;1m▒▒▒▒▒▒▒▒▒▒[0m[30;1m░[0m[30;1m░[0m[32;1m░[0m
+[32;1m[Common] [0m[32;1m         [0m[34;1m▒[0m[34;1m░░░░░[0m[30;1m░[0m[30;1m░[0m[2;1m░[0m[32;1m░[0m[32;1m░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[2;1m░[0m[30;1m░[0m[30;1m░░ [0m[2;1m░       [0m[34;1m░[0m[34;1m▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░[0m[30;1m░[0m
+[32;1m[Common] [0m[32;1m          [0m[34;1m░[0m[34;1m░░░░░░░░░[0m[30;1m░[0m[30;1m░░░░░░░░░░░░░░░░            [0m[34;1m▒[0m[34;1m▒▒▒▒▒▒▒▒▒░[0m[30;1m░[0m[30;1m░[0m
+[32;1m[Common] [0m[32;1m            [0m[34;1m░[0m[34;1m▒░░░░░░░░░░                       ▒▒▒▒▒▒▒[0m[36;1m▒[0m[36;1m▒[0m[34;1m▒[0m[34;1m░[0m[30;1m░[0m[30;1m░[0m
+[32;1m[Common] [0m[32;1m              [0m[34;1m░[0m[34;1m▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░ ░▒[0m[36;1m▒[0m[36;1m▒▒▒▒▒▒[0m[34;1m░[0m[30;1m░[0m[30;1m░[0m[30;1m░[0m
+[32;1m[Common] [0m[32;1m                 [0m[34;1m░[0m[34;1m░▒░░░░░░░░░░░░░░░░░░░░░░░▒[0m[36;1m▒[0m[36;1m▒▒▒▒▒[0m[34;1m▒[0m[34;1m░[0m[30;1m░[0m[30;1m░[0m[30;1m░[0m
+[32;1m[Common] [0m[32;1m                      [0m[34;1m░[0m[34;1m░▒░░░░░░░░░░░░░░░▒[0m[36;1m▒[0m[36;1m▒▒[0m[34;1m▒[0m[34;1m▒░░[0m[30;1m░[0m[30;1m░░[0m
+[32;1m[Common] [0m[32;1m                              [0m[34;1m░[0m[34;1m░░░░░░░░░░[0m[30;1m░[0m[30;1m░▒░[0m
+[32;1m[Common] [0m[0;1m _____ _____ _  __                   __  __    ____   ___ ____  _  _[0m
+[32;1m[Common] [0m[0;1m|_   _|_   _| |/ /                  / /__\ \  |___ \ / _ \___ \| || |[0m
+[32;1m[Common] [0m[0;1m  | |   | | | ' /                  | |/ __| |   __) | | | |__) | || |_[0m
+[32;1m[Common] [0m[0;1m  | |   | | | . \                  | | (__| |  / __/| |_| / __/|__   _|[0m
+[32;1m[Common] [0m[0;1m  |_|   |_| |_|\_\                 | |\___| | |_____|\___/_____|  |_|[0m
+[32;1m[Common] [0m[0;1m                                    \_\  /_/[0m
+[32;1m[Common] [0m[0;1mWelcome![0m
+[32;1m[PersistenceDiagram] [0m%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%[34;1m[0m
+[32;1m[PersistenceDiagram] [0m-----------------------------------------------------------[34;1m[0m
+[32;1m[PersistenceDiagram] [0m[33;1m[WARNING][0m No pre-existing order for array:
+[32;1m[PersistenceDiagram] [0m[33;1m[WARNING][0m   `Scalars_`.
+[32;1m[PersistenceDiagram] [0mInitializing order array. .................[34;1m [0.000s|20T|0%][0m[32;1m[PersistenceDiagram] [0m-----------------------------------------------------------[34;1m[0m
+[32;1m[PersistenceDiagram] [0mInitializing order array. ...............[34;1m [0.044s|20T|100%][0m
+[32;1m[PersistenceDiagram] [0m-----------------------------------------------------------[34;1m[0m
+[32;1m[PersistenceDiagram] [0m[33;1m[WARNING][0m TIP: run `ttkArrayPreconditioning` first
+[32;1m[PersistenceDiagram] [0m[33;1m[WARNING][0m for improved performances :)
+[32;1m[PersistenceDiagram] [0m-----------------------------------------------------------[34;1m[0m
+[32;1m[PersistenceDiagram] [0m===========================================================[34;1m[0m
+[32;1m[DiscreteGradient] [0m#Vertices : 65536 
+[32;1m[DiscreteGradient] [0m#Edges    : 195585
+[32;1m[DiscreteGradient] [0m#Triangles: 130050
+[32;1m[DiscreteGradient] [0mInitialized discrete gradient memory ......[34;1m [0.006s|20T|100%][0m
+[32;1m[DiscreteGradient] [0mBuilt discrete gradient ...................[34;1m [0.018s|20T|100%][0m
+[32;1m[DiscreteMorseSandwich] [0mComputed 2305 min-saddle pairs .......[34;1m [0.024s|20T|100%][0m
+[32;1m[DiscreteMorseSandwich] [0mComputed 3753 saddle-max pairs .......[34;1m [0.024s|20T|100%][0m
+[32;1m[DiscreteMorseSandwich] [0mComputed 6059 persistence pairs ......[34;1m [0.189s|20T|100%][0m
+[32;1m[PersistenceDiagram] [0mComplete ................................[34;1m [0.235s|20T|100%][0m
+[32;1m[PersistenceDiagram] [0m===========================================================[34;1m[0m
+[32;1m[TopologicalSimplification] [0m%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%[34;1m[0m
+[32;1m[TopologicalSimplification] [0m----------------------------------------------------[34;1m[0m
+[32;1m[TopologicalSimplification] [0m[33;1m[WARNING][0m No pre-existing order for array:
+[32;1m[TopologicalSimplification] [0m[33;1m[WARNING][0m   `Scalars_`.
+[32;1m[TopologicalSimplification] [0mInitializing order array. ..........[34;1m [0.000s|20T|0%][0m[32;1m[TopologicalSimplification] [0m----------------------------------------------------[34;1m[0m
+[32;1m[TopologicalSimplification] [0mInitializing order array. ........[34;1m [0.031s|20T|100%][0m
+[32;1m[TopologicalSimplification] [0m----------------------------------------------------[34;1m[0m
+[32;1m[TopologicalSimplification] [0m[33;1m[WARNING][0m TIP: run `ttkArrayPreconditioning` first
+[32;1m[TopologicalSimplification] [0m[33;1m[WARNING][0m for improved performances :)
+[32;1m[TopologicalSimplification] [0m----------------------------------------------------[34;1m[0m
+[32;1m[LTS] [0mAllocating Memory ........................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mAllocating Memory ......................................[34;1m [0.001s|20T|100%][0m
+[32;1m[LTS] [0m----------- [Removing Unauthorized Maxima] -------------------------------[34;1m[0m
+[32;1m[LTS] [0mInitializing Memory ......................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mInitializing Memory ....................................[34;1m [0.005s|20T|100%][0m
+[32;1m[LTS] [0mInitializing Propagations ................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mInitializing Propagations (3856|65536) .................[34;1m [0.012s|20T|100%][0m
+[32;1m[LTS] [0mComputing Propagations (3856) ............................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mComputing Propagations (3856) ..........................[34;1m [0.007s|20T|100%][0m
+[32;1m[LTS] [0mFinalizing Propagations (3856) ...........................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mFinalizing Propagations (901|0.23|0.46) ................[34;1m [0.000s|20T|100%][0m
+[32;1m[LTS] [0mComputing Segments (901) .................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mComputing Segments (901) ...............................[34;1m [0.005s|20T|100%][0m
+[32;1m[LTS] [0mComputing Local Order of Segments (901) ..................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mComputing Local Order of Segments (901) ................[34;1m [0.015s|20T|100%][0m
+[32;1m[LTS] [0mFlattening Order Array ...................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mFlattening Order Array .................................[34;1m [0.006s|20T|100%][0m
+[32;1m[LTS] [0mComputing Global Order ..................................[34;1m [0.006s|20T|20%][0m[32;1m[LTS] [0mComputing Global Order ..................................[34;1m [0.038s|20T|80%][0m[32;1m[LTS] [0mComputing Global Order .................................[34;1m [0.050s|20T|100%][0m
+[32;1m[LTS] [0m----------- [Removing Unauthorized Minima] -------------------------------[34;1m[0m
+[32;1m[LTS] [0mInverting Order ..........................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mInverting Order ........................................[34;1m [0.012s|20T|100%][0m
+[32;1m[LTS] [0mInitializing Memory ......................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mInitializing Memory ....................................[34;1m [0.006s|20T|100%][0m
+[32;1m[LTS] [0mInitializing Propagations ................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mInitializing Propagations (1613|65536) .................[34;1m [0.014s|20T|100%][0m
+[32;1m[LTS] [0mComputing Propagations (1613) ............................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mComputing Propagations (1613) ..........................[34;1m [0.006s|20T|100%][0m
+[32;1m[LTS] [0mFinalizing Propagations (1613) ...........................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mFinalizing Propagations (671|0.42|0.50) ................[34;1m [0.000s|20T|100%][0m
+[32;1m[LTS] [0mComputing Segments (671) .................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mComputing Segments (671) ...............................[34;1m [0.009s|20T|100%][0m
+[32;1m[LTS] [0mComputing Local Order of Segments (671) ..................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mComputing Local Order of Segments (671) ................[34;1m [0.021s|20T|100%][0m
+[32;1m[LTS] [0mFlattening Order Array ...................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mFlattening Order Array .................................[34;1m [0.012s|20T|100%][0m
+[32;1m[LTS] [0mComputing Global Order ..................................[34;1m [0.013s|20T|20%][0m[32;1m[LTS] [0mComputing Global Order ..................................[34;1m [0.049s|20T|80%][0m[32;1m[LTS] [0mComputing Global Order .................................[34;1m [0.061s|20T|100%][0m
+[32;1m[LTS] [0mInverting Order ..........................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mInverting Order ........................................[34;1m [0.012s|20T|100%][0m
+[32;1m[LTS] [0mFlattening Scalar Array ..................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mFlattening Scalar Array ................................[34;1m [0.024s|20T|100%][0m
+[32;1m[LTS] [0m--------------------------------------------------------------------------[34;1m[0m
+[32;1m[LTS] [0mComplete ...............................................[34;1m [0.278s|20T|100%][0m
+[32;1m[LTS] [0m==========================================================================[34;1m[0m
+[32;1m[PersistenceDiagram] [0m%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%[34;1m[0m
+[32;1m[PersistenceDiagram] [0m===========================================================[34;1m[0m
+[32;1m[DiscreteGradient] [0m#Vertices : 65536 
+[32;1m[DiscreteGradient] [0m#Edges    : 195585
+[32;1m[DiscreteGradient] [0m#Triangles: 130050
+[32;1m[DiscreteGradient] [0mInitialized discrete gradient memory ......[34;1m [0.007s|20T|100%][0m
+[32;1m[DiscreteGradient] [0mBuilt discrete gradient ...................[34;1m [0.014s|20T|100%][0m
+[32;1m[DiscreteMorseSandwich] [0mComputed 0 min-saddle pairs ..........[34;1m [0.013s|20T|100%][0m
+[32;1m[DiscreteMorseSandwich] [0mComputed 4 saddle-max pairs ..........[34;1m [0.009s|20T|100%][0m
+[32;1m[DiscreteMorseSandwich] [0mComputed 5 persistence pairs .........[34;1m [0.106s|20T|100%][0m
+[32;1m[PersistenceDiagram] [0mComplete ................................[34;1m [0.158s|20T|100%][0m
+[32;1m[PersistenceDiagram] [0m===========================================================[34;1m[0m
+[32;1m[PersistenceDiagram] [0m%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%[34;1m[0m
+[32;1m[PersistenceDiagram] [0m-----------------------------------------------------------[34;1m[0m
+[32;1m[PersistenceDiagram] [0m[33;1m[WARNING][0m No pre-existing order for array:
+[32;1m[PersistenceDiagram] [0m[33;1m[WARNING][0m   `Scalars_`.
+[32;1m[PersistenceDiagram] [0mInitializing order array. .................[34;1m [0.000s|20T|0%][0m[32;1m[PersistenceDiagram] [0m-----------------------------------------------------------[34;1m[0m
+[32;1m[PersistenceDiagram] [0mInitializing order array. ...............[34;1m [0.037s|20T|100%][0m
+[32;1m[PersistenceDiagram] [0m-----------------------------------------------------------[34;1m[0m
+[32;1m[PersistenceDiagram] [0m[33;1m[WARNING][0m TIP: run `ttkArrayPreconditioning` first
+[32;1m[PersistenceDiagram] [0m[33;1m[WARNING][0m for improved performances :)
+[32;1m[PersistenceDiagram] [0m-----------------------------------------------------------[34;1m[0m
+[32;1m[PersistenceDiagram] [0m===========================================================[34;1m[0m
+[32;1m[DiscreteGradient] [0m#Vertices : 65536 
+[32;1m[DiscreteGradient] [0m#Edges    : 195585
+[32;1m[DiscreteGradient] [0m#Triangles: 130050
+[32;1m[DiscreteGradient] [0mInitialized discrete gradient memory ......[34;1m [0.006s|20T|100%][0m
+[32;1m[DiscreteGradient] [0mBuilt discrete gradient ...................[34;1m [0.008s|20T|100%][0m
+[32;1m[DiscreteMorseSandwich] [0mComputed 2159 min-saddle pairs .......[34;1m [0.026s|20T|100%][0m
+[32;1m[DiscreteMorseSandwich] [0mComputed 3542 saddle-max pairs .......[34;1m [0.025s|20T|100%][0m
+[32;1m[DiscreteMorseSandwich] [0mComputed 5702 persistence pairs ......[34;1m [0.129s|20T|100%][0m
+[32;1m[PersistenceDiagram] [0mComplete ................................[34;1m [0.161s|20T|100%][0m
+[32;1m[PersistenceDiagram] [0m===========================================================[34;1m[0m
+[32;1m[TopologicalSimplification] [0m%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%[34;1m[0m
+[32;1m[TopologicalSimplification] [0m----------------------------------------------------[34;1m[0m
+[32;1m[TopologicalSimplification] [0m[33;1m[WARNING][0m No pre-existing order for array:
+[32;1m[TopologicalSimplification] [0m[33;1m[WARNING][0m   `Scalars_`.
+[32;1m[TopologicalSimplification] [0mInitializing order array. ..........[34;1m [0.000s|20T|0%][0m[32;1m[TopologicalSimplification] [0m----------------------------------------------------[34;1m[0m
+[32;1m[TopologicalSimplification] [0mInitializing order array. ........[34;1m [0.040s|20T|100%][0m
+[32;1m[TopologicalSimplification] [0m----------------------------------------------------[34;1m[0m
+[32;1m[TopologicalSimplification] [0m[33;1m[WARNING][0m TIP: run `ttkArrayPreconditioning` first
+[32;1m[TopologicalSimplification] [0m[33;1m[WARNING][0m for improved performances :)
+[32;1m[TopologicalSimplification] [0m----------------------------------------------------[34;1m[0m
+[32;1m[LTS] [0mAllocating Memory ........................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mAllocating Memory ......................................[34;1m [0.001s|20T|100%][0m
+[32;1m[LTS] [0m----------- [Removing Unauthorized Maxima] -------------------------------[34;1m[0m
+[32;1m[LTS] [0mInitializing Memory ......................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mInitializing Memory ....................................[34;1m [0.009s|20T|100%][0m
+[32;1m[LTS] [0mInitializing Propagations ................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mInitializing Propagations (3634|65536) .................[34;1m [0.012s|20T|100%][0m
+[32;1m[LTS] [0mComputing Propagations (3634) ............................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mComputing Propagations (3634) ..........................[34;1m [0.008s|20T|100%][0m
+[32;1m[LTS] [0mFinalizing Propagations (3634) ...........................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mFinalizing Propagations (564|0.16|0.49) ................[34;1m [0.000s|20T|100%][0m
+[32;1m[LTS] [0mComputing Segments (564) .................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mComputing Segments (564) ...............................[34;1m [0.005s|20T|100%][0m
+[32;1m[LTS] [0mComputing Local Order of Segments (564) ..................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mComputing Local Order of Segments (564) ................[34;1m [0.017s|20T|100%][0m
+[32;1m[LTS] [0mFlattening Order Array ...................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mFlattening Order Array .................................[34;1m [0.006s|20T|100%][0m
+[32;1m[LTS] [0mComputing Global Order ..................................[34;1m [0.006s|20T|20%][0m[32;1m[LTS] [0mComputing Global Order ..................................[34;1m [0.024s|20T|80%][0m[32;1m[LTS] [0mComputing Global Order .................................[34;1m [0.030s|20T|100%][0m
+[32;1m[LTS] [0m----------- [Removing Unauthorized Minima] -------------------------------[34;1m[0m
+[32;1m[LTS] [0mInverting Order ..........................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mInverting Order ........................................[34;1m [0.010s|20T|100%][0m
+[32;1m[LTS] [0mInitializing Memory ......................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mInitializing Memory ....................................[34;1m [0.006s|20T|100%][0m
+[32;1m[LTS] [0mInitializing Propagations ................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mInitializing Propagations (1413|65536) .................[34;1m [0.012s|20T|100%][0m
+[32;1m[LTS] [0mComputing Propagations (1413) ............................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mComputing Propagations (1413) ..........................[34;1m [0.007s|20T|100%][0m
+[32;1m[LTS] [0mFinalizing Propagations (1413) ...........................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mFinalizing Propagations (494|0.35|0.53) ................[34;1m [0.000s|20T|100%][0m
+[32;1m[LTS] [0mComputing Segments (494) .................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mComputing Segments (494) ...............................[34;1m [0.006s|20T|100%][0m
+[32;1m[LTS] [0mComputing Local Order of Segments (494) ..................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mComputing Local Order of Segments (494) ................[34;1m [0.017s|20T|100%][0m
+[32;1m[LTS] [0mFlattening Order Array ...................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mFlattening Order Array .................................[34;1m [0.006s|20T|100%][0m
+[32;1m[LTS] [0mComputing Global Order ..................................[34;1m [0.006s|20T|20%][0m[32;1m[LTS] [0mComputing Global Order ..................................[34;1m [0.024s|20T|80%][0m[32;1m[LTS] [0mComputing Global Order .................................[34;1m [0.030s|20T|100%][0m
+[32;1m[LTS] [0mInverting Order ..........................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mInverting Order ........................................[34;1m [0.006s|20T|100%][0m
+[32;1m[LTS] [0mFlattening Scalar Array ..................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mFlattening Scalar Array ................................[34;1m [0.014s|20T|100%][0m
+[32;1m[LTS] [0m--------------------------------------------------------------------------[34;1m[0m
+[32;1m[LTS] [0mComplete ...............................................[34;1m [0.202s|20T|100%][0m
+[32;1m[LTS] [0m==========================================================================[34;1m[0m
+[32;1m[PersistenceDiagram] [0m%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%[34;1m[0m
+[32;1m[PersistenceDiagram] [0m===========================================================[34;1m[0m
+[32;1m[DiscreteGradient] [0m#Vertices : 65536 
+[32;1m[DiscreteGradient] [0m#Edges    : 195585
+[32;1m[DiscreteGradient] [0m#Triangles: 130050
+[32;1m[DiscreteGradient] [0mInitialized discrete gradient memory ......[34;1m [0.003s|20T|100%][0m
+[32;1m[DiscreteGradient] [0mBuilt discrete gradient ...................[34;1m [0.007s|20T|100%][0m
+[32;1m[DiscreteMorseSandwich] [0mComputed 0 min-saddle pairs ..........[34;1m [0.006s|20T|100%][0m
+[32;1m[DiscreteMorseSandwich] [0mComputed 6 saddle-max pairs ..........[34;1m [0.006s|20T|100%][0m
+[32;1m[DiscreteMorseSandwich] [0mComputed 7 persistence pairs .........[34;1m [0.054s|20T|100%][0m
+[32;1m[PersistenceDiagram] [0mComplete ................................[34;1m [0.081s|20T|100%][0m
+[32;1m[PersistenceDiagram] [0m===========================================================[34;1m[0m
+[32;1m[PersistenceDiagram] [0m%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%[34;1m[0m
+[32;1m[PersistenceDiagram] [0m-----------------------------------------------------------[34;1m[0m
+[32;1m[PersistenceDiagram] [0m[33;1m[WARNING][0m No pre-existing order for array:
+[32;1m[PersistenceDiagram] [0m[33;1m[WARNING][0m   `Scalars_`.
+[32;1m[PersistenceDiagram] [0mInitializing order array. .................[34;1m [0.000s|20T|0%][0m[32;1m[PersistenceDiagram] [0m-----------------------------------------------------------[34;1m[0m
+[32;1m[PersistenceDiagram] [0mInitializing order array. ...............[34;1m [0.053s|20T|100%][0m
+[32;1m[PersistenceDiagram] [0m-----------------------------------------------------------[34;1m[0m
+[32;1m[PersistenceDiagram] [0m[33;1m[WARNING][0m TIP: run `ttkArrayPreconditioning` first
+[32;1m[PersistenceDiagram] [0m[33;1m[WARNING][0m for improved performances :)
+[32;1m[PersistenceDiagram] [0m-----------------------------------------------------------[34;1m[0m
+[32;1m[PersistenceDiagram] [0m===========================================================[34;1m[0m
+[32;1m[DiscreteGradient] [0m#Vertices : 65536 
+[32;1m[DiscreteGradient] [0m#Edges    : 195585
+[32;1m[DiscreteGradient] [0m#Triangles: 130050
+[32;1m[DiscreteGradient] [0mInitialized discrete gradient memory ......[34;1m [0.017s|20T|100%][0m
+[32;1m[DiscreteGradient] [0mBuilt discrete gradient ...................[34;1m [0.009s|20T|100%][0m
+[32;1m[DiscreteMorseSandwich] [0mComputed 2117 min-saddle pairs .......[34;1m [0.024s|20T|100%][0m
+[32;1m[DiscreteMorseSandwich] [0mComputed 3423 saddle-max pairs .......[34;1m [0.024s|20T|100%][0m
+[32;1m[DiscreteMorseSandwich] [0mComputed 5541 persistence pairs ......[34;1m [0.150s|20T|100%][0m
+[32;1m[PersistenceDiagram] [0mComplete ................................[34;1m [0.197s|20T|100%][0m
+[32;1m[PersistenceDiagram] [0m===========================================================[34;1m[0m
+[32;1m[TopologicalSimplification] [0m%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%[34;1m[0m
+[32;1m[TopologicalSimplification] [0m----------------------------------------------------[34;1m[0m
+[32;1m[TopologicalSimplification] [0m[33;1m[WARNING][0m No pre-existing order for array:
+[32;1m[TopologicalSimplification] [0m[33;1m[WARNING][0m   `Scalars_`.
+[32;1m[TopologicalSimplification] [0mInitializing order array. ..........[34;1m [0.000s|20T|0%][0m[32;1m[TopologicalSimplification] [0m----------------------------------------------------[34;1m[0m
+[32;1m[TopologicalSimplification] [0mInitializing order array. ........[34;1m [0.045s|20T|100%][0m
+[32;1m[TopologicalSimplification] [0m----------------------------------------------------[34;1m[0m
+[32;1m[TopologicalSimplification] [0m[33;1m[WARNING][0m TIP: run `ttkArrayPreconditioning` first
+[32;1m[TopologicalSimplification] [0m[33;1m[WARNING][0m for improved performances :)
+[32;1m[TopologicalSimplification] [0m----------------------------------------------------[34;1m[0m
+[32;1m[LTS] [0mAllocating Memory ........................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mAllocating Memory ......................................[34;1m [0.001s|20T|100%][0m
+[32;1m[LTS] [0m----------- [Removing Unauthorized Maxima] -------------------------------[34;1m[0m
+[32;1m[LTS] [0mInitializing Memory ......................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mInitializing Memory ....................................[34;1m [0.004s|20T|100%][0m
+[32;1m[LTS] [0mInitializing Propagations ................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mInitializing Propagations (3515|65536) .................[34;1m [0.015s|20T|100%][0m
+[32;1m[LTS] [0mComputing Propagations (3515) ............................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mComputing Propagations (3515) ..........................[34;1m [0.009s|20T|100%][0m
+[32;1m[LTS] [0mFinalizing Propagations (3515) ...........................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mFinalizing Propagations (537|0.15|0.49) ................[34;1m [0.000s|20T|100%][0m
+[32;1m[LTS] [0mComputing Segments (537) .................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mComputing Segments (537) ...............................[34;1m [0.005s|20T|100%][0m
+[32;1m[LTS] [0mComputing Local Order of Segments (537) ..................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mComputing Local Order of Segments (537) ................[34;1m [0.016s|20T|100%][0m
+[32;1m[LTS] [0mFlattening Order Array ...................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mFlattening Order Array .................................[34;1m [0.006s|20T|100%][0m
+[32;1m[LTS] [0mComputing Global Order ..................................[34;1m [0.006s|20T|20%][0m[32;1m[LTS] [0mComputing Global Order ..................................[34;1m [0.024s|20T|80%][0m[32;1m[LTS] [0mComputing Global Order .................................[34;1m [0.030s|20T|100%][0m
+[32;1m[LTS] [0m----------- [Removing Unauthorized Minima] -------------------------------[34;1m[0m
+[32;1m[LTS] [0mInverting Order ..........................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mInverting Order ........................................[34;1m [0.006s|20T|100%][0m
+[32;1m[LTS] [0mInitializing Memory ......................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mInitializing Memory ....................................[34;1m [0.006s|20T|100%][0m
+[32;1m[LTS] [0mInitializing Propagations ................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mInitializing Propagations (1299|65536) .................[34;1m [0.012s|20T|100%][0m
+[32;1m[LTS] [0mComputing Propagations (1299) ............................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mComputing Propagations (1299) ..........................[34;1m [0.006s|20T|100%][0m
+[32;1m[LTS] [0mFinalizing Propagations (1299) ...........................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mFinalizing Propagations (569|0.44|0.34) ................[34;1m [0.000s|20T|100%][0m
+[32;1m[LTS] [0mComputing Segments (569) .................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mComputing Segments (569) ...............................[34;1m [0.006s|20T|100%][0m
+[32;1m[LTS] [0mComputing Local Order of Segments (569) ..................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mComputing Local Order of Segments (569) ................[34;1m [0.010s|20T|100%][0m
+[32;1m[LTS] [0mFlattening Order Array ...................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mFlattening Order Array .................................[34;1m [0.006s|20T|100%][0m
+[32;1m[LTS] [0mComputing Global Order ..................................[34;1m [0.006s|20T|20%][0m[32;1m[LTS] [0mComputing Global Order ..................................[34;1m [0.024s|20T|80%][0m[32;1m[LTS] [0mComputing Global Order .................................[34;1m [0.030s|20T|100%][0m
+[32;1m[LTS] [0mInverting Order ..........................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mInverting Order ........................................[34;1m [0.006s|20T|100%][0m
+[32;1m[LTS] [0mFlattening Scalar Array ..................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mFlattening Scalar Array ................................[34;1m [0.012s|20T|100%][0m
+[32;1m[LTS] [0m--------------------------------------------------------------------------[34;1m[0m
+[32;1m[LTS] [0mComplete ...............................................[34;1m [0.187s|20T|100%][0m
+[32;1m[LTS] [0m==========================================================================[34;1m[0m
+[32;1m[PersistenceDiagram] [0m%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%[34;1m[0m
+[32;1m[PersistenceDiagram] [0m===========================================================[34;1m[0m
+[32;1m[DiscreteGradient] [0m#Vertices : 65536 
+[32;1m[DiscreteGradient] [0m#Edges    : 195585
+[32;1m[DiscreteGradient] [0m#Triangles: 130050
+[32;1m[DiscreteGradient] [0mInitialized discrete gradient memory ......[34;1m [0.006s|20T|100%][0m
+[32;1m[DiscreteGradient] [0mBuilt discrete gradient ...................[34;1m [0.020s|20T|100%][0m
+[32;1m[DiscreteMorseSandwich] [0mComputed 0 min-saddle pairs ..........[34;1m [0.012s|20T|100%][0m
+[32;1m[DiscreteMorseSandwich] [0mComputed 5 saddle-max pairs ..........[34;1m [0.010s|20T|100%][0m
+[32;1m[DiscreteMorseSandwich] [0mComputed 6 persistence pairs .........[34;1m [0.109s|20T|100%][0m
+[32;1m[PersistenceDiagram] [0mComplete ................................[34;1m [0.173s|20T|100%][0m
+[32;1m[PersistenceDiagram] [0m===========================================================[34;1m[0m
+[32;1m[TrackingFromPersistenceDiagrams] [0m%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%[34;1m[0m
+[32;1m[TrackingFromPersistenceDiagrams] [0mNumber of inputs: 3
+Tracking output points: 20
+Tracking output cells: 10
+bounds: (10.0, 143.0, 34.0, 255.0, 0.0, 0.0)
+ConnectedComponentId
+CriticalType
+TimeStep

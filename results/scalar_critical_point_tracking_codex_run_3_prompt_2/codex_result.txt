@@ -1,0 +1,15 @@
+Completed the ParaView/TTK/POT workflow.
+
+- Persistence simplification threshold: 0.5 (absolute), applied to frames 1–3.
+- Piecewise-linear maxima: 25 per frame.
+- Temporal association: exact Earth Mover’s Distance transport via POT.
+- Markers: sphere radius 2.
+- Scalar field: warm–cold color map.
+
+Outputs:
+
+- [Visualization PNG](/workspace/cloud_tracking_emd.png)
+- [ParaView state](/workspace/cloud_tracking_emd.pvsm)
+- [Tracked maxima points](/workspace/tracked_maxima_emd.vtp)
+- [EMD trajectory lines](/workspace/maxima_emd_tracks.vtp)
+- [Reproducible pipeline script](/workspace/cloud_tracking.py)

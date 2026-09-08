@@ -1,0 +1,7 @@
+Done. The ParaView state includes the full time-dependent Ionization series, viridis raw scalar volume, persistence simplification at 0.1, and the simplified contour tree with radius-1 edges and radius-2 critical points.
+
+Files:
+
+- [ParaView state](/workspace/Ionization_contour_tree.pvsm)
+- [Rendered visualization](/workspace/Ionization_contour_tree.png)
+- [Rebuild script](/workspace/build_ionization_view.py)

@@ -1,0 +1,3 @@
+The render matches the request: piecewise-linear Morse-Smale segmentation of the ε=0.05-simplified scalar field with critical points overlaid — red maxima, white saddles, blue minima, all at radius 2.
+
+Output saved to `/workspace/output.png`, generated via `/workspace/fracture_pipeline.py` using TopoPilot2's `LoadScalarField` → `PersistenceSimplification(epsilon=0.05)` → `ComputeMorseSmaleSegmentation`/`EmbedMorseSmaleSegmentation` branch plus a parallel `ComputeScalarCriticalPoints("all critical points...")` → `EmbedScalarCriticalPoints(radius=2, color_scheme=[blue, white, white, red, white])` branch.

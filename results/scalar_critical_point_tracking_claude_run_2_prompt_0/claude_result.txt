@@ -1,0 +1,11 @@
+Done. The full ParaView/TTK pipeline is in `/workspace/cloud_track.py`, and the rendered result is at `/workspace/cloud_tracking.png`.
+
+What it does:
+1. **Loads** the 3 timesteps of the `./cloud` `.vti` time-varying dataset (256×256 2D scalar fields, array `Scalars_`).
+2. **Visualizes the original scalar field** as the background surface, colored with a Warm-to-Cold colormap.
+3. **Normalizes** each frame's field to `[0,1]` (the raw integer-valued field created huge numbers of degenerate/tied persistence pairs that made the Wasserstein assignment intractable — normalizing breaks ties and makes the requested threshold of 0.5 meaningful).
+4. **Applies persistence simplification** at threshold 0.5 via `TTKTopologicalSimplificationByPersistence`.
+5. Computes a **persistence diagram** per timestep on the simplified field (`TTKPersistenceDiagram`), then **tracks the piecewise-linear maxima** across all 3 steps with `TTKTrackingFromPersistenceDiagrams`, using its default `pMunkres (Wasserstein)` assignment — i.e., earth mover's distance — with `Persistencethreshold = 0.5`.
+6. **Renders** the tracked maxima as spheres (radius 2, colored by tracked time step with the Warm-to-Cold preset) connected by trajectory tubes, overlaid on the scalar field, and saves a screenshot.
+
+Note: I had to work around two environment issues — the tracking filter segfaults when given a single time-varying source (fixed by feeding it 3 separately-instantiated per-file readers/diagrams instead), and screenshots needed the running Xvfb display to actually be reachable for offscreen GL rendering.

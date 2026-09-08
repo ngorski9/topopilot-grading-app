@@ -1,0 +1,8 @@
+Completed the three-step cloud analysis and saved:
+
+- [Original scalar field](sandbox:/workspace/cloud_original_scalar.png)
+- [Tracked persistence-simplified maxima visualization](sandbox:/workspace/cloud_tracked_maxima.png)
+- [Tracking data (maxima and EMD links)](sandbox:/workspace/cloud_tracking_results.npz)
+- [Reproducible pipeline script](sandbox:/workspace/cloud_tracking.py)
+
+Used cloud frames 1–3, persistence threshold 0.5, EMD-based piecewise-linear tracking, a warm–cold colormap, and radius-2 feature glyphs.

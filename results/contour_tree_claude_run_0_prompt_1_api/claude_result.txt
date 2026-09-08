@@ -1,0 +1,7 @@
+Done. `/workspace/ionization_pipeline.py` builds the requested pipeline:
+
+- `LoadScalarField` on the `./Ionization` time series (array `Scalars_`)
+- `EmbedScalarField(colormap="viridis")` for the original field
+- `PersistenceSimplification(epsilon=0.1)` → `ComputeContourTree` → `EmbedContourTree(ball_radius=2.0, tube_radius=1.0, color_scheme=[blue, white, orange, red, black])` (order: minima, 1-saddles, 2-saddles, maxima, degenerate)
+
+Rendered all 21 time steps to `/workspace/ionization_output.mp4` (26KB, generated cleanly via `pvbatch`).

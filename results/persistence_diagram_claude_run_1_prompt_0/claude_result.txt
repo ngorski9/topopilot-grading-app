@@ -1,0 +1,11 @@
+The pipeline completed and produced a correct-looking persistence diagram.
+
+**Pipeline (via ParaView/TTK pvpython)**:
+1. Loaded `QMCPACK.vti` (scalar field `Scalars_`, 547,515 vertices).
+2. Computed the initial persistence diagram with `TTKPersistenceDiagram`.
+3. Thresholded pairs by persistence ≥ 0.04.
+4. Fed those critical pairs as constraints into `TTKTopologicalSimplification` to simplify the scalar field (321 → 304 persistence pairs).
+5. Recomputed the persistence diagram on the simplified field.
+6. Extracted birth/death coordinates by pair type and plotted order-0 (minima–saddle) pairs in blue and order-2 (saddle–maxima) pairs in red, with the diagonal reference line.
+
+Result saved to `/workspace/QMCPACK_persistence_diagram.png` (raw diagram data also in `/workspace/QMCPACK_persistence_diagram.csv`). The diagram shows 17 order-0 pairs clustered near births 0–0.35 with several persistent components, and 6 order-2 pairs sitting further from the diagonal (higher persistence), including one strongly persistent maximum near birth 0.82/death 1.0.

@@ -1,0 +1,5 @@
+Rendered the tensor field and all detected PL degeneracies to:
+
+[brain_degeneracies.png](/workspace/brain_degeneracies.png)
+
+It contains 312 pink trisectors and 314 white wedges, each displayed with radius 1. The reproducible processing/render script is [render_brain_degeneracies.py](/workspace/render_brain_degeneracies.py).

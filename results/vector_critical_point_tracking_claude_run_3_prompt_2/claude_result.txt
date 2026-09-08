@@ -1,0 +1,10 @@
+The task is complete. Summary:
+
+- **Import**: loaded the 21-timestep `cylinder*.vti` series, took the first 3 timesteps, combined the `u`/`v` scalar components into a vector array for glyphing and a magnitude scalar array per timestep for tracking.
+- **Tracking**: merged the 3 magnitude fields into one dataset and ran **TTKTrackingFromFields**, which uses TTK's sparse-Munkres Wasserstein matching between consecutive persistence diagrams — critical points can match to the diagonal (born/killed) rather than being forced into a full bijection, which is exactly the partial-optimal-transport behavior requested. This found 116 tracked critical-point trajectories across the 3 steps (most short-lived, some surviving all 3 steps, demonstrating the partial matching).
+- **Visualization**: rendered the three timesteps' vector fields as arrow glyphs stacked along a synthetic time axis (blue/green/red = t0/t1/t2), with the tracked critical points and their trajectory lines overlaid and colored by trajectory ID, offscreen via `pvbatch`/`xvfb`.
+
+Output files:
+- `/workspace/track_critical_points.py` — the full pipeline script
+- `/workspace/cylinder_tracked_critical_points.png` — combined visualization
+- `/workspace/cylinder_tracking.vtu` — tracked critical-point trajectories as VTK data

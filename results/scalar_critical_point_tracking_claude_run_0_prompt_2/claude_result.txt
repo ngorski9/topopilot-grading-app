@@ -1,0 +1,1 @@
+The tracking computation is running (CPU-bound on the assignment/matching step). I'll check back automatically when it finishes or after the fallback timer.

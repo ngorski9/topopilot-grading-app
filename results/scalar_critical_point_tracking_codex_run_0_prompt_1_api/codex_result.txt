@@ -1,0 +1,11 @@
+Completed with TopoPilot2.
+
+Outputs:
+
+- [Original scalar field (step 1)](/workspace/topopilot_output/original_scalar_t1.png)
+- [Tracked maxima, step 1](/workspace/topopilot_output/tracked_maxima_t1.png)
+- [Tracked maxima, step 2](/workspace/topopilot_output/tracked_maxima_t2.png)
+- [Tracked maxima, step 3](/workspace/topopilot_output/tracked_maxima_t3.png)
+- [Three-step animation](/workspace/topopilot_output/tracked_maxima_3steps.mp4)
+
+The pipeline uses `Scalars_`, persistence simplification ε=0.5, piecewise-linear maxima, and EMD tracking across 3 steps. The field uses TopoPilot’s `cool warm` colormap; tracked identities are sphere markers of radius 2. Scripts are saved as [render_original.py](/workspace/render_original.py) and [render_tracked.py](/workspace/render_tracked.py).

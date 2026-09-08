@@ -1,0 +1,6 @@
+Done. The pipeline in `/workspace/track_critical_points.py`:
+
+1. **Loads** each `cylinder{t}.vti` timestep and combines `u`,`v` into a velocity-magnitude scalar field.
+2. **Extracts critical points** with TTK's `ttkScalarFieldCriticalPoints`, after pruning noise via `ttkTopologicalSimplificationByPersistence` (persistence threshold 0.1) — this collapses ~370 raw critical points per frame down to the ~47 topologically salient ones (vortex minima/maxima/saddles in the wake), while discarding the masked-out solid-cylinder region (exact-zero magnitude).
+3. **Tracks** critical points across the 3 consecutive time steps (t=1,2,3) using **partial optimal transport** (`ot.partial.partial_wasserstein` from POT), which allows points to appear/disappear between frames rather than forcing a full bijection.
+4. **Visualizes** the result in `/workspace/cylinder_critical_point_tracking.png`: each panel shows the (u,v) vector field as a quiver plot over the velocity-magnitude field, critical points colored by type (blue=min, orange=saddle, red=max), with green lines connecting matched points across consecutive time steps to show trajectories through the von Kármán vortex street in the wake.

@@ -1,0 +1,9 @@
+Pipeline built with pvpython/TTK and executed successfully:
+
+1. Loaded `fracture.vti` (scalar array `Scalars_`, a 2D 249×121 image).
+2. `TTKPersistenceDiagram` → computed persistence pairs (87 pairs found).
+3. `Threshold` kept pairs with persistence ≥ 0.05.
+4. `TTKTopologicalSimplification` removed the low-persistence critical points from the field using those surviving pairs as constraints.
+5. `TTKMorseSmaleComplex` (PL backend) computed on the simplified field, producing the segmentation (colored regions in the image, using a rainbow LUT keyed on the Morse-Smale manifold id) plus critical points, split by `CellDimension`: 19 minima (blue), 30 saddles (white), 12 maxima (red), all rendered as radius-2 spheres.
+
+Result image saved to `/workspace/morse_smale_segmentation.png`; the full reproducible script is at `/workspace/ttk_pipeline.py`.

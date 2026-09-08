@@ -1,0 +1,8 @@
+Rendered result: [brain_degenerate_points.png](/workspace/brain_degenerate_points.png)
+
+Detected and overlaid:
+
+- 43 wedges — white, radius 1
+- 63 trisectors — pink, radius 1
+
+The reproducible detector/render script and detected-point dataset are also available: [render_brain.py](/workspace/render_brain.py) and [brain_degenerate_points.vtp](/workspace/brain_degenerate_points.vtp).

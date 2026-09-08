@@ -1,0 +1,8 @@
+Completed the TopoPilot2 partial-OT tracking and rendered the first three time steps.
+
+- [Step 1 render](/workspace/cylinder_tracking_t1.png)
+- [Step 2 render](/workspace/cylinder_tracking_t2.png)
+- [Step 3 render](/workspace/cylinder_tracking_t3.png)
+- [Reproducible TopoPilot2 script](/workspace/cylinder_tracking.py)
+
+The pipeline loads `u`/`v`, computes vector critical points, tracks them over 3 steps with `backend="partial"`, and overlays identity-colored tracked points on the vector-field LIC visualization. Detected point counts: 26, 24, and 24.

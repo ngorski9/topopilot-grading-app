@@ -1,0 +1,13 @@
+Opened the ParaView visualization with:
+
+- Original `(u, v)` vector field for snapshots 1, 11, and 21
+- 89 → 85 → 83 extracted critical points
+- Partial optimal-transport tracks: 77 links (1→11), 75 links (11→21)
+
+Outputs:
+
+- [Interactive ParaView state](/workspace/cylinder_partial_ot_tracks.pvsm)
+- [Rendered overview](/workspace/cylinder_partial_ot_tracks.png)
+- [Time-series dataset collection](/workspace/cylinder_3steps.pvd)
+- [Critical points](/workspace/tracked_critical_points.vtp)
+- [Partial-OT tracks](/workspace/partial_ot_tracks.vtp)

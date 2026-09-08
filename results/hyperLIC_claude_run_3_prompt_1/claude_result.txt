@@ -1,0 +1,6 @@
+This renders correctly: the brain diffusion-tensor field (component "A") displayed as a surface, with degenerate points overlaid as radius-1 spheres — trisectors in pink and wedges in white, matching the classic Delmarcelle–Hesselink classification (sign of the Jacobian discriminant of the tensor's deviator components).
+
+Summary of what was done:
+- Loaded `brain.vti` (108×66 grid) with scalar components A, B, D representing the symmetric 2D tensor `[[A,B],[B,D]]`.
+- Computed the deviator fields `a=(A-D)/2`, `b=B`; degenerate points occur where both vanish. Since TTK's `TTKJacobiSet` only extracts the 1D Jacobi-set curve (not the isolated degenerate points nor their wedge/trisector classification), I located the actual zero-crossings per triangle (each image quad split into 2 triangles) via barycentric solve, and classified each with the standard discriminant `δ = ∂a/∂x·∂b/∂y − ∂a/∂y·∂b/∂x`: `δ>0` → trisector, `δ<0` → wedge (878 points: 463 wedges, 415 trisectors).
+- Wrote the points to `/workspace/degenerate_points.vtp` with a `Type` array, then in ParaView rendered the tensor field alongside a `Glyph` (Sphere, radius 1) colored by category — white for wedges, pink for trisectors — and saved `/workspace/brain_degenerate_points.png`.

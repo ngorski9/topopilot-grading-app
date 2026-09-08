@@ -1,0 +1,13 @@
+Both renders completed successfully:
+
+- **`/workspace/original_scalar_field.png`** — the raw scalar field (first timestep of the Ionization time-varying dataset) colored with viridis.
+- **`/workspace/contour_tree_simplified.png`** — the persistence-simplified (threshold = 0.1) piecewise-linear contour tree, with vertices radius 2 colored by critical type (red = maxima, orange = 2-saddles, white = 1-saddles, blue = minima) and edges rendered at thickness 1.
+
+Pipeline used (`/workspace/ionization_contour_tree.py`, run via `pvpython`):
+1. `XMLImageDataReader` loads all 21 `.vti` files as a time series.
+2. `TTKPersistenceDiagram` computes the persistence pairs on `Scalars_`.
+3. `Threshold` keeps only pairs with `Persistence ≥ 0.1`.
+4. `TTKTopologicalSimplification` removes the low-persistence critical points from the scalar field using those pairs as constraints.
+5. `TTKContourTree` builds the contour tree of the simplified field, producing node/arc outputs, which are colored/styled and rendered.
+
+Note: the persistence range in this dataset spans roughly 0–37, so a 0.1 threshold removes only very low-persistence noise — the resulting tree is still fairly dense, which is the expected/correct outcome for that simplification value.

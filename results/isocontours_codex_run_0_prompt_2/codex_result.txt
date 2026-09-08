@@ -1,0 +1,15 @@
+Done. The ParaView visualization is available here:
+
+[QMCPACK_simplified_critical_points.png](/workspace/QMCPACK_simplified_critical_points.png)
+
+It uses an absolute persistence threshold of 0.04 and shows four equal-volume isocontours (levels: 0.393137, 0.404711, 0.409601, 0.418580).
+
+Critical points displayed/exported:
+
+- 20 maxima — red
+- 315 2-saddles — orange
+- 288 1-saddles — white
+- 16 minima — blue
+- 10 multi-saddles — orange
+
+You can reopen the interactive scene in ParaView with [QMCPACK_simplified_visualization.pvsm](/workspace/QMCPACK_simplified_visualization.pvsm), and the full 649-point table is in [QMCPACK_critical_points_threshold_0.04.csv](/workspace/QMCPACK_critical_points_threshold_0.04.csv).

@@ -1,0 +1,17 @@
+Completed the TopoPilot2 pipeline and rendered time step 3.
+
+- Original scalar field shown with the `cool warm` colormap.
+- Persistence simplification applied at `epsilon=0.5`.
+- Simplified-field maxima tracked across 3 time steps with EMD.
+- Tracked maxima rendered as identity-colored spheres of radius 2.
+
+Outputs:
+
+- [Visualization PNG](/workspace/cloud_tracked_maxima_t3.png)
+- [TopoPilot2 pipeline script](/workspace/cloud_tracking.py)
+
+Re-run with:
+
+```bash
+/opt/conda/bin/pvbatch cloud_tracking.py -i ./cloud -t 3 -o cloud_tracked_maxima_t3.png -q ./cloud_tracking_session
+```

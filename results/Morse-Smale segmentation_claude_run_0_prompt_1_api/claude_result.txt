@@ -1,0 +1,8 @@
+The pipeline ran successfully and produced the requested visualization at `/workspace/fracture_output.png`.
+
+Script (`/workspace/fracture_pipeline.py`) loads `fracture.vti` (array `Scalars_`), applies `PersistenceSimplification(epsilon=0.05)`, then branches into:
+- `EmbedScalarField` (viridis) as background
+- `ComputeMorseSmaleSegmentation` → `EmbedMorseSmaleSegmentation` (the colored region overlay)
+- `ComputeScalarCriticalPoints("all critical points (mins+maxes+saddles)")` → `EmbedScalarCriticalPoints(radius=2.0)` with color scheme blue/white/white/red/black for minima/1-saddles/2-saddles/maxima/degenerate
+
+Result shows the segmented regions with blue minima, white saddles, and red maxima overlaid, as requested.

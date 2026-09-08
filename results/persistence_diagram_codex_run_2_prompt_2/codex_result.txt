@@ -1,0 +1,5 @@
+Rendered the requested diagram with persistence simplification 0.04 (relative), showing H0 in blue and H2 in red.
+
+- [Rendered PNG](/workspace/QMCPACK_persistence_diagram_H0_H2_simplified_0.04.png)
+- [Persistence-diagram data](/workspace/QMCPACK_persistence_diagram_H0_H2_simplified_0.04.vtp)
+- [Reproducible ParaView script](/workspace/render_persistence.py)

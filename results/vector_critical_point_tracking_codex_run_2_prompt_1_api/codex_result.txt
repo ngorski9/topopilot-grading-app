@@ -1,0 +1,6 @@
+Completed partial optimal-transport tracking across time steps 1–3.
+
+- Pipeline: [cylinder_partial_ot_tracking.py](/workspace/cylinder_partial_ot_tracking.py)
+- Rendered views: [step 1](/workspace/cylinder_partial_ot_step1.png), [step 2](/workspace/cylinder_partial_ot_step2.png), [step 3](/workspace/cylinder_partial_ot_step3.png)
+
+Each view shows the original vector field as LIC texture with tracked vector critical points colored consistently by identity.

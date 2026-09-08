@@ -1,0 +1,6 @@
+This worked as intended: the piecewise-linear Morse-Smale segmentation (colored regions) with maxima in red, saddles in white, and minima in blue (radius 2 spheres) rendered over the topologically simplified `fracture.vti` field (persistence threshold 0.05, 87→fewer surviving pairs).
+
+Summary:
+- Pipeline: `XMLImageDataReader` → `TTKPersistenceDiagram` → `Threshold(Persistence ≥ 0.05)` → `TTKTopologicalSimplification` → `TTKMorseSmaleComplex`.
+- Segmentation shown via the `MorseSmaleManifold` point array; critical points split by `CellDimension` (0=min, 1=saddle, 2=max) and glyphed as spheres, radius 2, colored blue/white/red respectively.
+- Script saved at `/workspace/ttk_pipeline.py`; rendered image at `/workspace/morse_smale_segmentation.png` (rendered offscreen via `pvpython --force-offscreen-rendering` since no display was attached).

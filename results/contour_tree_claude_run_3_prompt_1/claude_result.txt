@@ -1,0 +1,6 @@
+Both requested visualizations are complete and saved to `/workspace/output/`:
+
+1. **`01_original_scalar_field_viridis.png`** — the original Ionization scalar field (`Scalars_`) volume-rendered with the viridis colormap.
+2. **`02_contour_tree_simplified_0.1.png`** — the piecewise-linear contour tree after persistence simplification (threshold 0.1, via `TTKPersistenceDiagram` → `Threshold` → `TTKTopologicalSimplification` → `TTKContourTree`), with vertices as radius-2 point-gaussian spheres colored by critical type (red=maxima, orange=2-saddles, white=1-saddles, blue=minima) and edges rendered as black lines with thickness 1.
+
+The full pipeline is in `/workspace/ionization_ttk.py`, run via `pvbatch`, using TTK filters exposed directly through `paraview.simple` in this conda environment (no manual plugin loading needed). It processed the first timestep of the time-varying series (`Ionization1.vti`); the reader was set up over the full 21-file series, so re-pointing to a different timestep or animating is a one-line change if needed.

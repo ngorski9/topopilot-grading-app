@@ -1,0 +1,9 @@
+The scene renders correctly: the brain tensor field is shown as a grayscale trace map, with degenerate points overlaid as radius-1 spheres — pink for trisectors and white for wedges. Notice the boundary noise (many spurious degenerate points along the black background where the field is ~0 everywhere, causing numerical degeneracies); that's expected since the field is only meaningful inside the brain mask, and there the pattern shows the classic alternating wedge/trisector chains characteristic of tensor field topology.
+
+Output files:
+- `/workspace/compute_degenerate.py` — computes degenerate points via the Delmarcelle–Hesselink linear method (zero crossings of `A-D` and `2B` per triangle, classified by orientation-preserving = wedge vs. orientation-reversing = trisector)
+- `/workspace/degenerate_points.vtp` — 830 points (403 trisectors, 427 wedges)
+- `/workspace/render_scene.py` — ParaView pipeline: loads `brain.vti`, colors by trace, glyphs degenerate points as radius-1 spheres (pink=trisector, white=wedge)
+- `/workspace/degenerate_points_render.png` — final rendered image
+
+Note: this ParaView/TTK installation doesn't include the `TTKTensorFieldTopology` filter (checked — not among the 127 TTK filters compiled in), so degenerate-point extraction was implemented directly rather than relying on a missing TTK module.

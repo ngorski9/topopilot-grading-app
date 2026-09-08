@@ -1,0 +1,10 @@
+Completed the ParaView visualization.
+
+- Eigenvector partition sampled at 10 pixels per square.
+- Degenerate points: radius 1.
+- Trisectors: pink; wedges: white.
+- Detected 46 trisectors and 48 wedges.
+
+Open the saved ParaView scene: [Ocean_eigenvector_partition.pvsm](/workspace/Ocean_eigenvector_partition.pvsm)
+
+Preview: [Ocean_eigenvector_partition.png](/workspace/Ocean_eigenvector_partition.png)

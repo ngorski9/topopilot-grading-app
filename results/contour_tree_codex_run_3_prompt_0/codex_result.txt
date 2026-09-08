@@ -1,0 +1,9 @@
+Completed the time-varying Ionization visualization pipeline.
+
+- [ParaView state](/workspace/output/ionization_contour_tree.pvsm)
+- [Combined render](/workspace/output/ionization_contour_tree.png)
+- [Viridis original scalar field](/workspace/output/original_scalar_field_viridis.png)
+- [Simplified contour tree](/workspace/output/simplified_contour_tree.png)
+- [Reproducible pipeline script](/workspace/create_ionization_visualization.py)
+
+The scene uses a normalized persistence threshold of 0.1, contour-tree edge radius 1, vertex radius 2, and the requested critical-point colors.

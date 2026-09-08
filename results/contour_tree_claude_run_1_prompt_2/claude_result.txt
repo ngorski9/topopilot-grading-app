@@ -1,0 +1,6 @@
+Both visualizations were generated successfully:
+
+- `/workspace/raw_scalar_field.png` — the raw scalar field (`Scalars_`) rendered with the viridis colormap.
+- `/workspace/contour_tree_simplified.png` — the persistence-simplified (threshold 0.1) piecewise-linear contour tree, with edges as radius-1 tubes and vertices as radius-2 spheres, colored by critical type: red = maxima, orange = 2-saddles, white = 1-saddles, blue = minima.
+
+Pipeline used (`/workspace/ionization_ctree.py`, run with `pvpython`): `XMLImageDataReader` (time series of 21 `.vti` files) → `TTKPersistenceDiagram` → `Threshold` (persistence > 0.1) → `TTKTopologicalSimplification` → `TTKContourTree`, then `Tube` for arcs and `Glyph`(sphere) for nodes colored by `CriticalType`.

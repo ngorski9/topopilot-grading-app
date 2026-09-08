@@ -1,0 +1,12 @@
+The pipeline ran successfully end-to-end. Summary of what was done:
+
+**Pipeline (`/workspace/cloud_tracking.py`, run with `pvpython`):**
+
+1. **Load** — `cloud/cloud1.vti` … `cloud3.vti` (3 time steps of a 256×256 time-varying scalar field, array `Scalars_`).
+2. **Visualize original field** — rendered with warm‑cold colormap → `01_original_scalar_field.png`.
+3. **Persistence simplification** — `TTKTopologicalSimplificationByPersistence` with `PersistenceThreshold=0.5` on each time step's field.
+4. **Persistence diagrams** — `TTKPersistenceDiagram` computed per simplified time step (saddle-maximum pairs = the piecewise-linear maxima).
+5. **Tracking with Earth Mover's Distance** — `TTKTrackingFromPersistenceDiagrams` fed the 3 diagrams as separate input connections (this filter's port takes one connection per time step, not a grouped multiblock — discovered by tracing a segfault to malformed composite input), with `pparameter="1"` (Wasserstein order 1 = EMD) and the same 0.5 persistence threshold.
+6. **Display** — tracked critical points rendered as spheres (radius 2) plus trajectory lines, colored with the warm‑cold colormap by matched scalar value, stacked visually along Z per time step and overlaid on the simplified scalar field → `02_tracked_maxima.png`.
+
+Notable environment issues worked around: TTK's `TTKMorseSmaleComplex` segfaults in this build (unused, removed), and `TTKTrackingFromPersistenceDiagrams` requires the diagrams as multiple separate input connections rather than a single multiblock/grouped dataset. Both output PNGs are in `/workspace/`.

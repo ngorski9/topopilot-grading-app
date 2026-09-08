@@ -1,0 +1,7 @@
+Rendered the requested 1000×1000 eigenvector partition with radius-1 singularities:
+
+- [Eigenvector partition PNG](/workspace/Ocean_eigenvector_partition.png)
+- [Degenerate-point data CSV](/workspace/Ocean_degenerate_points.csv)
+- [Reproducible render script](/workspace/render_ocean_partition.py)
+
+Detected 86 degeneracies: 41 white wedges and 45 pink trisectors.

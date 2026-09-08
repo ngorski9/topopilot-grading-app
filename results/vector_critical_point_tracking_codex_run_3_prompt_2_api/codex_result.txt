@@ -1,0 +1,8 @@
+Completed the 3-step partial-optimal-transport tracking and exported visualizations with the original vector field beneath the tracked critical points.
+
+- [Pipeline script](/workspace/cylinder_tracking.py)
+- [Step 1 visualization](/workspace/cylinder_tracked_t1.png)
+- [Step 2 visualization](/workspace/cylinder_tracked_t2.png)
+- [Step 3 visualization](/workspace/cylinder_tracked_t3.png)
+
+The pipeline uses `u`/`v`, `ComputeVectorCriticalPoints`, and `TrackVectorCriticalPoints(time_steps=3, backend="partial")`.

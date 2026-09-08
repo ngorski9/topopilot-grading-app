@@ -1,0 +1,6 @@
+Rendered the requested eigenvector partition and degenerate points.
+
+- [Rendered image](sandbox:/workspace/ocean_eigenvector_partition.png)
+- [TopoPilot2 pipeline script](/workspace/render_ocean_partition.py)
+
+Trisectors are pink; wedges are white; marker radius is 1; partition resolution is 10 pixels per square.

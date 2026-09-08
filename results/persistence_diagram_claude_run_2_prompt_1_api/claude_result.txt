@@ -1,0 +1,9 @@
+The persistence diagram is now correctly rendered, showing the birth-death pairs (with the diagonal and off-diagonal points) as balls and tubes for a piecewise linear scalar field, simplified by 0.04 of the range, using the FTM backend which computes orders 0 and D-1 (here order 2, since QMCPACK.vti is 3D data) from the sublevel set filtration.
+
+Summary of what was done:
+- Loaded `QMCPACK.vti` scalar field (array `Scalars_`) with `LoadScalarField`.
+- Applied `PersistenceSimplification(epsilon=0.04, threshold_is_absolute=False)` — a relative threshold, since values below 1 are treated as fractions of the function range per TopoPilot's guardrail.
+- Computed the persistence diagram with `ComputePersistenceDiagram` (FTM backend, orders 0 and 2 under sublevel set filtration for this 3D dataset).
+- Displayed it with `EmbedPersistenceDiagram` and rendered to `/workspace/qmcpack_pd.png`.
+
+Script saved at `/workspace/qmcpack_pd.py`; output image at `/workspace/qmcpack_pd.png`.

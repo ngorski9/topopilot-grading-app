@@ -1,0 +1,1 @@
+The pipeline ran and produced the visualization at `/workspace/fracture_output.png`, showing the Morse-Smale segmentation of `fracture.vti` (persistence-simplified with ε=0.05) with critical points overlaid: minima in blue, maxima in red, and saddles in white, all rendered at radius 2. The pipeline script is at `/workspace/fracture_pipeline.py`.

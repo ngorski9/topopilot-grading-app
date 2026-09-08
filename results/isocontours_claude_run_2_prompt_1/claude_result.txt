@@ -1,0 +1,9 @@
+This is much clearer — showing the 4 nested isocontours (semi-transparent red/blue surfaces) and critical points colored by type. The pipeline completed successfully with the requested parameters.
+
+**Summary of the pipeline** (`/workspace/ttk_pipeline.py`):
+1. Loaded `QMCPACK.vti` (scalar field `Scalars_`, 69×69×115 grid, range [0,1]).
+2. `TTKPersistenceDiagram` → computed the persistence pairs (321 total: 32 min-saddle, 6 saddle-max, 282 saddle-saddle).
+3. Thresholded the diagram at persistence ≥ **0.04**, then fed it into `TTKTopologicalSimplification` to simplify the scalar field accordingly.
+4. `TTKScalarFieldCriticalPoints` on the simplified field found: 16 minima, 288 1-saddles, 312 2-saddles, 6 maxima (plus 10 degenerate multi-saddles, which don't map to any of the 4 requested categories and were excluded from rendering).
+5. Computed 4 isovalues at the 20th/40th/60th/80th percentiles of the simplified scalar field (values ≈ 0.393, 0.405, 0.407, 0.416), giving 4 isosurfaces that split the volume into 5 equal-sized (by voxel count) regions, rendered via `Contour`.
+6. Rendered: maxima = red, 2-saddles = orange, 1-saddles = white, minima = blue, isosurfaces as translucent shaded layers, saved to `/workspace/qmcpack_persistence_simplified.png`.

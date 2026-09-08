@@ -1,0 +1,16 @@
+Completed the TopoPilot2 pipeline and rendered time step 3.
+
+- Vector field: `u`, `v`
+- Critical points tracked over steps 1–3 using `backend="partial"`
+- Step 3 contains 24 tracked critical points; color denotes tracked identity
+
+Outputs:
+
+- [Visualization PNG](/workspace/cylinder_tracked_critical_points_t3.png)
+- [TopoPilot2 script](/workspace/cylinder_tracking.py)
+
+To render another tracked step, run:
+
+```bash
+/opt/conda/bin/pvbatch cylinder_tracking.py -i ./cylinder -t 2 -o step2.png -q ./cylinder_tracking_session
+```

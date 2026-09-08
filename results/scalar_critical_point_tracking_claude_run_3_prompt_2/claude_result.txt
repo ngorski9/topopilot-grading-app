@@ -1,0 +1,11 @@
+## Summary
+
+Built a full ParaView/TTK pipeline (`/workspace/cloud_pipeline.py`) over the `./cloud` time-varying `.vti` series (34 steps, `Scalars_` field, 256×256):
+
+1. **Load** — 34 `cloud*.vti` files as a time series via `XMLImageDataReader`.
+2. **Original scalar field** — shown/colored with the warm-cold colormap → `cloud_out/1_original_scalar_field.png`.
+3. **Persistence simplification** — `TTKTopologicalSimplificationByPersistence` with an absolute threshold of 0.5 → `cloud_out/2_simplified_scalar_field.png`.
+4. **Tracking maxima over 3 time steps** — computed `TTKPersistenceDiagram` on the simplified field at each of the first 3 time steps, extracted the saddle-maximum pairs and their real spatial locations, then matched maxima between consecutive frames using **earth mover's distance** via the Python Optimal Transport library (`ot.emd` on a squared-Euclidean cost matrix). (Note: ParaView's native `TTKTrackingFromPersistenceDiagrams` filter segfaults on this build regardless of input — reproduced with minimal hand-built diagrams — so I substituted an equivalent POT-based EMD matching, which is what the task's "Python Optimal Transport installed" hint pointed to.)
+5. **Visualization** — tracked maxima rendered as spheres (radius 2) colored by persistence with the warm-cold colormap, with track edges as lines, overlaid on the scalar field → `cloud_out/3_tracked_maxima_with_scalar_field.png`.
+
+All three output images are in `/workspace/cloud_out/`.

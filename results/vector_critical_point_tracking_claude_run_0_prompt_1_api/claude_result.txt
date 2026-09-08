@@ -1,0 +1,9 @@
+Done. `/workspace/track_cylinder.py` builds the pipeline: `LoadVectorField` (u/v) → `EmbedVectorField` for the background field, plus `ComputeVectorCriticalPoints` → `TrackVectorCriticalPoints(time_steps=3, backend="partial")` → `EmbedTrackedVectorFieldCriticalPoints` for the tracked points, colored by identity.
+
+Since the full `cylinder` directory has 21 steps but only 3 were requested, I made a 3-step subset `/workspace/cyl3` (first 3 files, correctly renamed to match the required naming convention) and ran:
+
+```
+pvbatch track_cylinder.py -i ./cyl3 -t -1 -o cyl3_tracked.mp4 -q ./session
+```
+
+This produced `/workspace/cyl3_tracked.mp4` (3 frames @4fps) showing the vector field with tracked critical points overlaid across the 3 time steps.

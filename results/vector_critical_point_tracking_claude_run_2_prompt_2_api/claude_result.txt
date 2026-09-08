@@ -1,0 +1,8 @@
+The pipeline works: the LIC-textured vector field of flow past the cylinder is rendered as background, with tracked critical points (colored spheres, identity-colored by the partial-OT tracking) overlaid, consistent across time steps 1–3.
+
+Script: `/workspace/cylinder_tracking.py`. It loads the `cylinder` time series as a 2D vector field (`u`,`v`), computes vector critical points, tracks them across 3 time steps with the `partial` optimal-transport backend, and visualizes them together with the vector field (`EmbedVectorField` background + `EmbedTrackedVectorFieldCriticalPoints` spheres colored by tracked identity).
+
+Rendered outputs:
+- `out_t1.png`, `out_t2.png`, `out_t3.png` — one frame per tracked time step, each showing the same LIC vector-field texture with critical points at consistent screen positions and colors across frames (confirming stable tracking).
+
+To generate a video instead of stills, run: `pvbatch cylinder_tracking.py -i ./cylinder -t -1 -o output.mp4 -q session_cyl` (note this iterates over all 21 available time steps in the directory, since the video-rendering loop in the template isn't limited to the 3 tracked steps — the tracking itself is still confined to `time_steps=3`).

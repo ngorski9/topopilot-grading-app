@@ -1,0 +1,10 @@
+Completed the persistence simplification at threshold 0.04 and rendered the requested view.
+
+- [Visualization PNG](/workspace/QMCPACK_simplified_0.04_visualization.png)
+- [ParaView state](/workspace/QMCPACK_simplified_0.04.pvsm)
+- [Simplified volume](/workspace/QMCPACK_simplified_0.04.vti)
+- [All PL critical points CSV](/workspace/QMCPACK_PL_critical_points_0.04.csv)
+
+Critical points: 16 minima (blue), 297 1-saddles (white), 288 2-saddles (orange), and 6 maxima (red).
+
+The four equal-volume quantile isovalues are 0.393137, 0.404711, 0.409601, and 0.418580.

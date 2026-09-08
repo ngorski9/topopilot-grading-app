@@ -1,0 +1,10 @@
+Done. The requested render is available at [fracture_morse_smale_0.05.png](/workspace/fracture_morse_smale_0.05.png).
+
+Also saved:
+
+- [ParaView state](/workspace/fracture_morse_smale_0.05.pvsm)
+- [Simplified field](/workspace/fracture_simplified_0.05.vti)
+- [Morse–Smale segmentation](/workspace/fracture_morse_smale_segmentation_0.05.vti)
+- [Critical points](/workspace/fracture_critical_points_0.05.vtp)
+
+It contains 20 minima (blue), 33 saddles (white), and 14 maxima (red), using radius-2 markers.

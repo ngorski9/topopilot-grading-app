@@ -1,0 +1,16 @@
+Successfully built the full TTK pipeline in ParaView and rendered the result to `/workspace/qmcpack_critical_points.png`.
+
+**Pipeline:**
+1. Loaded `QMCPACK.vti` (scalar array `Scalars_`, range [0,1], 69×69×115 grid).
+2. `TTKPersistenceDiagram` on the raw field → persistence pairs (321 total).
+3. Thresholded diagram pairs to keep only `Persistence ≥ 0.04`.
+4. `TTKTopologicalSimplification` using those pairs as constraints → simplified field (removed all pairs below the 0.04 threshold, leaving 304 significant persistence pairs).
+5. `TTKMorseSmaleComplex` on the simplified field → extracted piecewise-linear critical points, classified as:
+   - 16 minima (blue)
+   - 297 1-saddles (white)
+   - 288 2-saddles (orange)
+   - 6 maxima (red)
+6. Computed 4 isovalues at the 20th/40th/60th/80th percentiles of the scalar field (using actual point-data values, so each of the 5 resulting isocontour bands encloses ~equal volume, since the grid is uniform): `[0.3931, 0.4044, 0.4096, 0.4186]`.
+7. Rendered isocontours (semi-transparent gray surfaces) with critical points overlaid as colored spheres per the requested scheme, saved as a 1600×1200 screenshot.
+
+Note: minima/maxima are sparse (16/6) so they show up as small isolated dots at corners/edges, while 1-saddles dominate visually along a diagonal ridge structure in the field. This is the expected topology for this dataset at this simplification threshold, not a rendering artifact.

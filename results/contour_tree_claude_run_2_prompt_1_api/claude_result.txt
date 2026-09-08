@@ -1,0 +1,7 @@
+Both renders completed successfully.
+
+**Results:**
+- `/workspace/scalar_field.png` — the original scalar field (time step 1 of the Ionization series) rendered as a volume with the viridis colormap.
+- `/workspace/contour_tree.png` — the piecewise-linear contour tree after persistence simplification (ε=0.1), with vertex radius 2 (maxima=red, 2-saddles=orange, 1-saddles=white, minima=blue) and edge thickness 1.
+
+Scripts used: `/workspace/scalar_field_render.py` and `/workspace/contour_tree_render.py`, both built from the TopoPilot2 script template and run via `pvbatch` against `./Ionization`.

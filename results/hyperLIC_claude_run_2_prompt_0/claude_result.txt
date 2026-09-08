@@ -1,0 +1,6 @@
+Done. Summary of what was built:
+
+- **`compute_degenerate.py`** — loads `brain.vti` (a 2D symmetric tensor field `[[A,B],[B,D]]` over a 108×66 grid, z=0). Computes the deviator components `e=(A-D)/2`, `f=B` and finds degenerate points (`e=f=0`) by solving barycentric zero-crossings on the triangulated grid. Classifies each by the sign of the local Jacobian of `(e,f)`: positive → wedge, negative → trisector (standard Delmarcelle–Hesselink/Tricoche method — TTK has no built-in tensor-degenerate-point filter, so this was implemented directly). Found 451 trisectors, 427 wedges; writes `degenerate_points.vtp`.
+- **`visualize_degenerate.py`** (pvpython/ParaView) — shows the tensor field as a grayscale surface (trace of the tensor) and overlays the degenerate points as radius-1 sphere glyphs, trisectors in pink, wedges in white. Saves `degenerate_points_view.png` and a reusable `brain_degenerate.pvsm` ParaView state.
+
+Note: `pip install ttk`-provided plugin had no tensor-topology filter, so degenerate-point extraction was done with a direct numerical implementation of the classical algorithm rather than a TTK filter. Along the way I hit and fixed a subtle bug where ParaView's `Glyph` filter defaulted `ScaleArray` to the categorical `DegenerateType` array, scaling all trisector spheres to zero size — fixed by setting `ScaleArray` to `No scale array`.

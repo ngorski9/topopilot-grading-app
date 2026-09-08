@@ -1,0 +1,3 @@
+Rendered successfully: the symmetric tensor field (glyph texture background) with all degenerate points overlaid as radius-1 spheres — trisectors in pink, wedges in white.
+
+Output saved to `/workspace/brain_output.png` (pipeline script at `/workspace/brain_pipeline.py`).

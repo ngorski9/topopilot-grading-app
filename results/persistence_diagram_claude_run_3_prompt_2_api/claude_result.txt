@@ -1,0 +1,8 @@
+The pipeline ran successfully. Summary:
+
+- Loaded `QMCPACK.vti` scalar field (array `Scalars_`, 69×69×115 grid) via `LoadScalarField`.
+- Applied `PersistenceSimplification` with `epsilon=0.04` (relative to function range).
+- Computed the piecewise-linear sub-level-set persistence diagram with `ComputePersistenceDiagram` (TTK's FTM backend, which yields the 0th and (D-1)th order — here D=3, so H0 and H2 — matching the requested homology orders).
+- Rendered it with `EmbedPersistenceDiagram` to `/workspace/qmcpack_persistence_diagram.png`.
+
+Script saved at `/workspace/qmcpack_persistence.py`, output image at `/workspace/qmcpack_persistence_diagram.png` (shown above — birth/death pairs as balls connected by tubes to the diagonal).

@@ -1,0 +1,9 @@
+Done. Summary of what was built (`/workspace/tensor_topology.py`, run via `pvpython`):
+
+1. **Loaded `Ocean.vti`** (101×101 grid, point arrays A, B, C, D forming a 2×2 asymmetric tensor per point).
+2. **Derived the deviator components** E=(A−D)/2, F=(B+C)/2, G=(B−C)/2, and the discriminant Δ=E²+F²−G² of the tensor's eigenvalues.
+3. **Eigenvector partition**: resampled Δ's sign onto a coarse grid at 10 pixels/square — grey where eigenvalues are real & distinct, blue where they're complex.
+4. **Degenerate points**: found where E=0 and F=0 simultaneously (bilinear root-finding per cell), classified each as wedge or trisector via the sign of the Jacobian determinant of (E,F) — 45 wedges, 45 trisectors found, sitting exactly on the partition boundary as expected.
+5. **Rendered** wedges as white spheres and trisectors as pink spheres (radius 1) over the partition, and saved:
+   - `/workspace/Ocean_eigenvector_partition.png` — the rendering
+   - `/workspace/Ocean_eigenvector_partition.pvsm` — the ParaView state file (open it in the ParaView GUI to inspect/adjust the pipeline)

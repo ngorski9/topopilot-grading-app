@@ -1,0 +1,9 @@
+The pipeline ran successfully. The line-integral-convection visualization of the vector field (`u`,`v`) is shown as the grey streamline texture, with tracked critical points rendered as colored spheres, consistently colored across the 3 frames by tracked identity (same colors persist for the same point across time steps, e.g., purple, orange, blue, green clusters near the wake region behind the cylinder).
+
+Summary of what was built (`/workspace/cylinder_tracking.py`):
+- `LoadVectorField` loads `u`/`v` from the `./cylinder` time-series directory
+- `EmbedVectorField` renders the background flow field
+- `ComputeVectorCriticalPoints` → `TrackVectorCriticalPoints(time_steps=3, backend="partial")` tracks critical points across 3 steps using partial optimal transport
+- `EmbedTrackedVectorFieldCriticalPoints` renders the tracked points colored by identity
+
+Output frames saved to `/workspace/out/frame_1.png`, `frame_2.png`, `frame_3.png`, generated via `pvbatch cylinder_tracking.py -i ./cylinder -t {1,2,3} -o out/frame_{t}.png -q out`.

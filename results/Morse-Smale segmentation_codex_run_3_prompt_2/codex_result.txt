@@ -1,0 +1,7 @@
+Completed the persistence simplification at 0.05 and rendered the Morse–Smale segmentation with radius-2 critical point markers:
+
+- [Rendered image](sandbox:/workspace/fracture_morse_smale.png)
+- [ParaView state](sandbox:/workspace/fracture_morse_smale.pvsm)
+- [Reproducible script](sandbox:/workspace/render_morse_smale.py)
+
+Critical points shown: 15 minima (blue), 22 saddles (white), and 8 maxima (red).

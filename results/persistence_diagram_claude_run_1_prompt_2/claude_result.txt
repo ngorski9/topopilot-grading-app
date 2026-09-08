@@ -1,0 +1,12 @@
+This is a correct piecewise-linear sub-level set filtration persistence diagram: birth on x, death on y, points above the diagonal, blue = H0 (connected components) pairs and red = H2 (voids) pairs, computed after simplifying pairs with persistence < 0.04.
+
+**Pipeline used** (`/workspace/ttk_persistence.py`, run via `pvbatch`):
+1. Load `QMCPACK.vti` (scalar field `Scalars_`, 69×69×115 grid).
+2. `TTKPersistenceDiagram` on the raw field → initial pairs.
+3. `Threshold` on `Persistence ≥ 0.04` → simplification constraints.
+4. `TTKTopologicalSimplification` applied to the original field using those constraints → PL-simplified scalar field.
+5. `TTKPersistenceDiagram` again on the simplified field (this is the actual filtration diagram, `EmbedinDomain=0` → birth/death coordinates).
+6. `Threshold` on `PairType` to keep only dimension 0 (H0) and dimension 2 (H2) pairs; merged with `AppendDatasets`.
+7. Rendered as points in the birth/death plane with the diagonal reference line, colored by `PairType` (blue=H0, red=H2).
+
+Result: 16 H0 pairs, 6 H2 pairs survive the 0.04 persistence simplification. Output image: `/workspace/persistence_diagram_H0_H2.png`.

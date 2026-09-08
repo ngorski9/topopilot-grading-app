@@ -1,0 +1,10 @@
+The pipeline ran end to end and produced the plot. Summary of what was done:
+
+1. Loaded `QMCPACK.vti` (scalar array `Scalars_`) with `XMLImageDataReader`.
+2. Ran `TTKPersistenceDiagram` (FTM/PL backend) on the sublevel-set filtration to get the full persistence diagram (321 pairs).
+3. Applied persistence simplification via `Threshold` on the `Persistence` cell array, keeping only pairs with persistence ≥ 0.04 (36 pairs survive).
+4. Computed `Death = Birth + Persistence` with a `Calculator`.
+5. Split by `PairType` into order-0 (minimum–saddle, 16 pairs) and order-2 (saddle–maximum, 19 pairs) sets.
+6. Plotted both in an `XYChartView` as a Birth/Death scatter (the persistence diagram), saved to `/workspace/persistence_diagram.png`.
+
+Script is at `/workspace/ttk_persistence_diagram.py`, output image at `/workspace/persistence_diagram.png`.

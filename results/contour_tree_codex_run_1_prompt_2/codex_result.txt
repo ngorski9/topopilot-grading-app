@@ -1,0 +1,7 @@
+Created and verified the ParaView visualization.
+
+- State: [Ionization_contour_tree.pvsm](/workspace/Ionization_contour_tree.pvsm)
+- Preview: [Ionization_contour_tree.png](/workspace/Ionization_contour_tree.png)
+- Reproducible script: [ionization_contour_tree.py](/workspace/ionization_contour_tree.py)
+
+It loads the full time series, displays `Scalars_` with viridis, simplifies at persistence 0.1, uses tree-edge radius 1 and vertex radius 2, and colors maxima red, 2-saddles orange, 1-saddles white, and minima blue.

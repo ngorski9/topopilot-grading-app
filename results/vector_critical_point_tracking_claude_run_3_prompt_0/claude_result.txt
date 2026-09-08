@@ -1,0 +1,9 @@
+The pipeline is complete and working end-to-end:
+
+1. **Load** — read `cylinder1/2/3.vti` (3 timesteps) with VTK, extracting the `u`/`v` point-data arrays on the 150×450 grid.
+2. **Critical point extraction** — since TTK doesn't have a "vector-field zero" filter, I implemented the standard PL vector-field method directly: each grid quad is split into 2 triangles, and the barycentric location where the linearly-interpolated `(u,v)` vanishes is solved for analytically; each hit is classified as sink/source/saddle/attracting or repelling focus from the local Jacobian (trace/determinant/discriminant test). Found 68–70 critical points per frame.
+3. **Tracking via partial optimal transport** — for each consecutive frame pair, built a squared-Euclidean cost matrix between critical points and ran `ot.partial.partial_wasserstein` (POT library) with transport mass `m = min(n_a,n_b)/max(n_a,n_b)`, so points can be legitimately left unmatched (births/deaths) rather than force-assigned like standard OT/Hungarian would do. Matches beyond a plausible spatial-jump threshold are also discarded.
+4. **Chaining** — pairwise matches (0→1, 1→2) are chained into trajectories; 68 points were tracked across all 3 timesteps in this run.
+5. **Visualization** — saved to `/workspace/cylinder_critical_point_tracking.png`: greyscale vector-magnitude field + quiver of the final timestep, all critical points colored by type (opacity increasing with time), and black arrows showing each tracked trajectory across the 3 steps.
+
+Script: `/workspace/track_critical_points.py`. Most of the topological activity is a tight ring of alternating foci hugging the cylinder's no-slip boundary, plus a sparser scatter of saddle/focus pairs in the wake — consistent with vortex-shedding critical-point structure. Let me know if you'd like the wake region cropped/zoomed for a clearer view, or the trajectories extended over more than 3 timesteps.

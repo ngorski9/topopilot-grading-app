@@ -1,0 +1,9 @@
+The contour tree rendered correctly with the requested styling: nodes colored by critical type (blue minima, white 1-saddles, orange 2-saddles, red maxima) with radius 2, and thin gray edges connecting them, showing the persistence-simplified structure of the field. Both tasks completed successfully.
+
+Summary:
+- Loaded the 21-timestep Ionization `.vti` series (array `Scalars_`, 300×124×124 grid).
+- Rendered the original scalar field via volume rendering with the Viridis colormap → `/workspace/original_scalar_field.png`.
+- Computed a persistence diagram (`TTKPersistenceDiagram`), thresholded pairs with persistence ≥ 0.1, ran `TTKTopologicalSimplification` to simplify the field, then built the piecewise-linear contour tree (`TTKContourTree`).
+- Rendered the simplified contour tree with node radius 2 (colored red=maxima, orange=2-saddles, white=1-saddles, blue=minima) and edge thickness 1 → `/workspace/simplified_contour_tree.png`.
+
+Script saved at `/workspace/ttk_contour_tree.py` for reuse.

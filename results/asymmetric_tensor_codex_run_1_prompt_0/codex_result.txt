@@ -1,0 +1,8 @@
+Created the requested visualization and ParaView state.
+
+- [Visualization PNG](/workspace/ocean_eigenvector_partition.png)
+- [ParaView state](/workspace/ocean_eigenvector_partition.pvsm)
+- [Degenerate points data](/workspace/ocean_degenerate_points.vtp)
+- [Reproducible script](/workspace/visualize_ocean.py)
+
+The partition is sampled at 10 pixels per square; degenerate-point markers use radius 1, with pink trisectors and white wedges.

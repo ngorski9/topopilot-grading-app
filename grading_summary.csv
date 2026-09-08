@@ -1,0 +1,385 @@
+trial_id,task,agent,run,prompt,api,input tokens,output,cost (usd),time,grader_count,benchmark_score,benchmark_not_applicable,percent_no_errors,percent_no_minor_errors
+asymmetric_tensor_claude_run_0_prompt_0,Asymmetric tensor eigenvector partition,claude,0,0,False,726867,12771,0.7664814999999999,240.713,1,3.5,False,0.0,0.0
+asymmetric_tensor_claude_run_1_prompt_0,Asymmetric tensor eigenvector partition,claude,1,0,False,606086,13687,0.4851721,163.53,1,5.0,False,0.0,0.0
+asymmetric_tensor_claude_run_2_prompt_0,Asymmetric tensor eigenvector partition,claude,2,0,False,506044,13726,0.44214955,155.289,1,5.5,False,0.0,0.0
+asymmetric_tensor_claude_run_3_prompt_0,Asymmetric tensor eigenvector partition,claude,3,0,False,1458613,13431,1.2438814000000002,407.368,1,4.5,False,0.0,0.0
+asymmetric_tensor_codex_run_0_prompt_0,Asymmetric tensor eigenvector partition,codex,0,0,False,725203,5689,0.33400759999999996,80.7468,1,10,False,0.0,0.0
+asymmetric_tensor_codex_run_1_prompt_0,Asymmetric tensor eigenvector partition,codex,1,0,False,1360908,9269,0.47736059999999997,262.33,1,5.0,False,0.0,0.0
+asymmetric_tensor_codex_run_2_prompt_0,Asymmetric tensor eigenvector partition,codex,2,0,False,502570,7274,0.24996140000000003,95.6313,1,5.0,False,0.0,0.0
+asymmetric_tensor_codex_run_3_prompt_0,Asymmetric tensor eigenvector partition,codex,3,0,False,436348,5043,0.22216160000000001,59.3331,1,5.0,False,0.0,0.0
+asymmetric_tensor_claude_run_0_prompt_0_api,Asymmetric tensor eigenvector partition,claude,0,0,True,600344,3861,0.3383671,54.1636,1,10,False,100.0,100.0
+asymmetric_tensor_claude_run_1_prompt_0_api,Asymmetric tensor eigenvector partition,claude,1,0,True,452715,3674,0.28230445,48.2107,1,10,False,100.0,100.0
+asymmetric_tensor_claude_run_2_prompt_0_api,Asymmetric tensor eigenvector partition,claude,2,0,True,451628,3818,0.2877229,51.3511,1,10,False,100.0,100.0
+asymmetric_tensor_claude_run_3_prompt_0_api,Asymmetric tensor eigenvector partition,claude,3,0,True,502146,3840,0.30746789999999996,49.1233,1,10,False,100.0,100.0
+asymmetric_tensor_codex_run_0_prompt_0_api,Asymmetric tensor eigenvector partition,codex,0,0,True,670885,3026,0.28325540000000005,53.1546,1,10,False,100.0,100.0
+asymmetric_tensor_codex_run_1_prompt_0_api,Asymmetric tensor eigenvector partition,codex,1,0,True,322616,2516,0.1740556,35.9097,1,10,False,100.0,100.0
+asymmetric_tensor_codex_run_2_prompt_0_api,Asymmetric tensor eigenvector partition,codex,2,0,True,302266,4019,0.1659302,39.0568,1,10,False,100.0,100.0
+asymmetric_tensor_codex_run_3_prompt_0_api,Asymmetric tensor eigenvector partition,codex,3,0,True,291086,2944,0.1538668,42.4857,1,10,False,100.0,100.0
+asymmetric_tensor_claude_run_0_prompt_1,Asymmetric tensor eigenvector partition,claude,0,1,False,486172,10500,0.3851162,141.806,1,5.5,False,0.0,0.0
+asymmetric_tensor_claude_run_1_prompt_1,Asymmetric tensor eigenvector partition,claude,1,1,False,495104,18923,0.5306402,212.321,1,5.0,False,0.0,0.0
+asymmetric_tensor_claude_run_2_prompt_1,Asymmetric tensor eigenvector partition,claude,2,1,False,1656009,29377,1.13597885,374.251,1,5.5,False,0.0,0.0
+asymmetric_tensor_claude_run_3_prompt_1,Asymmetric tensor eigenvector partition,claude,3,1,False,2078987,24658,1.2481185499999996,319.185,1,5.0,False,0.0,0.0
+asymmetric_tensor_codex_run_0_prompt_1,Asymmetric tensor eigenvector partition,codex,0,1,False,361209,6173,0.20537040000000004,70.7306,1,10.0,False,100.0,100.0
+asymmetric_tensor_codex_run_1_prompt_1,Asymmetric tensor eigenvector partition,codex,1,1,False,437792,4741,0.21901,75.3435,1,5.0,False,0.0,0.0
+asymmetric_tensor_codex_run_2_prompt_1,Asymmetric tensor eigenvector partition,codex,2,1,False,1935721,10123,0.6356876000000001,144.488,1,5.0,False,0.0,0.0
+asymmetric_tensor_codex_run_3_prompt_1,Asymmetric tensor eigenvector partition,codex,3,1,False,347731,6319,0.2163392,73.7149,1,5.0,False,0.0,0.0
+asymmetric_tensor_claude_run_0_prompt_1_api,Asymmetric tensor eigenvector partition,claude,0,1,True,399068,3691,0.26162885,51.9548,1,10,False,100.0,100.0
+asymmetric_tensor_claude_run_1_prompt_1_api,Asymmetric tensor eigenvector partition,claude,1,1,True,333844,3382,0.24811775,42.8104,1,10,False,100.0,100.0
+asymmetric_tensor_claude_run_2_prompt_1_api,Asymmetric tensor eigenvector partition,claude,2,1,True,462696,3870,0.29651764999999997,49.2594,1,10,False,100.0,100.0
+asymmetric_tensor_claude_run_3_prompt_1_api,Asymmetric tensor eigenvector partition,claude,3,1,True,461476,3883,0.29655105,48.5707,1,10,False,100.0,100.0
+asymmetric_tensor_codex_run_0_prompt_1_api,Asymmetric tensor eigenvector partition,codex,0,1,True,390049,2430,0.2047406,35.0141,1,10,False,100.0,100.0
+asymmetric_tensor_codex_run_1_prompt_1_api,Asymmetric tensor eigenvector partition,codex,1,1,True,253189,2081,0.131309,27.8464,1,10,False,100.0,100.0
+asymmetric_tensor_codex_run_2_prompt_1_api,Asymmetric tensor eigenvector partition,codex,2,1,True,231546,1732,0.1164654,24.9334,1,10,False,100.0,100.0
+asymmetric_tensor_codex_run_3_prompt_1_api,Asymmetric tensor eigenvector partition,codex,3,1,True,507363,2405,0.2267946,36.4695,1,10,False,100.0,100.0
+asymmetric_tensor_claude_run_0_prompt_2,Asymmetric tensor eigenvector partition,claude,0,2,False,547548,12294,0.41670594999999994,149.417,1,5.5,False,0.0,0.0
+asymmetric_tensor_claude_run_1_prompt_2,Asymmetric tensor eigenvector partition,claude,1,2,False,392471,9242,0.31659309999999996,121.942,1,5.0,False,0.0,0.0
+asymmetric_tensor_claude_run_2_prompt_2,Asymmetric tensor eigenvector partition,claude,2,2,False,4067362,32818,2.2574959000000003,480.366,1,10,False,0.0,0.0
+asymmetric_tensor_claude_run_3_prompt_2,Asymmetric tensor eigenvector partition,claude,3,2,False,697134,6756,0.9246561999999999,289.887,1,4.5,False,0.0,0.0
+asymmetric_tensor_codex_run_0_prompt_2,Asymmetric tensor eigenvector partition,codex,0,2,False,489059,6416,0.2392852,90.7675,1,5.0,False,0.0,0.0
+asymmetric_tensor_codex_run_1_prompt_2,Asymmetric tensor eigenvector partition,codex,1,2,False,539949,5725,0.2618136,75.5537,1,5.0,False,0.0,0.0
+asymmetric_tensor_codex_run_2_prompt_2,Asymmetric tensor eigenvector partition,codex,2,2,False,651381,4959,0.2873424,65.3636,1,5.0,False,0.0,0.0
+asymmetric_tensor_codex_run_3_prompt_2,Asymmetric tensor eigenvector partition,codex,3,2,False,560176,7751,0.27417440000000004,83.8485,1,0.5,False,0.0,0.0
+asymmetric_tensor_claude_run_0_prompt_2_api,Asymmetric tensor eigenvector partition,claude,0,2,True,595315,4009,0.33602695,65.6531,1,10,False,100.0,100.0
+asymmetric_tensor_claude_run_1_prompt_2_api,Asymmetric tensor eigenvector partition,claude,1,2,True,454037,4024,0.29051965,61.2854,1,10,False,100.0,100.0
+asymmetric_tensor_claude_run_2_prompt_2_api,Asymmetric tensor eigenvector partition,claude,2,2,True,549787,3784,0.3176944,120.125,1,10,False,100.0,100.0
+asymmetric_tensor_claude_run_3_prompt_2_api,Asymmetric tensor eigenvector partition,claude,3,2,True,581828,2264,0.31927615,48.9753,1,10,False,100.0,100.0
+asymmetric_tensor_codex_run_0_prompt_2_api,Asymmetric tensor eigenvector partition,codex,0,2,True,318580,2953,0.16460539999999999,38.539,1,10,False,100.0,100.0
+asymmetric_tensor_codex_run_1_prompt_2_api,Asymmetric tensor eigenvector partition,codex,1,2,True,235826,2771,0.13422820000000002,34.4908,1,10,False,100.0,100.0
+asymmetric_tensor_codex_run_2_prompt_2_api,Asymmetric tensor eigenvector partition,codex,2,2,True,330003,3295,0.1662186,39.2773,1,10,False,100.0,100.0
+asymmetric_tensor_codex_run_3_prompt_2_api,Asymmetric tensor eigenvector partition,codex,3,2,True,401813,1923,0.19157740000000004,27.6886,1,10,False,100.0,100.0
+contour_tree_claude_run_0_prompt_0,Contour tree extraction,claude,0,0,False,993783,6366,0.5238264,117.246,1,10,False,0.0,0.0
+contour_tree_claude_run_1_prompt_0,Contour tree extraction,claude,1,0,False,1090310,6454,0.5636268,135.961,1,10,False,0.0,0.0
+contour_tree_claude_run_2_prompt_0,Contour tree extraction,claude,2,0,False,2007344,13399,1.01527505,375.707,1,10,False,0.0,0.0
+contour_tree_claude_run_3_prompt_0,Contour tree extraction,claude,3,0,False,2624874,20258,1.3080465000000003,466.7,1,10,False,0.0,0.0
+contour_tree_codex_run_0_prompt_0,Contour tree extraction,codex,0,0,False,756387,5160,0.3243492,81.7607,1,10,False,0.0,0.0
+contour_tree_codex_run_1_prompt_0,Contour tree extraction,codex,1,0,False,707006,5866,0.2864662,106.542,1,10,False,0.0,0.0
+contour_tree_codex_run_2_prompt_0,Contour tree extraction,codex,2,0,False,849466,5567,0.3606236,87.7764,1,10,False,0.0,0.0
+contour_tree_codex_run_3_prompt_0,Contour tree extraction,codex,3,0,False,756375,4908,0.3236952,70.9114,1,10,False,0.0,0.0
+contour_tree_claude_run_0_prompt_0_api,Contour tree extraction,claude,0,0,True,509816,4069,0.3322365499999999,53.8692,1,10,False,100.0,100.0
+contour_tree_claude_run_1_prompt_0_api,Contour tree extraction,claude,1,0,True,662640,4586,0.36474290000000004,155.186,1,10,False,100.0,100.0
+contour_tree_claude_run_2_prompt_0_api,Contour tree extraction,claude,2,0,True,403423,3702,0.26728725,134.33,1,10,False,0.0,0.0
+contour_tree_claude_run_3_prompt_0_api,Contour tree extraction,claude,3,0,True,346010,3926,0.23933884999999996,135.297,1,10,False,0.0,0.0
+contour_tree_codex_run_0_prompt_0_api,Contour tree extraction,codex,0,0,True,1716895,7336,0.5285534000000001,290.864,1,10,False,0.0,0.0
+contour_tree_codex_run_1_prompt_0_api,Contour tree extraction,codex,1,0,True,1021242,4151,0.350715,170.944,1,10,False,0.0,0.0
+contour_tree_codex_run_2_prompt_0_api,Contour tree extraction,codex,2,0,True,887584,4185,0.3404906,113.9,1,10,False,100.0,100.0
+contour_tree_codex_run_3_prompt_0_api,Contour tree extraction,codex,3,0,True,897460,4460,0.3328958,140.042,1,10,False,0.0,0.0
+contour_tree_claude_run_0_prompt_1,Contour tree extraction,claude,0,1,False,872935,4810,0.4631602999999999,93.6013,1,10,False,0.0,0.0
+contour_tree_claude_run_1_prompt_1,Contour tree extraction,claude,1,1,False,502752,4161,0.28713269999999996,79.5849,1,10,False,0.0,0.0
+contour_tree_claude_run_2_prompt_1,Contour tree extraction,claude,2,1,False,661147,4694,0.358619,94.1066,1,10,False,0.0,0.0
+contour_tree_claude_run_3_prompt_1,Contour tree extraction,claude,3,1,False,1976794,13267,0.97700035,282.998,1,4,False,0.0,0.0
+contour_tree_codex_run_0_prompt_1,Contour tree extraction,codex,0,1,False,789640,5543,0.30939320000000003,93.5805,1,10,False,0.0,0.0
+contour_tree_codex_run_1_prompt_1,Contour tree extraction,codex,1,1,False,329851,4185,0.1862174,73.0062,1,10,False,0.0,0.0
+contour_tree_codex_run_2_prompt_1,Contour tree extraction,codex,2,1,False,773266,5145,0.324386,78.2445,1,10,False,0.0,0.0
+contour_tree_codex_run_3_prompt_1,Contour tree extraction,codex,3,1,False,886086,4633,0.3845586,69.2282,1,10,False,0.0,0.0
+contour_tree_claude_run_0_prompt_1_api,Contour tree extraction,claude,0,1,True,305382,3890,0.22676365000000004,140.564,1,10,False,0.0,0.0
+contour_tree_claude_run_1_prompt_1_api,Contour tree extraction,claude,1,1,True,502556,4842,0.31246339999999995,152.882,1,10,False,100.0,100.0
+contour_tree_claude_run_2_prompt_1_api,Contour tree extraction,claude,2,1,True,770685,5563,0.4311528,109.328,1,10,False,0.0,0.0
+contour_tree_claude_run_3_prompt_1_api,Contour tree extraction,claude,3,1,True,787986,5261,0.41878934999999995,173.354,1,10,False,0.0,0.0
+contour_tree_codex_run_0_prompt_1_api,Contour tree extraction,codex,0,1,True,1101875,6047,0.39616,174.008,1,10,False,100.0,100.0
+contour_tree_codex_run_1_prompt_1_api,Contour tree extraction,codex,1,1,True,1029752,5271,0.384433,137.742,1,10,False,0.0,0.0
+contour_tree_codex_run_2_prompt_1_api,Contour tree extraction,codex,2,1,True,1391621,7254,0.48052360000000005,173.379,1,10,False,0.0,0.0
+contour_tree_codex_run_3_prompt_1_api,Contour tree extraction,codex,3,1,True,863457,3988,0.331161,134.546,1,10,False,100.0,100.0
+contour_tree_claude_run_0_prompt_2,Contour tree extraction,claude,0,2,False,1681590,11776,0.8752963500000001,198.47,1,10,False,0.0,0.0
+contour_tree_claude_run_1_prompt_2,Contour tree extraction,claude,1,2,False,1429126,7957,0.7370774999999999,153.252,1,10,False,0.0,0.0
+contour_tree_claude_run_2_prompt_2,Contour tree extraction,claude,2,2,False,1337968,12247,0.76718665,299.041,1,10,False,0.0,0.0
+contour_tree_claude_run_3_prompt_2,Contour tree extraction,claude,3,2,False,2623345,17822,1.2955912000000003,281.527,1,10,False,0.0,0.0
+contour_tree_codex_run_0_prompt_2,Contour tree extraction,codex,0,2,False,1250958,8126,0.463341,152.203,1,10,False,0.0,0.0
+contour_tree_codex_run_1_prompt_2,Contour tree extraction,codex,1,2,False,584536,3755,0.25515679999999996,61.7946,1,10,False,100.0,100.0
+contour_tree_codex_run_2_prompt_2,Contour tree extraction,codex,2,2,False,806255,5670,0.306358,88.127,1,10,False,0.0,0.0
+contour_tree_codex_run_3_prompt_2,Contour tree extraction,codex,3,2,False,819135,5311,0.3155952,94.6066,1,10,False,0.0,0.0
+contour_tree_claude_run_0_prompt_2_api,Contour tree extraction,claude,0,2,True,605360,3990,0.35835715,53.6846,1,10,False,100.0,100.0
+contour_tree_claude_run_1_prompt_2_api,Contour tree extraction,claude,1,2,True,547345,4121,0.314377,57.0975,1,10,False,100.0,100.0
+contour_tree_claude_run_2_prompt_2_api,Contour tree extraction,claude,2,2,True,394354,3936,0.25331905,137.397,1,10,False,0.0,0.0
+contour_tree_claude_run_3_prompt_2_api,Contour tree extraction,claude,3,2,True,599872,4279,0.34380579999999994,72.2807,1,10,False,0.0,0.0
+contour_tree_codex_run_0_prompt_2_api,Contour tree extraction,codex,0,2,True,1418502,5729,0.5599434,239.849,1,10,False,0.0,0.0
+contour_tree_codex_run_1_prompt_2_api,Contour tree extraction,codex,1,2,True,570749,2859,0.242056,91.8264,1,10,False,0.0,0.0
+contour_tree_codex_run_2_prompt_2_api,Contour tree extraction,codex,2,2,True,1650984,7936,0.5129826000000001,136.612,1,10,False,0.0,0.0
+contour_tree_codex_run_3_prompt_2_api,Contour tree extraction,codex,3,2,True,1673258,6629,0.5230528000000001,263.924,1,10,False,100.0,100.0
+isocontours_claude_run_0_prompt_0,isocontours,claude,0,0,False,543239,6254,0.47202279999999996,81.1966,1,10,False,100.0,100.0
+isocontours_claude_run_1_prompt_0,isocontours,claude,1,0,False,582647,5139,0.5046577000000001,69.6487,1,5,False,0.0,0.0
+isocontours_claude_run_2_prompt_0,isocontours,claude,2,0,False,838648,6611,0.4871934,113.265,1,5,False,0.0,0.0
+isocontours_claude_run_3_prompt_0,isocontours,claude,3,0,False,467975,3833,0.34626369999999995,60.1068,1,10,False,0.0,0.0
+isocontours_codex_run_0_prompt_0,isocontours,codex,0,0,False,422664,4330,0.2070276,60.9678,1,5,False,0.0,0.0
+isocontours_codex_run_1_prompt_0,isocontours,codex,1,0,False,439957,4425,0.2122886,72.2988,1,10,False,100.0,100.0
+isocontours_codex_run_2_prompt_0,isocontours,codex,2,0,False,453892,4696,0.2139788,70.1537,1,10,False,100.0,100.0
+isocontours_codex_run_3_prompt_0,isocontours,codex,3,0,False,461717,5047,0.2249596,65.4718,1,10,False,100.0,100.0
+isocontours_claude_run_0_prompt_0_api,isocontours,claude,0,0,True,506508,5406,0.43556934999999997,69.6665,1,10,False,0.0,0.0
+isocontours_claude_run_1_prompt_0_api,isocontours,claude,1,0,True,505019,4999,0.42935229999999996,59.4142,1,10,False,100.0,100.0
+isocontours_claude_run_2_prompt_0_api,isocontours,claude,2,0,True,564891,4469,0.4401524499999999,64.2657,1,10,False,100.0,100.0
+isocontours_claude_run_3_prompt_0_api,isocontours,claude,3,0,True,549025,4432,0.34777565,56.9276,1,10,False,100.0,100.0
+isocontours_codex_run_0_prompt_0_api,isocontours,codex,0,0,True,281007,2470,0.16618439999999998,32.5336,1,10,False,0.0,0.0
+isocontours_codex_run_1_prompt_0_api,isocontours,codex,1,0,True,337604,2984,0.1904218,47.2848,1,10,False,100.0,100.0
+isocontours_codex_run_2_prompt_0_api,isocontours,codex,2,0,True,203911,2690,0.1320626,29.971,1,10,False,0.0,0.0
+isocontours_codex_run_3_prompt_0_api,isocontours,codex,3,0,True,354712,2673,0.1752542,35.5902,1,10,False,100.0,100.0
+isocontours_claude_run_0_prompt_1,isocontours,claude,0,1,False,418803,5437,0.2936780499999999,74.8872,1,10,False,0.0,0.0
+isocontours_claude_run_1_prompt_1,isocontours,claude,1,1,False,1074235,9150,0.5938875,129.826,1,5,False,0.0,0.0
+isocontours_claude_run_2_prompt_1,isocontours,claude,2,1,False,492609,6659,0.3199896,90.2531,1,10,False,0.0,0.0
+isocontours_claude_run_3_prompt_1,isocontours,claude,3,1,False,1550732,9589,0.80964525,146.041,1,5,False,0.0,0.0
+isocontours_codex_run_0_prompt_1,isocontours,codex,0,1,False,698856,5096,0.29051459999999996,89.5836,1,10,False,100.0,100.0
+isocontours_codex_run_1_prompt_1,isocontours,codex,1,1,False,608266,4640,0.24297020000000003,77.1337,1,10,False,0.0,0.0
+isocontours_codex_run_2_prompt_1,isocontours,codex,2,1,False,624418,5213,0.26806159999999996,80.0513,1,10,False,0.0,0.0
+isocontours_codex_run_3_prompt_1,isocontours,codex,3,1,False,491704,5543,0.23421979999999998,68.6219,1,10,False,100.0,100.0
+isocontours_claude_run_0_prompt_1_api,isocontours,claude,0,1,True,432484,5053,0.31224040000000003,74.2048,1,10,False,100.0,100.0
+isocontours_claude_run_1_prompt_1_api,isocontours,claude,1,1,True,416441,4340,0.28635645,53.3712,1,10,False,100.0,100.0
+isocontours_claude_run_2_prompt_1_api,isocontours,claude,2,1,True,740540,6149,0.4296975,84.0392,1,10,False,100.0,100.0
+isocontours_claude_run_3_prompt_1_api,isocontours,claude,3,1,True,711211,5951,0.41624669999999997,79.2337,1,10,False,100.0,100.0
+isocontours_codex_run_0_prompt_1_api,isocontours,codex,0,1,True,244538,2839,0.15426820000000002,35.2903,1,10,False,0.0,0.0
+isocontours_codex_run_1_prompt_1_api,isocontours,codex,1,1,True,330609,2251,0.1707912,35.6744,1,10,False,0.0,0.0
+isocontours_codex_run_2_prompt_1_api,isocontours,codex,2,1,True,336643,2790,0.191669,32.4045,1,10,False,0.0,0.0
+isocontours_codex_run_3_prompt_1_api,isocontours,codex,3,1,True,473106,3229,0.2324898,30.1567,1,10,False,0.0,0.0
+isocontours_claude_run_0_prompt_2,isocontours,claude,0,2,False,515447,5877,0.3248913,81.1135,1,10,False,0.0,0.0
+isocontours_claude_run_1_prompt_2,isocontours,claude,1,2,False,600017,6711,0.358837,99.6353,1,10,False,0.0,0.0
+isocontours_claude_run_2_prompt_2,isocontours,claude,2,2,False,530938,4730,0.32513500000000006,73.8853,1,10,False,0.0,0.0
+isocontours_claude_run_3_prompt_2,isocontours,claude,3,2,False,480095,5378,0.2988538,77.6038,1,10,False,0.0,0.0
+isocontours_codex_run_0_prompt_2,isocontours,codex,0,2,False,338793,4419,0.1907634,60.9388,1,10,False,0.0,0.0
+isocontours_codex_run_1_prompt_2,isocontours,codex,1,2,False,332664,4275,0.1787646,58.2985,1,10,False,100.0,100.0
+isocontours_codex_run_2_prompt_2,isocontours,codex,2,2,False,1134622,6744,0.415955,93.6572,1,1,False,0.0,0.0
+isocontours_codex_run_3_prompt_2,isocontours,codex,3,2,False,233141,4679,0.1471948,51.7517,1,10,False,0.0,0.0
+isocontours_claude_run_0_prompt_2_api,isocontours,claude,0,2,True,527711,4790,0.33807634999999997,73.7138,1,10,False,0.0,0.0
+isocontours_claude_run_1_prompt_2_api,isocontours,claude,1,2,True,706668,5185,0.41602184999999997,65.3465,1,10,False,100.0,100.0
+isocontours_claude_run_2_prompt_2_api,isocontours,claude,2,2,True,446901,3900,0.30636979999999997,48.6819,1,10,False,100.0,100.0
+isocontours_claude_run_3_prompt_2_api,isocontours,claude,3,2,True,572917,5061,0.336604,67.5268,1,10,False,100.0,100.0
+isocontours_codex_run_0_prompt_2_api,isocontours,codex,0,2,True,398270,2336,0.1948042,36.6862,1,10,False,0.0,0.0
+isocontours_codex_run_1_prompt_2_api,isocontours,codex,1,2,True,412403,2709,0.2079676,46.2399,1,10,False,0.0,0.0
+isocontours_codex_run_2_prompt_2_api,isocontours,codex,2,2,True,569459,4033,0.25411120000000004,49.341,1,10,False,0.0,0.0
+isocontours_codex_run_3_prompt_2_api,isocontours,codex,3,2,True,560327,4170,0.255232,85.0641,1,10,False,100.0,100.0
+Morse-Smale segmentation_claude_run_0_prompt_0,Morse-Smale segmentation extraction,claude,0,0,False,1328438,9450,0.6798045500000001,153.766,1,7.5,False,0.0,0.0
+Morse-Smale segmentation_claude_run_1_prompt_0,Morse-Smale segmentation extraction,claude,1,0,False,1060098,10260,0.6129466,127.127,1,5.5,False,0.0,0.0
+Morse-Smale segmentation_claude_run_2_prompt_0,Morse-Smale segmentation extraction,claude,2,0,False,8896029,39609,3.74070255,580.39,1,3.5,False,0.0,0.0
+Morse-Smale segmentation_claude_run_3_prompt_0,Morse-Smale segmentation extraction,claude,3,0,False,1180072,11348,0.6694414999999998,161.498,1,7.5,False,0.0,0.0
+Morse-Smale segmentation_codex_run_0_prompt_0,Morse-Smale segmentation extraction,codex,0,0,False,978721,6462,0.35688559999999997,92.1145,1,9,False,0.0,0.0
+Morse-Smale segmentation_codex_run_1_prompt_0,Morse-Smale segmentation extraction,codex,1,0,False,778274,6080,0.3245602,98.4388,1,9,False,0.0,0.0
+Morse-Smale segmentation_codex_run_2_prompt_0,Morse-Smale segmentation extraction,codex,2,0,False,1079569,6652,0.4010342,88.1344,1,9,False,0.0,0.0
+Morse-Smale segmentation_codex_run_3_prompt_0,Morse-Smale segmentation extraction,codex,3,0,False,562742,4792,0.24887440000000002,65.4129,1,9,False,0.0,0.0
+Morse-Smale segmentation_claude_run_0_prompt_0_api,Morse-Smale segmentation extraction,claude,0,0,True,500369,4078,0.32695684999999997,52.2377,1,10,False,100.0,100.0
+Morse-Smale segmentation_claude_run_1_prompt_0_api,Morse-Smale segmentation extraction,claude,1,0,True,446769,3643,0.29891115,49.2549,1,10,False,0.0,0.0
+Morse-Smale segmentation_claude_run_2_prompt_0_api,Morse-Smale segmentation extraction,claude,2,0,True,528727,4248,0.30648324999999993,50.3781,1,10,False,100.0,100.0
+Morse-Smale segmentation_claude_run_3_prompt_0_api,Morse-Smale segmentation extraction,claude,3,0,True,355627,3747,0.24449815000000003,51.5879,1,10,False,100.0,100.0
+Morse-Smale segmentation_codex_run_0_prompt_0_api,Morse-Smale segmentation extraction,codex,0,0,True,291023,3125,0.1631938,41.071,1,10,False,100.0,100.0
+Morse-Smale segmentation_codex_run_1_prompt_0_api,Morse-Smale segmentation extraction,codex,1,0,True,293860,2751,0.16719679999999998,36.0664,1,10,False,100.0,100.0
+Morse-Smale segmentation_codex_run_2_prompt_0_api,Morse-Smale segmentation extraction,codex,2,0,True,266745,2508,0.1483476,37.3086,1,10,False,100.0,100.0
+Morse-Smale segmentation_codex_run_3_prompt_0_api,Morse-Smale segmentation extraction,codex,3,0,True,263002,2063,0.1370084,32.2412,1,10,False,100.0,100.0
+Morse-Smale segmentation_claude_run_0_prompt_1,Morse-Smale segmentation extraction,claude,0,1,False,885541,6824,0.47724435,95.8435,1,7.5,False,0.0,0.0
+Morse-Smale segmentation_claude_run_1_prompt_1,Morse-Smale segmentation extraction,claude,1,1,False,1781193,9555,0.8692445000000001,156.742,1,7.5,False,0.0,0.0
+Morse-Smale segmentation_claude_run_2_prompt_1,Morse-Smale segmentation extraction,claude,2,1,False,2205552,14529,1.09629185,210.252,1,7.5,False,0.0,0.0
+Morse-Smale segmentation_claude_run_3_prompt_1,Morse-Smale segmentation extraction,claude,3,1,False,1445576,10897,0.7766004,144.712,1,7.5,False,0.0,0.0
+Morse-Smale segmentation_codex_run_0_prompt_1,Morse-Smale segmentation extraction,codex,0,1,False,1635431,11987,0.577429,161.207,1,7.5,False,0.0,0.0
+Morse-Smale segmentation_codex_run_1_prompt_1,Morse-Smale segmentation extraction,codex,1,1,False,463497,3961,0.20544179999999998,61.7917,1,9,False,0.0,0.0
+Morse-Smale segmentation_codex_run_2_prompt_1,Morse-Smale segmentation extraction,codex,2,1,False,732926,6993,0.305563,94.671,1,7.5,False,0.0,0.0
+Morse-Smale segmentation_codex_run_3_prompt_1,Morse-Smale segmentation extraction,codex,3,1,False,773925,5059,0.2988672,66.1124,1,9,False,0.0,0.0
+Morse-Smale segmentation_claude_run_0_prompt_1_api,Morse-Smale segmentation extraction,claude,0,1,True,409168,4051,0.27311615,48.8534,1,10,False,0.0,0.0
+Morse-Smale segmentation_claude_run_1_prompt_1_api,Morse-Smale segmentation extraction,claude,1,1,True,355626,3543,0.23737919999999996,44.0988,1,10,False,0.0,0.0
+Morse-Smale segmentation_claude_run_2_prompt_1_api,Morse-Smale segmentation extraction,claude,2,1,True,444160,4256,0.28069530000000004,49.8447,1,10,False,0.0,0.0
+Morse-Smale segmentation_claude_run_3_prompt_1_api,Morse-Smale segmentation extraction,claude,3,1,True,461392,4076,0.29428529999999997,51.4979,1,10,False,100.0,100.0
+Morse-Smale segmentation_codex_run_0_prompt_1_api,Morse-Smale segmentation extraction,codex,0,1,True,258659,3150,0.152944,36.7808,1,10,False,100.0,100.0
+Morse-Smale segmentation_codex_run_1_prompt_1_api,Morse-Smale segmentation extraction,codex,1,1,True,349367,3037,0.183937,34.5939,1,10,False,100.0,100.0
+Morse-Smale segmentation_codex_run_2_prompt_1_api,Morse-Smale segmentation extraction,codex,2,1,True,562438,4148,0.2563748,47.6533,1,10,False,100.0,100.0
+Morse-Smale segmentation_codex_run_3_prompt_1_api,Morse-Smale segmentation extraction,codex,3,1,True,373807,3296,0.1878938,38.8462,1,10,False,100.0,100.0
+Morse-Smale segmentation_claude_run_0_prompt_2,Morse-Smale segmentation extraction,claude,0,2,False,1672567,10769,0.9128655,160.188,1,5.5,False,0.0,0.0
+Morse-Smale segmentation_claude_run_1_prompt_2,Morse-Smale segmentation extraction,claude,1,2,False,879173,8928,0.5160270499999999,117.364,1,7.5,False,0.0,0.0
+Morse-Smale segmentation_claude_run_2_prompt_2,Morse-Smale segmentation extraction,claude,2,2,False,4483834,22562,1.9778406000000002,346.952,1,3.5,False,0.0,0.0
+Morse-Smale segmentation_claude_run_3_prompt_2,Morse-Smale segmentation extraction,claude,3,2,False,2024978,14751,1.0411847499999998,207.647,1,7.5,False,0.0,0.0
+Morse-Smale segmentation_codex_run_0_prompt_2,Morse-Smale segmentation extraction,codex,0,2,False,575394,5686,0.2596992,78.414,1,9,False,0.0,0.0
+Morse-Smale segmentation_codex_run_1_prompt_2,Morse-Smale segmentation extraction,codex,1,2,False,307486,3853,0.181463,57.0195,1,9,False,0.0,0.0
+Morse-Smale segmentation_codex_run_2_prompt_2,Morse-Smale segmentation extraction,codex,2,2,False,351352,4417,0.1806962,58.0961,1,9,False,0.0,0.0
+Morse-Smale segmentation_codex_run_3_prompt_2,Morse-Smale segmentation extraction,codex,3,2,False,429847,5178,0.21384140000000001,64.7,1,9,False,0.0,0.0
+Morse-Smale segmentation_claude_run_0_prompt_2_api,Morse-Smale segmentation extraction,claude,0,2,True,501888,3973,0.3207468,58.1233,1,10,False,0.0,0.0
+Morse-Smale segmentation_claude_run_1_prompt_2_api,Morse-Smale segmentation extraction,claude,1,2,True,448823,3788,0.27590715,60.4277,1,10,False,0.0,0.0
+Morse-Smale segmentation_claude_run_2_prompt_2_api,Morse-Smale segmentation extraction,claude,2,2,True,404300,3624,0.2611428,43.1657,1,10,False,100.0,100.0
+Morse-Smale segmentation_claude_run_3_prompt_2_api,Morse-Smale segmentation extraction,claude,3,2,True,363676,3800,0.25524030000000003,43.1762,1,10,False,0.0,0.0
+Morse-Smale segmentation_codex_run_0_prompt_2_api,Morse-Smale segmentation extraction,codex,0,2,True,287275,3261,0.1649564,41.0945,1,10,False,100.0,100.0
+Morse-Smale segmentation_codex_run_1_prompt_2_api,Morse-Smale segmentation extraction,codex,1,2,True,374874,2923,0.1988034,37.0917,1,10,False,100.0,100.0
+Morse-Smale segmentation_codex_run_2_prompt_2_api,Morse-Smale segmentation extraction,codex,2,2,True,271959,2975,0.1532772,39.8602,1,10,False,100.0,100.0
+Morse-Smale segmentation_codex_run_3_prompt_2_api,Morse-Smale segmentation extraction,codex,3,2,True,309798,2150,0.16001520000000002,224.758,1,10,False,100.0,100.0
+persistence_diagram_claude_run_0_prompt_0,Persistence diagram extraction,claude,0,0,False,777371,8488,0.43645955,110.787,1,6,False,0.0,0.0
+persistence_diagram_claude_run_1_prompt_0,Persistence diagram extraction,claude,1,0,False,543857,5821,0.33773075,82.027,1,6,False,0.0,0.0
+persistence_diagram_claude_run_2_prompt_0,Persistence diagram extraction,claude,2,0,False,750093,6982,0.47178605,93.9808,1,6,False,0.0,0.0
+persistence_diagram_claude_run_3_prompt_0,Persistence diagram extraction,claude,3,0,False,1204045,12718,0.7587312500000001,156.497,1,6,False,0.0,0.0
+persistence_diagram_codex_run_0_prompt_0,Persistence diagram extraction,codex,0,0,False,429189,5031,0.2231652,64.6751,1,6,False,0.0,0.0
+persistence_diagram_codex_run_1_prompt_0,Persistence diagram extraction,codex,1,0,False,355811,4723,0.1863022,61.2678,1,6,False,0.0,0.0
+persistence_diagram_codex_run_2_prompt_0,Persistence diagram extraction,codex,2,0,False,611314,5887,0.2704634,73.6262,1,6,False,0.0,0.0
+persistence_diagram_codex_run_3_prompt_0,Persistence diagram extraction,codex,3,0,False,204919,2768,0.1318628,38.6895,1,6,False,0.0,0.0
+persistence_diagram_claude_run_0_prompt_0_api,Persistence diagram extraction,claude,0,0,True,912249,3225,0.44910644999999993,59.9002,1,10,False,100.0,100.0
+persistence_diagram_claude_run_1_prompt_0_api,Persistence diagram extraction,claude,1,0,True,1145723,7328,0.6344658,108.434,1,10,False,100.0,100.0
+persistence_diagram_claude_run_2_prompt_0_api,Persistence diagram extraction,claude,2,0,True,675101,5190,0.48805079999999995,67.3354,1,10,False,100.0,100.0
+persistence_diagram_claude_run_3_prompt_0_api,Persistence diagram extraction,claude,3,0,True,773908,4898,0.42644879999999996,67.1627,1,10,False,100.0,100.0
+persistence_diagram_codex_run_0_prompt_0_api,Persistence diagram extraction,codex,0,0,True,585501,4137,0.262731,51.3483,1,10,False,100.0,100.0
+persistence_diagram_codex_run_1_prompt_0_api,Persistence diagram extraction,codex,1,0,True,355441,3940,0.1979138,39.078,1,10,False,100.0,100.0
+persistence_diagram_codex_run_2_prompt_0_api,Persistence diagram extraction,codex,2,0,True,292776,3647,0.1739862,41.0726,1,10,False,100.0,100.0
+persistence_diagram_codex_run_3_prompt_0_api,Persistence diagram extraction,codex,3,0,True,406384,3917,0.2006498,80.0902,1,10,False,100.0,100.0
+persistence_diagram_claude_run_0_prompt_1,Persistence diagram extraction,claude,0,1,False,953437,6443,0.496026,94.0411,1,6,False,0.0,0.0
+persistence_diagram_claude_run_1_prompt_1,Persistence diagram extraction,claude,1,1,False,814003,7792,0.51453075,97.4703,1,10,False,0.0,0.0
+persistence_diagram_claude_run_2_prompt_1,Persistence diagram extraction,claude,2,1,False,3020015,13959,1.3385115,3051.63,1,6,False,0.0,0.0
+persistence_diagram_claude_run_3_prompt_1,Persistence diagram extraction,claude,3,1,False,663494,6655,0.3716625,94.8668,1,6,False,0.0,0.0
+persistence_diagram_codex_run_0_prompt_1,Persistence diagram extraction,codex,0,1,False,768170,4887,0.308938,70.9083,1,6,False,0.0,0.0
+persistence_diagram_codex_run_1_prompt_1,Persistence diagram extraction,codex,1,1,False,395792,4158,0.1982068,53.4917,1,6,False,0.0,0.0
+persistence_diagram_codex_run_2_prompt_1,Persistence diagram extraction,codex,2,1,False,779458,5373,0.30113,80.6133,1,6,False,0.0,0.0
+persistence_diagram_codex_run_3_prompt_1,Persistence diagram extraction,codex,3,1,False,531613,5589,0.2532044,77.3763,1,7,False,0.0,0.0
+persistence_diagram_claude_run_0_prompt_1_api,Persistence diagram extraction,claude,0,1,True,822085,5300,0.4271096999999999,76.6002,1,10,False,100.0,100.0
+persistence_diagram_claude_run_1_prompt_1_api,Persistence diagram extraction,claude,1,1,True,984165,5298,0.5120376,76.259,1,10,False,100.0,100.0
+persistence_diagram_claude_run_2_prompt_1_api,Persistence diagram extraction,claude,2,1,True,991249,5886,0.49273710000000004,80.5157,1,10,False,100.0,100.0
+persistence_diagram_claude_run_3_prompt_1_api,Persistence diagram extraction,claude,3,1,True,502613,4262,0.29366505000000004,52.3572,1,10,False,100.0,100.0
+persistence_diagram_codex_run_0_prompt_1_api,Persistence diagram extraction,codex,0,1,True,304668,3030,0.16359479999999998,36.4819,1,10,False,100.0,100.0
+persistence_diagram_codex_run_1_prompt_1_api,Persistence diagram extraction,codex,1,1,True,388039,3159,0.188711,37.9986,1,10,False,100.0,100.0
+persistence_diagram_codex_run_2_prompt_1_api,Persistence diagram extraction,codex,2,1,True,420736,2748,0.207449,34.6901,1,10,False,100.0,100.0
+persistence_diagram_codex_run_3_prompt_1_api,Persistence diagram extraction,codex,3,1,True,470796,2545,0.21226740000000002,37.2472,1,10,False,100.0,100.0
+persistence_diagram_claude_run_0_prompt_2,Persistence diagram extraction,claude,0,2,False,870487,9161,0.46801904999999994,132.855,1,6,False,0.0,0.0
+persistence_diagram_claude_run_1_prompt_2,Persistence diagram extraction,claude,1,2,False,837647,6286,0.43360604999999997,90.7968,1,6,False,0.0,0.0
+persistence_diagram_claude_run_2_prompt_2,Persistence diagram extraction,claude,2,2,False,1329121,9766,0.7038918,148.052,1,7,False,0.0,0.0
+persistence_diagram_claude_run_3_prompt_2,Persistence diagram extraction,claude,3,2,False,935628,7562,0.5127507,106.595,1,6,False,0.0,0.0
+persistence_diagram_codex_run_0_prompt_2,Persistence diagram extraction,codex,0,2,False,535537,4867,0.2367878,65.3609,1,6,False,0.0,0.0
+persistence_diagram_codex_run_1_prompt_2,Persistence diagram extraction,codex,1,2,False,448137,4242,0.2438766,51.3881,1,7,False,0.0,0.0
+persistence_diagram_codex_run_2_prompt_2,Persistence diagram extraction,codex,2,2,False,650840,4745,0.2652532,66.7879,1,6,False,0.0,0.0
+persistence_diagram_codex_run_3_prompt_2,Persistence diagram extraction,codex,3,2,False,407825,3401,0.1914898,43.7223,1,7,False,0.0,0.0
+persistence_diagram_claude_run_0_prompt_2_api,Persistence diagram extraction,claude,0,2,True,1347198,4553,0.6373788,81.853,1,10,False,100.0,100.0
+persistence_diagram_claude_run_1_prompt_2_api,Persistence diagram extraction,claude,1,2,True,812618,5637,0.45635535000000005,79.4437,1,10,False,100.0,100.0
+persistence_diagram_claude_run_2_prompt_2_api,Persistence diagram extraction,claude,2,2,True,1033672,6610,0.5555436,95.2842,1,10,False,100.0,100.0
+persistence_diagram_claude_run_3_prompt_2_api,Persistence diagram extraction,claude,3,2,True,469209,4132,0.34600185,51.5031,1,10,False,100.0,100.0
+persistence_diagram_codex_run_0_prompt_2_api,Persistence diagram extraction,codex,0,2,True,325923,3025,0.1741722,33.9573,1,10,False,100.0,100.0
+persistence_diagram_codex_run_1_prompt_2_api,Persistence diagram extraction,codex,1,2,True,349076,2986,0.1738006,44.3668,1,10,False,100.0,100.0
+persistence_diagram_codex_run_2_prompt_2_api,Persistence diagram extraction,codex,2,2,True,302882,2897,0.1840048,35.1247,1,10,False,100.0,100.0
+persistence_diagram_codex_run_3_prompt_2_api,Persistence diagram extraction,codex,3,2,True,508038,3152,0.24770340000000002,40.8216,1,10,False,100.0,100.0
+scalar_critical_point_tracking_claude_run_0_prompt_0,Scalar field critical point tracking,claude,0,0,False,6005302,38010,2.8215637499999997,809.92,1,,True,0.0,0.0
+scalar_critical_point_tracking_claude_run_1_prompt_0,Scalar field critical point tracking,claude,1,0,False,5698146,29826,2.5429343500000003,465.719,1,,True,0.0,0.0
+scalar_critical_point_tracking_claude_run_2_prompt_0,Scalar field critical point tracking,claude,2,0,False,5179735,27661,2.34136075,497.088,1,,True,0.0,0.0
+scalar_critical_point_tracking_claude_run_3_prompt_0,Scalar field critical point tracking,claude,3,0,False,5065316,21705,2.2555759500000003,541.597,1,,True,0.0,0.0
+scalar_critical_point_tracking_codex_run_0_prompt_0,Scalar field critical point tracking,codex,0,0,False,1341995,6864,0.4870162,100.382,1,,True,0.0,0.0
+scalar_critical_point_tracking_codex_run_1_prompt_0,Scalar field critical point tracking,codex,1,0,False,1421418,6204,0.5178786000000001,99.9797,1,,True,0.0,0.0
+scalar_critical_point_tracking_codex_run_2_prompt_0,Scalar field critical point tracking,codex,2,0,False,742491,7478,0.3295428,154.617,1,,True,0.0,0.0
+scalar_critical_point_tracking_codex_run_3_prompt_0,Scalar field critical point tracking,codex,3,0,False,672513,5715,0.2867052,77.2955,1,,True,0.0,0.0
+scalar_critical_point_tracking_claude_run_0_prompt_0_api,Scalar field critical point tracking,claude,0,0,True,296091,3448,0.19908264999999997,344.026,1,,True,0.0,0.0
+scalar_critical_point_tracking_claude_run_1_prompt_0_api,Scalar field critical point tracking,claude,1,0,True,442260,4159,0.29227175,69.6026,1,,True,0.0,0.0
+scalar_critical_point_tracking_claude_run_2_prompt_0_api,Scalar field critical point tracking,claude,2,0,True,712389,5146,0.3852169000000001,505.703,1,,True,100.0,100.0
+scalar_critical_point_tracking_claude_run_3_prompt_0_api,Scalar field critical point tracking,claude,3,0,True,511839,4084,0.28657645,182.288,1,,True,100.0,100.0
+scalar_critical_point_tracking_codex_run_0_prompt_0_api,Scalar field critical point tracking,codex,0,0,True,867978,4272,0.361854,101.231,1,,True,0.0,0.0
+scalar_critical_point_tracking_codex_run_1_prompt_0_api,Scalar field critical point tracking,codex,1,0,True,676331,3761,0.305743,87.5194,1,,True,0.0,0.0
+scalar_critical_point_tracking_codex_run_2_prompt_0_api,Scalar field critical point tracking,codex,2,0,True,1326636,4723,0.5133468,103.899,1,,True,100.0,100.0
+scalar_critical_point_tracking_codex_run_3_prompt_0_api,Scalar field critical point tracking,codex,3,0,True,1487749,3607,0.5024234000000001,144.009,1,,True,100.0,100.0
+scalar_critical_point_tracking_claude_run_0_prompt_1,Scalar field critical point tracking,claude,0,1,False,9468403,37112,4.05554835,552.827,1,,True,0.0,0.0
+scalar_critical_point_tracking_claude_run_1_prompt_1,Scalar field critical point tracking,claude,1,1,False,1588481,10300,0.8446673,361.189,1,,True,0.0,0.0
+scalar_critical_point_tracking_claude_run_2_prompt_1,Scalar field critical point tracking,claude,2,1,False,5397260,28782,2.4559515499999995,1063.75,1,,True,0.0,0.0
+scalar_critical_point_tracking_claude_run_3_prompt_1,Scalar field critical point tracking,claude,3,1,False,3859460,25506,1.8777200499999998,366.421,1,,True,0.0,0.0
+scalar_critical_point_tracking_codex_run_0_prompt_1,Scalar field critical point tracking,codex,0,1,False,224717,4645,0.1479676,64.0264,1,,True,0.0,0.0
+scalar_critical_point_tracking_codex_run_1_prompt_1,Scalar field critical point tracking,codex,1,1,False,994462,6924,0.40652059999999995,127.175,1,,True,0.0,0.0
+scalar_critical_point_tracking_codex_run_2_prompt_1,Scalar field critical point tracking,codex,2,1,False,384823,5441,0.1960982,134.414,1,,True,0.0,0.0
+scalar_critical_point_tracking_codex_run_3_prompt_1,Scalar field critical point tracking,codex,3,1,False,834648,7463,0.34789680000000006,96.7238,1,,True,0.0,0.0
+scalar_critical_point_tracking_claude_run_0_prompt_1_api,Scalar field critical point tracking,claude,0,1,True,604462,5522,0.35710335,89.126,1,,True,0.0,0.0
+scalar_critical_point_tracking_claude_run_1_prompt_1_api,Scalar field critical point tracking,claude,1,1,True,451143,4931,0.29623534999999995,70.252,1,,True,100.0,100.0
+scalar_critical_point_tracking_claude_run_2_prompt_1_api,Scalar field critical point tracking,claude,2,1,True,1018784,7823,0.5361509999999999,185.12,1,,True,0.0,0.0
+scalar_critical_point_tracking_claude_run_3_prompt_1_api,Scalar field critical point tracking,claude,3,1,True,786393,5585,0.4276755,194.841,1,,True,0.0,0.0
+scalar_critical_point_tracking_codex_run_0_prompt_1_api,Scalar field critical point tracking,codex,0,1,True,1232537,4048,0.446287,118.163,1,,True,0.0,0.0
+scalar_critical_point_tracking_codex_run_1_prompt_1_api,Scalar field critical point tracking,codex,1,1,True,817675,3301,0.334682,80.448,1,,True,0.0,0.0
+scalar_critical_point_tracking_codex_run_2_prompt_1_api,Scalar field critical point tracking,codex,2,1,True,580460,2996,0.262762,57.1573,1,,True,0.0,0.0
+scalar_critical_point_tracking_codex_run_3_prompt_1_api,Scalar field critical point tracking,codex,3,1,True,303539,3342,0.183763,51.4794,1,,True,0.0,0.0
+scalar_critical_point_tracking_claude_run_0_prompt_2,Scalar field critical point tracking,claude,0,2,False,2364787,18689,1.1898094,370.952,1,,True,0.0,0.0
+scalar_critical_point_tracking_claude_run_1_prompt_2,Scalar field critical point tracking,claude,1,2,False,6612824,32690,2.922419799999999,511.119,1,,True,0.0,0.0
+scalar_critical_point_tracking_claude_run_2_prompt_2,Scalar field critical point tracking,claude,2,2,False,7396105,31496,3.2252834500000005,783.913,1,,True,0.0,0.0
+scalar_critical_point_tracking_claude_run_3_prompt_2,Scalar field critical point tracking,claude,3,2,False,11285211,47448,4.7209675,662.819,1,,True,0.0,0.0
+scalar_critical_point_tracking_codex_run_0_prompt_2,Scalar field critical point tracking,codex,0,2,False,694925,5700,0.31261479999999997,82.7994,1,,True,0.0,0.0
+scalar_critical_point_tracking_codex_run_1_prompt_2,Scalar field critical point tracking,codex,1,2,False,1306587,6314,0.5130228,97.5814,1,,True,0.0,0.0
+scalar_critical_point_tracking_codex_run_2_prompt_2,Scalar field critical point tracking,codex,2,2,False,522556,7420,0.2417552,149.788,1,,True,0.0,0.0
+scalar_critical_point_tracking_codex_run_3_prompt_2,Scalar field critical point tracking,codex,3,2,False,781094,4921,0.32792920000000003,61.8655,1,,True,0.0,0.0
+scalar_critical_point_tracking_claude_run_0_prompt_2_api,Scalar field critical point tracking,claude,0,2,True,1193573,5613,0.5346376,236.234,1,,True,0.0,0.0
+scalar_critical_point_tracking_claude_run_1_prompt_2_api,Scalar field critical point tracking,claude,1,2,True,463118,4847,0.30713365,81.8694,1,,True,0.0,0.0
+scalar_critical_point_tracking_claude_run_2_prompt_2_api,Scalar field critical point tracking,claude,2,2,True,638679,4807,0.36109494999999997,215.173,1,,True,100.0,100.0
+scalar_critical_point_tracking_claude_run_3_prompt_2_api,Scalar field critical point tracking,claude,3,2,True,593712,4228,0.32062105,370.845,1,,True,100.0,100.0
+scalar_critical_point_tracking_codex_run_0_prompt_2_api,Scalar field critical point tracking,codex,0,2,True,484589,3081,0.26496759999999997,46.4422,1,,True,0.0,0.0
+scalar_critical_point_tracking_codex_run_1_prompt_2_api,Scalar field critical point tracking,codex,1,2,True,512073,3032,0.2816862,39.952,1,,True,0.0,0.0
+scalar_critical_point_tracking_codex_run_2_prompt_2_api,Scalar field critical point tracking,codex,2,2,True,1038027,3885,0.395997,94.0141,1,,True,0.0,0.0
+scalar_critical_point_tracking_codex_run_3_prompt_2_api,Scalar field critical point tracking,codex,3,2,True,760133,3721,0.3415444,104.76,1,,True,0.0,0.0
+hyperLIC_claude_run_0_prompt_0,Symmetric Tensor field visualization,claude,0,0,False,889107,14121,0.5674383,180.931,1,8,False,0.0,0.0
+hyperLIC_claude_run_1_prompt_0,Symmetric Tensor field visualization,claude,1,0,False,2719537,20544,1.2905237000000003,298.241,1,8,False,0.0,0.0
+hyperLIC_claude_run_2_prompt_0,Symmetric Tensor field visualization,claude,2,0,False,3876369,32709,1.8803690999999996,482.961,1,7,False,0.0,100.0
+hyperLIC_claude_run_3_prompt_0,Symmetric Tensor field visualization,claude,3,0,False,643274,11834,0.47571585,156.547,1,8,False,0.0,0.0
+hyperLIC_codex_run_0_prompt_0,Symmetric Tensor field visualization,codex,0,0,False,206632,3943,0.1258016,48.4213,1,8,False,0.0,0.0
+hyperLIC_codex_run_1_prompt_0,Symmetric Tensor field visualization,codex,1,0,False,277657,5358,0.1839272,68.7115,1,9,False,0.0,0.0
+hyperLIC_codex_run_2_prompt_0,Symmetric Tensor field visualization,codex,2,0,False,183600,3618,0.113535,42.406,1,8,False,0.0,0.0
+hyperLIC_codex_run_3_prompt_0,Symmetric Tensor field visualization,codex,3,0,False,452615,4768,0.2168842,51.5848,1,9,False,0.0,0.0
+hyperLIC_claude_run_0_prompt_0_api,Symmetric Tensor field visualization,claude,0,0,True,677622,4644,0.37382624999999997,91.4912,1,10,False,100.0,100.0
+hyperLIC_claude_run_1_prompt_0_api,Symmetric Tensor field visualization,claude,1,0,True,429615,3707,0.29092545,253.352,1,10,False,100.0,100.0
+hyperLIC_claude_run_2_prompt_0_api,Symmetric Tensor field visualization,claude,2,0,True,728586,4333,0.38542875,82.6184,1,10,False,100.0,100.0
+hyperLIC_claude_run_3_prompt_0_api,Symmetric Tensor field visualization,claude,3,0,True,524760,3890,0.3238773,60.1467,1,10,False,100.0,100.0
+hyperLIC_codex_run_0_prompt_0_api,Symmetric Tensor field visualization,codex,0,0,True,324617,1664,0.1664422,31.1259,1,10,False,100.0,100.0
+hyperLIC_codex_run_1_prompt_0_api,Symmetric Tensor field visualization,codex,1,0,True,364769,2782,0.179614,40.8974,1,10,False,100.0,100.0
+hyperLIC_codex_run_2_prompt_0_api,Symmetric Tensor field visualization,codex,2,0,True,275164,2980,0.1549646,41.141,1,10,False,100.0,100.0
+hyperLIC_codex_run_3_prompt_0_api,Symmetric Tensor field visualization,codex,3,0,True,303793,2749,0.1696472,44.4445,1,10,False,100.0,100.0
+hyperLIC_claude_run_0_prompt_1,Symmetric Tensor field visualization,claude,0,1,False,863640,10213,0.49888885,149.193,1,7,False,0.0,0.0
+hyperLIC_claude_run_1_prompt_1,Symmetric Tensor field visualization,claude,1,1,False,1144552,14999,0.9557654499999999,203.277,1,9,False,0.0,0.0
+hyperLIC_claude_run_2_prompt_1,Symmetric Tensor field visualization,claude,2,1,False,580082,9048,0.37007680000000004,121.689,1,3,False,0.0,100.0
+hyperLIC_claude_run_3_prompt_1,Symmetric Tensor field visualization,claude,3,1,False,1668191,18428,1.0613218000000002,259.996,1,6,False,0.0,0.0
+hyperLIC_codex_run_0_prompt_1,Symmetric Tensor field visualization,codex,0,1,False,387635,4064,0.1974166,55.9375,1,10,False,0.0,0.0
+hyperLIC_codex_run_1_prompt_1,Symmetric Tensor field visualization,codex,1,1,False,206007,3186,0.1300584,53.5519,1,8,False,0.0,100.0
+hyperLIC_codex_run_2_prompt_1,Symmetric Tensor field visualization,codex,2,1,False,442192,5537,0.211307,76.2326,1,8,False,0.0,0.0
+hyperLIC_codex_run_3_prompt_1,Symmetric Tensor field visualization,codex,3,1,False,331607,3885,0.1624054,51.9085,1,9,False,0.0,0.0
+hyperLIC_claude_run_0_prompt_1_api,Symmetric Tensor field visualization,claude,0,1,True,364618,3641,0.2511136,51.581,1,10,False,100.0,100.0
+hyperLIC_claude_run_1_prompt_1_api,Symmetric Tensor field visualization,claude,1,1,True,433245,3642,0.29154339999999995,70.2008,1,10,False,100.0,100.0
+hyperLIC_claude_run_2_prompt_1_api,Symmetric Tensor field visualization,claude,2,1,True,408999,3800,0.27238694999999996,58.539,1,10,False,100.0,100.0
+hyperLIC_claude_run_3_prompt_1_api,Symmetric Tensor field visualization,claude,3,1,True,404926,3575,0.2658239,49.8747,1,10,False,100.0,100.0
+hyperLIC_codex_run_0_prompt_1_api,Symmetric Tensor field visualization,codex,0,1,True,297456,1802,0.1489428,38.1423,1,10,False,100.0,100.0
+hyperLIC_codex_run_1_prompt_1_api,Symmetric Tensor field visualization,codex,1,1,True,235772,2469,0.13145379999999998,47.4462,1,10,False,100.0,100.0
+hyperLIC_codex_run_2_prompt_1_api,Symmetric Tensor field visualization,codex,2,1,True,563660,4532,0.2463142,87.9788,1,10,False,100.0,100.0
+hyperLIC_codex_run_3_prompt_1_api,Symmetric Tensor field visualization,codex,3,1,True,213311,2565,0.127849,38.8093,1,10,False,100.0,100.0
+hyperLIC_claude_run_0_prompt_2,Symmetric Tensor field visualization,claude,0,2,False,742614,10463,0.49250995000000003,129.781,1,8,False,0.0,100.0
+hyperLIC_claude_run_1_prompt_2,Symmetric Tensor field visualization,claude,1,2,False,754324,10764,0.47646389999999994,137.117,1,8,False,0.0,100.0
+hyperLIC_claude_run_2_prompt_2,Symmetric Tensor field visualization,claude,2,2,False,830201,11090,0.5184824,250.143,1,9,False,0.0,100.0
+hyperLIC_claude_run_3_prompt_2,Symmetric Tensor field visualization,claude,3,2,False,667609,12152,0.4716327,149.034,1,7,False,0.0,100.0
+hyperLIC_codex_run_0_prompt_2,Symmetric Tensor field visualization,codex,0,2,False,446335,5044,0.2144204,66.3824,1,10,False,100.0,100.0
+hyperLIC_codex_run_1_prompt_2,Symmetric Tensor field visualization,codex,1,2,False,119150,3362,0.11111439999999999,51.4934,1,8,False,0.0,100.0
+hyperLIC_codex_run_2_prompt_2,Symmetric Tensor field visualization,codex,2,2,False,358411,6143,0.2050952,69.9535,1,8,False,0.0,100.0
+hyperLIC_codex_run_3_prompt_2,Symmetric Tensor field visualization,codex,3,2,False,267852,4487,0.160248,50.0384,1,4,False,0.0,0.0
+hyperLIC_claude_run_0_prompt_2_api,Symmetric Tensor field visualization,claude,0,2,True,592447,3920,0.33169399999999993,73.9233,1,10,False,100.0,100.0
+hyperLIC_claude_run_1_prompt_2_api,Symmetric Tensor field visualization,claude,1,2,True,431648,3548,0.28889460000000006,55.9122,1,10,False,100.0,100.0
+hyperLIC_claude_run_2_prompt_2_api,Symmetric Tensor field visualization,claude,2,2,True,466693,3661,0.29811115000000005,56.8214,1,10,False,100.0,100.0
+hyperLIC_claude_run_3_prompt_2_api,Symmetric Tensor field visualization,claude,3,2,True,542735,3819,0.31481839999999994,61.2722,1,10,False,100.0,100.0
+hyperLIC_codex_run_0_prompt_2_api,Symmetric Tensor field visualization,codex,0,2,True,397604,2671,0.2087314,38.9683,1,10,False,100.0,100.0
+hyperLIC_codex_run_1_prompt_2_api,Symmetric Tensor field visualization,codex,1,2,True,674100,3968,0.2897826,69.3258,1,10,False,100.0,100.0
+hyperLIC_codex_run_2_prompt_2_api,Symmetric Tensor field visualization,codex,2,2,True,333743,2028,0.16074639999999998,36.7166,1,10,False,100.0,100.0
+hyperLIC_codex_run_3_prompt_2_api,Symmetric Tensor field visualization,codex,3,2,True,249123,2348,0.13919520000000002,290.373,1,10,False,100.0,100.0
+vector_critical_point_tracking_claude_run_0_prompt_0,Vector field critical point tracking,claude,0,0,False,387754,8928,0.30805305000000005,107.603,1,5,False,0.0,0.0
+vector_critical_point_tracking_claude_run_1_prompt_0,Vector field critical point tracking,claude,1,0,False,1157924,17591,0.7409448499999999,221.455,1,3,False,0.0,0.0
+vector_critical_point_tracking_claude_run_2_prompt_0,Vector field critical point tracking,claude,2,0,False,381488,8220,0.3949524,101.693,1,5,False,0.0,0.0
+vector_critical_point_tracking_claude_run_3_prompt_0,Vector field critical point tracking,claude,3,0,False,528349,12391,0.42490184999999997,141.553,1,5,False,0.0,0.0
+vector_critical_point_tracking_codex_run_0_prompt_0,Vector field critical point tracking,codex,0,0,False,460198,6812,0.24226640000000002,89.9997,1,10,False,0.0,0.0
+vector_critical_point_tracking_codex_run_1_prompt_0,Vector field critical point tracking,codex,1,0,False,264973,4327,0.1504532,68.2497,1,10,False,0.0,0.0
+vector_critical_point_tracking_codex_run_2_prompt_0,Vector field critical point tracking,codex,2,0,False,440160,4522,0.2131458,64.0112,1,10,False,0.0,0.0
+vector_critical_point_tracking_codex_run_3_prompt_0,Vector field critical point tracking,codex,3,0,False,187303,3526,0.1287938,47.2176,1,5,False,0.0,0.0
+vector_critical_point_tracking_claude_run_0_prompt_0_api,Vector field critical point tracking,claude,0,0,True,614585,5252,0.3669138,99.5721,1,10,False,100.0,100.0
+vector_critical_point_tracking_claude_run_1_prompt_0_api,Vector field critical point tracking,claude,1,0,True,568915,4857,0.35281964999999993,76.9842,1,10,False,100.0,100.0
+vector_critical_point_tracking_claude_run_2_prompt_0_api,Vector field critical point tracking,claude,2,0,True,490497,4534,0.39507329999999996,67.5559,1,10,False,0.0,0.0
+vector_critical_point_tracking_claude_run_3_prompt_0_api,Vector field critical point tracking,claude,3,0,True,405333,4473,0.2686128,70.0191,1,10,False,100.0,100.0
+vector_critical_point_tracking_codex_run_0_prompt_0_api,Vector field critical point tracking,codex,0,0,True,463640,3230,0.2342968,58.3841,1,10,False,100.0,100.0
+vector_critical_point_tracking_codex_run_1_prompt_0_api,Vector field critical point tracking,codex,1,0,True,484514,3046,0.22783420000000001,52.5216,1,10,False,100.0,100.0
+vector_critical_point_tracking_codex_run_2_prompt_0_api,Vector field critical point tracking,codex,2,0,True,298586,2516,0.15819039999999998,35.1072,1,10,False,0.0,0.0
+vector_critical_point_tracking_codex_run_3_prompt_0_api,Vector field critical point tracking,codex,3,0,True,280660,2720,0.14892439999999998,47.3112,1,10,False,100.0,100.0
+vector_critical_point_tracking_claude_run_0_prompt_1,Vector field critical point tracking,claude,0,1,False,766284,15409,0.5523214999999999,201.728,1,5,False,0.0,0.0
+vector_critical_point_tracking_claude_run_1_prompt_1,Vector field critical point tracking,claude,1,1,False,713704,13775,0.5033032499999999,180.929,1,10,False,0.0,0.0
+vector_critical_point_tracking_claude_run_2_prompt_1,Vector field critical point tracking,claude,2,1,False,735254,15991,0.5589867500000001,185.36,1,5,False,0.0,0.0
+vector_critical_point_tracking_claude_run_3_prompt_1,Vector field critical point tracking,claude,3,1,False,1204150,13921,0.6765086000000002,203.019,1,5,False,0.0,0.0
+vector_critical_point_tracking_codex_run_0_prompt_1,Vector field critical point tracking,codex,0,1,False,447966,8975,0.24790740000000003,130.188,1,5,False,0.0,0.0
+vector_critical_point_tracking_codex_run_1_prompt_1,Vector field critical point tracking,codex,1,1,False,569646,7115,0.2506794,126.261,1,5,False,0.0,0.0
+vector_critical_point_tracking_codex_run_2_prompt_1,Vector field critical point tracking,codex,2,1,False,456373,5201,0.2150792,84.2153,1,4,False,0.0,0.0
+vector_critical_point_tracking_codex_run_3_prompt_1,Vector field critical point tracking,codex,3,1,False,417866,5541,0.2082034,83.4949,1,5,False,0.0,0.0
+vector_critical_point_tracking_claude_run_0_prompt_1_api,Vector field critical point tracking,claude,0,1,True,404226,4361,0.26340214999999995,63.8655,1,10,False,100.0,100.0
+vector_critical_point_tracking_claude_run_1_prompt_1_api,Vector field critical point tracking,claude,1,1,True,421015,3970,0.28061044999999996,52.6395,1,10,False,0.0,0.0
+vector_critical_point_tracking_claude_run_2_prompt_1_api,Vector field critical point tracking,claude,2,1,True,529623,4832,0.36154595,92.3807,1,10,False,100.0,100.0
+vector_critical_point_tracking_claude_run_3_prompt_1_api,Vector field critical point tracking,claude,3,1,True,603822,4526,0.3524288,76.7053,1,10,False,100.0,100.0
+vector_critical_point_tracking_codex_run_0_prompt_1_api,Vector field critical point tracking,codex,0,1,True,612175,3499,0.26461640000000003,62.6966,1,10,False,100.0,100.0
+vector_critical_point_tracking_codex_run_1_prompt_1_api,Vector field critical point tracking,codex,1,1,True,414285,3277,0.2343138,49.062,1,10,False,100.0,100.0
+vector_critical_point_tracking_codex_run_2_prompt_1_api,Vector field critical point tracking,codex,2,1,True,579276,2677,0.242517,54.3225,1,10,False,100.0,100.0
+vector_critical_point_tracking_codex_run_3_prompt_1_api,Vector field critical point tracking,codex,3,1,True,436329,3387,0.2579346,48.1195,1,10,False,100.0,100.0
+vector_critical_point_tracking_claude_run_0_prompt_2,Vector field critical point tracking,claude,0,2,False,927220,11936,0.5569121,171.829,1,10,False,0.0,0.0
+vector_critical_point_tracking_claude_run_1_prompt_2,Vector field critical point tracking,claude,1,2,False,720073,11654,0.5004883999999999,151.083,1,10,False,100.0,100.0
+vector_critical_point_tracking_claude_run_2_prompt_2,Vector field critical point tracking,claude,2,2,False,1697483,19889,0.9834212999999999,254.814,1,10,False,0.0,0.0
+vector_critical_point_tracking_claude_run_3_prompt_2,Vector field critical point tracking,claude,3,2,False,7714823,50725,3.5896457499999994,622.153,1,2,False,0.0,0.0
+vector_critical_point_tracking_codex_run_0_prompt_2,Vector field critical point tracking,codex,0,2,False,196062,4698,0.1457598,56.3604,1,2,False,0.0,0.0
+vector_critical_point_tracking_codex_run_1_prompt_2,Vector field critical point tracking,codex,1,2,False,192759,7365,0.1657614,104.641,1,5,False,0.0,0.0
+vector_critical_point_tracking_codex_run_2_prompt_2,Vector field critical point tracking,codex,2,2,False,458301,5697,0.21929640000000003,73.2026,1,7,False,0.0,0.0
+vector_critical_point_tracking_codex_run_3_prompt_2,Vector field critical point tracking,codex,3,2,False,493864,7106,0.235298,108.182,1,5,False,0.0,0.0
+vector_critical_point_tracking_claude_run_0_prompt_2_api,Vector field critical point tracking,claude,0,2,True,640450,4761,0.3727559,171.305,1,10,False,100.0,100.0
+vector_critical_point_tracking_claude_run_1_prompt_2_api,Vector field critical point tracking,claude,1,2,True,472395,4024,0.29766035,131.763,1,10,False,0.0,0.0
+vector_critical_point_tracking_claude_run_2_prompt_2_api,Vector field critical point tracking,claude,2,2,True,509897,5030,0.3251414,77.8059,1,10,False,100.0,100.0
+vector_critical_point_tracking_claude_run_3_prompt_2_api,Vector field critical point tracking,claude,3,2,True,458252,4628,0.30119165,102.141,1,10,False,100.0,100.0
+vector_critical_point_tracking_codex_run_0_prompt_2_api,Vector field critical point tracking,codex,0,2,True,247701,3156,0.1481406,44.7316,1,10,False,0.0,0.0
+vector_critical_point_tracking_codex_run_1_prompt_2_api,Vector field critical point tracking,codex,1,2,True,552384,2720,0.2301666,66.7731,1,10,False,100.0,100.0
+vector_critical_point_tracking_codex_run_2_prompt_2_api,Vector field critical point tracking,codex,2,2,True,455537,3622,0.2249458,68.0955,1,10,False,100.0,100.0
+vector_critical_point_tracking_codex_run_3_prompt_2_api,Vector field critical point tracking,codex,3,2,True,492854,2433,0.210862,41.5966,1,10,False,100.0,100.0

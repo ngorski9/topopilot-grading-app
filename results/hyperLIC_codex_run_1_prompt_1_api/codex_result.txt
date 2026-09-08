@@ -1,0 +1,8 @@
+Rendered the symmetric tensor field with degenerate points:
+
+- Trisectors: pink, radius 1
+- Wedges: white, radius 1
+
+Output: [brain_tensor_degenerate_points.png](/workspace/brain_tensor_degenerate_points.png)
+
+The reproducible TopoPilot2 pipeline is in [render_brain_tensor.py](/workspace/render_brain_tensor.py).

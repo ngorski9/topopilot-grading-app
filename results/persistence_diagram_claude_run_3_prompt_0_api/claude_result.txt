@@ -1,0 +1,3 @@
+The persistence diagram now renders clearly, showing the pairs along the diagonal (order-0 minima/maxima pairs) and the tall separate branch of order-2 pairs on the right.
+
+I loaded `QMCPACK.vti` (scalar array `Scalars_`), applied `PersistenceSimplification` with an absolute threshold of 0.04, then computed and embedded the persistence diagram via `ComputePersistenceDiagram`/`EmbedPersistenceDiagram`, which uses the FTM backend to show orders 0 and D-1 (=2, since this is a 3D volume) from the sublevel-set filtration — exactly matching the request. Output saved to `/workspace/qmcpack_pd.png`, script at `/workspace/qmcpack_pd.py`.

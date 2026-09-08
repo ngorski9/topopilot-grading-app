@@ -1,0 +1,10 @@
+Completed the TopoPilot2 pipeline using partial optimal transport across 3 time steps.
+
+Outputs:
+
+- [Pipeline script](/workspace/cylinder_tracking.py)
+- [Step 1 visualization](/workspace/cylinder_tracking_step1.png)
+- [Step 2 visualization](/workspace/cylinder_tracking_step2.png)
+- [Step 3 visualization](/workspace/cylinder_tracking_step3.png)
+
+Each image overlays identity-colored tracked critical points on the original LIC vector-field rendering from `u` and `v`.

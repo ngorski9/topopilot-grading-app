@@ -1,0 +1,10 @@
+Rendered tensor field and all detected degenerate points.
+
+- White spheres: wedges
+- Pink spheres: trisectors
+- Sphere radius: 1
+- Detected: 314 wedges, 312 trisectors
+
+Output: [brain_degenerate_points.png](/workspace/brain_degenerate_points.png)
+
+The reproducible rendering script is [render_brain.py](/workspace/render_brain.py).

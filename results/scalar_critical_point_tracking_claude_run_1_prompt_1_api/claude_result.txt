@@ -1,0 +1,7 @@
+Pipeline built at `/workspace/cloud_pipeline.py`:
+
+- `LoadScalarField` on `./cloud3step` (a 3-step copy of the first 3 frames of `./cloud`, array `Scalars_`)
+- `EmbedScalarField` (cool warm colormap) — the original field render
+- `PersistenceSimplification(epsilon=0.5)` → `ComputeScalarCriticalPoints("maxima")` → `TrackScalarCriticalPoints(time_steps=3, backend="emd")` → `EmbedTrackedScalarFieldCriticalPoints(radius=2.0)`
+
+Rendered with `pvbatch` to `/workspace/cloud_tracked.mp4` (3-frame video, 1280×720), showing the scalar field with tracked maxima spheres overlaid across the 3 time steps.

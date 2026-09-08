@@ -1,0 +1,1 @@
+The pipeline is already running as a background Bash task, so I'll just wait for its own completion notification instead of adding another watcher.

@@ -1,0 +1,11 @@
+Completed using time steps 1–3.
+
+- Detected 26, 24, and 25 non-degenerate critical points.
+- Used Python Optimal Transport partial Wasserstein transport (90% mass) to produce 22 three-step tracks.
+- Saved field overlays and track visualization:
+
+  - [Vector-field critical points](/workspace/cylinder_tracking_output/critical_points_on_vector_fields.png)
+  - [Partial-OT tracks](/workspace/cylinder_tracking_output/partial_ot_critical_point_tracks.png)
+  - [Critical-point coordinates](/workspace/cylinder_tracking_output/critical_points_and_partial_ot.csv)
+  - [Track assignments](/workspace/cylinder_tracking_output/partial_ot_tracks.csv)
+  - [Reproducible script](/workspace/track_cylinder_critical_points.py)

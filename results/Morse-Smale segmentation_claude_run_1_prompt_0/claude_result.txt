@@ -1,0 +1,3 @@
+The pipeline is correct and complete. The task is done: `fracture.vti` loaded, persistence-simplified at threshold 0.05 (via TTKPersistenceDiagram → Threshold → TTKTopologicalSimplification), the Morse-Smale segmentation computed and rendered (colored by `MorseSmaleManifold`), and all critical points (minima/saddles/maxima) rendered as radius-2 spheres colored blue/white/red respectively.
+
+Script: `/workspace/fracture_mscomplex.py`, output image: `/workspace/fracture_morse_smale.png`.

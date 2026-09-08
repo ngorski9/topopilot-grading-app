@@ -1,0 +1,9 @@
+Completed persistence simplification at 0.05 and rendered the Morse–Smale segmentation with radius‑2 critical-point markers.
+
+- [Rendered segmentation PNG](/workspace/results/fracture_morse_smale_persistence_0.05.png)
+- [ParaView state file](/workspace/results/fracture_morse_smale_persistence_0.05.pvsm)
+- [Simplified field](/workspace/results/fracture_simplified_0.05.vti)
+- [Segmentation data](/workspace/results/fracture_morse_smale_segmentation_0.05.vti)
+- [Critical points](/workspace/results/fracture_critical_points_0.05.vtp)
+
+Result: 19 minima (blue), 30 saddles (white), and 12 maxima (red).

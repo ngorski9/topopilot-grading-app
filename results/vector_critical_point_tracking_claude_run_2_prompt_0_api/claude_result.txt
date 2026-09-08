@@ -1,0 +1,15 @@
+Done. I created `/workspace/cylinder_track.py` (based on the TopoPilot script template), which:
+
+- Loads the time-varying vector field via `LoadVectorField(load_path, "u", "v")`
+- Displays the raw vector field with `EmbedVectorField`
+- Computes vector critical points (`ComputeVectorCriticalPoints`) and tracks them across time steps with `TrackVectorCriticalPoints(..., backend="partial")` (partial optimal transport)
+- Renders tracked critical points with `EmbedTrackedVectorFieldCriticalPoints`, layered on top of the vector field embedding
+
+Since the task asked specifically for 3 time steps, I built a 3-frame subset directory `/workspace/cylinder3ts/cylinder3ts/` from the first 3 steps of `./cylinder` (`cylinder1–3.vti` → `cylinder3ts1–3.vti`), matching TopoPilot's required time-series naming convention.
+
+Ran it with:
+```
+pvbatch cylinder_track.py -i /workspace/cylinder3ts/cylinder3ts -t -1 -o /workspace/cylinder_tracked.mp4 -q /workspace/session
+```
+
+This produced `/workspace/cylinder_tracked.mp4` — a 3-frame video showing the vector field with tracked critical points overlaid, colored by tracked identity across the 3 time steps.

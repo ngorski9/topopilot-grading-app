@@ -1,0 +1,8 @@
+Rendered the pipeline successfully at `/workspace/qmcpack_output.png`. The pipeline:
+
+- Loads `QMCPACK.vti` (array `Scalars_`, a 3D 69×69×115 volume)
+- Applies `PersistenceSimplification` with ε=0.04
+- Computes 4 isocontours (`ComputeIsocontours`, num_contours=4) evenly dividing the value range into 5 regions, embedded with the "cool warm" colormap
+- Computes all piecewise-linear critical points (`ComputeScalarCriticalPoints`, "all critical points") and embeds them with color scheme: minima=blue, 1-saddles=white, 2-saddles=orange, maxima=red
+
+Result: 16 minima, 288 1-saddles, 315 2-saddles, 20 maxima (plus 10 multi-saddles at degenerate points, shown in black), overlaid on the translucent isocontour surfaces.

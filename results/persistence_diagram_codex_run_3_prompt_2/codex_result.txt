@@ -1,0 +1,7 @@
+Rendered the requested diagram with persistence threshold 0.04.
+
+- [Persistence diagram PNG](/workspace/QMCPACK_persistence_diagram_simplified_0.04_H0_H2.png)
+- [Filtered H0/H2 pair data CSV](/workspace/QMCPACK_persistence_simplified_0.04_H0_H2.csv)
+- [Reproducible render script](/workspace/render_qmc_persistence.py)
+
+The simplification retained 16 H0 pairs and 6 H2 pairs.

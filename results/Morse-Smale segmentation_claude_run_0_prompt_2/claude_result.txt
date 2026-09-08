@@ -1,0 +1,7 @@
+The pipeline works well now: distinct-colored Morse-Smale regions with critical points overlaid as radius-2 spheres (red = maxima, white = saddles, blue = minima).
+
+Summary:
+- Read `fracture.vti` (`Scalars_` field), computed persistence diagram, thresholded pairs with persistence > 0.05, and used `TTKTopologicalSimplification` to simplify the field accordingly.
+- Ran `TTKMorseSmaleComplex` on the simplified field to get the piecewise-linear MS segmentation (`MorseSmaleManifold`, port 3) and all critical points (port 0, `CellDimension` = 0/1/2 for min/saddle/max).
+- Rendered the segmentation with a qualitative colormap and overlaid critical points as radius-2 glyph spheres colored red (maxima), white (saddles), blue (minima).
+- Script: `/workspace/ttk_morse_smale.py`; output image: `/workspace/morse_smale_render.png`.

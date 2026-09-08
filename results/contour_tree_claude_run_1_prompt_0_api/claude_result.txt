@@ -1,0 +1,8 @@
+Done. The pipeline script is at `/workspace/ionization_pipeline.py`, and it:
+
+1. Loads the time-varying Ionization dataset (21 steps) via `LoadScalarField` on array `Scalars_`.
+2. Renders the original scalar field with the `viridis` colormap (`EmbedScalarField`).
+3. Applies `PersistenceSimplification` with `epsilon=0.1`.
+4. Computes and embeds the simplified contour tree (`EmbedContourTree`) with tube radius 1 and ball radius 2, colored minima=blue, 1-saddles=white, 2-saddles=orange, maxima=red.
+
+Output: `/workspace/ionization_contour_tree.mp4` (full 21-step video), verified against a single-frame test (`test1.png`) showing the expected colors/geometry.

@@ -1,0 +1,9 @@
+Completed the ParaView/TTK visualization.
+
+- [ParaView state](sandbox:/workspace/ionization_contour_tree.pvsm)
+- [Combined original-field + tree image](sandbox:/workspace/ionization_original_and_tree.png)
+- [Simplified contour-tree image](sandbox:/workspace/ionization_simplified_contour_tree.png)
+- [21-step time-series collection](sandbox:/workspace/Ionization/Ionization.pvd)
+- [Reproducible pvpython script](sandbox:/workspace/visualize_ionization.py)
+
+The pipeline uses viridis for the original scalar slice, absolute persistence simplification of `0.1`, tree-edge tube radius `1`, and critical-point sphere radius `2` with the requested colors.

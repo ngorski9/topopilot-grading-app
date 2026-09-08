@@ -1,0 +1,7 @@
+Persistence threshold: 0.04 (absolute)
+Equal-volume isovalues: 0.393136739, 0.404710997, 0.409601447, 0.418580103
+Minimum: 16
+1-saddle: 288
+2-saddle: 315
+Maximum: 20
+Multi-saddle: 10

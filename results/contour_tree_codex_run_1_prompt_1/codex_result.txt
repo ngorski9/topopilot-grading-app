@@ -1,0 +1,10 @@
+Completed the ParaView/TTK workflow for all 21 Ionization time steps.
+
+Outputs:
+
+- [Original viridis scalar-field render](/workspace/Ionization_renderings/ionization_original_viridis.png)
+- [Simplified piecewise-linear contour tree render](/workspace/Ionization_renderings/ionization_simplified_contour_tree.png)
+- [Editable ParaView state](/workspace/Ionization_renderings/ionization_contour_tree.pvsm)
+- [Reproduction script](/workspace/render_ionization.py)
+
+The contour tree uses absolute persistence simplification `0.1`, radius-2 critical-point glyphs (maxima red, 2-saddles orange, 1-saddles white, minima blue), and line width 1 for arcs.

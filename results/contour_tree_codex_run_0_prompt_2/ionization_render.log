@@ -1,0 +1,213 @@
+[32;1m[Common] [0m[32;1m                           [0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m
+[32;1m[Common] [0m[32;1m                    ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m
+[32;1m[Common] [0m[32;1m                [0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m
+[32;1m[Common] [0m[32;1m             ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░[0m[2;1m░[0m[2;1m▒░░░▒▒░[0m[32;1m░[0m[32;1m░[0m[32;1m▒▒▒▒▒▒▒[0m
+[32;1m[Common] [0m[32;1m          ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[2;1m░[0m[30;1m░[0m[30;1m░░░[0m[2;1m░   [0m[34;1m░[0m[34;1m░░░░░░[0m[30;1m░[0m[30;1m░░░▒[0m[2;1m▒[0m[32;1m▒[0m[32;1m▒▒▒▒[0m
+[32;1m[Common] [0m[32;1m        ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░[0m[30;1m░                    [0m[34;1m░[0m[34;1m░░[0m[30;1m░[0m[30;1m░░[0m[32;1m░[0m[32;1m▒▒▒[0m
+[32;1m[Common] [0m[32;1m      ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[2;1m░[0m[30;1m░    [0m[30;1m▒▒▒▒▒▒▒▒▒▒▒▒          [0m[34;1m░[0m[34;1m▒▒ [0m[30;1m░[0m[2;1m░[0m[32;1m▒[0m[32;1m▒▒[0m
+[32;1m[Common] [0m[32;1m     ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[30;1m░[0m[30;1m░   ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░▒▒       [0m[34;1m░[0m[34;1m░▒ [0m[30;1m░[0m[30;1m░[0m[32;1m▒[0m[32;1m▒[0m
+[32;1m[Common] [0m[32;1m    ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[30;1m░[0m[30;1m░  [0m[2;1m▒[0m[2;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[30;1m▒[0m[30;1m▒▒▒▒░▒▒    [0m[34;1m░[0m[34;1m░░░▒ [0m[30;1m░[0m[2;1m░[0m[32;1m▒[0m[32;1m▒[0m
+[32;1m[Common] [0m[32;1m   ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[30;1m░[0m[30;1m░ ▒[0m[2;1m▒[0m[2;1m▒▒▒▒▒[0m[2;1m▒[0m[2;1m▒▒▒[0m[37;1m▒[0m[37;1m▄[0m[37;1m▓█[0m[37;1m█▓████[0m[37;1m█▓▄[0m[2;1m▄[0m[2;1m░[0m[30;1m░[0m[30;1m░▒   [0m[34;1m░[0m[34;1m░░░░░[0m[30;1m░[0m[30;1m░[0m[32;1m░[0m[32;1m▒[0m
+[32;1m[Common] [0m[32;1m  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░  [0m[2;1m▒[0m[2;1m▒▒▒[0m[2;1m▒[0m[2;1m▒▒▒▒▓[0m[37;1m▓[0m[37;1m▓▀[0m[2;1m▀[0m[2;1m▀▀[0m[37;1m▀[0m[37;1m▀[0m[37;1m▀████▓▓▓▓[0m[2;1m▄[0m[30;1m░[0m[30;1m░   [0m[34;1m░[0m[34;1m░░░░▒ [0m[30;1m░[0m[2;1m░[0m[32;1m▒[0m
+[32;1m[Common] [0m[32;1m ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m░[0m[30;1m░ [0m[30;1m▒[0m[2;1m▒[0m[2;1m▒▒[0m[2;1m▒[0m[2;1m▒▒▒▒           [0m[30;1m░[0m[30;1m░[0m[2;1m░[0m[37;1m▀[0m[37;1m██▓▓▓▓[0m[2;1m▓[0m[30;1m░[0m[2;1m░    [0m[34;1m░[0m[34;1m░░▒ [0m[30;1m░[0m[2;1m░[0m[32;1m▒[0m
+[32;1m[Common] [0m[32;1m ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m▒[0m[32;1m░[0m[30;1m░ [0m[30;1m▒[0m[2;1m▒[0m[2;1m▒▒▒▒                  [0m[30;1m░[0m[2;1m▀[0m[37;1m█[0m[37;1m█▓▓▓[0m[37;1m▓[0m[2;1m░    [0m[34;1m░[0m[34;1m░░░▒ [0m[30;1m░[0m[32;1m░[0m[32;1m░[0m
+[32;1m[Common] [0m[32;1m ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m▒[0m[32;1m░[0m[32;1m▒[0m[30;1m░[0m[30;1m░ [0m[2;1m▒[0m[2;1m▒▒                     [0m[30;1m░[0m[30;1m░[0m[37;1m▀[0m[37;1m▓[0m[37;1m▓▓[0m[37;1m▓▒[0m[2;1m░    [0m[34;1m░[0m[34;1m░░▒░[0m[30;1m░[0m[30;1m░[0m[32;1m▒[0m
+[32;1m[Common] [0m[32;1m ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░[0m[30;1m░ [0m[30;1m▒▒                        ░[0m[2;1m▐[0m[37;1m▓[0m[37;1m▓[0m[37;1m▓▒[0m[37;1m▒    [0m[34;1m░[0m[34;1m░░░▒ [0m[30;1m░[0m[32;1m░[0m
+[32;1m[Common] [0m[32;1m ░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░                         [0m[32;1m░[0m[30;1m░[0m[30;1m░[0m[37;1m▐[0m[37;1m▓[0m[37;1m▓[0m[37;1m▒[0m[2;1m▒[0m[2;1m▒ [0m[34;1m░[0m[34;1m░░░░▒▒ [0m[30;1m░[0m[2;1m░[0m[32;1m▒[0m
+[32;1m[Common] [0m[30;1m░[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░                        ░░[0m[30;1m░[0m[2;1m▐[0m[37;1m▓[0m[37;1m▒[0m[37;1m▒[0m[2;1m▒[0m[30;1m░[0m[34;1m░[0m[34;1m░░░░░▒▒ [0m[30;1m░[0m[30;1m░[0m[32;1m▒[0m
+[32;1m[Common] [0m[30;1m░[0m[32;1m░[0m[32;1m░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░                   ░░░░░[0m[30;1m░[0m[2;1m▐[0m[37;1m▓[0m[37;1m▒[0m[2;1m▒[0m[2;1m▒[0m[34;1m░[0m[34;1m░░░░░░▒▒ [0m[30;1m░[0m[30;1m░[0m
+[32;1m[Common] [0m[32;1m  ░[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░           ░░░░░░▒[0m[30;1m▒[0m[30;1m░[0m[37;1m▓[0m[37;1m▒[0m[2;1m▒[0m[2;1m▒[0m[30;1m░[0m[34;1m░[0m[34;1m░░░░░▒▒▒░[0m[30;1m░[0m[32;1m░[0m
+[32;1m[Common] [0m[32;1m   [0m[30;1m░[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░[0m[30;1m░ [0m[37;1m▓[0m[2;1m▒[0m[2;1m▒[0m[30;1m░[0m[34;1m░[0m[34;1m░░░░▒▒▒▒▒[0m[30;1m░[0m[30;1m░[0m[32;1m░[0m
+[32;1m[Common] [0m[32;1m    [0m[30;1m░[0m[32;1m░[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m▒▒[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░▒░[0m[30;1m░[0m[30;1m░[0m[37;1m▓[0m[2;1m▒[0m[2;1m▒[0m[30;1m░[0m[34;1m▒[0m[34;1m░░▒▒▒▒▒▒▒░[0m[30;1m░[0m[30;1m░[0m
+[32;1m[Common] [0m[32;1m     ░░[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m▒▓▓▓▒▒[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░ [0m[2;1m▓[0m[2;1m▒[0m[30;1m░ [0m[34;1m▒[0m[34;1m▒▒▒▒▒▒▒▒▒▒[0m[30;1m░[0m[30;1m░[0m[32;1m▒[0m
+[32;1m[Common] [0m[32;1m      [0m[34;1m▒[0m[30;1m░[0m[2;1m░[0m[32;1m░[0m[32;1m▒▒▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m▒[0m[37;1m▓[0m[37;1m▓▓[0m[32;1m▓[0m[32;1m▒[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░[0m[30;1m░ [0m[37;1m▒[0m[2;1m▒  [0m[34;1m▒[0m[34;1m▒▒▒▒▒▒▒▒▒▒[0m[30;1m░[0m[30;1m░[0m[32;1m░[0m
+[32;1m[Common] [0m[32;1m      [0m[34;1m░[0m[34;1m░░[0m[30;1m░[0m[30;1m░[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░[0m[30;1m░ [0m[2;1m▒[0m[2;1m▒   [0m[34;1m▒[0m[34;1m▒▒▒▒▒▒▒▒▒▒[0m[30;1m░[0m[30;1m░[0m[32;1m░[0m
+[32;1m[Common] [0m[32;1m       [0m[34;1m░[0m[34;1m░░░░[0m[30;1m░[0m[2;1m░[0m[32;1m░[0m[32;1m▒▒▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m▒[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░[0m[30;1m░░[0m[2;1m░[0m[2;1m▒     [0m[34;1m▒[0m[34;1m▒▒▒▒▒▒▒▒▒▒[0m[30;1m░[0m[30;1m░[0m[32;1m░[0m
+[32;1m[Common] [0m[32;1m         [0m[34;1m▒[0m[34;1m░░░░░[0m[30;1m░[0m[30;1m░[0m[2;1m░[0m[32;1m░[0m[32;1m░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[2;1m░[0m[30;1m░[0m[30;1m░░ [0m[2;1m░       [0m[34;1m░[0m[34;1m▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░[0m[30;1m░[0m
+[32;1m[Common] [0m[32;1m          [0m[34;1m░[0m[34;1m░░░░░░░░░[0m[30;1m░[0m[30;1m░░░░░░░░░░░░░░░░            [0m[34;1m▒[0m[34;1m▒▒▒▒▒▒▒▒▒░[0m[30;1m░[0m[30;1m░[0m
+[32;1m[Common] [0m[32;1m            [0m[34;1m░[0m[34;1m▒░░░░░░░░░░                       ▒▒▒▒▒▒▒[0m[36;1m▒[0m[36;1m▒[0m[34;1m▒[0m[34;1m░[0m[30;1m░[0m[30;1m░[0m
+[32;1m[Common] [0m[32;1m              [0m[34;1m░[0m[34;1m▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░ ░▒[0m[36;1m▒[0m[36;1m▒▒▒▒▒▒[0m[34;1m░[0m[30;1m░[0m[30;1m░[0m[30;1m░[0m
+[32;1m[Common] [0m[32;1m                 [0m[34;1m░[0m[34;1m░▒░░░░░░░░░░░░░░░░░░░░░░░▒[0m[36;1m▒[0m[36;1m▒▒▒▒▒[0m[34;1m▒[0m[34;1m░[0m[30;1m░[0m[30;1m░[0m[30;1m░[0m
+[32;1m[Common] [0m[32;1m                      [0m[34;1m░[0m[34;1m░▒░░░░░░░░░░░░░░░▒[0m[36;1m▒[0m[36;1m▒▒[0m[34;1m▒[0m[34;1m▒░░[0m[30;1m░[0m[30;1m░░[0m
+[32;1m[Common] [0m[32;1m                              [0m[34;1m░[0m[34;1m░░░░░░░░░░[0m[30;1m░[0m[30;1m░▒░[0m
+[32;1m[Common] [0m[0;1m _____ _____ _  __                   __  __    ____   ___ ____  _  _[0m
+[32;1m[Common] [0m[0;1m|_   _|_   _| |/ /                  / /__\ \  |___ \ / _ \___ \| || |[0m
+[32;1m[Common] [0m[0;1m  | |   | | | ' /                  | |/ __| |   __) | | | |__) | || |_[0m
+[32;1m[Common] [0m[0;1m  | |   | | | . \                  | | (__| |  / __/| |_| / __/|__   _|[0m
+[32;1m[Common] [0m[0;1m  |_|   |_| |_|\_\                 | |\___| | |_____|\___/_____|  |_|[0m
+[32;1m[Common] [0m[0;1m                                    \_\  /_/[0m
+[32;1m[Common] [0m[0;1mWelcome![0m
+(   0.843s) [paraview        ]vtkDemandDrivenPipeline:765    ERR| vtkPVCompositeDataPipeline (0x563fe921ec60): Input for connection index 0 on input port index 0 for algorithm vtkTubeFilter (0x563fe921bbc0) is of type vtkUnstructuredGrid, but a vtkPolyData is required.
+(   0.844s) [paraview        ]vtkDemandDrivenPipeline:765    ERR| vtkPVCompositeDataPipeline (0x563fe921ec60): Input for connection index 0 on input port index 0 for algorithm vtkTubeFilter (0x563fe921bbc0) is of type vtkUnstructuredGrid, but a vtkPolyData is required.
+(   0.845s) [paraview        ]vtkDemandDrivenPipeline:765    ERR| vtkPVCompositeDataPipeline (0x563fe921ec60): Input for connection index 0 on input port index 0 for algorithm vtkTubeFilter (0x563fe921bbc0) is of type vtkUnstructuredGrid, but a vtkPolyData is required.
+(   0.845s) [paraview        ]vtkDemandDrivenPipeline:765    ERR| vtkPVCompositeDataPipeline (0x563fe921ec60): Input for connection index 0 on input port index 0 for algorithm vtkTubeFilter (0x563fe921bbc0) is of type vtkUnstructuredGrid, but a vtkPolyData is required.
+(   0.845s) [paraview        ]vtkDemandDrivenPipeline:765    ERR| vtkPVCompositeDataPipeline (0x563fe921ec60): Input for connection index 0 on input port index 0 for algorithm vtkTubeFilter (0x563fe921bbc0) is of type vtkUnstructuredGrid, but a vtkPolyData is required.
+[32;1m[PersistenceDiagram] [0m%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%[34;1m[0m
+[32;1m[PersistenceDiagram] [0m-----------------------------------------------------------[34;1m[0m
+[32;1m[PersistenceDiagram] [0m[33;1m[WARNING][0m No pre-existing order for array:
+[32;1m[PersistenceDiagram] [0m[33;1m[WARNING][0m   `Scalars_`.
+[32;1m[PersistenceDiagram] [0mInitializing order array. .................[34;1m [0.000s|20T|0%][0m[32;1m[PersistenceDiagram] [0m-----------------------------------------------------------[34;1m[0m
+[32;1m[PersistenceDiagram] [0mInitializing order array. ...............[34;1m [0.110s|20T|100%][0m
+[32;1m[PersistenceDiagram] [0m-----------------------------------------------------------[34;1m[0m
+[32;1m[PersistenceDiagram] [0m[33;1m[WARNING][0m TIP: run `ttkArrayPreconditioning` first
+[32;1m[PersistenceDiagram] [0m[33;1m[WARNING][0m for improved performances :)
+[32;1m[PersistenceDiagram] [0m-----------------------------------------------------------[34;1m[0m
+[32;1m[PersistenceDiagram] [0m===========================================================[34;1m[0m
+[32;1m[DiscreteGradient] [0m#Vertices : 4612800 
+[32;1m[DiscreteGradient] [0m#Edges    : 31931591
+[32;1m[DiscreteGradient] [0m#Triangles: 54460218
+[32;1m[DiscreteGradient] [0m#Tetras   : 27141426
+[32;1m[DiscreteGradient] [0mInitialized discrete gradient memory ......[34;1m [0.039s|20T|100%][0m
+[32;1m[DiscreteGradient] [0mBuilt discrete gradient ...................[34;1m [1.701s|20T|100%][0m
+[32;1m[DiscreteMorseSandwich] [0mComputed 3285 min-saddle pairs .......[34;1m [0.022s|20T|100%][0m
+[32;1m[DiscreteMorseSandwich] [0mComputed 3533 saddle-max pairs .......[34;1m [0.051s|20T|100%][0m
+[32;1m[DiscreteMorseSandwich] [0mComputed 12388 saddle-saddle pairs ...[34;1m [0.064s|20T|100%][0m
+[32;1m[DiscreteMorseSandwich] [0mComputed 19207 persistence pairs .....[34;1m [0.793s|20T|100%][0m
+[32;1m[PersistenceDiagram] [0mComplete ................................[34;1m [2.627s|20T|100%][0m
+[32;1m[PersistenceDiagram] [0m===========================================================[34;1m[0m
+[32;1m[TopologicalSimplification] [0m%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%[34;1m[0m
+[32;1m[LTS] [0mAllocating Memory ........................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mAllocating Memory ......................................[34;1m [0.018s|20T|100%][0m
+[32;1m[LTS] [0m----------- [Removing Unauthorized Maxima] -------------------------------[34;1m[0m
+[32;1m[LTS] [0mInitializing Memory ......................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mInitializing Memory ....................................[34;1m [0.004s|20T|100%][0m
+[32;1m[LTS] [0mInitializing Propagations ................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mInitializing Propagations (2320|4612800) ...............[34;1m [0.034s|20T|100%][0m
+[32;1m[LTS] [0mComputing Propagations (2320) ............................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mComputing Propagations (2320) ..........................[34;1m [0.005s|20T|100%][0m
+[32;1m[LTS] [0mFinalizing Propagations (2320) ...........................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mFinalizing Propagations (1790|0.77|0.01) ...............[34;1m [0.000s|20T|100%][0m
+[32;1m[LTS] [0mComputing Segments (1790) ................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mComputing Segments (1790) ..............................[34;1m [0.006s|20T|100%][0m
+[32;1m[LTS] [0mComputing Local Order of Segments (1790) .................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mComputing Local Order of Segments (1790) ...............[34;1m [0.012s|20T|100%][0m
+[32;1m[LTS] [0mFlattening Order Array ...................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mFlattening Order Array .................................[34;1m [0.006s|20T|100%][0m
+[32;1m[LTS] [0mComputing Global Order ..................................[34;1m [0.006s|20T|20%][0m[32;1m[LTS] [0mComputing Global Order ..................................[34;1m [0.068s|20T|80%][0m[32;1m[LTS] [0mComputing Global Order .................................[34;1m [0.075s|20T|100%][0m
+[32;1m[LTS] [0m----------- [Removing Unauthorized Minima] -------------------------------[34;1m[0m
+[32;1m[LTS] [0mInverting Order ..........................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mInverting Order ........................................[34;1m [0.005s|20T|100%][0m
+[32;1m[LTS] [0mInitializing Memory ......................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mInitializing Memory ....................................[34;1m [0.006s|20T|100%][0m
+[32;1m[LTS] [0mInitializing Propagations ................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mInitializing Propagations (1600|4612800) ...............[34;1m [0.023s|20T|100%][0m
+[32;1m[LTS] [0mComputing Propagations (1600) ............................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mComputing Propagations (1600) ..........................[34;1m [0.106s|20T|100%][0m
+[32;1m[LTS] [0mFinalizing Propagations (1600) ...........................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mFinalizing Propagations (1350|0.84|0.23) ...............[34;1m [0.001s|20T|100%][0m
+[32;1m[LTS] [0mComputing Segments (1350) ................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mComputing Segments (1350) ..............................[34;1m [0.027s|20T|100%][0m
+[32;1m[LTS] [0mComputing Local Order of Segments (1350) .................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mComputing Local Order of Segments (1350) ...............[34;1m [0.073s|20T|100%][0m
+[32;1m[LTS] [0mFlattening Order Array ...................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mFlattening Order Array .................................[34;1m [0.001s|20T|100%][0m
+[32;1m[LTS] [0mComputing Global Order ..................................[34;1m [0.008s|20T|20%][0m[32;1m[LTS] [0mComputing Global Order ..................................[34;1m [0.076s|20T|80%][0m[32;1m[LTS] [0mComputing Global Order .................................[34;1m [0.083s|20T|100%][0m
+[32;1m[LTS] [0mInverting Order ..........................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mInverting Order ........................................[34;1m [0.005s|20T|100%][0m
+[32;1m[LTS] [0mFlattening Scalar Array ..................................[34;1m [0.000s|20T|0%][0m[32;1m[LTS] [0mFlattening Scalar Array ................................[34;1m [0.012s|20T|100%][0m
+[32;1m[LTS] [0m--------------------------------------------------------------------------[34;1m[0m
+[32;1m[LTS] [0mComplete ...............................................[34;1m [0.516s|20T|100%][0m
+[32;1m[LTS] [0m==========================================================================[34;1m[0m
+[32;1m[ContourTree] [0m%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%[34;1m[0m
+[32;1m[ContourTree] [0mLaunching on field Scalars_
+[32;1m[FTMTree] [0m======================================================================[34;1m[0m
+[32;1m[FTMTree] [0mnumber of threads : 20
+[32;1m[FTMTree] [0m* debug lvl  : 3
+[32;1m[FTMTree] [0m* tree type  : Contour
+[32;1m[FTMTree] [0m======================================================================[34;1m[0m
+[32;1m[FTMTree] [0malloc ..............................................[34;1m [0.124s|20T|100%][0m
+[32;1m[FTMTree] [0minit ...............................................[34;1m [0.099s|20T|100%][0m
+[32;1m[FTMTree] [0msort step ..........................................[34;1m [0.011s|20T|100%][0m
+[32;1m[FTMTree] [0mleafSearch .........................................[34;1m [0.012s|20T|100%][0m
+[32;1m[FTMtree_MT] [0mleafGrowth ST ...................................[34;1m [0.066s|20T|100%][0m
+[32;1m[FTMtree_MT] [0mtrunk ST ........................................[34;1m [0.021s|20T|100%][0m
+[32;1m[FTMtree_MT] [0msegment ST ......................................[34;1m [0.012s|20T|100%][0m
+[32;1m[FTMtree_MT] [0mleafGrowth JT ...................................[34;1m [0.833s|20T|100%][0m
+[32;1m[FTMtree_MT] [0mtrunk JT ........................................[34;1m [0.009s|20T|100%][0m
+[32;1m[FTMtree_MT] [0msegment JT ......................................[34;1m [0.012s|20T|100%][0m
+[32;1m[FTMTree] [0mmerge trees  .......................................[34;1m [0.876s|20T|100%][0m
+[32;1m[FTMTree] [0mcombine full .......................................[34;1m [0.041s|20T|100%][0m
+[32;1m[FTMTree] [0mbuild tree .........................................[34;1m [0.917s|20T|100%][0m
+[32;1m[FTMTree] [0mTotal  .............................................[34;1m [1.030s|20T|100%][0m
+(   6.208s) [paraview        ]vtkDemandDrivenPipeline:765    ERR| vtkPVCompositeDataPipeline (0x563fe921ec60): Input for connection index 0 on input port index 0 for algorithm vtkTubeFilter (0x563fe921bbc0) is of type vtkUnstructuredGrid, but a vtkPolyData is required.
+(   6.210s) [paraview        ]vtkPVGeometryFilter.cxx:260    ERR| vtkPVGeometryFilter (0x563fecb2f630): Missing input data
+(   6.210s) [paraview        ]       vtkExecutive.cxx:729    ERR| vtkCompositeDataPipeline (0x563fece857b0): Algorithm vtkPVGeometryFilter (0x563fecb2f630) returned failure for request: vtkInformation (0x563fece7c730)
+  Debug: Off
+  Modified Time: 1156528
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA_OBJECT
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(   6.210s) [paraview        ]vtkDemandDrivenPipeline:765    ERR| vtkPVCompositeDataPipeline (0x563fe921ec60): Input for connection index 0 on input port index 0 for algorithm vtkTubeFilter (0x563fe921bbc0) is of type vtkUnstructuredGrid, but a vtkPolyData is required.
+(   6.210s) [paraview        ]vtkPVGeometryFilter.cxx:260    ERR| vtkPVGeometryFilter (0x563fecafed80): Missing input data
+(   6.210s) [paraview        ]       vtkExecutive.cxx:729    ERR| vtkCompositeDataPipeline (0x563fecb1e310): Algorithm vtkPVGeometryFilter (0x563fecafed80) returned failure for request: vtkInformation (0x563fecb1fdc0)
+  Debug: Off
+  Modified Time: 1156744
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA_OBJECT
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(   6.211s) [paraview        ]vtkDemandDrivenPipeline:765    ERR| vtkPVCompositeDataPipeline (0x563fe921ec60): Input for connection index 0 on input port index 0 for algorithm vtkTubeFilter (0x563fe921bbc0) is of type vtkUnstructuredGrid, but a vtkPolyData is required.
+(   6.404s) [paraview        ]vtkPVGeometryFilter.cxx:260    ERR| vtkPVGeometryFilter (0x563fecb2f630): Missing input data
+(   6.404s) [paraview        ]       vtkExecutive.cxx:729    ERR| vtkCompositeDataPipeline (0x563fece857b0): Algorithm vtkPVGeometryFilter (0x563fecb2f630) returned failure for request: vtkInformation (0x563fece7c730)
+  Debug: Off
+  Modified Time: 1156528
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA_OBJECT
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(   6.405s) [paraview        ]vtkPVGeometryFilter.cxx:260    ERR| vtkPVGeometryFilter (0x563fecafed80): Missing input data
+(   6.405s) [paraview        ]       vtkExecutive.cxx:729    ERR| vtkCompositeDataPipeline (0x563fecb1e310): Algorithm vtkPVGeometryFilter (0x563fecafed80) returned failure for request: vtkInformation (0x563fecb1fdc0)
+  Debug: Off
+  Modified Time: 1156744
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA_OBJECT
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(   6.543s) [paraview        ]vtkPVGeometryFilter.cxx:260    ERR| vtkPVGeometryFilter (0x563fecb2f630): Missing input data
+(   6.544s) [paraview        ]       vtkExecutive.cxx:729    ERR| vtkCompositeDataPipeline (0x563fece857b0): Algorithm vtkPVGeometryFilter (0x563fecb2f630) returned failure for request: vtkInformation (0x563fece7c730)
+  Debug: Off
+  Modified Time: 1156528
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA_OBJECT
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(   6.544s) [paraview        ]vtkPVGeometryFilter.cxx:260    ERR| vtkPVGeometryFilter (0x563fecafed80): Missing input data
+(   6.544s) [paraview        ]       vtkExecutive.cxx:729    ERR| vtkCompositeDataPipeline (0x563fecb1e310): Algorithm vtkPVGeometryFilter (0x563fecafed80) returned failure for request: vtkInformation (0x563fecb1fdc0)
+  Debug: Off
+  Modified Time: 1156744
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA_OBJECT
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(   6.545s) [paraview        ]vtkPVGeometryFilter.cxx:260    ERR| vtkPVGeometryFilter (0x563fecb2f630): Missing input data
+(   6.546s) [paraview        ]       vtkExecutive.cxx:729    ERR| vtkCompositeDataPipeline (0x563fece857b0): Algorithm vtkPVGeometryFilter (0x563fecb2f630) returned failure for request: vtkInformation (0x563fece7c730)
+  Debug: Off
+  Modified Time: 1156528
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA_OBJECT
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+(   6.546s) [paraview        ]vtkPVGeometryFilter.cxx:260    ERR| vtkPVGeometryFilter (0x563fecafed80): Missing input data
+(   6.546s) [paraview        ]       vtkExecutive.cxx:729    ERR| vtkCompositeDataPipeline (0x563fecb1e310): Algorithm vtkPVGeometryFilter (0x563fecafed80) returned failure for request: vtkInformation (0x563fecb1fdc0)
+  Debug: Off
+  Modified Time: 1156744
+  Reference Count: 1
+  Registered Events: (none)
+  Request: REQUEST_DATA_OBJECT
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+

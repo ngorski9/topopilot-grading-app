@@ -1,0 +1,7 @@
+Completed the persistence simplification at 0.05 and generated the simplified-field Morse–Smale segmentation with critical points:
+
+- Maxima: red, sphere radius 2
+- Saddles: white, sphere radius 2
+- Minima: blue, sphere radius 2
+
+Open [fracture_morse_smale.pvsm](/workspace/fracture_morse_smale.pvsm) in ParaView. A rendered preview is available at [fracture_morse_smale.png](/workspace/fracture_morse_smale.png).

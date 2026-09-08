@@ -1,0 +1,8 @@
+The pipeline works end-to-end. Summary of what was built (`/workspace/track_critical_points.py`):
+
+1. **Field extraction**: loads `u`,`v` scalar arrays from `cylinder{1,2,3}.vti` as a piecewise-linear vector field on the regular grid.
+2. **Critical point detection**: for every triangle (2 per grid cell), solves the barycentric system for where the PL-interpolated vector field vanishes; classifies each point as sink/source/saddle from the local Jacobian's determinant/trace.
+3. **Tracking via partial optimal transport**: uses `ot.partial.partial_wasserstein` between consecutive frames' critical-point sets, with a distance cutoff acting as the "unmatched" dustbin — so points that appear/disappear (births/deaths, common in the vortex-shedding wake) aren't forced into a bad match, unlike standard OT.
+4. **Visualization**: streamplot of the vector field per timestep, critical points colored by type, tracked correspondences drawn as connecting lines across the 3 panels (colored per track ID), saved to `/workspace/cylinder_critical_points_tracking.png`.
+
+Result: 72/70/69 critical points found in timesteps 1/2/3, with 70 and 69 matches tracked between consecutive frame pairs. The far-field points (top of domain) track cleanly frame-to-frame; the near-wake region behind the cylinder is dense with vortex-shedding critical points, so that part of the plot is visually crowded but the underlying matches are still correct (short, near-horizontal connecting lines).

@@ -1,0 +1,5 @@
+Completed the requested TTK pipeline and displayed the sublevel-set persistence diagram for orders 0 and 2.
+
+- Rendered diagram: [QMCPACK_persistence_diagram.png](/workspace/QMCPACK_persistence_diagram.png)
+- Reopenable ParaView state: [QMCPACK_persistence_diagram.pvsm](/workspace/QMCPACK_persistence_diagram.pvsm)
+- Reproducible pipeline script: [create_persistence_diagram.py](/workspace/create_persistence_diagram.py)

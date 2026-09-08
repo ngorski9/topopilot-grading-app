@@ -1,0 +1,1 @@
+I've generated the visualization for time step 1 at `/workspace/ionization_t1.png`, using `/workspace/ionization_pipeline.py`. Let me know if you'd like the full 21-step time series rendered to an MP4 instead/as well.

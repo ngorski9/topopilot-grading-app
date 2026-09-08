@@ -1,0 +1,6 @@
+Created the requested TopoPilot2 visualization.
+
+- Output: [QMCPACK_topology.png](/workspace/QMCPACK_topology.png)
+- Pipeline script: [qmcpack_topology.py](/workspace/qmcpack_topology.py)
+
+Applied persistence simplification at ε=0.04, rendered four isocontours, and colored critical points as specified: blue minima, white 1-saddles, orange 2-saddles, red maxima.

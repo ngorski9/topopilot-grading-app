@@ -1,0 +1,10 @@
+Both renders now look correct. The task is complete.
+
+Summary:
+- Loaded the 21-timestep Ionization `.vti` series with `XMLImageDataReader` in ParaView/pvbatch.
+- Rendered the raw `Scalars_` field as a volume with the Viridis colormap → `/workspace/out/01_raw_scalar_field_viridis.png`.
+- Applied `TTKTopologicalSimplificationByPersistence` (absolute persistence threshold 0.1) on the scalar field.
+- Computed the piecewise-linear contour tree with `TTKContourTree` on the simplified field.
+- Visualized it via `ExtractSurface` + `Tube` (radius 1) for arcs and `Glyph` spheres (radius 2) for nodes, colored by `CriticalType`: minima blue, 1-saddles white, 2-saddles orange, maxima red → `/workspace/out/02_simplified_contour_tree.png`.
+
+Script used: `/workspace/ionization_ct.py`, run with `pvbatch`.

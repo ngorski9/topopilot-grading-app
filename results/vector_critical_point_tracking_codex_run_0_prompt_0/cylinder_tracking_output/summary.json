@@ -1,0 +1,18 @@
+{
+  "time_steps": [
+    1,
+    2,
+    3
+  ],
+  "critical_points_per_step": [
+    26,
+    24,
+    25
+  ],
+  "partial_ot_links": [
+    22,
+    22
+  ],
+  "three_step_tracks": 22,
+  "partial_mass_fraction": 0.9
+}

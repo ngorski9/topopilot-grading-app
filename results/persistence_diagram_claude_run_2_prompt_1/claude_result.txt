@@ -1,0 +1,11 @@
+Successfully built and ran the full TTK pipeline in ParaView (`pvpython`):
+
+1. Loaded `QMCPACK.vti` (scalar array `Scalars_`, 547,515 points / 3,162,816 tets) with `XMLImageDataReader`.
+2. Computed the initial persistence diagram with `TTKPersistenceDiagram` (sublevel-set filtration, TTK's default ascending order).
+3. Extracted the significant pairs (persistence > 0.04) via chained `Threshold` filters, then fed them as `Constraints` into `TTKTopologicalSimplification` to simplify the field (removing all persistence pairs at or below 0.04 — 321 → 305 pairs).
+4. Recomputed the persistence diagram on the simplified (piecewise-linear) field with a second `TTKPersistenceDiagram` call.
+5. Thresholded on `PairType` to isolate order-0 (minimum–saddle, 16 pairs) and order-2 (saddle–maximum, 6 pairs) features, and rendered them in a top-down (birth vs. death) 2D view.
+
+Output saved to `/workspace/persistence_diagram_orders_0_2.png` (rendered diagram) and `/workspace/persistence_diagram_simplified.vtu` (full data). Script is at `/workspace/ttk_persistence.py`.
+
+Note: I initially had the simplification threshold logic inverted (kept the noisy low-persistence pairs as constraints instead of the significant ones), which caused the simplification filter to hang/error — fixed by keeping pairs with persistence **above** 0.04 as the constraint set, which is the correct TTK semantics for "features to preserve."

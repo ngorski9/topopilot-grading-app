@@ -1,0 +1,8 @@
+Done. Summary:
+
+- Loaded `QMCPACK.vti` (its only point array is `Scalars_`, a 3D 69×69×115 grid) with `LoadScalarField`.
+- Applied `PersistenceSimplification(epsilon=0.04, threshold_is_absolute=False)` — a relative persistence threshold of 4% of the function range.
+- Computed the piecewise-linear persistence diagram with `ComputePersistenceDiagram`, which uses the FTM backend to produce the sub-level set filtration diagram for orders 0 and D-1 = 2 (since the field is 3D, this naturally gives H0 and H2 — exactly what was requested).
+- Rendered it with `EmbedPersistenceDiagram` in an orthographic top-down 2D view.
+
+Output: `/workspace/qmcpack_pd.png` (script saved as `/workspace/qmcpack_pd.py`). The diagonal ramp is the birth=death line; the vertical colored bars rising off it are the persistence pairs for H0 and H2.

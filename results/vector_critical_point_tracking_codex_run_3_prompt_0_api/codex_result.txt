@@ -1,0 +1,8 @@
+Completed partial optimal-transport tracking across time steps 1–3 and rendered each over the original LIC vector field.
+
+- [Step 1 visualization](/workspace/cylinder_tracked_step1.png)
+- [Step 2 visualization](/workspace/cylinder_tracked_step2.png)
+- [Step 3 visualization](/workspace/cylinder_tracked_step3.png)
+- [TopoPilot2 pipeline script](/workspace/track_cylinder.py)
+
+The pipeline uses `LoadVectorField(..., "u", "v")`, `ComputeVectorCriticalPoints`, `TrackVectorCriticalPoints(..., time_steps=3, backend="partial")`, and overlays the tracked points on `EmbedVectorField`.

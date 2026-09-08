@@ -1,0 +1,13 @@
+Pipeline complete. Summary:
+
+1. Loaded `QMCPACK.vti` (scalar field `Scalars_`, 69×69×115) via `TTKPersistenceDiagram`.
+2. Filtered critical-point pairs with persistence > 0.04 and fed them into `TTKTopologicalSimplification` to simplify the field.
+3. Recomputed the persistence diagram on the simplified field (305 pairs remain, down from 321).
+4. Extracted order-0 (minimum–saddle, blue) and order-2 (saddle–maximum, red) pairs from the sublevel-set filtration and plotted the persistence diagram.
+
+Outputs:
+- `/workspace/QMCPACK_persistence_diagram.png` — the diagram (shown above)
+- `/workspace/QMCPACK_persistence_diagram_orders0_2.vtu` — the filtered order-0/order-2 pairs as VTK data
+- `/workspace/qmcpack_persistence.py` — the reusable pvpython script
+
+The diagram shows 22 significant pairs after simplification: most order-0 pairs cluster near birth≈0–0.3 with modest persistence, while the two prominent order-2 pairs near (0.77, 0.87) and (0.82, 1.0) represent the field's most persistent maxima.

@@ -1,0 +1,6 @@
+Completed the TopoPilot2 workflow using partial optimal transport across 3 time steps.
+
+- Visualization: [cylinder_tracked_3steps.png](/workspace/cylinder_tracked_3steps.png)
+- Reproducible script: [cylinder_tracking.py](/workspace/cylinder_tracking.py)
+
+The image overlays identity-colored tracked vector critical points on the original `u`/`v` vector field at time step 3.

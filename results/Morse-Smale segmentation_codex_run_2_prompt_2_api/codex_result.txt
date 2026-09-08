@@ -1,0 +1,3 @@
+Rendered the requested result: [fracture_morse_smale.png](/workspace/fracture_morse_smale.png).
+
+The reproducible TopoPilot2 pipeline is in [render_fracture_morse_smale.py](/workspace/render_fracture_morse_smale.py). It uses persistence simplification `epsilon=0.05`, renders the PL Morse–Smale segmentation, and overlays radius-2 critical points: blue minima, white saddles, red maxima.

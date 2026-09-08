@@ -1,0 +1,8 @@
+Created the ParaView visualization and saved it here:
+
+- [ParaView state](</workspace/Ocean_eigenvector_partition.pvsm>)
+- [Rendered image, 1000×1000](</workspace/Ocean_eigenvector_partition.png>)
+- [Eigenvector partition dataset](</workspace/Ocean_eigenvector_partition.vti>)
+- [Classified degenerate points](</workspace/Ocean_degenerate_points.vtp>)
+
+The render uses 10 pixels per square, radius-1 points, pink trisectors, and white wedges.

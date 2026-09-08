@@ -1,0 +1,8 @@
+Completed the TopoPilot2 pipeline and rendered the requested three EMD-tracked time steps.
+
+- Pipeline: [cloud_tracking_pipeline.py](/workspace/cloud_tracking_pipeline.py)
+- Time step 1: [cloud_tracked_t1.png](/workspace/cloud_tracked_t1.png)
+- Time step 2: [cloud_tracked_t2.png](/workspace/cloud_tracked_t2.png)
+- Time step 3: [cloud_tracked_t3.png](/workspace/cloud_tracked_t3.png)
+
+It uses `Scalars_`, persistence threshold `0.5`, piecewise-linear maxima, EMD tracking across 3 steps, sphere radius `2`, and the `cool warm` colormap.

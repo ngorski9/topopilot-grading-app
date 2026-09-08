@@ -1,0 +1,7 @@
+Rendered `/workspace/ionization_output.mp4` (21 frames, 4 fps) with the pipeline in `/workspace/ionization_pipeline.py`:
+
+- `LoadScalarField` on the `Ionization` directory using array `Scalars_`
+- Raw scalar field shown as a viridis surface
+- `PersistenceSimplification` at epsilon=0.1, feeding `ComputeContourTree` → `EmbedContourTree` with tube_radius=1, ball_radius=2, and colors ordered [minima=blue, 1-saddle=white, 2-saddle=orange, maxima=red, degenerate=black]
+
+Let me know if you'd like a single-frame PNG for a specific time step instead of the full video.

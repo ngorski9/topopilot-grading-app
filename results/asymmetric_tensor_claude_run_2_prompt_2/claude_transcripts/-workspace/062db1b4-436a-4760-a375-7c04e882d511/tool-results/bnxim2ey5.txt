@@ -1,0 +1,730 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+19
+=== page 2 ===
+to extend, and lacks systematic validation mechanisms, allowing user
+errors or invalid configurations to propagate unchecked. In contrast,
+TopoPilot is built on a flexible and extensible backend that emphasizes
+modularity and incorporates rigorous guardrails, making it better suited
+for complex, multi-stage, and evolving analytical workflows.
+To our knowledge, modern agentic systems for scientific visualiza-
+tion have not undergone rigorous reliability evaluation. Among the
+systems discussed, only VizGenie and ChatVis report failure rates, and
+these are based on relatively small numbers of trials (80 and 40, re-
+spectively). Their evaluations consider only fully specified prompts
+and do not assess multi-turn interactions or infeasible requests, which
+commonly arise in realistic usage scenarios.
+In information visualization, ncNet [42] trains a transformer to trans-
+late natural language directly into common visualization types. Most
+other tools rely on code generation, either through advanced prompt-
+engineering strategies (e.g., Chat2Vis [44] and ChartGPT [59]) or
+through multi-agent architectures, as seen in VisPath [55], PlotGen [21],
+MatPlotAgent [70], and CoDA [13]. Similar approaches have been
+applied to visual analytics (such as LightVA [74] and ProactiveVA [73])
+and visual storytelling (DataNarrative [30]). More recent systems,
+such as YAC [35] and that of Gyarmati et al. [17], adopt multi-agent
+frameworks that directly invoke backend tools to improve reliability.
+2.2
+Reliability of Agentic Frameworks
+A substantial body of work has investigated methods for improving
+the reliability of LLMs, including techniques to reduce hallucinations
+and enhance reasoning accuracy [26,57,64] (see [7] for a survey). In
+contrast, comparatively less attention has been devoted to the reliabil-
+ity of agentic systems, where errors may compound across multi-step
+workflows and tool invocations. Several studies have proposed mecha-
+nisms to mitigate failure when coordinating teams of agents [48,67].
+In contrast, TopoPilot adopts a deliberately simple two-agent architec-
+ture to reduce coordination complexity. Other approaches dynamically
+represent tasks as trees or graphs, where nodes correspond to atomic
+operations—an idea conceptually similar to our node tree representa-
+tion—and have shown that such structured decompositions can improve
+reliability [33,48]. However, in many of these systems, atomic oper-
+ations are themselves delegated to additional agents or agent teams,
+whereas TopoPilot executes them deterministically to enforce correct-
+ness guarantees. Additional strategies aim to improve the accuracy of
+tool use by LLMs [40,76,77]. For example, Hua et al. [28] incorporated
+structured knowledge throughout the pipeline to guide and constrain
+agent behavior, while Liu et al. [41] used formal methods to regulate
+tool invocation.
+2.3
+Topology in Scientific Visualization
+Topology-based visualizations frequently rely on topological descrip-
+tors to capture structural information in data, and such descriptors
+have been applied across a wide range of scientific domains to sup-
+port advanced tasks such as feature extraction and tracking; see [69]
+for a survey. For example, critical points in scalar fields have well-
+established physical interpretations in the quantum theory of atoms
+in molecules [8], and they serve as anchor points for cloud tracking
+in weather and climate science [36]. Contour trees have been used to
+analyze microstructures in flow simulations [5] and in medical imaging
+applications [6]. In vector fields, critical points represent the centers
+of tropical cyclones [68] and play a key role in hydrology and space
+physics [11]. For tensor fields, degenerate points indicate structural
+or mechanical transitions and often correspond to physically mean-
+ingful features [72], whereas eigenvalue and eigenvector partitions
+capture local directionality, anisotropy, and transitions in material or
+flow behavior [4,47,71].
+3
+SYSTEM REQUIRE
+
+=== page 3 ===
+Fig. 2: A screenshot of the visualization window used to interact with
+TopoPilot. (A) a built-in chat interface is used to communicate with
+the LLM. (B) An interactive visualization pane displays the generated
+visualization. (C) A toolbar provides basic camera and visualization
+controls, as well as the ability to save screenshots, videos (for time-
+varying data), and auto-generated Python code.
+prior to execution and satisfying R4. Once generated, the resulting
+visualization is displayed in an interactive rendering pane that occupies
+the majority of the interface.
+The interface also includes a toolbar providing essential visualization
+controls, such as camera manipulation and toggling of orientation
+axes and color bars. Additional options allow users to export images,
+videos (for time-varying data), or Python code. Exporting Python
+code produces a portable command-line script that reproduces the
+visualization in any environment where the TopoPilot Python library
+is installed, satisfying R5. The script invokes predefined macros to
+reconstruct the primary computation pipeline, and it explicitly exposes
+all parameter choices in a clear and concise format. This design ensures
+that the workflow is transparent and easily interpretable, satisfying R7.
+An example of the exported code is shown in Fig. 3.
+scalar0 = LoadScalarField(load_path=’Isabel.vti’,
+arrayName=’Scalars_’)
+scalar1 = PersistenceSimplification(parent_node_id = scalar0.id,
+epsilon = 0.04)
+pd2 = ComputePersistenceDiagram(parent_node_id = scalar1.id)
+pd_embed3 = EmbedPersistenceDiagram(parent_node_id = pd2.id,
+ball_radius = 0.02,
+tube_radius = 0.01)
+Fig. 3: Python code generated to reconstruct a workflow for computing
+a simplified persistence diagram; variable names are shortened due to
+space constraints.
+Custom backend. TopoPilot generates visualizations by interacting
+with a custom backend (described in detail in Sec. 5.1) through atomic
+tools exposed to the LLM, thereby eliminating the need for runtime
+code generation. Each tool call executes a single, well-defined opera-
+tion, such as computing critical points. After each action, a sequence
+of systematic safeguards (see Sec. 5.2) validates the operation and
+provides structured feedback to the agent. These safeguards enforce
+R2. All intermediate computations are cached, allowing visualization
+parameters, such as color maps or glyph sizes, to be modified without
+recomputing upstream results, thereby satisfying R6.
+Each operation is implemented as a standalone Python class that in-
+herits from a shared abstract base class. New capabilities can therefore
+be introduced by defining additional subclasses, without modifying
+existing components. Operations consume input data and either trans-
+form it into new representations or produce visual outputs independent
+of prior steps. This modular design permits the integration of diverse
+libraries and frameworks, enabling new functionality to be incorporated
+seamlessly alongside existing operations and satisfying R3.
+4.2
+Various Features Supported by TopoPilot
+Diverse data types and visual encodings. TopoPilot supports scalar,
+vector, and tensor field data, including 2D and 3D scalar fields and 2D
+vector and tensor fields. 2D scalar fields are visualized as heatmaps,
+while 3D scalar fields are rendered via volume rendering or isocontours.
+As volume rendering is not a primary focus, we omit iterative transfer-
+function refinement and instead provide a lightweight transfer-function
+selector (see Appx. C). For 2D vector fields, TopoPilot supports LIC
+visualization, and for 2D symmetric tensor fields, a variation of hyper-
+LIC [75]. Asymmetric tensor fields are visualized using eigenvector or
+eigenvalue partitions. Colormaps can be specified via natural language.
+(a)
+(d)
+(c)
+(b)
+(e)
+(f)
+(g)
+(h)
+(i)
+Fig. 4: Examples of topological descriptors supported by TopoPilot. (a)
+The graph of a 2D function f with its critical points: maxima in red, sad-
+dles in white, and minima in blue. (b) f wit
+
+=== page 5 ===
+associated with the node type. Second, the generated tool includes a
+boolean parameter that the orchestrator must set to true only if it has
+performed the required behavior. If the orchestrator invokes the tool
+with this parameter set to false, the node may be created differently
+than requested or its creation may be canceled, and the orchestrator
+receives feedback. Finally, the verifier is informed of all guardrails
+and checks whether they have been satisfied. If the verifier detects a
+violation, its explanation is returned to the orchestrator.
+Common guardrails (e.g., enforcing default parameter values) are
+generated automatically. In addition, we implement a Guardrail class
+that enables custom guardrails to be instantiated for individual node
+types as guardrail instances. These include guardrails that constrain
+scalar field embedding, eigenvector partition embedding, isocontour
+embedding, and persistence simplification. A complete list of node-
+specific guardrails is provided in Appx. D.1.
+5.2.2
+Mitigation Strategies for Failure Modes
+We enumerate each failure mode and describe how it is mitigated. As il-
+lustrated in Fig. 1, the failure modes
+1 through
+6 may arise at different
+stages of the system workflow and evaluation loop, where safeguards
+—including guardrails and additional mitigation strategies—are ap-
+plied to address them.
+F1. Clarification failure
+1 . We implement guardrails that prevent
+certain nodes from being created until required information has been
+obtained from the user. This information may include parameter values
+(e.g., the backend used for feature tracking) or details about the intended
+workflow (e.g., whether persistence simplification should be applied).
+F2. Confusion of capabilities
+2 . When TopoPilot starts, we provide
+the orchestrator with a global prompt that lists its available capabilities.
+The orchestrator is explicitly instructed not to attempt tasks outside
+these capabilities. This prompt clarifies what the system can and cannot
+do, encouraging the orchestrator to declare a task infeasible if it is not
+supported. The full global prompt is provided in Appx. D.2.
+F3. Invalid parameterization
+3 . This failure mode can arise in two
+primary ways. First, the orchestrator may supply an invalid parameter
+value (e.g., a negative persistence threshold). In such cases, parameter
+values are validated when a node is created. If an invalid value is
+detected, the node is not created and the orchestrator receives feedback
+describing the error.
+Second, the orchestrator may select parameter values that lead to a
+poor-quality visualization. To mitigate this issue, we provide a reason-
+able default value for each parameter. Guardrails enforce the use of
+these default values unless the user explicitly overrides them.
+F4. Invalid workflow
+4 . This failure mode can occur in two ways.
+First, the orchestrator may attempt to construct a semantically invalid
+workflow (e.g., applying persistence simplification to a vector field).
+We prevent such errors using our internal type system. Each node
+declares an input type and an output type, and operations can only
+be composed when these types are compatible. The type system is
+designed so that only semantically valid compositions are permitted.
+Second, invalid workflows may arise during visualization, such as at-
+tempting to overlay incompatible visual elements (e.g., overlapping
+scalar fields). To address this issue, we define rules for each embed-
+ding type specifying which other embedding types may be visualized
+simultaneously. If a visualization violates these rules, it is rejected and
+the orchestrator receives feedback.
+F5. Goal misalignment
+5 . We check whether the user’s intentions
+are satisfied using feedback from the verifier. In addition, some user
+requests may be technically ambiguous but have a clear practical inter-
+pretation. For example, if the user asks the system to “apply persistence
+simplification and compute the critical points,” the likely intent is to
+
+=== page 6 ===
+(a)
+(b)
+(c)
+Fig. 7: Computing and simplifying merge trees (a) and contour trees (b)
+of the Ionization dataset, with (c) node tree diagram for (b).
+in Figure 7(a), the contour tree in Figure 7(b), and the node tree in
+Figure 7(c).
+Extract Morse–Smale segmentation. We extract the Morse–Smale
+(MS) segmentation of the surface of a jagged fractured stone. The
+dataset is a 2D scalar field in which each value represents the height
+of the stone at that point. By analyzing the MS complex, we isolate
+distinct peaks and valleys to study the structure of the fracture. As
+in previous examples, TopoPilot translates a simple natural-language
+prompt into a multi-stage pipeline that produces several visualizations.
+The final result is shown in Figure 8.
+(a)
+(b)
+(c)
+Fig. 8: Visualization of (a) the Fracture dataset and (b) the simplified
+Morse—Smale segmentation with its critical points: maxima in red, sad-
+dles in light blue, and minima in blue, with (c) node tree diagram.
+Critical point tracking. We now demonstrate feature tracking with
+TopoPilot, a workflow that typically involves three distinct stages—
+feature extraction, tracking, and visualization—each of which often
+requires separate frameworks or libraries that must be manually in-
+tegrated. For this example, we track the motion of critical points,
+specifically local maxima associated with cloud optical fields of low-
+level clouds, using satellite images from Li et al. [36]. Clouds captured
+in satellite data are complex, time-varying phenomena involving numer-
+ous events, including the formation, dissipation, merging, and splitting
+of cloud systems. TopoPilot enables users to perform all three stages of
+feature tracking seamlessly using only natural-language prompts. The
+final visualization and node-tree diagram are shown in Figure 9.
+(a)
+(b)
+(c)
+Fig. 9: Critical point tracking of the Cloud dataset. (a)–(b) Visualizations
+of the first two time steps highlighting the tracked local maxima. (c)
+Node-tree diagram for the cloud-tracking workflow.
+6.2
+Analysis and Visualization of Vector Fields
+Vector field visualization. We visualize the phase space of the Duffing
+equation, which is an ODE that describes the motion of a damped
+oscillator in 1D. The phase space is a vector field that represents the set
+of possible states of the equation at a given time step. The topology of
+such fields is of interests to scientists as the critical points correspond
+to different equilibrium states, while the critical types determine the
+stability. The final visualization is shown in Figure 4(h).
+Critical point tracking. We visualize a time-varying heated-cylinder
+flow and track the locations of its critical points (such as centers and
+saddles). This dataset describes how a viscous fluid flow travels around
+a cylindrical object. In this setting, the vector field critical points
+correspond to real features, such as vortices, and tracking their locations
+allows scientists to understand how features travel and interact over
+time. As noted earlier, feature tracking is often complex, and TopoPilot
+assists in constructing multi-stage tracking workflows. The tracking
+results are shown in Figure 10. The results demonstrate that the tracking
+remains consistent across time steps and is robust to the appearance
+and disappearance of critical points.
+t = 1
+t = 2
+t = 6
+t = 19
+Fig. 10: Zoomed-in views of critical-point tracking using the Cylinder
+dataset. Four time steps are shown at key moments when critical points
+appear or disappear, with tracked points rendered in consistent colors.
+6.3
+Analysis and Visualization of Tensor Fields
+Symmetric tensor field visualization. We generate a hyperLIC visu-
+alization of a symmetric tensor field derived from a brain MRI scan,
+together with its degenerate points. In tensor fields, degenerate points
+mark locations where tensor eigenvalues coincide, indicating transitions
+in anisotropy and changes in the underlying structural organization. In
+the context of brain data, these points can h
+
+=== page 9 ===
+Department of Energy (DOE) by Lawrence Livermore National Labo-
+ratory under Contract DE-AC52-07NA27344. The work was partially
+funded by DOE ECRP 51917/SCW1885 and DOE DE-SC0023157.
+This work is reviewed and released under LLNL-CONF-2017332. We
+thank Aurora Clark, Joshua Bilskyk, Jackson Elowitt, and Pania Newell
+for feedback.
+REFERENCES
+[1] The IEEE SciVis Contest.
+http://sciviscontest.ieeevis.org/
+2004/, 2004. 12
+[2] The IEEE SciVis Contest.
+http://sciviscontest.ieeevis.org/
+2008/, 2008. 12
+[3] K. Ai, K. Tang, and C. Wang. NLI4VolVis: Natural language interaction
+for volume visualization via LLM multi-agents and editable 3D gaussian
+splatting. IEEE Transactions on Visualization and Computer Graphics,
+32(1):46–56, 2026. doi: 10.1109/TVCG.2025.3633888 2
+[4] C. Auer, J. Kasten, A. Kratz, E. Zhang, and I. Hotz. Automatic, tensor-
+guided illustrative vector field visualization. In IEEE Pacific Visualization
+Symposium, pp. 265–272, 2013. doi: 10.1109/PacificVis.2013.6596154 3
+[5] D. B. Aydogan and J. Hyttinen. Characterization of microstructures using
+contour tree connectivity for fluid flow analysis. Journal of The Royal
+Society Interface, 11(95):20131042, 2014. doi: 10.1098/rsif.2013.1042 3
+[6] D. B. Aydogan, N. Moritz, H. T. Aro, and J. Hyttinen.
+Analysis of
+trabecular bone microstructure using contour tree connectivity. In Interna-
+tional Conference on Medical Image Computing and Computer-Assisted
+Intervention, vol. 16, pp. 428–435. Springer, 2013. doi: 10.1007/978-3-642
+-40763-5_53 3
+[7] S. G. Ayyamperumal and L. Ge. Current state of LLM risks and AI
+guardrails. arXiv preprint arXiv:2406.12934, 2024. doi: 10.48550/arXiv.
+2406.12934 3
+[8] H. Bhatia, A. G. Gyulassy, V. Lordi, J. E. Pask, V. Pascucci, and P.-T.
+Bremer. TopoMS: Comprehensive topological exploration for molecu-
+lar and condensed-matter systems. Journal of computational chemistry,
+39(16):936–952, 2018. doi: 10.1002/jcc.25181 3
+[9] J. Bilsky and A. E. Clark. Understanding the shape of chemistry data—
+applications with persistent homology. The Journal of Chemical Physics,
+163(9), 2025. doi: 10.1063/5.0281156 2
+[10] A. Biswas, T. L. Turton, N. R. Ranasinghe, S. Jones, B. Love, W. Jones
+et al. VizGenie: Toward self-refining, domain-aware workflows for next-
+generation scientific visualization. IEEE Transactions on Visualization
+and Computer Graphics, 32(1):1021–1031, 2026. doi: 10.1109/TVCG.2025.
+3634655 1, 2
+[11] R. Bujack, K. Tsai, S. K. Morley, and E. Bresciani. Open source vector
+field topology. SoftwareX, 15, 2021. doi: 10.1016/j.softx.2021.100787 3
+[12] H. Carr, J. Snoeyink, and U. Axen. Computing contour trees in all dimen-
+sions. Computational Geometry, 24(2):75–94, 2003. doi: 10.1016/S0925
+-7721(02)00093-7 12
+[13] Z. Chen, J. Chen, S. O. Arik, M. Sra, T. Pfister, and J. Yoon. CoDA:
+Agentic systems for collaborative data visualization. In The Fourteenth
+International Conference on Learning Representations, 2026. 3
+[14] T. Delmarcelle and L. Hesselink. The topology of symmetric, second-order
+tensor fields. In Proceedings Visualization, pp. 140–147. IEEE, 1994. doi:
+10.1109/VISUAL.1994.346326 13
+[15] H. Edelsbrunner and J. Harer. Persistent homology - a survey. Contempo-
+rary Mathematics, 453:257–282, 2008. 12
+[16] E.U. Copernicus Marine Service Information. Global ocean physics re-
+analysis, 2025. doi: 10.48670/moi-00021 12
+[17] P. Ferenc Gyarmati, D. Moritz, T. Möller, and L. Koesten. A compos-
+able agentic system for automated visual data reporting. arXiv preprint
+arXiv:2509.05721, 2025. doi: 10.48550/arXiv.2509.05721 3
+[18] R. Flamary, N. Courty, A. Gramfort, M. Z. Alaya, A. Boisbunon, S. Cham-
+bon et al. POT: Python Optimal Transport. Journal of Machine Learning
+Research, 22(78):1–8, 2021. 5
+[19] R. Flamary, C. Vincent-Cuaz, N. Courty, A. Gramfort, O. Kachaiev,
+H. Quang Tran et al. POT python optimal transport (version 0.9.5), 2024.
+5, 13
+[20] E. Garyfallidis, M. Brett, B. Amirbekian, A. Rokem, S. Van Der Walt,
+M. Descoteaux et al. DIPY, a library for the a
+
+=== page 11 ===
+A
+DESCRIPTIONS OF DATASETS
+We describe the datasets used in the case studies. The Isabel dataset
+is derived from a simulation conducted by the National Center for
+Atmospheric Research and is included in the 2004 IEEE VIS SciVis
+contest [1]. Its original resolution is 500 × 500 × 100; we truncate it to
+500 × 500 × 90 to remove regions primarily over land where no data
+is available. We use the wind-speed field, normalized to [0, 1].
+The Ionization dataset is derived from the ionization-front simu-
+lation of Whalen and Norman [65], featured in the 2008 IEEE VIS
+SciVis contest [2]. We access the data via the contest webpage and use
+the time-varying velocity field, specifically time steps 100 through 120
+(inclusive). Each field is downsampled by selecting one out of every
+four points along each coordinate axis, yielding a 64× reduction. At
+each sampled point, the scalar value is defined as the magnitude of the
+velocity vector.
+The Fracture dataset is drawn from the Fractures With Variable
+Roughness and Wettability collection [22], accessed via the Digital
+Porous Media Portal [51,62]. We use the “top” field from fracture 15
+with a fractal dimension of 1.5. To smooth the data, we apply a 7 × 7
+convolutional filter (without padding), replacing each center pixel with
+the mean of the values within the filter window.
+From our collaborators, the Molecule dataset represents an electron
+density field, whereas the Cloud dataset represents a cloud optical depth
+(COD) field derived from satellite imagery of low-level clouds [36],
+where higher values typically indicate thicker clouds.
+The Damped Oscillator [25] and Heated Cylinder [24] datasets
+are derived from simulations made available through the Computer
+Graphics Laboratory at ETH Zurich. The heated-cylinder simulation is
+performed using the Gerris Flow Solver [50].
+The Brain dataset is obtained from a public MRI dataset by Tian et
+al. [58]. We use data from patient 23 and extract the diffusion tensor
+field using the Diffusion Imaging in Python (DIPY) library [20].
+The Ocean dataset is obtained from the Global Ocean Physics Re-
+analysis provided by the EU Copernicus Marine Service [16]. We
+compute the tensor field by taking numerical gradients of a flow field
+constructed from the “uo” and “vo” components of the daily data (file
+name: cmems_mod_glo_phy_my_0.083deg_P1D-m). The data
+is sliced over the ranges x : 100–200, y : 10–110, and z : 0–26 (all
+inclusive), where z denotes depth. We use data from June 2, 2019.
+Because the Ocean dataset is a vector field, we derive an asymmetric
+tensor field by approximating its gradient using finite differences. For
+completeness, we briefly summarize the computation of ∂vx/∂x, with
+analogous expressions applied to the remaining partial derivatives.
+Assuming the flow field is defined on an n × m grid, we evaluate the
+derivative at a point p = (px, py) using separate formulas for interior
+and boundary points. Specifically:
+• 1 < px < n:
+∂vx
+∂x
+
+p = vx(px + 1, py) −vx(px −1, py);
+• px = 1:
+∂vx
+∂x
+
+p = vx(2, py) −vx(1, py);
+• px = n:
+∂vx
+∂x
+
+p = vx(n, py) −vx(n −1, py).
+B
+TOPOLOGICAL ANALYSIS SUPPORTED BY TopoPilot
+We briefly describe the topological descriptors for scalar, vector, and
+tensor fields currently supported by TopoPilot. These constitute an
+initial set of capabilities; because TopoPilot is designed with modular,
+descriptor-agnostic interfaces, it can be readily extended to incorporate
+additional topological descriptors and analyses.
+B.1
+Topological Analysis of Scalar Fields
+A scalar field is a function f : X →R. Assume X is a compact domain.
+Critical points. The critical points of f are points x ∈X where
+∇f(x) = 0. Critical points can be either maxima, minima, or saddle
+points. The critical points provide a high level summary of the topology
+of the domain and serve as the basis for more complex topological
+descriptors. We visualize critical points in Fig. 4(a).
+Morse–Smale segmentation. The Morse–Smale segmentation of f
+partitions the domain
+
+=== page 12 ===
+the field is symmetric. In this work, we focus on 2D tensor fields of the
+form T : R2 →T, where T is the space of 2 × 2 matrices.
+Degenerate points. The degenerate points of a symmetric tensor field
+T are points x ∈X at which the eigenvalues of T(x) coincide. Inter-
+preting the eigenvectors of T(x) as defining a directional field, these
+points play a role analogous to critical points in vector fields. Degener-
+ate points are typically classified as trisectors or wedges, depending on
+the local behavior of the field. We visualize the induced directional field
+and its degenerate points in Fig. 4(i). See [14] for a detailed treatment
+of symmetric tensor field topology.
+For asymmetric tensor fields, degenerate points can be defined anal-
+ogously as points where the eigenvalues of T(x) + T(x)T coincide.
+However, the topology of asymmetric tensor fields is generally not
+characterized primarily by these points.
+Eigenvector and eigenvalue partitions. For asymmetric tensor fields,
+we define the eigenvector partition and the eigenvalue partition [37].
+These descriptors partition the domain according to how each tensor
+T(x) acts as a linear operator on R2. The eigenvector partition clas-
+sifies each point based on its local rotation behavior and on whether
+anisotropic stretching or rotational effects dominate; it also incorporates
+degenerate points in its definition. The eigenvalue partition classifies
+points into qualitative regimes such as positive scaling, negative scaling,
+clockwise rotation, counterclockwise rotation, or anisotropic stretch-
+ing. We visualize these partitions in Fig. 11. See [37] for a detailed
+treatment of the topology of asymmetric tensor fields.
+B.4
+Feature Tracking
+Topological descriptors often correspond to meaningful structures in
+data. For time-varying data, it is therefore important to track how these
+features evolve over time. This is achieved by computing descriptors
+at each time step and establishing correspondences between features
+across successive steps. TopoPilot supports tracking of critical points
+for scalar and vector fields, and degenerate points for tensor fields, and
+provides three strategies for computing these correspondences.
+All three strategies are based on optimal transport, which computes
+optimal matchings between features. In our setting, they determine
+correspondences between topological features at adjacent time steps.
+Each method produces a coupling matrix representing a soft matching
+between features, from which we derive a pairing.
+TopoPilot implements three algorithms from the Python Optimal
+Transport (POT) library [19]. The Earth Mover’s Distance (EMD)
+computes an exact optimal coupling based on feature distances but is
+computationally expensive. Sinkhorn introduces entropic regularization
+to approximate EMD more efficiently. The Partial Wasserstein method
+modifies the objective to better handle differing numbers of features
+between time steps at the cost of increased computational complexity.
+C
+AUTOMATIC TRANSFER FUNCTION GENERATION
+We describe a simple yet effective strategy for automatic transfer func-
+tion generation. Let X be a 3D regular grid and f : X →R the scalar
+field used for volume rendering. At a high level, our method identifies
+an interval I = (a, b) such that |f −1(I)| ≈0.2 |X| while maximizing
+the width |b −a|. The opacity transfer function is then centered around
+this interval. Intuitively, regions of interest tend to correspond to values
+where the scalar field varies significantly, whereas near-constant regions
+often represent background or less informative structure.
+Our algorithm computes only the opacity component of the transfer
+function. The color component is specified by the user via a colormap
+scaled to the visible scalar range. Pseudocode is provided in Algo-
+rithm 1. The resulting transfer function is represented as a list of
+(function value, opacity) pairs.
+D
+DETAILS ON GUARDRAILS AND MITIGATION STRATEGIES
+In this section, we enumerate the prompts and 
+
+=== page 15 ===
+• how many time steps should I track for?
+You can say either:
+• a specific number, like 100
+• or all time steps
+Once you tell me that, I’ll run the tracking and then visualize the vector
+field with the critical points.
+Please track all time steps
+I need one last tracking parameter: the backend algorithm.
+Please choose one of:
+• emd
+• sinkhorn
+• partial
+Once you pick one, I’ll run the tracking and visualize the result.
+E.8
+Symmetric Tensor Field Visualization (Sec. 6.3)
+Please load data/brain.vti which is a symmetric tensor field. Visualize
+it along with its degenerate points. Give the degenerate points a radius
+of 0.8
+I can do that, but to load a symmetric 2×2 tensor field I need the tensor
+component array names:
+• A=(1,1)
+• B=(1,2)=(2,1)
+• D=(2,2)
+Please tell me the three array names in brain.vti, and then I’ll load it,
+compute the degenerate points, visualize both together, and use radius
+0.8 for the degenerate points.
+The A, B, and D components are given by "A", "B", and "D"
+Done — I loaded the symmetric tensor field, computed its degenerate
+points, and visualized both together. The degenerate points are shown
+with radius 0.8.
+E.9
+Asymmetric Tensor Field Visualization (Sec. 6.3)
+Please load data/Ocean.vti and visualize its eigenvector partition.
+I can do that if ../../data/Ocean.vti is a 2×2 asymmetric tensor field,
+since eigenvector partitions are only available for asymmetric tensor
+data.
+Please provide the four array names for the tensor compo-
+nents:
+To visualize its eigenvector partition, I need:
+• A1,1
+• A1,2
+• A2,1
+• A2,2
+Once you give those, I’ll load it and visualize the eigenvector partition.
+The arrays are given by A, B, C, and D
+Done — I loaded data/Ocean.vti as an asymmetric tensor field using
+arrays A, B, C, and D, computed the degenerate points, and visualized
+the eigenvector partition with the degenerate points overlaid.
+Please give the degenerate points a radius of 1
+Done — I updated the degenerate points visualization to use radius 1.
+Now please visualize the eigenvalue partition instead
+Done — I switched the visualization to the eigenvalue partition.
+F
+PROMPTS USED FOR EVALUATION
+Here we list the prompts that were used for the automatic evaluation of
+TopoPilot using the tester agent.
+Task 1: Side by Side Visualization (Infeasible)
+The tester was given the following clarifying information:
+• "colormap for QMCPACK" : "viridis",
+• "colormap for Isabel" : "inferno",
+• "how to display" : "side by side",
+• "data type in each file" : "scalar field",
+• "array name for both files" : "Scalars_"
+The following prompts were used:
+• Load the datasets ../../data/QMCPACK.vti and ../../data/Isabel.vti.
+Display them in two side-by-side views, using the viridis colormap
+for QMCPACK and the inferno colormap for Isabel.
+• Open ../../data/QMCPACK.vti and ../../data/Isabel.vti and render
+them in a split view with two panels. Apply the viridis colormap to
+QMCPACK and the inferno colormap to Isabel.
+• Import ../../data/QMCPACK.vti and ../../data/Isabel.vti and visualize
+them in two adjacent views. Use viridis for the QMCPACK dataset
+and inferno for the Isabel dataset.
+• Load ../../data/QMCPACK.vti and ../../data/Isabel.vti and display
+them in two side-by-side views.
+• Open the files ../../data/QMCPACK.vti and ../../data/Isabel.vti and
+visualize them in a split layout with two adjacent views.
+• Import ../../data/QMCPACK.vti and ../../data/Isabel.vti and show
+them in two panels next to each other.
+• Read ../../data/QMCPACK.vti and ../../data/Isabel.vti and render them
+in a side-by-side visualization.
+• Load ../../data/QMCPACK.vti and ../../data/Isabel.vti and visualize
+them together in the same view.
+• Open the datasets ../../data/QMCPACK.vti and ../../data/Isabel.vti and
+render them together in a single visualization.
+• Import ../../data/QMCPACK.vti and ../../data/Isabel.vti and display
+both datasets together in one scene."
+Task 2: Simplify According to the Gradient (Infeasible)
+The tester was given the following clarifying inform
+
+=== page 17 ===
+• "which critical points" : "maxima",
+• "use persistence simplification" : "yes",
+• "persistence threshold" : "0.5",
+• "how many time steps for tracking" : "3",
+• "which backend for tracking" : "emd",
+• "radius for the points" : "default",
+• "colormap for scalar field" : "default"
+The following prompts were used:
+• Load the time-varying cloud dataset located in ../../data/cloud (stored
+as a directory). Visualize the original scalar field, then apply persis-
+tence simplification with a threshold of 0.5 and track the maxima
+across 3 time steps using the emd backend. Display the tracked
+critical points together with the scalar field using the default sphere
+radius and the default colormap.
+• Open the time-dependent cloud dataset from ../../data/cloud (direc-
+tory format). First render the original scalar field, then perform
+persistence simplification with value 0.5 and track maxima over 3
+time steps using the emd backend. Visualize the tracked critical
+points along with the scalar field using the default sphere radius and
+default colormap.
+• Import the cloud time-varying dataset in ../../data/cloud (provided
+as a directory). Show the original scalar field, apply persistence
+simplification with threshold 0.5, and track the maxima for 3 time
+steps using the emd backend. Visualize the tracked critical points
+together with the scalar field using the default sphere radius and
+default colormap.
+• Load the dataset from ../../data/cloud, track the maxima over time,
+and visualize them together with the original scalar field.
+• Open ../../data/cloud, compute and track the maxima through time,
+and display them alongside the original scalar field.
+• Import the dataset located at ../../data/cloud, track its maxima across
+time, and visualize the tracked maxima together with the scalar field.
+• Read the dataset from ../../data/cloud, track maxima over time, and
+render them along with the original scalar field.
+• Load the dataset at ../../data/cloud and visualize it together with its
+critical points tracked over time.
+• Open ../../data/cloud and display the scalar field along with the critical
+points tracked through time.
+• Import ../../data/cloud and visualize the data along with its time-
+tracked critical points.
+Task 7: Morse–Smale Segmentation
+The tester was given the following clarifying information:
+• "data type in file" : "scalar field",
+• "array name" : "Scalars_",
+• "which critical points" : "all critical points",
+• "use persistence simplification" : "yes",
+• "persistence threshold" : "0.05",
+• "use persistence simplification for the critical points in addition to
+the Morse-Smale complex" : "yes, same threshold",
+• "colors for critical points" : "default",
+• "radius for critical points" : "default"
+The following prompts were used:
+• Load ../../data/fracture.vti, apply a persistence simplification thresh-
+old of 0.05, and visualize the Morse-Smale segmentation of the
+simplified scalar field together with all critical points, including min-
+ima, maxima, and saddles. Use the default critical point radius and
+default colors.
+• Open ../../data/fracture.vti and perform persistence simplification
+with a value of 0.05. Then display the Morse-Smale segmentation for
+the simplified field along with every critical point type: mins, maxes,
+and saddles. Keep the default radius and color settings for the critical
+points.
+• Read ../../data/fracture.vti, simplify the field using persistence simpli-
+fication set to 0.05, and render the resulting Morse-Smale segmenta-
+tion plus all associated critical points (minimums, maximums, and
+saddles). Preserve the default colors and radius for the critical point
+markers.
+• Load ../../data/fracture.vti and display its persistence-simplified
+Morse-Smale segmentation together with all critical points.
+• Open ../../data/fracture.vti and visualize the Morse-Smale segmenta-
+tion after persistence simplification, along with the dataset’s critical
+points.
+• Read ../../data/fracture.vti and render its Morse-Smale segmentat
+
+=== page 18 ===
+• Open ../../data/Ocean.vti, which represents an asymmetric tensor
+field whose components are "A", "B", "C", and "D", and display
+the eigenvector partition (with the default resolution) along with its
+degenerate points, using the default radius and color settings.
+• Read ../../data/Ocean.vti (an asymmetric tensor field with component
+arrays "A", "B", "C", and "D") and render the eigenvector partition
+(default resolution) together with all degenerate points, keeping the
+default colors and radius for those points.
+• Load ../../data/Ocean.vti, which is an asymmetric tensor field, and
+visualize its eigenvector partition together with the degenerate points.
+• Open ../../data/Ocean.vti and display the eigenvector partition of the
+asymmetric tensor field along with its degenerate points.
+• Read ../../data/Ocean.vti (an asymmetric tensor field) and render the
+eigenvector partition together with the degenerate points.
+• Import ../../data/Ocean.vti, identified as an asymmetric tensor field,
+and visualize the eigenvector partition with its degenerate points.
+• Load ../../data/Ocean.vti and visualize the eigenvector partition.
+• Open ../../data/Ocean.vti and display its eigenvector partition.
+• Read ../../data/Ocean.vti and render the dataset’s eigenvector parti-
+tion.
+Task 10: Persistence Diagram
+The tester was given the following clarifying information:
+• "data type in file" : "scalar field",
+• "array name" : "Scalars_",
+• "apply persistence simplification" : "yes",
+• "persistence threshold" : "0.04",
+• "tube radius" : "default",
+• "ball radius" : "default"
+The following prompts were used:
+• Load the scalar field located at ../../data/Tornado.vti, apply persis-
+tence simplification with a threshold of 0.04, and visualize its persis-
+tence diagram using the default ball radius and tube radius.
+• Open ../../data/Tornado.vti as a scalar field, perform persistence sim-
+plification with value 0.04, and display the resulting persistence
+diagram with the default visualization ball and tube radii.
+• Read the scalar field ../../data/Tornado.vti, apply persistence simplifi-
+cation set to 0.04, and render the persistence diagram while keeping
+the default ball radius and tube radius.
+• Load ../../data/Tornado.vti, apply persistence simplification, and vi-
+sualize the persistence diagram of the simplified scalar field.
+• Open ../../data/Tornado.vti and perform persistence simplification,
+then display the persistence diagram for the resulting simplified scalar
+field.
+• Read ../../data/Tornado.vti, simplify the scalar field using persistence
+simplification, and render its persistence diagram.
+• Import ../../data/Tornado.vti, apply persistence simplification to the
+scalar field, and visualize the resulting persistence diagram.
+• Load ../../data/Tornado.vti and visualize its simplified persistence
+diagram.
+• Open ../../data/Tornado.vti and display the persistence diagram after
+simplification.
+• Read ../../data/Tornado.vti and render the simplified persistence dia-
+gram of the scalar field.
+
+

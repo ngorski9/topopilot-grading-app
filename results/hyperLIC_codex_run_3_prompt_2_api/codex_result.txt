@@ -1,0 +1,5 @@
+Rendered the tensor field with 434 detected degenerate points (radius 1): trisectors in pink and wedges in white.
+
+Output: [brain_degeneracies.png](/workspace/brain_degeneracies.png)
+
+Reproducible TopoPilot script: [render_brain_degeneracies.py](/workspace/render_brain_degeneracies.py)

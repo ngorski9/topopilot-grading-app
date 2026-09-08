@@ -1,0 +1,1 @@
+The render succeeded: it shows the eigenvector partition of the asymmetric tensor field (10 px/cell resolution) with degenerate points overlaid — pink spheres for trisectors, white for wedges, radius 1. Output saved at `/workspace/ocean_output.png` (script: `/workspace/ocean_pipeline.py`).

@@ -1,0 +1,7 @@
+Done.
+
+- [Topopilot pipeline script](/workspace/ionization_contour_tree.py) imports the 21-step Ionization series, renders the original scalar volume with viridis, simplifies at ε=0.1, and overlays the piecewise-linear contour tree.
+- [Time-varying MP4 render](/workspace/ionization_contour_tree.mp4)
+- [Verified timestep-1 PNG](/workspace/ionization_contour_tree_t01.png)
+
+Tree styling: radius 2 vertices; minima blue, 1-saddles white, 2-saddles orange, maxima red; edge thickness 1.

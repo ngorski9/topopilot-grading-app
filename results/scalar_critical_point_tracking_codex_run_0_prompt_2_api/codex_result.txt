@@ -1,0 +1,6 @@
+Completed and verified the TopoPilot2 workflow.
+
+- Pipeline: [cloud_topopilot_pipeline.py](/workspace/cloud_topopilot_pipeline.py)
+- Visualization at tracked time step 3: [cloud_tracked_maxima_t3.png](/workspace/cloud_tracked_maxima_t3.png)
+
+It displays the original `Scalars_` field using the `cool warm` map, computes maxima after persistence simplification (`epsilon=0.5`), tracks them over 3 steps using EMD, and overlays identity-colored spheres with radius 2.

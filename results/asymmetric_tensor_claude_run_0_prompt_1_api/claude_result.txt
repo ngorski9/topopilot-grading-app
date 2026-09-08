@@ -1,0 +1,1 @@
+Rendered successfully at `/workspace/output.png` (1280×1280): the eigenvector partition of the asymmetric tensor field (resolution 10) with degenerate points overlaid — trisectors in pink, wedges in white, radius 1.

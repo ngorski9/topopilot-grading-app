@@ -1,0 +1,11 @@
+Completed the persistence simplification (threshold 0.05) and rendered the Morse–Smale result with critical points:
+
+- Minima: blue, radius 2
+- Saddles: white, radius 2
+- Maxima: red, radius 2
+
+Outputs:
+
+- [Rendered image](/workspace/fracture_morse_smale.png)
+- [ParaView state](/workspace/fracture_morse_smale.pvsm)
+- [Reproducible ParaView/Python script](/workspace/render_fracture_msc.py)

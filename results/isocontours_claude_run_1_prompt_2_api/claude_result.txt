@@ -1,0 +1,9 @@
+Done. I built `/workspace/qmcpack_pipeline.py` using TopoPilot2's script template with this pipeline:
+
+- **Loader**: `LoadScalarField` on `QMCPACK.vti` (array `Scalars_`)
+- **Simplification**: `PersistenceSimplification(epsilon=0.04)` — persistence threshold 0.04
+- **Critical points**: `ComputeScalarCriticalPoints("all critical points (mins+maxes+saddles)")` → `EmbedScalarCriticalPoints`, colored minima=blue, 1-saddles=white, 2-saddles=orange, maxima=red
+- **Isocontours**: `ComputeIsocontours(num_contours=4)` → 4 isovalues dividing the range into 5 evenly-sized bands, rendered as viridis tubes
+- **Background**: `EmbedScalarField` (viridis volume/surface) rendered first so points/contours draw on top
+
+Rendered to `/workspace/output.png` (69×69×115 grid produced 16 minima, 288 1-saddles, 315 2-saddles, 20 maxima after simplification). Cleaned up the temporary `session` cache dir afterward.

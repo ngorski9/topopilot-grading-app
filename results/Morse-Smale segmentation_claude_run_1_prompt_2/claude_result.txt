@@ -1,0 +1,9 @@
+This clearly shows distinct Morse-Smale segments (each a basin between a minimum, saddle, and maximum), with red spheres at maxima, white at saddles, and blue at minima, all radius 2. The pipeline used:
+
+1. `XMLImageDataReader` to load `fracture.vti` (scalar field `Scalars_`)
+2. `TTKPersistenceDiagram` → `Threshold` (persistence ≥ 0.05) → `TTKTopologicalSimplification` to simplify the field
+3. `TTKMorseSmaleComplex` on the simplified field with critical points, separatrices, and segmentation enabled
+4. Critical points split by `CellDimension` (0=min, 1=saddle, 2=max) into colored sphere glyphs (radius 2, blue/white/red)
+5. Segmentation surface (`MorseSmaleManifold`) rendered underneath, colored categorically
+
+Result saved to `/workspace/morse_smale_result.png`. Script is at `/workspace/ttk_morse_smale.py` and can be re-run via `xvfb-run -a pvpython ttk_morse_smale.py`.

@@ -1,0 +1,258 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font:
+    14px system-ui,
+    sans-serif;
+  color: #18212b;
+  background: #f5f7fa;
+  overflow: hidden;
+}
+button,
+input,
+textarea {
+  font: inherit;
+}
+header {
+  height: 58px;
+  padding: 14px 22px;
+  background: #102a43;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main {
+  display: grid;
+  grid-template-columns: 280px minmax(0, 1fr) 390px;
+  height: calc(100vh - 58px);
+  min-height: 0;
+}
+#trials,
+#rubricPanel {
+  min-height: 0;
+  padding: 15px;
+  overflow-y: auto;
+  background: #f8fafc;
+}
+#trials {
+  border-right: 1px solid #d5dce5;
+}
+#rubricPanel {
+  border-left: 1px solid #d5dce5;
+}
+#detail {
+  min-height: 0;
+  padding: 22px;
+  overflow: auto;
+  min-width: 0;
+}
+.trial {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 6px;
+  cursor: pointer;
+  background: white;
+  border: 1px solid #e1e6ed;
+}
+.trial:hover,
+.trial.active {
+  border-color: #2b6cb0;
+  background: #ebf8ff;
+}
+.completion {
+  float: right;
+  font-size: 11px;
+  font-weight: 600;
+}
+.completion.done {
+  color: #277a45;
+}
+.completion.todo {
+  color: #8a4a18;
+}
+.pill {
+  font-size: 11px;
+  background: #d9eaf7;
+  border-radius: 10px;
+  padding: 2px 7px;
+  margin-right: 3px;
+}
+.card {
+  background: #fff;
+  padding: 16px;
+  margin: 14px 0;
+  border: 1px solid #dce3ea;
+  border-radius: 8px;
+}
+.file {
+  display: inline-block;
+  margin: 4px;
+  padding: 7px 10px;
+  border: 1px solid #cbd5e0;
+  border-radius: 4px;
+  color: #155e9c;
+  background: white;
+  cursor: pointer;
+}
+.file.active {
+  background: #dbeeff;
+  border-color: #2b6cb0;
+}
+.preview {
+  display: block;
+  max-width: 100%;
+  max-height: calc(100vh - 230px);
+  margin: 12px auto;
+}
+.image-controls {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.image-controls button {
+  min-width: 30px;
+}
+#zoomLevel {
+  color: #5b6875;
+  font-size: 12px;
+}
+.image-stage {
+  max-height: calc(100vh - 280px);
+  overflow: auto;
+  text-align: center;
+}
+.zoomable {
+  cursor: zoom-in;
+  transition: width 120ms ease;
+}
+.code {
+  white-space: pre-wrap;
+  overflow: auto;
+  background: #17202a;
+  color: #eaf2f8;
+  padding: 16px;
+  border-radius: 7px;
+  max-height: calc(100vh - 250px);
+  font:
+    13px ui-monospace,
+    SFMono-Regular,
+    Consolas,
+    monospace;
+}
+.code .kw {
+  color: #ff93c3;
+}
+.code .str {
+  color: #b9f27c;
+}
+.code .com {
+  color: #8b9bab;
+}
+.code .num {
+  color: #86c9ff;
+}
+.markdown {
+  line-height: 1.55;
+  max-width: 900px;
+}
+.markdown pre {
+  overflow: auto;
+  background: #17202a;
+  color: #eaf2f8;
+  padding: 14px;
+  border-radius: 6px;
+}
+.markdown code {
+  background: #e9eef3;
+  padding: 1px 4px;
+  border-radius: 3px;
+}
+.markdown pre code {
+  background: transparent;
+  padding: 0;
+}
+.benchmark-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.benchmark-row label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.rubric {
+  display: grid;
+  grid-template-columns: 22px 1fr;
+  gap: 7px;
+  margin: 12px 0;
+}
+.requirement {
+  margin: 12px 0;
+  padding: 11px;
+  border: 1px solid #dce3ea;
+  border-radius: 6px;
+  background: #fbfdff;
+}
+.requirement p {
+  margin: 0 0 8px;
+}
+.requirement label {
+  display: block;
+  margin-top: 7px;
+}
+.requirement select {
+  margin-top: 4px;
+}
+.rubric.disabled {
+  opacity: 0.42;
+}
+.comment {
+  width: 100%;
+  min-height: 46px;
+  margin-top: 4px;
+}
+.hidden {
+  display: none;
+}
+.grader-grade {
+  border-top: 1px solid #e6e9ee;
+  padding: 9px 0;
+}
+#login {
+  max-width: 430px;
+  margin: 60px auto;
+}
+#login label input {
+  margin-left: 10px;
+}
+.muted {
+  color: #5b6875;
+  font-size: 12px;
+}
+select {
+  width: 100%;
+  padding: 7px;
+}
+#status {
+  color: #236b38;
+}
+@media (max-width: 1050px) {
+  body {
+    overflow: auto;
+  }
+  main {
+    grid-template-columns: 230px 1fr;
+    height: auto;
+    min-height: calc(100vh - 58px);
+  }
+  #rubricPanel {
+    grid-column: 1 / -1;
+    border-left: 0;
+    border-top: 1px solid #d5dce5;
+  }
+}

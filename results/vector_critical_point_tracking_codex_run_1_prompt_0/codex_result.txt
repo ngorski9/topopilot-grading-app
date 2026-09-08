@@ -1,0 +1,6 @@
+Completed the 3-step partial-OT tracking and visualization.
+
+- Output image: [cylinder_critical_points_partial_ot.png](/workspace/cylinder_critical_points_partial_ot.png)
+- Reproducible script: [track_cylinder_critical_points.py](/workspace/track_cylinder_critical_points.py)
+
+It uses `cylinder1.vti` through `cylinder3.vti`, extracts isolated bilinear-field critical points from `u` and `v`, excludes the zero-velocity cylinder mask, and uses 85% partial transport mass. Detected counts were 26, 24, and 24 critical points; 44 partial-OT correspondences were drawn.

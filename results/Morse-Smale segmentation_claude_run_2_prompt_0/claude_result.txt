@@ -1,0 +1,12 @@
+All three critical point types (blue minima, white saddles, red maxima) are now visible, along with the piecewise-linear Morse-Smale segmentation colored by region. The visualization is complete and saved at `/workspace/fracture_msc.png`.
+
+Summary of the pipeline built in `/workspace/fracture_msc.py`:
+1. Load `fracture.vti` (`Scalars_` field).
+2. `TTKPersistenceDiagram` → compute persistence pairs.
+3. `Threshold` on pair persistence (0–0.05) to select the pairs to cancel.
+4. `TTKTopologicalSimplification` using those pairs to simplify the scalar field.
+5. `TTKMorseSmaleComplex` on the simplified field → critical points (port 0) and full domain segmentation with `MorseSmaleManifold` region IDs (port 3).
+6. Segmentation surface colored by `MorseSmaleManifold` (Rainbow Uniform preset).
+7. Critical points split by `CellDimension` (0=min, 1=saddle, 2=max) into three glyph sets, each rendered as radius-2 spheres with solid colors: blue minima, white saddles, red maxima.
+
+Rendered result saved to `/workspace/fracture_msc.png`.

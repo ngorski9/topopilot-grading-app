@@ -1,0 +1,11 @@
+This looks correct: the brain-shaped tensor field (colored by trace) with wedge/trisector pairs alternating along boundaries as expected for a real DTI-like field, wedges in white and trisectors in pink, both as radius-1 spheres.
+
+Everything is in `/workspace`:
+
+- `brain_with_tensor.vti` — original field with an added 3×3 `Tensor` array (from A, B, D) for coloring/glyphing
+- `trisectors.vtp` / `wedges.vtp` — the 357 trisectors / 359 wedges found by solving for zeros of the tensor deviator `(E,F) = ((A-D)/2, B)` on the pixel-triangulated grid, classified by the sign of the local Jacobian determinant (Delmarcelle–Hesselink theory)
+- `visualize.py` — the ParaView script that builds the scene (surface colored by tensor trace, degenerate points as radius-1 sphere glyphs, pink = trisectors, white = wedges)
+- `brain_degenerate_points.png` — rendered screenshot (shown above)
+- `brain_degenerate_points.pvsm` — ParaView state file, open with `paraview brain_degenerate_points.pvsm` for an interactive session
+
+Note: this TTK build doesn't ship the tensor-topology filter (`ttkDegenerateLocator`/`TensorFieldTopology` isn't compiled in), so I implemented the degenerate-point extraction directly rather than skipping it.

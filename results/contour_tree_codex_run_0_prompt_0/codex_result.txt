@@ -1,0 +1,7 @@
+Created the ParaView visualization with all 21 Ionization timesteps loaded.
+
+- [ParaView state file](sandbox:/workspace/ionization_contour_tree.pvsm)
+- [Rendered visualization](sandbox:/workspace/ionization_contour_tree.png)
+- [Reproducible script](sandbox:/workspace/create_ionization_visualization.py)
+
+It uses viridis for the original scalar slice and a persistence threshold of 0.1; contour-tree edges have radius 1 and critical points radius 2 with the requested colors.

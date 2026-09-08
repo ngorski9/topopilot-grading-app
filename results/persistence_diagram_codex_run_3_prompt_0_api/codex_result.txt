@@ -1,0 +1,6 @@
+Created the requested visualization with TopoPilot2.
+
+- Persistence simplification: relative threshold `0.04`
+- Diagram: sublevel-set FTM persistence diagram, orders 0 and 2
+- Output: [QMCPACK_persistence_diagram_orders_0_2.png](/workspace/QMCPACK_persistence_diagram_orders_0_2.png)
+- Reproducible script: [qmcpack_persistence_diagram.py](/workspace/qmcpack_persistence_diagram.py)

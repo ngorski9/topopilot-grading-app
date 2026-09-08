@@ -1,0 +1,10 @@
+Rendered the tensor field and its 562 degenerate points.
+
+- 283 wedges: white, radius 1
+- 279 trisectors: pink, radius 1
+
+Outputs:
+
+- [Rendered image](/workspace/brain_degenerate_points.png)
+- [ParaView state](/workspace/brain_degenerate_points.pvsm)
+- [Degenerate-point geometry](/workspace/brain_degenerate_points.vtp)

@@ -1,0 +1,11 @@
+Completed the ParaView/TTK visualization.
+
+- Persistence simplification: absolute threshold `0.04`
+- All PL critical points shown and color-coded as requested
+- Four isocontours at equal-volume quantiles: `0.393137`, `0.404711`, `0.409601`, `0.418580`
+
+Outputs:
+
+- [ParaView state](</workspace/QMCPACK_topology.pvsm>)
+- [Rendered visualization](</workspace/QMCPACK_topology.png>)
+- [Reproducible script](</workspace/qmcpack_topology.py>)

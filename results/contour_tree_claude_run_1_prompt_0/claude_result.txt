@@ -1,0 +1,6 @@
+Both outputs are generated successfully:
+
+1. **`/workspace/scalar_field_viridis.png`** — the original time-varying Ionization scalar field, volume-rendered with the viridis colormap.
+2. **`/workspace/contour_tree_simplified.png`** — the piecewise-linear contour tree computed after topological simplification (persistence threshold 0.1), with tube-rendered arcs (radius 1) and sphere-glyph vertices (radius 2) colored by critical type: blue minima, white 1-saddles, orange 2-saddles, red maxima.
+
+Pipeline used (`/workspace/ionization_contourtree.py`, run via `pvpython`): `XMLImageDataReader` (all 21 timesteps) → `TTKPersistenceDiagram` → `Threshold` (Persistence ≥ 0.1) → `TTKTopologicalSimplification` → `TTKContourTree`, with node/arc outputs rendered as glyphs/tubes in ParaView.

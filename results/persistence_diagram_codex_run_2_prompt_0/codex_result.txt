@@ -1,0 +1,8 @@
+Completed persistence simplification at absolute threshold 0.04 and generated the requested sublevel-set diagram.
+
+- [Persistence diagram PNG](/workspace/QMCPACK_persistence_diagram_orders_0_2_threshold_0.04.png)
+- [Simplified scalar field VTI](/workspace/QMCPACK_simplified_persistence_0.04.vti)
+- [Persistence diagram data VTU](/workspace/QMCPACK_persistence_diagram_simplified_0.04.vtu)
+- [Reproducible workflow script](/workspace/make_persistence_diagram.py)
+
+The diagram shows 16 order-0 pairs and 6 order-2 pairs.

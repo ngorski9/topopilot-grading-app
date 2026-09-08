@@ -1,0 +1,6 @@
+Rendered the requested 1000×1000 (10 px/square) eigenvector partition with all detected degeneracies:
+
+- [Ocean_eigenvector_partition.png](/workspace/Ocean_eigenvector_partition.png)
+- Reproducible renderer: [render_ocean_partition.py](/workspace/render_ocean_partition.py)
+
+It contains 99 degenerate points: 51 white wedges and 48 pink trisectors, each radius 1.

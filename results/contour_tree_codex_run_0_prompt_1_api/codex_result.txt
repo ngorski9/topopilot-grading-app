@@ -1,0 +1,8 @@
+Created and validated the TopoPilot2 pipeline:
+
+- [Script](sandbox:/workspace/ionization_topopilot.py) loads the `Ionization` time series, renders the original `Scalars_` field in viridis, applies persistence simplification `0.1`, and overlays its piecewise-linear contour tree.
+- Tree vertices: minima blue, 1-saddles white, 2-saddles orange, maxima red; radius 2.
+- Tree edges: thickness 1.
+- Verified render outputs: [time step 1](sandbox:/workspace/ionization_preview.png) and [time step 21](sandbox:/workspace/ionization_step21.png).
+
+The script accepts the full time-series directory and can be run with `pvbatch` for any timestep or all steps.

@@ -1,0 +1,7 @@
+The pipeline rendered correctly: the volumetric scalar field in viridis with the simplified contour tree overlaid (blue minima, white 1-saddles, orange 2-saddles, red maxima, edge radius 1, vertex radius 2).
+
+Rendered at `/workspace/output.png` from time step 1 of the Ionization time series, using `/workspace/ionization_pipeline.py`:
+- `LoadScalarField` → `EmbedScalarField(colormap="viridis")` for the raw field
+- `PersistenceSimplification(epsilon=0.1)` → `ComputeContourTree` → `EmbedContourTree` with `ball_radius=2.0`, `tube_radius=1.0`, colors ordered `[minima=blue, 1-saddles=white, 2-saddles=orange, maxima=red, degenerate=black]`
+
+To render all 21 time steps as a video instead: `pvbatch ionization_pipeline.py -i ./Ionization -t -1 -o output.mp4 -q session`.

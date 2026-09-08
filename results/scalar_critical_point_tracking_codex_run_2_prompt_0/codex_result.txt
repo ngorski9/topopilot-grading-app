@@ -1,0 +1,8 @@
+Completed the visualization and saved reproducible outputs:
+
+- [Rendered PNG](/workspace/visualization/cloud_emd_tracking.png)
+- [ParaView state](/workspace/visualization/cloud_emd_tracking.pvsm)
+- [Tracked maxima geometry](/workspace/visualization/emd_tracked_maxima.vtp)
+- [Pipeline script](/workspace/visualization/cloud_tracking.py)
+
+It applies TTK persistence simplification at 0.5, tracks 40 strongest simplified piecewise-linear maxima across three steps with POT earth mover’s distance, and renders radius-2 spheres over the original warm–cold scalar fields.

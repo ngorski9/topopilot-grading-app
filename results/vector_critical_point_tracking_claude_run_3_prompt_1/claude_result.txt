@@ -1,0 +1,12 @@
+Done. Summary of the pipeline in `/workspace/track_critical_points.py`:
+
+1. **Data loading** — reads `cylinder1/2/3.vti` (first 3 time steps) with VTK, extracting the single-component `u`/`v` arrays on the 150×450 image grid.
+2. **Critical-point extraction** — since TTK 1.3 has no dedicated vector-field critical point filter, each pixel quad is split into 2 triangles and the PL zero of the linearly-interpolated `(u,v)` field is solved via barycentric coordinates; classified as source/sink (red) vs. saddle (blue) by the sign of the Poincaré index (ratio of vector-space to geometric orientation).
+3. **Tracking via partial optimal transport** — for each pair of consecutive time steps, `ot.partial.partial_wasserstein` (POT library) computes a transport plan between the critical-point sets using Euclidean cost, with the transported mass capped below 1 so births/deaths of critical points are handled naturally as unmatched mass rather than forced matches.
+4. **Rendering** — the 3 time steps are drawn as glyphed arrow fields (colored by velocity magnitude) offset along Z, with tracked critical points as spheres and green tubes linking their trajectories across time.
+
+Outputs written to `/workspace/`:
+- `cylinder_tracked_critical_points.png` — rendered visualization (vortex shedding field + tracked critical points)
+- `cylinder_critical_points.vtp`, `cylinder_tracks.vtp` — the critical points and track polylines for further inspection in ParaView
+
+Console output also lists all 89 tracks found (most persist source→saddle pairs across all 3 steps; a few appear/disappear, correctly left unmatched by the partial transport).

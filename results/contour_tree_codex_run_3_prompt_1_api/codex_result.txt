@@ -1,0 +1,7 @@
+Completed the 21-step time-varying render.
+
+- Video: [ionization_contour_tree.mp4](/workspace/ionization_contour_tree.mp4)
+- First-frame PNG: [ionization_contour_tree_t1.png](/workspace/ionization_contour_tree_t1.png)
+- Reproducible TopoPilot2 script: [ionization_topology.py](/workspace/ionization_topology.py)
+
+It uses viridis for the original scalar volume, persistence simplification ε=0.1, and a piecewise-linear contour tree with radius 2 vertices and thickness 1 edges. Colors: minima blue, 1-saddles white, 2-saddles orange, maxima red.

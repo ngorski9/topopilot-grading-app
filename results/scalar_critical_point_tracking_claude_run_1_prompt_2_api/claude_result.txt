@@ -1,0 +1,10 @@
+The pipeline ran successfully and produced the requested visualization.
+
+Result: `/workspace/cloud_output.png` — the simplified cloud scalar field (persistence threshold ε=0.5, cool-warm colormap) with tracked maxima (radius-2 spheres, colored by tracked identity) at time step 3 of the EMD-based 3-step tracking, at `/workspace/cloud_pipeline.py` (script) → `/workspace/cloud_output.png` (image).
+
+Pipeline built:
+- `LoadScalarField` (array `Scalars_`, the only array in these VTI files) over the `./cloud` time series
+- `PersistenceSimplification(epsilon=0.5)` → `EmbedScalarField(colormap="cool warm")`
+- `ComputeScalarCriticalPoints(which_points="maxima")` → `TrackScalarCriticalPoints(time_steps=3, backend="emd")` → `EmbedTrackedScalarFieldCriticalPoints(radius=2.0)`
+
+Run with `pvbatch cloud_pipeline.py -i ./cloud -t 3 -o cloud_output.png -q session`. If you'd instead like an mp4 covering time steps 1–3, I can adjust the driver logic (the template's video branch currently renders every time step in the directory, not just 3) — let me know.

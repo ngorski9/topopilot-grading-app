@@ -1,0 +1,12 @@
+The pipeline ran successfully. The rendered image at `/workspace/output.png` shows:
+
+- **Persistence simplification** applied with epsilon=0.04 (matching the requested threshold of 0.04, interpreted as a fraction of the scalar range) on the `Scalars_` field from `QMCPACK.vti`.
+- **4 isocontours** (grey surfaces) dividing the volume into 5 evenly-sized value bands.
+- **Critical points** rendered as colored spheres: red = maxima, orange = 2-saddles, white = 1-saddles, blue = minima.
+
+Script used: `/workspace/qmcpack_pipeline.py`, run via:
+```
+pvbatch qmcpack_pipeline.py -i ./QMCPACK.vti -t 1 -o output.png -q session
+```
+
+Log confirms the counts: 16 minima, 288 1-saddles, 315 2-saddles, 20 maxima (plus 10 multi-saddles rendered in the degenerate-point color).

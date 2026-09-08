@@ -1,0 +1,7 @@
+Completed the 0.05 persistence simplification and rendered the PL Morse–Smale segmentation with radius-2 critical points:
+
+- [Rendered image](/workspace/fracture_morse_smale.png)
+- [ParaView state file](/workspace/fracture_morse_smale.pvsm)
+- [Reproducible Python script](/workspace/render_morse_smale.py)
+
+Minima are blue, saddles white, and maxima red.

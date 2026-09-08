@@ -1,0 +1,7 @@
+Rendered the requested 21-step visualization.
+
+- Video: [ionization_contour_tree.mp4](/workspace/ionization_contour_tree.mp4)
+- First-frame preview: [ionization_contour_tree_t1.png](/workspace/ionization_contour_tree_t1.png)
+- Reusable TopoPilot2 pipeline: [ionization_contour_tree.py](/workspace/ionization_contour_tree.py)
+
+It displays the raw `Scalars_` field in viridis and overlays the persistence-0.1 simplified contour tree with 1-radius edges, 2-radius vertices, and the requested min/saddle/max colors.

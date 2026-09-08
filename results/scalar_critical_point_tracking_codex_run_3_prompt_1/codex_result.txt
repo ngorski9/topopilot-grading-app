@@ -1,0 +1,9 @@
+Completed the cloud time-series analysis and visualization.
+
+- Original scalar field: [01_original_scalar_field.png](/workspace/cloud_results/01_original_scalar_field.png)
+- Persistence-simplified (0.5) EMD-tracked PL maxima, rendered as radius-2 spheres over a cool-to-warm scalar field: [02_tracked_maxima_emd.png](/workspace/cloud_results/02_tracked_maxima_emd.png)
+- ParaView state: [cloud_tracking_pipeline.pvsm](/workspace/cloud_results/cloud_tracking_pipeline.pvsm)
+- Track geometry: [tracked_maxima_emd.vtp](/workspace/cloud_results/tracked_maxima_emd.vtp)
+- Reproducible script: [cloud_tracking.py](/workspace/cloud_tracking.py)
+
+The tracking uses the Wasserstein/EMD assignment mode across `cloud1.vti`–`cloud3.vti`.

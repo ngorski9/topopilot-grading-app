@@ -1,0 +1,10 @@
+This clearly shows the persistence diagram now: vertical segments from the diagonal (birth,birth) up to (birth,death), colored blue for order-0 (minimum–saddle) pairs and red for order-2 (saddle–maximum) pairs, after simplifying away pairs below persistence 0.04. The pipeline:
+
+1. Loaded `QMCPACK.vti` via `XMLImageDataReader`.
+2. Computed an initial persistence diagram (`TTKPersistenceDiagram`) on the raw field.
+3. Thresholded pairs with `Persistence ≥ 0.04` and fed them into `TTKTopologicalSimplification` to simplify the scalar field.
+4. Recomputed the persistence diagram on the simplified field.
+5. Split by `PairType` into order-0 (min-saddle) and order-2 (saddle-max) pairs, merged them with `AppendDatasets`.
+6. Rendered the diagram geometry (TTK encodes birth on X, death on Y) in a 2D render view, colored by `PairType`, saved to `/workspace/persistence_diagram.png`.
+
+Script is at `/workspace/persistence_pipeline.py`; image output is at `/workspace/persistence_diagram.png`.

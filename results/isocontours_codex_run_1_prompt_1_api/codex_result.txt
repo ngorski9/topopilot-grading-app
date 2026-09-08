@@ -1,0 +1,6 @@
+Rendered the requested topology visualization.
+
+- [PNG visualization](/workspace/QMCPACK_topology.png)
+- [TopoPilot2 pipeline script](/workspace/qmcpack_topology.py)
+
+Applied persistence simplification ε = 0.04. The four isocontours use quantile isovalues to divide the volume into five evenly populated regions; PL critical points are colored as requested.

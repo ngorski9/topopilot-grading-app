@@ -1,0 +1,13 @@
+This looks correct — all points are well above the diagonal (i.e., persistence ≥ 0.04 as expected after simplification), with 16 order-0 (minimum-saddle) pairs and 6 order-2 (saddle-maximum) pairs.
+
+Summary of what was done:
+1. Loaded `QMCPACK.vti` via ParaView's `XMLImageDataReader` (scalar array `Scalars_`, 547,515 vertices).
+2. Computed the initial persistence diagram with TTK's `TTKPersistenceDiagram` (sublevel-set filtration) — 321 raw pairs.
+3. Selected pairs with persistence ≥ 0.04 as constraints, then ran `TTKTopologicalSimplification` (LTS backend) to simplify the scalar field, removing noise below that threshold.
+4. Recomputed the persistence diagram on the simplified field (304 pairs remaining, all with persistence ≥ 0.04).
+5. Extracted Birth/Death/PairType per pair and plotted orders 0 (min-saddle) and 2 (saddle-max) as a scatter diagram.
+
+Outputs saved in `/workspace/`:
+- `persistence_diagram_simplified.csv`, `persistence_diagram_orders_0_2.csv` — raw data
+- `persistence_diagram_orders_0_2.png` — the requested visualization
+- `ttk_pipeline.py` — the reusable ParaView/TTK pipeline script

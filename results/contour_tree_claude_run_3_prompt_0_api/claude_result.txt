@@ -1,0 +1,7 @@
+Done. Created `/workspace/ionization_pipeline.py`, which:
+
+- Loads the `Ionization` time-series directory (`arrayName="Scalars_"`)
+- Renders the original scalar field with the **viridis** colormap
+- Applies `PersistenceSimplification` with `epsilon=0.1`, then computes and embeds the contour tree with `tube_radius=1.0`, `ball_radius=2.0`, and colors ordered [minima=blue, 1-saddles=white, 2-saddles=orange, maxima=red, degenerate=black]
+
+Rendered all 21 time steps to `/workspace/ionization_contourtree.mp4` via `pvbatch ionization_pipeline.py -i ./Ionization -t -1 -o ionization_contourtree.mp4 -q ./session`.

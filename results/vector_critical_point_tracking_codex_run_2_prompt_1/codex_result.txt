@@ -1,0 +1,9 @@
+Completed the ParaView visualization and saved it here:
+
+- [ParaView state: cylinder_partial_ot_tracking.pvsm](/workspace/cylinder_tracking/cylinder_partial_ot_tracking.pvsm)
+- [Rendered preview: cylinder_partial_ot_tracking.png](/workspace/cylinder_tracking/cylinder_partial_ot_tracking.png)
+- [Time-series manifest](/workspace/cylinder_tracking/cylinder_timeseries.pvd)
+- [Tracked critical points](/workspace/cylinder_tracking/critical_points.vtp)
+- [Partial-OT links](/workspace/cylinder_tracking/partial_ot_tracks.vtp)
+
+It uses the original `u`/`v` vector field with arrow glyphs, detects piecewise-linear critical points at steps 1, 11, and 21, and displays their partial optimal-transport correspondences as yellow tubes. Detected counts were 72, 67, and 66 points, with 111 retained transport links.

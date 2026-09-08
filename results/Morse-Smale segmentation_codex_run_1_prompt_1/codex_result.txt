@@ -1,0 +1,6 @@
+Completed the TTK workflow at persistence 0.05.
+
+- [Rendered segmentation image](/workspace/fracture_morse_smale.png)
+- [ParaView state file](/workspace/fracture_morse_smale.pvsm)
+
+Critical points shown as radius-2 spheres: minima blue (20), saddles white (33), maxima red (14).

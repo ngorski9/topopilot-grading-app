@@ -1,0 +1,11 @@
+The pipeline works correctly — vortex shedding behind the cylinder is clearly visible in the streamlines, critical points are correctly classified, and partial optimal transport successfully tracks most points across the 3 timesteps (81/89 then 79/87 matched, correctly leaving unmatched points for those that appear/disappear). This confirms the approach is sound.
+
+Summary of what was built (`/workspace/track_critical_points.py`):
+
+1. **Data loading**: reads `u`/`v` point-data arrays from `cylinder1.vti`, `cylinder2.vti`, `cylinder3.vti` (150×450 grid) via VTK.
+2. **Critical point extraction**: each grid cell is split into 2 triangles; since `u,v` are piecewise-linear, each triangle's zero-crossing is solved exactly via barycentric coordinates — this is the correct approach for PL vector fields (found ~87-89 critical points per frame, dominated by center/spiral in the wake, plus saddles/sources/sinks).
+3. **Classification**: type (sink/source/saddle/center) from the eigenvalues of the per-triangle constant Jacobian.
+4. **Tracking**: `ot.partial.partial_wasserstein` matches critical points between consecutive frames using Euclidean distance as cost, with partial mass (m=0.9) so points can legitimately appear/disappear (vortices being born/shed) rather than forcing a full assignment.
+5. **Visualization**: streamlines (colored by speed) + classified critical points for each of the 3 frames, with dashed connector lines showing the OT-tracked correspondences, saved to `/workspace/cylinder_critical_point_tracking.png`.
+
+The image confirms the tracked points (dashed lines) correctly follow the vortex centers and saddles as the wake structure evolves from t=1→2→3.

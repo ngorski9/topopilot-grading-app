@@ -1,0 +1,9 @@
+The pipeline works: this shows the LIC-textured cylinder flow field with tracked vortex critical points (colored spheres, each color = a tracked identity across the 3 partial-OT-tracked time steps) overlaid at t=3.
+
+Script created at `/workspace/cylinder_pipeline.py`:
+- Loads the `cylinder` time-series directory as a 2D vector field (`u`, `v` arrays)
+- `EmbedVectorField` renders the background flow (LIC texture)
+- `ComputeVectorCriticalPoints` → `TrackVectorCriticalPoints(time_steps=3, backend="partial")` tracks critical points across 3 steps using partial optimal transport
+- `EmbedTrackedVectorFieldCriticalPoints` colors each sphere by its tracked identity
+
+Ran via `pvbatch cylinder_pipeline.py -i ./cylinder -t 3 -o out_t3.png -q session_out`, producing `/workspace/out_t3.png`. To render all 3 tracked steps as a short video instead of one frame, I'd need a 3-file sub-directory (the template's `-t -1` renders every file in the input dir, currently 21) — let me know if you'd like that instead.

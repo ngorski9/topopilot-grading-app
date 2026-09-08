@@ -1,0 +1,3 @@
+The render looks correct: the piecewise-linear Morse-Smale segmentation is shown as colored regions, with critical points overlaid as spheres — red for maxima, white for saddles, and blue for minima, matching the requested radius-2 markers.
+
+Done. Output saved to `/workspace/fracture_msc.png` (script: `/workspace/ttk_msc.py`). Pipeline: `TTKPersistenceDiagram` → `Threshold` (persistence > 0.05) → `TTKTopologicalSimplification` → `TTKMorseSmaleComplex`, reducing critical points from 173 (50 min/86 saddle/37 max) to 61 (19 min/30 saddle/12 max). The segmentation surface is colored by `MorseSmaleManifold`, and critical points are rendered as radius-2 spheres colored by `CellDimension` (0=min=blue, 1=saddle=white, 2=max=red).

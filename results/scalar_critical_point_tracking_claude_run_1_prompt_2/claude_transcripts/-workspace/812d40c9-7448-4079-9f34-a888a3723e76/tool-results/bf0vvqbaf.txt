@@ -1,0 +1,192 @@
+EXIT:0
+Found 34 timesteps
+Saved original scalar field screenshot
+[32;1m[Common] [0m[32;1m                           [0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m
+[32;1m[Common] [0m[32;1m                    ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m
+[32;1m[Common] [0m[32;1m                [0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m
+[32;1m[Common] [0m[32;1m             ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░[0m[2;1m░[0m[2;1m▒░░░▒▒░[0m[32;1m░[0m[32;1m░[0m[32;1m▒▒▒▒▒▒▒[0m
+[32;1m[Common] [0m[32;1m          ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[2;1m░[0m[30;1m░[0m[30;1m░░░[0m[2;1m░   [0m[34;1m░[0m[34;1m░░░░░░[0m[30;1m░[0m[30;1m░░░▒[0m[2;1m▒[0m[32;1m▒[0m[32;1m▒▒▒▒[0m
+[32;1m[Common] [0m[32;1m        ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░[0m[30;1m░                    [0m[34;1m░[0m[34;1m░░[0m[30;1m░[0m[30;1m░░[0m[32;1m░[0m[32;1m▒▒▒[0m
+[32;1m[Common] [0m[32;1m      ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[2;1m░[0m[30;1m░    [0m[30;1m▒▒▒▒▒▒▒▒▒▒▒▒          [0m[34;1m░[0m[34;1m▒▒ [0m[30;1m░[0m[2;1m░[0m[32;1m▒[0m[32;1m▒▒[0m
+[32;1m[Common] [0m[32;1m     ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[30;1m░[0m[30;1m░   ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░▒▒       [0m[34;1m░[0m[34;1m░▒ [0m[30;1m░[0m[30;1m░[0m[32;1m▒[0m[32;1m▒[0m
+[32;1m[Common] [0m[32;1m    ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[30;1m░[0m[30;1m░  [0m[2;1m▒[0m[2;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[30;1m▒[0m[30;1m▒▒▒▒░▒▒    [0m[34;1m░[0m[34;1m░░░▒ [0m[30;1m░[0m[2;1m░[0m[32;1m▒[0m[32;1m▒[0m
+[32;1m[Common] [0m[32;1m   ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[30;1m░[0m[30;1m░ ▒[0m[2;1m▒[0m[2;1m▒▒▒▒▒[0m[2;1m▒[0m[2;1m▒▒▒[0m[37;1m▒[0m[37;1m▄[0m[37;1m▓█[0m[37;1m█▓████[0m[37;1m█▓▄[0m[2;1m▄[0m[2;1m░[0m[30;1m░[0m[30;1m░▒   [0m[34;1m░[0m[34;1m░░░░░[0m[30;1m░[0m[30;1m░[0m[32;1m░[0m[32;1m▒[0m
+[32;1m[Common] [0m[32;1m  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░  [0m[2;1m▒[0m[2;1m▒▒▒[0m[2;1m▒[0m[2;1m▒▒▒▒▓[0m[37;1m▓[0m[37;1m▓▀[0m[2;1m▀[0m[2;1m▀▀[0m[37;1m▀[0m[37;1m▀[0m[37;1m▀████▓▓▓▓[0m[2;1m▄[0m[30;1m░[0m[30;1m░   [0m[34;1m░[0m[34;1m░░░░▒ [0m[30;1m░[0m[2;1m░[0m[32;1m▒[0m
+[32;1m[Common] [0m[32;1m ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m░[0m[30;1m░ [0m[30;1m▒[0m[2;1m▒[0m[2;1m▒▒[0m[2;1m▒[0m[2;1m▒▒▒▒           [0m[30;1m░[0m[30;1m░[0m[2;1m░[0m[37;1m▀[0m[37;1m██▓▓▓▓[0m[2;1m▓[0m[30;1m░[0m[2;1m░    [0m[34;1m░[0m[34;1m░░▒ [0m[30;1m░[0m[2;1m░[0m[32;1m▒[0m
+[32;1m[Common] [0m[32;1m ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m▒[0m[32;1m░[0m[30;1m░ [0m[30;1m▒[0m[2;1m▒[0m[2;1m▒▒▒▒                  [0m[30;1m░[0m[2;1m▀[0m[37;1m█[0m[37;1m█▓▓▓[0m[37;1m▓[0m[2;1m░    [0m[34;1m░[0m[34;1m░░░▒ [0m[30;1m░[0m[32;1m░[0m[32;1m░[0m
+[32;1m[Common] [0m[32;1m ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m▒[0m[32;1m░[0m[32;1m▒[0m[30;1m░[0m[30;1m░ [0m[2;1m▒[0m[2;1m▒▒                     [0m[30;1m░[0m[30;1m░[0m[37;1m▀[0m[37;1m▓[0m[37;1m▓▓[0m[37;1m▓▒[0m[2;1m░    [0m[34;1m░[0m[34;1m░░▒░[0m[30;1m░[0m[30;1m░[0m[32;1m▒[0m
+[32;1m[Common] [0m[32;1m ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░[0m[30;1m░ [0m[30;1m▒▒                        ░[0m[2;1m▐[0m[37;1m▓[0m[37;1m▓[0m[37;1m▓▒[0m[37;1m▒    [0m[34;1m░[0m[34;1m░░░▒ [0m[30;1m░[0m[32;1m░[0m
+[32;1m[Common] [0m[32;1m ░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░                         [0m[32;1m░[0m[30;1m░[0m[30;1m░[0m[37;1m▐[0m[37;1m▓[0m[37;1m▓[0m[37;1m▒[0m[2;1m▒[0m[2;1m▒ [0m[34;1m░[0m[34;1m░░░░▒▒ [0m[30;1m░[0m[2;1m░[0m[32;1m▒[0m
+[32;1m[Common] [0m[30;1m░[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░                        ░░[0m[30;1m░[0m[2;1m▐[0m[37;1m▓[0m[37;1m▒[0m[37;1m▒[0m[2;1m▒[0m[30;1m░[0m[34;1m░[0m[34;1m░░░░░▒▒ [0m[30;1m░[0m[30;1m░[0m[32;1m▒[0m
+[32;1m[Common] [0m[30;1m░[0m[32;1m░[0m[32;1m░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░                   ░░░░░[0m[30;1m░[0m[2;1m▐[0m[37;1m▓[0m[37;1m▒[0m[2;1m▒[0m[2;1m▒[0m[34;1m░[0m[34;1m░░░░░░▒▒ [0m[30;1m░[0m[30;1m░[0m
+[32;1m[Common] [0m[32;1m  ░[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░           ░░░░░░▒[0m[30;1m▒[0m[30;1m░[0m[37;1m▓[0m[37;1m▒[0m[2;1m▒[0m[2;1m▒[0m[30;1m░[0m[34;1m░[0m[34;1m░░░░░▒▒▒░[0m[30;1m░[0m[32;1m░[0m
+[32;1m[Common] [0m[32;1m   [0m[30;1m░[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░[0m[30;1m░ [0m[37;1m▓[0m[2;1m▒[0m[2;1m▒[0m[30;1m░[0m[34;1m░[0m[34;1m░░░░▒▒▒▒▒[0m[30;1m░[0m[30;1m░[0m[32;1m░[0m
+[32;1m[Common] [0m[32;1m    [0m[30;1m░[0m[32;1m░[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m▒▒[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░▒░[0m[30;1m░[0m[30;1m░[0m[37;1m▓[0m[2;1m▒[0m[2;1m▒[0m[30;1m░[0m[34;1m▒[0m[34;1m░░▒▒▒▒▒▒▒░[0m[30;1m░[0m[30;1m░[0m
+[32;1m[Common] [0m[32;1m     ░░[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m▒▓▓▓▒▒[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░ [0m[2;1m▓[0m[2;1m▒[0m[30;1m░ [0m[34;1m▒[0m[34;1m▒▒▒▒▒▒▒▒▒▒[0m[30;1m░[0m[30;1m░[0m[32;1m▒[0m
+[32;1m[Common] [0m[32;1m      [0m[34;1m▒[0m[30;1m░[0m[2;1m░[0m[32;1m░[0m[32;1m▒▒▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m▒[0m[37;1m▓[0m[37;1m▓▓[0m[32;1m▓[0m[32;1m▒[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░[0m[30;1m░ [0m[37;1m▒[0m[2;1m▒  [0m[34;1m▒[0m[34;1m▒▒▒▒▒▒▒▒▒▒[0m[30;1m░[0m[30;1m░[0m[32;1m░[0m
+[32;1m[Common] [0m[32;1m      [0m[34;1m░[0m[34;1m░░[0m[30;1m░[0m[30;1m░[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░[0m[30;1m░ [0m[2;1m▒[0m[2;1m▒   [0m[34;1m▒[0m[34;1m▒▒▒▒▒▒▒▒▒▒[0m[30;1m░[0m[30;1m░[0m[32;1m░[0m
+[32;1m[Common] [0m[32;1m       [0m[34;1m░[0m[34;1m░░░░[0m[30;1m░[0m[2;1m░[0m[32;1m░[0m[32;1m▒▒▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m▒[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░[0m[30;1m░░[0m[2;1m░[0m[2;1m▒     [0m[34;1m▒[0m[34;1m▒▒▒▒▒▒▒▒▒▒[0m[30;1m░[0m[30;1m░[0m[32;1m░[0m
+[32;1m[Common] [0m[32;1m         [0m[34;1m▒[0m[34;1m░░░░░[0m[30;1m░[0m[30;1m░[0m[2;1m░[0m[32;1m░[0m[32;1m░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[2;1m░[0m[30;1m░[0m[30;1m░░ [0m[2;1m░       [0m[34;1m░[0m[34;1m▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░[0m[30;1m░[0m
+[32;1m[Common] [0m[32;1m          [0m[34;1m░[0m[34;1m░░░░░░░░░[0m[30;1m░[0m[30;1m░░░░░░░░░░░░░░░░            [0m[34;1m▒[0m[34;1m▒▒▒▒▒▒▒▒▒░[0m[30;1m░[0m[30;1m░[0m
+[32;1m[Common] [0m[32;1m            [0m[34;1m░[0m[34;1m▒░░░░░░░░░░                       ▒▒▒▒▒▒▒[0m[36;1m▒[0m[36;1m▒[0m[34;1m▒[0m[34;1m░[0m[30;1m░[0m[30;1m░[0m
+[32;1m[Common] [0m[32;1m              [0m[34;1m░[0m[34;1m▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░ ░▒[0m[36;1m▒[0m[36;1m▒▒▒▒▒▒[0m[34;1m░[0m[30;1m░[0m[30;1m░[0m[30;1m░[0m
+[32;1m[Common] [0m[32;1m                 [0m[34;1m░[0m[34;1m░▒░░░░░░░░░░░░░░░░░░░░░░░▒[0m[36;1m▒[0m[36;1m▒▒▒▒▒[0m[34;1m▒[0m[34;1m░[0m[30;1m░[0m[30;1m░[0m[30;1m░[0m
+[32;1m[Common] [0m[32;1m                      [0m[34;1m░[0m[34;1m░▒░░░░░░░░░░░░░░░▒[0m[36;1m▒[0m[36;1m▒▒[0m[34;1m▒[0m[34;1m▒░░[0m[30;1m░[0m[30;1m░░[0m
+[32;1m[Common] [0m[32;1m                              [0m[34;1m░[0m[34;1m░░░░░░░░░░[0m[30;1m░[0m[30;1m░▒░[0m
+[32;1m[Common] [0m[0;1m _____ _____ _  __                   __  __    ____   ___ ____  _  _[0m
+[32;1m[Common] [0m[0;1m|_   _|_   _| |/ /                  / /__\ \  |___ \ / _ \___ \| || |[0m
+[32;1m[Common] [0m[0;1m  | |   | | | ' /                  | |/ __| |   __) | | | |__) | || |_[0m
+[32;1m[Common] [0m[0;1m  | |   | | | . \                  | | (__| |  / __/| |_| / __/|__   _|[0m
+[32;1m[Common] [0m[0;1m  |_|   |_| |_|\_\                 | |\___| | |_____|\___/_____|  |_|[0m
+[32;1m[Common] [0m[0;1m                                    \_\  /_/[0m
+[32;1m[Common] [0m[0;1mWelcome![0m
+[32;1m[PLTS] [0m%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%[34;1m[0m
+[32;1m[PLTS] [0m-------------------------------------------------------------------------[34;1m[0m
+[32;1m[PLTS] [0m[33;1m[WARNING][0m No pre-existing order for array:
+[32;1m[PLTS] [0m[33;1m[WARNING][0m   `Scalars_`.
+[32;1m[PLTS] [0mInitializing order array. ...............................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0m-------------------------------------------------------------------------[34;1m[0m
+[32;1m[PLTS] [0mInitializing order array. .............................[34;1m [0.005s|20T|100%][0m
+[32;1m[PLTS] [0m-------------------------------------------------------------------------[34;1m[0m
+[32;1m[PLTS] [0m[33;1m[WARNING][0m TIP: run `ttkArrayPreconditioning` first
+[32;1m[PLTS] [0m[33;1m[WARNING][0m for improved performances :)
+[32;1m[PLTS] [0m-------------------------------------------------------------------------[34;1m[0m
+[32;1m[PLTS] [0mAllocating Memory .......................................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mAllocating Memory .....................................[34;1m [0.001s|20T|100%][0m
+[32;1m[PLTS] [0m----------- [Removing Non-Persistent Maxima] ----------------------------[34;1m[0m
+[32;1m[PLTS] [0mInitializing Memory .....................................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mInitializing Memory ...................................[34;1m [0.000s|20T|100%][0m
+[32;1m[PLTS] [0mInitializing Propagations ...............................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mInitializing Propagations (3860|65536) ................[34;1m [0.001s|20T|100%][0m
+[32;1m[PLTS] [0mComputing Persistence-Sensitive Propagations (3860) .....[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mComputing Persistence-Sensitive Propagations (3860) ...[34;1m [0.001s|20T|100%][0m
+[32;1m[PLTS] [0mFinalizing Propagations (3860) ..........................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mFinalizing Propagations (2386|0.62|0.20) ..............[34;1m [0.000s|20T|100%][0m
+[32;1m[PLTS] [0mComputing Segments (2386) ...............................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mComputing Segments (2386) .............................[34;1m [0.000s|20T|100%][0m
+[32;1m[PLTS] [0mComputing Local Order of Segments (2386) ................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mComputing Local Order of Segments (2386) ..............[34;1m [0.000s|20T|100%][0m
+[32;1m[PLTS] [0mFlattening Order Array ..................................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mFlattening Order Array ................................[34;1m [0.000s|20T|100%][0m
+[32;1m[PLTS] [0mComputing Global Order .................................[34;1m [0.000s|20T|20%][0m[32;1m[PLTS] [0mComputing Global Order .................................[34;1m [0.001s|20T|80%][0m[32;1m[PLTS] [0mComputing Global Order ................................[34;1m [0.001s|20T|100%][0m
+[32;1m[PLTS] [0mFlattening Scalar Array .................................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mFlattening Scalar Array ...............................[34;1m [0.000s|20T|100%][0m
+[32;1m[PLTS] [0m-------------------------------------------------------------------------[34;1m[0m
+[32;1m[PLTS] [0mComplete ..............................................[34;1m [0.004s|20T|100%][0m
+[32;1m[PLTS] [0m=========================================================================[34;1m[0m
+[32;1m[ScalarFieldCriticalPoints] [0m%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%[34;1m[0m
+[32;1m[ScalarFieldCriticalPoints] [0mStarting computation...
+[32;1m[ScalarFieldCriticalPoints] [0m  Scalar Array: Scalars_      
+[32;1m[ScalarFieldCriticalPoints] [0m  Offset Array: Scalars__Order
+[32;1m[ProgressiveTopology] [0mProgressive Critical Points computation
+[32;1m[ProgressiveTopology] [0m==========================================================[34;1m[0m
+[32;1m[ProgressiveTopology] [0mPre-allocating data structures ...........[34;1m [0.000s|20T|0%][0m[32;1m[ProgressiveTopology] [0mPre-allocating data structures .........[34;1m [0.005s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mTotal memory allocation ................[34;1m [0.006s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 0 .......................[34;1m [0.016s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 0 .....................[34;1m [0.016s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 1 .......................[34;1m [0.016s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 1 .....................[34;1m [0.016s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 2 .......................[34;1m [0.016s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 2 .....................[34;1m [0.016s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 3 .......................[34;1m [0.016s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 3 .....................[34;1m [0.016s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 4 .......................[34;1m [0.016s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 4 .....................[34;1m [0.016s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 5 .......................[34;1m [0.016s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 5 .....................[34;1m [0.016s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 6 .......................[34;1m [0.016s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 6 .....................[34;1m [0.016s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 7 .......................[34;1m [0.016s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 7 .....................[34;1m [0.017s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 8 (final) ...............[34;1m [0.017s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 8 (final) .............[34;1m [0.017s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mTotal ..................................[34;1m [0.017s|20T|100%][0m
+[32;1m[ScalarFieldCriticalPoints] [0m  #Minima       : 2235
+[32;1m[ScalarFieldCriticalPoints] [0m  #Saddles      : 2533
+[32;1m[ScalarFieldCriticalPoints] [0m  #Multi-saddles: 26  
+[32;1m[ScalarFieldCriticalPoints] [0m  #Maxima       : 337 
+[32;1m[ScalarFieldCriticalPoints] [0m====================================================[34;1m[0m
+timestep 0: 337 PL maxima (after persistence simplification)
+Saved persistence-simplified scalar field screenshot
+[32;1m[PLTS] [0m%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%[34;1m[0m
+[32;1m[PLTS] [0m-------------------------------------------------------------------------[34;1m[0m
+[32;1m[PLTS] [0m[33;1m[WARNING][0m No pre-existing order for array:
+[32;1m[PLTS] [0m[33;1m[WARNING][0m   `Scalars_`.
+[32;1m[PLTS] [0mInitializing order array. ...............................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0m-------------------------------------------------------------------------[34;1m[0m
+[32;1m[PLTS] [0mInitializing order array. .............................[34;1m [0.001s|20T|100%][0m
+[32;1m[PLTS] [0m-------------------------------------------------------------------------[34;1m[0m
+[32;1m[PLTS] [0m[33;1m[WARNING][0m TIP: run `ttkArrayPreconditioning` first
+[32;1m[PLTS] [0m[33;1m[WARNING][0m for improved performances :)
+[32;1m[PLTS] [0m-------------------------------------------------------------------------[34;1m[0m
+[32;1m[PLTS] [0mAllocating Memory .......................................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mAllocating Memory .....................................[34;1m [0.001s|20T|100%][0m
+[32;1m[PLTS] [0m----------- [Removing Non-Persistent Maxima] ----------------------------[34;1m[0m
+[32;1m[PLTS] [0mInitializing Memory .....................................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mInitializing Memory ...................................[34;1m [0.000s|20T|100%][0m
+[32;1m[PLTS] [0mInitializing Propagations ...............................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mInitializing Propagations (3640|65536) ................[34;1m [0.000s|20T|100%][0m
+[32;1m[PLTS] [0mComputing Persistence-Sensitive Propagations (3640) .....[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mComputing Persistence-Sensitive Propagations (3640) ...[34;1m [0.000s|20T|100%][0m
+[32;1m[PLTS] [0mFinalizing Propagations (3640) ..........................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mFinalizing Propagations (2183|0.60|0.20) ..............[34;1m [0.000s|20T|100%][0m
+[32;1m[PLTS] [0mComputing Segments (2183) ...............................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mComputing Segments (2183) .............................[34;1m [0.000s|20T|100%][0m
+[32;1m[PLTS] [0mComputing Local Order of Segments (2183) ................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mComputing Local Order of Segments (2183) ..............[34;1m [0.000s|20T|100%][0m
+[32;1m[PLTS] [0mFlattening Order Array ..................................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mFlattening Order Array ................................[34;1m [0.000s|20T|100%][0m
+[32;1m[PLTS] [0mComputing Global Order .................................[34;1m [0.000s|20T|20%][0m[32;1m[PLTS] [0mComputing Global Order .................................[34;1m [0.000s|20T|80%][0m[32;1m[PLTS] [0mComputing Global Order ................................[34;1m [0.000s|20T|100%][0m
+[32;1m[PLTS] [0mFlattening Scalar Array .................................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mFlattening Scalar Array ...............................[34;1m [0.000s|20T|100%][0m
+[32;1m[PLTS] [0m-------------------------------------------------------------------------[34;1m[0m
+[32;1m[PLTS] [0mComplete ..............................................[34;1m [0.002s|20T|100%][0m
+[32;1m[PLTS] [0m=========================================================================[34;1m[0m
+[32;1m[ScalarFieldCriticalPoints] [0m%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%[34;1m[0m
+[32;1m[ScalarFieldCriticalPoints] [0mStarting computation...
+[32;1m[ScalarFieldCriticalPoints] [0m  Scalar Array: Scalars_      
+[32;1m[ScalarFieldCriticalPoints] [0m  Offset Array: Scalars__Order
+[32;1m[ProgressiveTopology] [0mProgressive Critical Points computation
+[32;1m[ProgressiveTopology] [0m==========================================================[34;1m[0m
+[32;1m[ProgressiveTopology] [0mPre-allocating data structures ...........[34;1m [0.000s|20T|0%][0m[32;1m[ProgressiveTopology] [0mPre-allocating data structures .........[34;1m [0.005s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mTotal memory allocation ................[34;1m [0.006s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 0 .......................[34;1m [0.003s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 0 .....................[34;1m [0.004s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 1 .......................[34;1m [0.004s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 1 .....................[34;1m [0.004s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 2 .......................[34;1m [0.004s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 2 .....................[34;1m [0.004s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 3 .......................[34;1m [0.004s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 3 .....................[34;1m [0.004s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 4 .......................[34;1m [0.004s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 4 .....................[34;1m [0.004s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 5 .......................[34;1m [0.004s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 5 .....................[34;1m [0.004s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 6 .......................[34;1m [0.004s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 6 .....................[34;1m [0.004s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 7 .......................[34;1m [0.004s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 7 .....................[34;1m [0.004s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 8 (final) ...............[34;1m [0.004s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 8 (final) .............[34;1m [0.005s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mTotal ..................................[34;1m [0.005s|20T|100%][0m
+[32;1m[ScalarFieldCriticalPoints] [0m  #Minima       : 2082
+[32;1m[ScalarFieldCriticalPoints] [0m  #Saddles      : 2305
+[32;1m[ScalarFieldCriticalPoints] [0m  #Multi-saddles: 40  
+[32;1m[ScalarFieldCriticalPoints] [0m  #Maxima       : 286 
+[32;1m[ScalarFieldCriticalPoints] [0m====================================================[34;1m[0m
+timestep 1: 286 PL maxima (after persistence simplification)
+[32;1m[PLTS] [0m%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%[34;1m[0m
+[32;1m[PLTS] [0m-------------------------------------------------------------------------[34;1m[0m
+[32;1m[PLTS] [0m[33;1m[WARNING][0m No pre-existing order for array:
+[32;1m[PLTS] [0m[33;1m[WARNING][0m   `Scalars_`.
+[32;1m[PLTS] [0mInitializing order array. ...............................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0m-------------------------------------------------------------------------[34;1m[0m
+[32;1m[PLTS] [0mInitializing order array. .............................[34;1m [0.029s|20T|100%][0m
+[32;1m[PLTS] [0m-------------------------------------------------------------------------[34;1m[0m
+[32;1m[PLTS] [0m[33;1m[WARNING][0m TIP: run `ttkArrayPreconditioning` first
+[32;1m[PLTS] [0m[33;1m[WARNING][0m for improved performances :)
+[32;1m[PLTS] [0m-------------------------------------------------------------------------[34;1m[0m
+[32;1m[PLTS] [0mAllocating Memory .......................................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mAllocating Memory .....................................[34;1m [0.000s|20T|100%][0m
+[32;1m[PLTS] [0m----------- [Removing Non-Persistent Maxima] ----------------------------[34;1m[0m
+[32;1m[PLTS] [0mInitializing Memory .....................................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mInitializing Memory ...................................[34;1m [0.006s|20T|100%][0m
+[32;1m[PLTS] [0mInitializing Propagations ...............................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mInitializing Propagations (3519|65536) ................[34;1m [0.012s|20T|100%][0m
+[32;1m[PLTS] [0mComputing Persistence-Sensitive Propagations (3519) .....[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mComputing Persistence-Sensitive Propagations (3519) ...[34;1m [0.006s|20T|100%][0m
+[32;1m[PLTS] [0mFinalizing Propagations (3519) ..........................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mFinalizing Propagations (2021|0.57|0.21) ..............[34;1m [0.000s|20T|100%][0m
+[32;1m[PLTS] [0mComputing Segments (2021) ...............................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mComputing Segments (2021) .............................[34;1m [0.006s|20T|100%][0m
+[32;1m[PLTS] [0mComputing Local Order of Segments (2021) ................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mComputing Local Order of Segments (2021) ..............[34;1m [0.012s|20T|100%][0m
+[32;1m[PLTS] [0mFlattening Order Array ..................................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mFlattening Order Array ................................[34;1m [0.006s|20T|100%][0m
+[32;1m[PLTS] [0mComputing Global Order .................................[34;1m [0.006s|20T|20%][0m[32;1m[PLTS] [0mComputing Global Order .................................[34;1m [0.024s|20T|80%][0m[32;1m[PLTS] [0mComputing Global Order ................................[34;1m [0.030s|20T|100%][0m
+[32;1m[PLTS] [0mFlattening Scalar Array .................................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mFlattening Scalar Array ...............................[34;1m [0.012s|20T|100%][0m
+[32;1m[PLTS] [0m-------------------------------------------------------------------------[34;1m[0m
+[32;1m[PLTS] [0mComplete ..............................................[34;1m [0.090s|20T|100%][0m
+[32;1m[PLTS] [0m=========================================================================[34;1m[0m
+[32;1m[ScalarFieldCriticalPoints] [0m%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%[34;1m[0m
+[32;1m[ScalarFieldCriticalPoints] [0mStarting computation...
+[32;1m[ScalarFieldCriticalPoints] [0m  Scalar Array: Scalars_      
+[32;1m[ScalarFieldCriticalPoints] [0m  Offset Array: Scalars__Order
+[32;1m[ProgressiveTopology] [0mProgressive Critical Points computation
+[32;1m[ProgressiveTopology] [0m==========================================================[34;1m[0m
+[32;1m[ProgressiveTopology] [0mPre-allocating data structures ...........[34;1m [0.000s|20T|0%][0m[32;1m[ProgressiveTopology] [0mPre-allocating data structures .........[34;1m [0.004s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mTotal memory allocation ................[34;1m [0.005s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 0 .......................[34;1m [0.020s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 0 .....................[34;1m [0.032s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 1 .......................[34;1m [0.040s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 1 .....................[34;1m [0.050s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 2 .......................[34;1m [0.056s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 2 .....................[34;1m [0.068s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 3 .......................[34;1m [0.074s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 3 .....................[34;1m [0.088s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 4 .......................[34;1m [0.094s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 4 .....................[34;1m [0.106s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 5 .......................[34;1m [0.112s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 5 .....................[34;1m [0.124s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 6 .......................[34;1m [0.130s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 6 .....................[34;1m [0.142s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 7 .......................[34;1m [0.148s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 7 .....................[34;1m [0.160s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 8 (final) ...............[34;1m [0.166s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 8 (final) .............[34;1m [0.178s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mTotal ..................................[34;1m [0.178s|20T|100%][0m
+[32;1m[ScalarFieldCriticalPoints] [0m  #Minima       : 2022
+[32;1m[ScalarFieldCriticalPoints] [0m  #Saddles      : 2253
+[32;1m[ScalarFieldCriticalPoints] [0m  #Multi-saddles: 27  
+[32;1m[ScalarFieldCriticalPoints] [0m  #Maxima       : 258 
+[32;1m[ScalarFieldCriticalPoints] [0m====================================================[34;1m[0m
+timestep 2: 258 PL maxima (after persistence simplification)
+matched 286 maxima at t=0 -> t=1 via EMD
+matched 257 maxima at t=1 -> t=2 via EMD
+Total tracked maxima instances across 3 timesteps: 880
+Saved tracked-maxima + scalar field screenshot
+Done. Outputs in /workspace/out

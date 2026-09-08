@@ -1,0 +1,9 @@
+The pipeline rendered successfully — viridis scalar field volume with the simplified contour tree overlaid (blue minima, orange 2-saddles, red maxima, white 1-saddles) at ball radius 2 / tube radius 1.
+
+Output image: `/workspace/ionization_output.png`, script: `/workspace/ionization_pipeline.py`.
+
+To rerun for other time steps or a full video:
+```
+pvbatch ionization_pipeline.py -i ./Ionization -t 4 -o out.png -q ./session
+pvbatch ionization_pipeline.py -i ./Ionization -t -1 -o out.mp4 -q ./session
+```

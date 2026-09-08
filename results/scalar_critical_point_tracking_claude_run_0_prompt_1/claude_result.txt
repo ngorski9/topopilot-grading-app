@@ -1,0 +1,10 @@
+The pipeline ran successfully end-to-end. Given the field's dynamic range (0–100), a persistence threshold of 0.5 keeps thousands of shallow maxima, which is why the tracked-points render looks dense — that's an accurate reflection of the requested parameter, not a bug.
+
+Summary of what was built at `/workspace/cloud_pipeline.py`:
+
+1. **Original scalar field** — loaded the first 3 timesteps of `./cloud/*.vti`, rendered `Scalars_` with a warm-cold ("Cold and Hot") colormap → `original_scalar_field.png`.
+2. **Persistence simplification (0.5)** — `TTKPersistenceDiagram` → threshold diagram pairs by `Persistence ≥ 0.5` → `TTKTopologicalSimplification` → `simplified_scalar_field.png`.
+3. **Tracking maxima via earth mover's distance** — recomputed persistence diagrams per timestep on the simplified field, extracted saddle-max pairs (maxima) with persistence ≥ 0.5, and matched maxima between consecutive timesteps by solving an optimal-transport problem (`ot.emd`, squared-Euclidean ground cost) with the POT library — this realizes the earth mover's/Wasserstein distance matching. I had to substitute this for TTK's native `TTKTrackingFromPersistenceDiagrams`, which reproducibly segfaults in this environment (confirmed via gdb: crashes inside `libttkPersistenceDiagram.so`'s `VTUToDiagram` when called from the tracking filter, regardless of how the multiblock of diagrams is assembled — while the same diagrams work fine through `TTKBottleneckDistance`).
+4. **Visualization** — built the resulting piecewise-linear tracks as VTK polylines/points, rendered as sphere glyphs (radius 2) colored by persistence with the warm-cold colormap, overlaid on the original scalar field → `tracked_maxima.png`.
+
+All three images are in `/workspace/`.

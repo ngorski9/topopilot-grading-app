@@ -1,0 +1,11 @@
+The video rendered successfully for all 21 time steps.
+
+**Result**: `/workspace/ionization_contour_tree.mp4` (all 21 time steps, 4 fps) and a sample frame at `/workspace/test_frame1.png`.
+
+Pipeline built with TopoPilot2 (`/workspace/ionization_pipeline.py`):
+1. `LoadScalarField` on the `Ionization` time series (array `Scalars_`)
+2. `EmbedScalarField` with `colormap="viridis"` for the original field
+3. `PersistenceSimplification(epsilon=0.1)` on the scalar field
+4. `ComputeContourTree` → `EmbedContourTree` with `ball_radius=2.0`, `tube_radius=1.0`, and `color_scheme=["#0000ff","#ffffff","#ffa500","#ff0000","#000000"]` (minima=blue, 1-saddles=white, 2-saddles=orange, maxima=red, degenerate=black, per the API's fixed color order)
+
+Both embeddings are overlaid in one 3D view (viridis field as background, contour tree on top), rendered across the whole time series into the MP4.

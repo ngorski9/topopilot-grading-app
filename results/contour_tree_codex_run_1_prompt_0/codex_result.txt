@@ -1,0 +1,9 @@
+Completed the time-varying Ionization visualization and contour-tree pipeline.
+
+- [Screenshot](/workspace/ionization_contour_tree.png)
+- [ParaView state](/workspace/ionization_contour_tree.pvsm)
+- [Reproducible pvpython script](/workspace/ionization_contour_tree.py)
+- [Simplified tree edges](/workspace/simplified_contour_tree_edges.vtp)
+- [Tree nodes](/workspace/simplified_contour_tree_nodes.vtu)
+
+The state loads all 21 timesteps, uses viridis for the scalar field, applies normalized persistence threshold 0.1, and renders tree edges at radius 1 with critical points at radius 2 in the requested colors.

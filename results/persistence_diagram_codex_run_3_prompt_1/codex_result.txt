@@ -1,0 +1,6 @@
+Done. The requested ParaView state and rendered diagram are available here:
+
+- [Persistence diagram image](/workspace/QMCPACK_persistence_diagram_orders_0_2.png)
+- [ParaView state file](/workspace/QMCPACK_persistence_diagram.pvsm)
+
+It uses `Scalars_`, absolute persistence simplification threshold 0.04, sublevel-set filtration, and displays orders 0 (blue) and 2 (red).

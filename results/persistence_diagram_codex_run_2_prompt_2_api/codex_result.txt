@@ -1,0 +1,6 @@
+Rendered the requested TopoPilot2 persistence diagram after relative persistence simplification ε = 0.04.
+
+- Diagram: [QMCPACK_persistence_diagram_H0_H2_simplified_0.04.png](/workspace/QMCPACK_persistence_diagram_H0_H2_simplified_0.04.png)
+- Reproducible TopoPilot2 script: [render_qmcpack_persistence_diagram.py](/workspace/render_qmcpack_persistence_diagram.py)
+
+The FTM sublevel-set persistence computation provides H₀ and H₂ for this 3D scalar field.

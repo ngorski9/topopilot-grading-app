@@ -1,0 +1,8 @@
+Completed the ParaView/TTK workflow.
+
+- Original viridis scalar-field render: [ionization_original_viridis.png](/workspace/ionization_original_viridis.png)
+- Persistence-simplified (0.1) PL contour-tree render: [ionization_simplified_contour_tree.png](/workspace/ionization_simplified_contour_tree.png)
+- Reusable ParaView state with the 21-step time series and styling: [ionization_contour_tree.pvsm](/workspace/ionization_contour_tree.pvsm)
+- Rendering script: [render_ionization.py](/workspace/render_ionization.py)
+
+Vertices use radius 2 with the requested critical-point colors; edges use thickness 1.

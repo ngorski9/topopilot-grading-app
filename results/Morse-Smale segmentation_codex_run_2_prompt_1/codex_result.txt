@@ -1,0 +1,11 @@
+Completed the requested ParaView/TTK visualization.
+
+- Persistence simplification threshold: `0.05`
+- Critical points: minima blue, saddles white, maxima red
+- Glyph radius: `2`
+
+Outputs:
+
+- [Rendered image](/workspace/fracture_morse_smale.png)
+- [ParaView state](/workspace/fracture_morse_smale.pvsm)
+- [Reproducible pipeline script](/workspace/render_fracture_morse_smale.py)

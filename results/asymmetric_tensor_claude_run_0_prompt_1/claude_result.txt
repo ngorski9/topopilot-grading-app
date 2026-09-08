@@ -1,0 +1,9 @@
+This looks correct: the blue/orange regions form the eigenvector partition (complex-eigenvalue vs. real-distinct-eigenvalue sectors of the asymmetric tensor field), the degenerate points sit exactly on the boundary between the two regions as expected, wedges (white) and trisectors (pink) alternate consistent with tensor-topology theory, and each blue "island" boundary touches degenerate points.
+
+Summary of what I did (since TTK's `TensorFieldTopology` filter isn't compiled into this ParaView/TTK build — I confirmed no such module exists in `libttkBase*`):
+
+1. Loaded `Ocean.vti` (101×101 grid, components A/B/C/D) via VTK.
+2. Computed the tensor deviator `E=(A-D)/2`, `F=(B+C)/2`, rotation `G=(B-C)/2`, and discriminant `Δ=E²+F²-G²`, which defines the **eigenvector partition**: `Δ≥0` → real distinct eigenvalues (orange), `Δ<0` → complex-conjugate eigenvalues (blue), rasterized at 10 pixels per grid square.
+3. Found **degenerate points** (common zeros of E and F) by triangulating each grid cell and solving the local linear system per triangle, classifying each by the sign of the local Jacobian determinant of (E,F): positive → **wedge** (rendered white), negative → **trisector** (rendered pink), radius 1.
+
+Result: 51 wedges, 48 trisectors, saved to `/workspace/Ocean_eigenvector_partition.png`.

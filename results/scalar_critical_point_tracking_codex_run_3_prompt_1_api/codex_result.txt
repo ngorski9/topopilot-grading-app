@@ -1,0 +1,11 @@
+Completed the TopoPilot2 pipeline and rendered time step 3.
+
+- Original `Scalars_` field rendered with the cool-warm colormap.
+- Persistence simplification: `epsilon=0.5`.
+- Piecewise-linear maxima tracked across 3 steps with EMD.
+- Tracked points rendered as radius-2 spheres.
+
+Outputs:
+
+- [Rendered visualization](sandbox:/workspace/cloud_tracked_maxima_t3.png)
+- [TopoPilot2 pipeline script](sandbox:/workspace/cloud_tracking_pipeline.py)

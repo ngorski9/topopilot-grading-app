@@ -1,0 +1,12 @@
+Created and verified the TopoPilot2 visualization pipeline.
+
+- Script: [ionization_contour_tree.py](/workspace/ionization_contour_tree.py)
+- Verified first-frame render: [ionization_contour_tree_t1.png](/workspace/ionization_contour_tree_t1.png)
+
+It loads the full `Ionization` series, displays the original field in viridis, simplifies at persistence `0.1`, and overlays the piecewise-linear contour tree with radius-1 edges and radius-2 vertices. Critical colors are minima blue, 1-saddles white, 2-saddles orange, and maxima red.
+
+Run a chosen frame with:
+
+```bash
+/opt/conda/bin/pvbatch ionization_contour_tree.py -i ./Ionization -t 1 -o output.png -q ./session
+```

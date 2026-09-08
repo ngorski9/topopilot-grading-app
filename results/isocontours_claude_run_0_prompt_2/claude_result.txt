@@ -1,0 +1,8 @@
+The pipeline ran successfully and rendered. Done.
+
+Result summary:
+- Loaded `QMCPACK.vti` (scalar field `Scalars_`), computed the persistence diagram, and simplified it by keeping only pairs with persistence ≥ 0.04 via `TTKTopologicalSimplification`.
+- Computed piecewise-linear critical points on the simplified field: 16 minima, 288 1-saddles, 312 2-saddles, 6 maxima (down from 33/299/316/22 on the raw field — simplification correctly pruned low-persistence extrema).
+- Added 4 isocontours at the 20th/40th/60th/80th percentiles of the simplified field (values ≈ 0.3931, 0.4047, 0.4071, 0.4163), splitting the volume into 5 equal-sized regions, shown semi-transparent with the Cool-to-Warm colormap.
+- Colored critical points by type: red = maxima, orange = 2-saddles, white = 1-saddles, blue = minima.
+- Saved the visualization to `/workspace/qmcpack_critical_points.png` (script at `/workspace/qmcpack_ttk.py`).

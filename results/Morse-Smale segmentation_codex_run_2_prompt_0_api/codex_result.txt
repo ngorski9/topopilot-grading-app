@@ -1,0 +1,8 @@
+Rendered the requested visualization with TopoPilot2.
+
+- Output: [fracture_morse_smale.png](/workspace/fracture_morse_smale.png)
+- Reproducible pipeline: [fracture_morse_smale.py](/workspace/fracture_morse_smale.py)
+- Simplification threshold: `0.05`
+- Critical points: radius `2`; minima blue, saddles white, maxima red.
+
+The render includes 15 minima, 31 saddles, and 10 maxima.

@@ -1,0 +1,7 @@
+This matches the classic Delmarcelle–Hesselink degenerate-point pattern (wedge/trisector pairs strung along tensor-field separatrices), which is a good correctness signal. The render is done and saved.
+
+Summary:
+- Loaded `brain.vti` (a 108×66 2D symmetric tensor field with components A, B, D representing `[[A,B],[B,D]]`).
+- Since this TTK build had no ready-made tensor-degenerate-point filter, I implemented the standard Delmarcelle–Hesselink algorithm directly: formed the double-angle field `(A−D, 2B)`, triangulated each pixel cell, solved for zero-crossings, and classified each by the winding index (+1 → wedge, −1 → trisector). Found 282 wedges and 276 trisectors.
+- Rendered the tensor field (grayscale anisotropy `sqrt((A−D)²+4B²)`) with ParaView, overlaying radius-1 spheres: trisectors in pink, wedges in white.
+- Saved to `/workspace/brain_degenerate_points.png` (scripts: `/workspace/find_degenerate.py`, `/workspace/render_degenerate.py`).

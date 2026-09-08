@@ -1,0 +1,11 @@
+Completed the three-step partial-OT critical-point tracking.
+
+- Detected critical points: 290 → 288 → 285
+- Generated 242 tracks spanning all three time steps
+- Visualization: [cylinder_partial_ot_tracking.png](/workspace/cylinder_tracking/cylinder_partial_ot_tracking.png)
+- ParaView-ready points: [tracked_critical_points.vtp](/workspace/cylinder_tracking/tracked_critical_points.vtp)
+- ParaView-ready trajectories: [partial_ot_tracks.vtp](/workspace/cylinder_tracking/partial_ot_tracks.vtp)
+- Table of results: [critical_points_and_tracks.csv](/workspace/cylinder_tracking/critical_points_and_tracks.csv)
+- Reproducible script: [track_cylinder.py](/workspace/track_cylinder.py)
+
+The image overlays the original vector field (speed background and arrows), time-colored critical points, and black partial-OT trajectories.

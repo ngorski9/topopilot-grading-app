@@ -1,0 +1,13 @@
+The visualization is done. Summary:
+
+**What was found:** This TTK 1.3.0 build has no built-in filter for asymmetric-tensor eigenvector partitions/degenerate points, so I implemented the standard tensor-field-topology algorithm (Delmarcelle & Hesselink) directly against the A/B/C/D arrays.
+
+**Method:**
+- Eigenvector partition: rasterized at 10 px per grid square, colored by major-eigenvector angle (HSV rainbow over [0,π], since eigenvectors are undirected).
+- Degenerate points: located by solving the bilinear zero-locus of E=(A−D)/2, F=(B+C)/2 per cell, classified via Poincaré index on a radius-1 loop — wedge (index +½) vs trisector (index −½).
+- Found 74 degenerate points total: 37 wedges, 37 trisectors, colored white and pink respectively.
+
+**Outputs:**
+- `/workspace/ocean_partition.py` — the full script
+- `/workspace/ocean_partition.png` — rendered screenshot (colorful swirling partition regions with pink/white degenerate-point markers concentrated where eigenvector direction changes sharply)
+- `/workspace/ocean_partition.pvsm` — ParaView state file, reopenable in the GUI

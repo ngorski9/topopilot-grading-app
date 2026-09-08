@@ -1,0 +1,11 @@
+Done. Created `/workspace/cylinder_tracking.py`, a TopoPilot2 script that:
+
+- Loads the `cylinder` time-series directory as a 2D vector field (`u`, `v`)
+- Embeds the raw vector field as a background LIC-style visualization (`EmbedVectorField`)
+- Computes vector critical points per time step (`ComputeVectorCriticalPoints`)
+- Tracks them across 3 time steps using partial optimal transport (`TrackVectorCriticalPoints(..., time_steps=3, backend="partial")`)
+- Displays the tracked points colored by identity (`EmbedTrackedVectorFieldCriticalPoints`) over the vector field
+
+Rendered PNGs for time steps 1–3 (`step1.png`, `step2.png`, `step3.png`) confirm it works: the LIC pattern shows the cylinder wake vortices, and the critical-point spheres keep consistent colors (tracked identity) across the three frames, e.g. the orange/blue/purple vortex centers and the saddle clusters downstream persist with the same colors frame to frame.
+
+To generate a video instead of individual frames, you'd need a 3-file time-series subdirectory (since the full-video code path renders every file in the directory, not just 3), but for the requested 3-time-step tracking task, the per-step PNGs demonstrate the full pipeline correctly.

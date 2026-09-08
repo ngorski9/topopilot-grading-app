@@ -1,0 +1,8 @@
+Completed the three-step partial-OT tracking and ParaView visualization.
+
+- Critical points: 72 → 70 → 69
+- Partial-OT links: 65 (t0→t1), 63 (t1→t2)
+
+Open [ParaView state](/workspace/cylinder_tracking/cylinder_partial_ot_tracking.pvsm) to view the original t0 vector field arrows, color-coded tracked critical points, and gold OT track segments.
+
+Outputs: [screenshot](/workspace/cylinder_tracking/cylinder_partial_ot_tracking.png), [critical points](/workspace/cylinder_tracking/tracked_critical_points.vtp), [tracks](/workspace/cylinder_tracking/partial_ot_tracks.vtp), and [reproducible script](/workspace/track_cylinder_critical_points.py).

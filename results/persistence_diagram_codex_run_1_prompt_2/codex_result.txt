@@ -1,0 +1,7 @@
+Rendered the requested diagram with persistence cutoff 0.04:
+
+- [Persistence diagram PNG](/workspace/QMCPACK_persistence_diagram_H0_H2_cutoff_0.04.png)
+- [Filtered H0/H2 persistence pairs CSV](/workspace/QMCPACK_persistence_pairs_H0_H2_cutoff_0.04.csv)
+- [Reproducible render script](/workspace/render_qmcpack_persistence.py)
+
+The simplified diagram retains 16 H₀ pairs and 6 H₂ pairs.

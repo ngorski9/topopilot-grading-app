@@ -1,0 +1,14 @@
+The persistence-simplified field looks visibly smoother (small speckled noise removed) vs. the original — as expected from threshold-0.5 simplification. The full pipeline ran successfully.
+
+## Summary
+
+Built and ran a complete pipeline in `/workspace/cloud_tracking.py` (pvpython) on the 34-timestep `./cloud` dataset (256×256 2D `.vti` series, `Scalars_` field):
+
+1. **Import** — `XMLImageDataReader` over the sorted file series, registered as a time series.
+2. **Original field** — rendered with the "Warm to Cold" colormap → `out/01_original_scalar_field.png`.
+3. **Persistence simplification (threshold=0.5)** — `TTKTopologicalSimplificationByPersistence` (PairType=Maximum-Saddle) → visibly smoothed field, `out/02_persistence_simplified.png`.
+4. **Maxima tracking, 3 timesteps, EMD** — extracted PL maxima per timestep with `TTKScalarFieldCriticalPoints` (CriticalType==3), then matched maxima between consecutive frames by solving the Earth Mover's Distance transport problem with the **POT** library (`ot.emd`) on Euclidean ground cost, chaining matches into tracks across t=0→1→2.
+   - Note: TTK's native `TTKTrackingFromFields` filter reliably **segfaults** on composite/multiblock input in this ParaView+TTK build (confirmed via `gdb` backtrace — crash inside `ttkAlgorithm::GetTriangulation`). Since POT was explicitly available, I used it directly for the EMD matching instead of the broken filter.
+5. **Visualization** — tracked maxima glyphed as spheres (radius=2) via `Glyph`, colored by scalar value with "Warm to Cold", shown together with the original scalar field → `out/03_tracked_maxima_with_field.png`.
+
+All three renders are in `/workspace/out/`. Console output confirms 337/286/258 maxima per timestep and successful EMD matching (286 and 257 matched pairs across the two transitions).

@@ -1,0 +1,6 @@
+Created and rendered the requested visualization.
+
+- Image: [brain_tensor_degeneracies.png](/workspace/brain_tensor_degeneracies.png)
+- Reproducible TopoPilot2 script: [brain_tensor_degeneracies.py](/workspace/brain_tensor_degeneracies.py)
+
+It displays the symmetric tensor field from `A`, `B`, and `D`, with radius-1 degeneracies: trisectors in pink and wedges in white.

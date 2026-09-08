@@ -1,0 +1,9 @@
+Completed the ParaView/TTK pipeline and saved the results:
+
+- [Visualization state (.pvsm)](/workspace/QMCPACK_topology.pvsm)
+- [Rendered image (.png)](/workspace/QMCPACK_topology.png)
+- [Reproducible pipeline script](/workspace/create_qmcpack_visualization.py)
+
+Applied absolute persistence simplification threshold `0.04`. The four equal-volume isocontours are at `0.393136739`, `0.404710997`, `0.409601447`, and `0.418580103`.
+
+Critical points are displayed as requested: maxima red, 2-saddles orange, 1-saddles white, and minima blue.

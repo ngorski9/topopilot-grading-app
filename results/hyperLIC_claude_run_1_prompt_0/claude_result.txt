@@ -1,0 +1,16 @@
+## Summary
+
+Loaded `/workspace/brain.vti` (a 108×66 2D grid) with the symmetric piecewise-linear tensor field defined by point arrays `A`, `B`, `D` (i.e. T = [[A,B],[B,D]]).
+
+Since this ParaView/TTK build (1.3.0) doesn't ship a dedicated degenerate-point-extraction filter, I implemented the classic Delmarcelle–Hesselink algorithm myself in `/workspace/degenerate_points.py`:
+- Deviator components e=(A−D)/2, f=B are linear per triangle (each grid quad split into 2 triangles).
+- Solved for the zero of (e,f) via barycentric coordinates → the degenerate point location.
+- Classified each as **wedge** (orientation of (x,y) and (e,f) triangles match) or **trisector** (orientations opposite).
+- Found 716 degenerate points (359 wedges, 357 trisectors), written to `degenerate_points.vtp`.
+
+Then in `/workspace/visualize.py` (pvpython/ParaView pipeline):
+- Rebuilt a full 9-component tensor array from A/B/D and rendered it with `TensorGlyph` (light-blue ellipsoids, subsampled for clarity).
+- Rendered degenerate points as radius-1 spheres via `Threshold` + `Glyph(GlyphType="Sphere")`, colored **pink** for trisectors and **white** for wedges.
+- Saved the render to `/workspace/brain_degenerate_points.png` and the full pipeline state to `/workspace/brain_degenerate_points.pvsm` (openable in ParaView for interactive exploration).
+
+The result shows the classic pattern: degenerate points concentrated along curves, alternating between wedge and trisector type, tracing brain-like structure boundaries.

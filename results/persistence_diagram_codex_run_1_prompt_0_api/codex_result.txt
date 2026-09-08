@@ -1,0 +1,3 @@
+Done. The persistence diagram is rendered at [persistence_diagram_qmcpack.png](/workspace/persistence_diagram_qmcpack.png), using a relative persistence-simplification threshold of 0.04.
+
+The reproducible TopoPilot2 pipeline is in [persistence_diagram_qmcpack.py](/workspace/persistence_diagram_qmcpack.py). For this 3D sublevel-set filtration, TopoPilot’s FTM backend displays orders 0 and 2.

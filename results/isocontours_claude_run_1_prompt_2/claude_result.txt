@@ -1,0 +1,9 @@
+This looks good with a white background, bounding box outline, colored isocontours (4 surfaces with a scalar-bar legend dividing volume into 5 equal regions), and critical points colored by type. The pipeline completed successfully:
+
+**Summary**
+- Loaded `/workspace/QMCPACK.vti`, ran `TTKPersistenceDiagram` → thresholded pairs with persistence ≥ 0.04 → `TTKTopologicalSimplification` to simplify the scalar field.
+- Ran `TTKScalarFieldCriticalPoints` on the simplified field, yielding **16 minima, 288 1-saddles, 312 2-saddles, 6 maxima** (plus 10 degenerate multi-saddles), rendered as spheres colored blue/white/orange/red respectively.
+- Computed 4 isovalues at the 20th/40th/60th/80th percentiles of the simplified field (`0.393, 0.405, 0.407, 0.416`) so the contours split the volume into 5 equal-voxel-count regions, shown as translucent, scalar-colored surfaces.
+- Rendered with a white background and bounding-box outline, saved to `/workspace/qmcpack_ttk_critical_points.png`.
+
+Script is at `/workspace/ttk_pipeline.py` if you want to tweak camera angle, opacity, or rerun with a different persistence threshold.

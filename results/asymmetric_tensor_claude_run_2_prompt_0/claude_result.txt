@@ -1,0 +1,8 @@
+This matches the expected structure: the eigenvector partition splits the domain into real (orange) and complex (blue) eigenvalue regions at the requested resolution of 10 px/square, with degenerate points (radius 1) sitting at the boundary curves between the two regions — wedges in white, trisectors in pink.
+
+**Result:** `/workspace/Ocean_eigenvector_partition.png` (1000×1000 px). Found 99 degenerate points (51 wedges, 48 trisectors).
+
+Since this TTK build has no ready-made "asymmetric tensor topology" filter, I implemented the standard algorithm directly (`/workspace/eigenvector_partition.py`):
+- Decomposed each tensor into `E=(A-D)/2`, `F=(B+C)/2`, `W=(C-B)/2`.
+- Eigenvector partition: real domain where `E²+F²-W² ≥ 0`, complex domain otherwise — rasterized at 10 px/unit-square via bilinear interpolation.
+- Degenerate points: exact zeros of `(E,F)` on the piecewise-linear triangulated field (2 triangles/cell, solved analytically per triangle), classified wedge/trisector by the sign of the local Jacobian of `(E,F)`, drawn as radius-1 circles (white=wedge, pink=trisector).

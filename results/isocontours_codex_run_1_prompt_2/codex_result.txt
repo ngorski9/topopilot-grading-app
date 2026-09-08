@@ -1,0 +1,12 @@
+Completed the persistence simplification (absolute threshold 0.04) and visualization.
+
+- 649 critical points displayed: 20 maxima (red), 315 2-saddles (orange), 288 1-saddles (white), 16 minima (blue), plus 10 degenerate points (gray).
+- Four equal-volume isovalues: 0.393137, 0.404711, 0.409601, 0.418580.
+
+Artifacts:
+
+- [Visualization PNG](/workspace/QMCPACK_persistence_0.04_critical_points.png)
+- [ParaView state file](/workspace/QMCPACK_persistence_0.04_visualization.pvsm)
+- [Simplified volume](/workspace/QMCPACK_simplified_0.04.vti)
+- [Critical points geometry](/workspace/QMCPACK_critical_points_0.04.vtp)
+- [Processing script](/workspace/visualize_qmcpack.py)

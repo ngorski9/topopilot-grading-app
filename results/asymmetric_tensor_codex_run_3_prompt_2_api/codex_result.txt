@@ -1,0 +1,6 @@
+Rendered the requested visualization at 1000×1000 pixels (10 px per grid square).
+
+- [Rendered PNG](/workspace/ocean_eigenvector_partition.png)
+- [TopoPilot2 pipeline script](/workspace/ocean_eigenvector_partition.py)
+
+It includes the eigenvector partition plus all 90 degenerate points: trisectors pink, wedges white, radius 1.

@@ -1,0 +1,7 @@
+Both renders now look correct: the original scalar field is volume-rendered with the viridis colormap, and the simplified contour tree shows black edges with maxima (red), 2-saddles (orange), 1-saddles (white), and minima (blue) as points.
+
+Summary:
+- **`/workspace/original_field_viridis.png`** — original `Ionization` time-varying scalar field (first timestep), volume-rendered with the Viridis colormap.
+- **`/workspace/contour_tree_simplified.png`** — persistence-simplified (threshold 0.1) piecewise-linear contour tree computed via `TTKPersistenceDiagram` → `Threshold` → `TTKTopologicalSimplification` → `TTKContourTree`, with node radius 2 colored by critical type (red=maxima, orange=2-saddles, white=1-saddles, blue=minima) and black edges of thickness 1.
+
+Script used: `/workspace/ionization_ctbt.py` (run via `pvpython`).

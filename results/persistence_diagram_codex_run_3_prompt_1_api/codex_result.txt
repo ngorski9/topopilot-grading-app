@@ -1,0 +1,8 @@
+Rendered the requested diagram with TopoPilot2.
+
+- Simplification: relative persistence threshold `0.04`
+- Filtration: sublevel set
+- Diagram: piecewise-linear persistence orders 0 and 2
+
+Output: [QMCPACK_persistence_diagram.png](/workspace/QMCPACK_persistence_diagram.png)  
+Reproducible script: [qmcpack_persistence_diagram.py](/workspace/qmcpack_persistence_diagram.py)

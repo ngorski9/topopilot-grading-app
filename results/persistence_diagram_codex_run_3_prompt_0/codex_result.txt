@@ -1,0 +1,5 @@
+Created the requested persistence-diagram visualization after absolute persistence simplification at threshold 0.04.
+
+[Open the diagram PNG](/workspace/QMCPACK_persistence_diagram_orders_0_2.png)
+
+It shows sublevel-set orders 0 (blue, 16 pairs) and 2 (red, 6 pairs). The reproducible pipeline is in [make_persistence_diagram.py](/workspace/make_persistence_diagram.py).

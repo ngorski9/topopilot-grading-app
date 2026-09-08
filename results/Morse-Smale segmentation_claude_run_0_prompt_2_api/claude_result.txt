@@ -1,0 +1,8 @@
+The render succeeded — a full Morse-Smale segmentation with maxima in red, minima in blue, and saddles in white (radius 2), matching persistence-simplified critical points (ε=0.05).
+
+Rendered `/workspace/output.png` from `fracture.vti` using `TopoPilot2Library`:
+
+- `LoadScalarField` on the `Scalars_` array → `PersistenceSimplification(epsilon=0.05)` → `ComputeMorseSmaleSegmentation` + `EmbedMorseSmaleSegmentation` for the colored region segmentation.
+- Same simplified field → `ComputeScalarCriticalPoints("all critical points (mins+maxes+saddles)")` → `EmbedScalarCriticalPoints(radius=2.0, color_scheme=[blue, white, white, red, black])` for minima/maxima/saddles.
+
+Script saved at `/workspace/fracture_pipeline.py`; run via `pvbatch fracture_pipeline.py -i ./fracture.vti -t 1 -o output.png -q session`.

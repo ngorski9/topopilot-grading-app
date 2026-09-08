@@ -1,0 +1,9 @@
+I built and ran a TopoPilot2 pipeline on `QMCPACK.vti`:
+
+- Loaded scalar field `Scalars_`
+- Applied `PersistenceSimplification` with `epsilon=0.04`
+- Computed all critical points on the simplified field, embedded as spheres colored: minima blue, 1-saddles white, 2-saddles orange, maxima red
+- Computed 4 isocontours (dividing the range into 5 equal bands) via `ComputeIsocontours(num_contours=4)`, rendered as tubes
+- Rendered the scalar field as a background volume/surface for context
+
+Rendered to `/workspace/output.png` (3D view, script at `/workspace/qmcpack_pipeline.py`). The result shows the isocontour surfaces with critical points correctly color-coded per your spec.

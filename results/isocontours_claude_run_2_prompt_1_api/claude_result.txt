@@ -1,0 +1,6 @@
+The pipeline rendered successfully. Output image at `/workspace/qmcpack_output.png` shows:
+
+- **4 isocontours** dividing the volume into 5 evenly sized value ranges, tube-rendered in grey/cool-warm shading
+- **Critical points** as spheres: maxima in red, 2-saddles in orange, 1-saddles in white, minima in blue (16 minima, 288 1-saddles, 315 2-saddles, 20 maxima found after persistence simplification with ε=0.04)
+
+Script is saved at `/workspace/qmcpack_pipeline.py`, built from `TopoPilot2Library/src/topopilot/ui/script_template.py` per the scripting guide: `LoadScalarField("Scalars_") → PersistenceSimplification(epsilon=0.04)` feeding both `ComputeScalarCriticalPoints("all critical points...") → EmbedScalarCriticalPoints` and `ComputeIsocontours(num_contours=4) → EmbedIsocontours`.

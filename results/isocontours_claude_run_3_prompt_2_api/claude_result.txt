@@ -1,0 +1,8 @@
+This renders correctly, fully framed within bounds and shows all elements clearly: the isocontour surfaces (orange/red tube-colored contours dividing the field into 5 regions), and the critical points colored per spec (red maxima, orange 2-saddles, white 1-saddles, blue minima) at the domain corners.
+
+Done. Output saved to `/workspace/qmcpack_output.png` using `/workspace/qmcpack_pipeline.py`, which:
+- Loads `QMCPACK.vti` (array `Scalars_`)
+- Applies `PersistenceSimplification` with `epsilon=0.04`
+- Computes and displays all critical points (`ComputeScalarCriticalPoints` → `EmbedScalarCriticalPoints`) colored minima=blue, 1-saddles=white, 2-saddles=orange, maxima=red
+- Computes 4 isocontours (`ComputeIsocontours(num_contours=4)`) splitting the range into 5 equal bands, rendered with `EmbedIsocontours`
+- Renders the simplified scalar field as background surface via `EmbedScalarField`

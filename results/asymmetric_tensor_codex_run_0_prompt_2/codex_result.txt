@@ -1,0 +1,10 @@
+Rendered the 1000×1000 eigenvector partition (10 pixels per square) with all 94 detected degeneracies overlaid:
+
+- 46 pink trisectors, radius 1
+- 48 white wedges, radius 1
+
+Outputs:
+
+- [Rendered PNG](/workspace/Ocean_eigenvector_partition.png)
+- [Classified degenerate points (VTP)](/workspace/Ocean_degenerate_points.vtp)
+- [Reproducible ParaView/Python renderer](/workspace/render_ocean.py)

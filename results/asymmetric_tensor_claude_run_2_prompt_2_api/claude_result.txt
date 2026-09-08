@@ -1,0 +1,1 @@
+Rendered successfully. The eigenvector partition of Ocean.vti (100×100 grid, resolution=10/cell) shows the four eigenvector-behavior regions, with degenerate points overlaid as radius-1 spheres — pink trisectors and white wedges — saved to `/workspace/ocean_eigenvector_partition.png`.

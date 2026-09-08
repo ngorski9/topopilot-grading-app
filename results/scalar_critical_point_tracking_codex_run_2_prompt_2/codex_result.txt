@@ -1,0 +1,13 @@
+Completed the ParaView/TTK workflow.
+
+- Original scalar field loaded from `cloud1.vti`.
+- Persistence simplification applied with normalized threshold `0.5`.
+- 16 local-maxima trajectories tracked across the first 3 time steps using POT’s Wasserstein-1 / earth mover’s distance.
+- Visualization uses the Cool-to-Warm colormap and sphere glyphs with radius `2`.
+
+Open the ready-to-use ParaView state: [cloud_ttk_emd_tracking.pvsm](/workspace/output/cloud_ttk_emd_tracking.pvsm)
+
+Rendered result: [cloud_tracking_visualization.png](/workspace/output/cloud_tracking_visualization.png)
+
+Generated data:
+[original field](/workspace/output/cloud_original_t0.vti), [simplified field](/workspace/output/cloud_persistence_simplified_threshold_0.5.vti), [EMD maxima tracks](/workspace/output/cloud_maxima_tracking_emd_3steps.vtp).

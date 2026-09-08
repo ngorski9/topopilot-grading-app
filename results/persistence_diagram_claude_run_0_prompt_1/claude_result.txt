@@ -1,0 +1,7 @@
+This is the standard piecewise-linear persistence diagram layout: each pair is drawn as a vertical segment from (birth, birth) up to (birth, death), sitting on the x=y diagonal at its birth coordinate. Blue segments are order-0 (minimum–saddle) pairs and red segments are order-2 (saddle–maximum) pairs, both surviving the 0.04 persistence-simplification threshold on the sublevel-set filtration of `QMCPACK.vti`.
+
+Summary:
+- Loaded `QMCPACK.vti` (`Scalars_` field) and ran TTK's `PersistenceDiagram` filter (sublevel-set filtration, the TTK default).
+- Applied persistence simplification by thresholding `Persistence ≥ 0.04`.
+- Filtered to keep only order-0 (min-saddle) and order-2 (saddle-max) pairs, discarding the order-1 saddle-saddle pairs.
+- Rendered/saved the resulting diagram to `/workspace/persistence_diagram.png` (22 pairs total survive).

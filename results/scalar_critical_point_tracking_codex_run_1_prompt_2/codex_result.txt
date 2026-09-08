@@ -1,0 +1,8 @@
+Completed and saved:
+
+- [ParaView state](sandbox:/workspace/cloud_tracking_pipeline.pvsm)
+- [Rendered visualization](sandbox:/workspace/cloud_tracking_visualization.png)
+- [Reproducible pipeline script](sandbox:/workspace/cloud_tracking_pipeline.py)
+- [EMD-tracked maxima geometry](sandbox:/workspace/cloud_emd_maxima_tracks.vtp)
+
+The state includes the original 34-frame scalar-field reader, TTK persistence simplification at threshold 0.5, and maxima tracking over frames 0–2 using Earth Mover’s Distance. Tracked points are rendered as radius-2 spheres with a warm–cold diverging colormap on the original field.

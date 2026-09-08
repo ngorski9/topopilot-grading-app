@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Trial Grader</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <header>
+      <strong>Agent Experiment Trial Grader</strong>
+      <span id="identity"> </span>
+    </header>
+    <section id="login" class="card">
+      <h2>Choose a review mode</h2>
+      <p class="muted">
+        Grade locally with an account, or continue as a spectator to inspect
+        anonymized feedback.
+      </p>
+      <label>Username<input id="username" autocomplete="username" /> </label>
+      <br />
+      <br />
+      <label
+        >Password<input
+          id="password"
+          type="password"
+          autocomplete="current-password"
+        />
+      </label>
+      <br />
+      <br />
+      <button onclick="login()">Log in as grader</button>
+      <button onclick="spectate()">Continue as spectator</button>
+      <p id="loginError"></p>
+      <p class="muted">
+        Accounts are configured in <code>grader_accounts.csv</code>.
+      </p>
+    </section>
+    <main id="app" class="hidden">
+      <aside id="trials">
+        <label>Task / prompt / TopoPilot API</label>
+        <select id="filter" onchange="renderTrials()">
+          <option value="">All trials</option>
+        </select>
+        <p>
+          <button id="nextUngraded" class="hidden" onclick="nextUngraded()">
+            Next ungraded
+          </button>
+        </p>
+        <div id="trialList"></div>
+      </aside>
+      <article id="detail">
+        <p>Select a trial to inspect its outputs.</p>
+      </article>
+      <aside id="rubricPanel">
+        <p class="muted">Select a trial to grade it.</p>
+      </aside>
+    </main>
+    <script src="/static/app.js"></script>
+  </body>
+</html>

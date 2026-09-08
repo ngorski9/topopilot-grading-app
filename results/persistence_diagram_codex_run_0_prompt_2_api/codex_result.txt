@@ -1,0 +1,6 @@
+Rendered the requested TopoPilot2 persistence diagram after relative persistence simplification ε = 0.04.
+
+- Image: [QMCPACK_persistence_diagram.png](/workspace/QMCPACK_persistence_diagram.png)
+- Reproducible pipeline: [qmcpack_persistence_diagram.py](/workspace/qmcpack_persistence_diagram.py)
+
+The 3D sublevel-set diagram reflects homology orders 0 and 2 (TopoPilot’s FTM backend output).

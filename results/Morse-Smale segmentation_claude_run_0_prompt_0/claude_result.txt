@@ -1,0 +1,3 @@
+The visualization worked correctly: piecewise-linear Morse-Smale segmentation regions colored by manifold, with critical points overlaid as spheres of radius 2 — red maxima, white saddles, blue minima — computed on the field simplified with a persistence threshold of 0.05.
+
+The pipeline (`/workspace/ms_segmentation.py`): `fracture.vti` → `TTKPersistenceDiagram` → `Threshold` (persistence ≥ 0.05) → `TTKTopologicalSimplification` → `TTKMorseSmaleComplex` (segmentation port colored by `MorseSmaleManifold`, critical-points port glyphed as radius-2 spheres colored by `CellDimension`: 0=min→blue, 1=saddle→white, 2=max→red). Output image saved to `/workspace/ms_segmentation.png`.

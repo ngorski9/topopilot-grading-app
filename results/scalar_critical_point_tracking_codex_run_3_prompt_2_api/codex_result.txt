@@ -1,0 +1,7 @@
+Completed the TopoPilot2 pipeline and rendered all 3 requested steps.
+
+- Pipeline: [cloud_tracking.py](/workspace/cloud_tracking.py)
+- Animation: [cloud_tracked_3steps.mp4](/workspace/cloud_tracked_3steps.mp4)
+- Frames: [timestep 1](/workspace/cloud_tracked_t1.png), [timestep 2](/workspace/cloud_tracked_t2.png), [timestep 3](/workspace/cloud_tracked_t3.png)
+
+It displays the original `Scalars_` field with the cool-warm colormap, applies persistence simplification at `epsilon=0.5`, and tracks simplified piecewise-linear maxima across 3 steps using EMD. Tracked points use sphere radius 2.

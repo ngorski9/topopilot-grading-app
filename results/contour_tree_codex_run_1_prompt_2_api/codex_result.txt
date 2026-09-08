@@ -1,0 +1,7 @@
+Created and validated the TopoPilot2 pipeline.
+
+- Script: [ionization_topology.py](/workspace/ionization_topology.py)
+- Time step 1 render: [ionization_contour_tree_t1.png](/workspace/ionization_contour_tree_t1.png)
+- Time step 10 render: [ionization_contour_tree_t10.png](/workspace/ionization_contour_tree_t10.png)
+
+It loads the raw `Scalars_` field with viridis, simplifies at persistence threshold `0.1`, and overlays the piecewise-linear contour tree with radius-1 edges and radius-2 vertices. Colors are minima blue, 1-saddles white, 2-saddles orange, and maxima red.

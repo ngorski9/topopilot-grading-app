@@ -1,0 +1,9 @@
+The rendering is complete and correctly located at the boundaries between real/complex eigenvalue regions, as expected for degenerate points.
+
+I opened `Ocean.vti` (a 101×101 asymmetric tensor field with components A, B, C, D forming the 2×2 matrix [[A,B],[C,D]] at each vertex) and produced the requested visualization:
+
+1. **Eigenvector partition** — resampled the field to 10 pixels per unit square (1001×1001), then computed the discriminant δ = ((A−D)/2)² + B·C at each sample. This splits the domain into the region with real, distinct eigenvalues/eigenvectors (light gray) and the region with complex-conjugate eigenvalues (dark gray) — the standard "eigenvector partition" for asymmetric tensor field topology.
+2. **Degenerate points** — located as the common zeros of E = A−D and F = B+C (the deviator components) via per-cell bilinear Newton solves on the same fine grid, sitting exactly on the partition boundary as expected.
+3. **Classification** — each degenerate point classified via the sign of the Jacobian determinant of (E, F): positive → **wedge** (rendered white), negative → **trisector** (rendered pink), both as radius-1 spheres.
+
+Found 43 wedges and 45 trisectors. Final image saved to `/workspace/tensor_field_topology.png`.

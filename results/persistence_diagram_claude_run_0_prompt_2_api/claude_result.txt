@@ -1,0 +1,8 @@
+Done. I built `/workspace/qmcpack_pd.py` from TopoPilot2's `script_template.py`:
+
+- `LoadScalarField` reads `QMCPACK.vti` (array `Scalars_`, a 69×69×115 3D grid, PL-triangulated implicitly).
+- `PersistenceSimplification(epsilon=0.04, threshold_is_absolute=False)` applies relative persistence simplification.
+- `ComputePersistenceDiagram` runs TTK's FTM backend, which yields the sub-level-set filtration's PL persistence diagram for homology orders 0 and D-1=2 (matching the request, since D=3 for this volumetric field).
+- `EmbedPersistenceDiagram` renders the pairs as balls/tubes.
+
+Rendered via `pvbatch qmcpack_pd.py -i ./QMCPACK.vti -t 1 -o qmcpack_persistence_diagram.png`, output saved to `/workspace/qmcpack_persistence_diagram.png`.

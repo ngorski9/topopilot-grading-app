@@ -1,0 +1,8 @@
+Completed the persistence-simplified visualization (relative threshold 0.04).
+
+- Render: [QMCPACK_persistence_0.04.png](/workspace/topology_output/QMCPACK_persistence_0.04.png)
+- ParaView state: [QMCPACK_persistence_0.04.pvsm](/workspace/topology_output/QMCPACK_persistence_0.04.pvsm)
+- Reproducible script: [render_qmcpack_topology.py](/workspace/render_qmcpack_topology.py)
+- Isovalues: [isovalues.txt](/workspace/topology_output/isovalues.txt)
+
+The four contours use 20/40/60/80% scalar quantiles, dividing the volume into five equally sampled regions. All PL critical points are shown: maxima red, 2-saddles orange, 1-saddles/minor degenerate multi-saddles white, minima blue.

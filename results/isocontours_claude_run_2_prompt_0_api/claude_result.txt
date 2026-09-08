@@ -1,0 +1,8 @@
+The pipeline ran successfully and rendered `/workspace/output.png`, showing the QMCPACK scalar field (Scalars_) with:
+
+- Persistence simplification applied at ε = 0.04
+- All piecewise-linear critical points as spheres: minima in blue, 1-saddles in white, 2-saddles in orange, maxima in red
+- 4 isocontours (orange tubes) evenly dividing the value range into 5 regions
+- The translucent scalar volume as background
+
+Script saved at `/workspace/qmcpack_pipeline.py`, output image at `/workspace/output.png`.

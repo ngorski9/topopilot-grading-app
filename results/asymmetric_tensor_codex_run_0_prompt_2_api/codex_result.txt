@@ -1,0 +1,8 @@
+Rendered the requested 1000×1000 eigenvector partition (10 px per 100×100 domain square) with all 90 degenerate points overlaid:
+
+- Trisectors: pink, radius 1
+- Wedges: white, radius 1
+
+Output: [ocean_eigenvector_partition.png](/workspace/ocean_eigenvector_partition.png)
+
+The reproducible TopoPilot2 script is [render_ocean_eigenvector_partition.py](/workspace/render_ocean_eigenvector_partition.py).

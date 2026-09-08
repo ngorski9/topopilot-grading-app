@@ -1,0 +1,12 @@
+Completed the requested TTK persistence simplification (threshold 0.5) and EMD-based piecewise-linear maximum tracking across `cloud1–3`.
+
+Outputs are in [cloud_results](/workspace/cloud_results):
+
+- [Original scalar-field render](/workspace/cloud_results/original_scalar_field_cloud1.png)
+- [Tracked maxima visualization (warm–cold)](/workspace/cloud_results/tracked_maxima_warm_cold.png)
+- [Radius-2 maximum spheres for ParaView](/workspace/cloud_results/tracked_maxima_spheres_radius_2.vtp)
+- [EMD piecewise-linear tracks for ParaView](/workspace/cloud_results/emd_piecewise_linear_tracks.vtp)
+- [EMD transport edges](/workspace/cloud_results/emd_maxima_tracks.csv)
+- Simplified scalar fields: `cloud[1-3]_persistence_0.5.vti`
+
+The reproducible workflow is saved in [cloud_tracking.py](/workspace/cloud_tracking.py).

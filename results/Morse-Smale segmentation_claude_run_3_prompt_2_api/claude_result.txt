@@ -1,0 +1,1 @@
+The rendering is complete at `/workspace/output.png`, showing the piecewise-linear Morse-Smale segmentation (colored regions) with critical points overlaid: maxima in red, saddles in white, and minima in blue, each with radius 2. The pipeline used `PersistenceSimplification(epsilon=0.05)` on the `Scalars_` field before computing the segmentation and critical points.

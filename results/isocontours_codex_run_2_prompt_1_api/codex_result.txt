@@ -1,0 +1,10 @@
+Created the requested visualization: [QMCPACK_topology.png](/workspace/QMCPACK_topology.png).
+
+It uses TopoPilot2 with persistence threshold `0.04`, four evenly quantile-spaced isocontours, and all simplified-field piecewise-linear critical points:
+
+- maxima red
+- 2-saddles orange
+- 1-saddles white
+- minima blue
+
+The reproducible pipeline is [qmcpack_topology.py](/workspace/qmcpack_topology.py).

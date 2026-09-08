@@ -1,0 +1,8 @@
+This properly shows the sublevel-set persistence diagram (birth on x-axis, death on y-axis, diagonal at left), now well-framed in the render. The pipeline is complete:
+
+- Loaded `QMCPACK.vti` scalar field (`Scalars_`) with `LoadScalarField`.
+- Applied `PersistenceSimplification` with epsilon=0.04 (relative threshold, since <1 and not stated as absolute).
+- Computed the persistence diagram (`ComputePersistenceDiagram` — FTM backend inherently gives orders 0 and D-1 from the sublevel-set filtration; since this is 3D data, that's orders 0 and 2, matching the request).
+- Rendered it with `EmbedPersistenceDiagram`.
+
+Output image saved to `/workspace/qmcpack_pd.png`, script saved at `/workspace/qmcpack_pd.py`.

@@ -1,0 +1,9 @@
+Completed the 3-step partial-OT tracking and visualization.
+
+- Visualization: [cylinder_partial_ot_tracking.png](/workspace/cylinder_tracking_output/cylinder_partial_ot_tracking.png)
+- ParaView state: [cylinder_partial_ot_tracking.pvsm](/workspace/cylinder_tracking_output/cylinder_partial_ot_tracking.pvsm)
+- Critical points: [critical_points_and_tracks.csv](/workspace/cylinder_tracking_output/critical_points_and_tracks.csv)
+- OT links: [partial_ot_links.csv](/workspace/cylinder_tracking_output/partial_ot_links.csv)
+- Reproducible script: [track_cylinder.py](/workspace/track_cylinder.py)
+
+Detected isolated points: 46, 44, 44 at time steps 1–3. Partial OT transported 95% mass, yielding 44 links for 1→2 and 42 for 2→3.

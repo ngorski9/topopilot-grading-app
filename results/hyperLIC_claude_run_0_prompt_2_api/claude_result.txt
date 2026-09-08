@@ -1,0 +1,6 @@
+Rendered successfully at `/workspace/brain_output.png`: the tensor field's line-field embedding as a grey glyph texture, with all 434 degenerate points shown as radius-1 spheres — trisectors in pink and wedges in white, per `EmbedSymmetricTensorDegeneratePoints`'s color order (`["#ff8cc6", "#ffffff"]`).
+
+Script used: `/workspace/render_brain_tensor.py`, run via:
+```
+pvbatch render_brain_tensor.py -i ./brain.vti -t 1 -o brain_output.png
+```

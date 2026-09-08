@@ -1,0 +1,6 @@
+Generated the requested TopoPilot2 visualization.
+
+- [Rendered PNG](/workspace/fracture_morse_smale.png)
+- [Reproducible TopoPilot2 script](/workspace/fracture_morse_smale.py)
+
+Persistence simplification used ε = 0.05. Critical points are radius 2: minima blue, maxima red, saddles white. The simplified field contains 15 minima, 10 maxima, and 31 saddles.

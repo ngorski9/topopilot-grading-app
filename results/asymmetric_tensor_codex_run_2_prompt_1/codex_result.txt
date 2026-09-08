@@ -1,0 +1,7 @@
+Rendered the 10-pixels-per-square eigenvector partition with radius-1 degeneracy markers.
+
+- 46 trisectors in pink
+- 48 wedges in white
+
+Output: [Ocean_eigenvector_partition.png](/workspace/Ocean_eigenvector_partition.png)  
+Degeneracy geometry: [Ocean_degenerate_points.vtp](/workspace/Ocean_degenerate_points.vtp)

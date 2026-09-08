@@ -1,0 +1,6 @@
+This looks correct now: the eigenvector partition is rendered as a 10×10-pixel blocky raster (blue = real domain with two real eigenvectors, gray = complex domain with no real eigenvectors), with degenerate points shown as radius-1 spheres colored pink (trisectors) and white (wedges), scattered mostly near the partition boundaries as expected theoretically.
+
+Summary of what was built (since no TTK filter for this exists in the installed build, I implemented the standard Zheng–Pang asymmetric-tensor topology math directly and drove ParaView for rendering):
+
+- `/workspace/eigenvector_partition.py` — loads `Ocean.vti` (A,B,C,D → 2×2 tensor), computes the deviator (E,F,H) and discriminant Δ=E²+F²−H² to classify the eigenvector partition (real vs. complex-eigenvalue domains), rasterizes it at 10 pixels/square, finds degenerate points per triangulated cell by linear root-finding of E=F=0, and classifies each as wedge/trisector via the sign of the (E,F) Jacobian.
+- Outputs: `Ocean_partition.vti`, `Ocean_degenerate_points.vtp`, and the rendered `Ocean_eigenvector_partition.png` (found 51 wedges, 48 trisectors).

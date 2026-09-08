@@ -1,0 +1,7 @@
+Completed the ParaView/TTK visualization.
+
+- [Rendered visualization](sandbox:/workspace/QMCPACK_persistence_0.04.png)
+- [ParaView state file](sandbox:/workspace/QMCPACK_persistence_0.04.pvsm)
+- [Reproducible script](sandbox:/workspace/create_qmcpack_visualization.py)
+
+Persistence simplification used an absolute threshold of `0.04`. The four equal-population isocontour levels are `0.3931`, `0.4047`, `0.4096`, and `0.4186`. Critical points are colored as requested: maxima red, 2-saddles orange, 1-saddles white, minima blue.

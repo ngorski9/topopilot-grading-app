@@ -1,0 +1,8 @@
+Rendered the 1000×1000 eigenvector partition (10 pixels per grid square) with all 5 degenerate points:
+
+- trisectors: pink, radius 1 grid square
+- wedges: white, radius 1 grid square
+
+Output: [Ocean_eigenvector_partition.png](/workspace/Ocean_eigenvector_partition.png)
+
+Also included point classifications: [Ocean_degenerate_points.csv](/workspace/Ocean_degenerate_points.csv) and the reproducible renderer: [render_ocean_eigenpartition.py](/workspace/render_ocean_eigenpartition.py).

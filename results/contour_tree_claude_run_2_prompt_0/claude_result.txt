@@ -1,0 +1,9 @@
+Both visualizations completed successfully:
+
+1. **`/workspace/Ionization_original_scalar_field.png`** — the original scalar field (`Scalars_`) volume-rendered with the viridis colormap.
+2. **`/workspace/Ionization_simplified_contour_tree.png`** — the persistence-simplified (threshold = 0.1) piecewise-linear contour tree, computed via TTK (`TTKTopologicalSimplificationByPersistence` → `TTKContourTree`), with vertices as spheres (radius 2) colored red=maxima, orange=2-saddles, white=1-saddles, blue=minima, and edges as tubes (radius 1).
+
+Pipeline used (pvpython, saved at `/workspace/ionization_contour_tree.py`):
+- `XMLImageDataReader` loaded all 21 time steps of the Ionization dataset.
+- `Tetrahedralize` → `TTKTopologicalSimplificationByPersistence` (PersistenceThreshold=0.1) → `TTKContourTree`.
+- Result frozen via `TrivialProducer` to avoid redundant recomputation, then split into `Tube` (edges, radius 1) and `Glyph`/Sphere (nodes, radius 2) with a categorical color map on `CriticalType`.

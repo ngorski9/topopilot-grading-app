@@ -1,0 +1,9 @@
+Created the requested visualization:
+
+[Persistence diagram PNG](/workspace/QMCPACK_persistence_diagram_orders_0_2.png)
+
+Also saved the reproducible ParaView state and script:
+
+[ParaView state](/workspace/QMCPACK_persistence_diagram_orders_0_2.pvsm) · [render script](/workspace/render_persistence_diagram.py)
+
+The 0.04 relative-range simplification leaves 16 order-0 and 6 order-2 pairs.

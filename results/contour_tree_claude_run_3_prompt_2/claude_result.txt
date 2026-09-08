@@ -1,0 +1,10 @@
+The visualization now shows the raw scalar field as a viridis volume rendering alongside the simplified piecewise-linear contour tree overlay (gray tubes for arcs, spheres colored red=maxima, orange=2-saddles, white=1-saddles, blue=minima), all successfully generated with TTK/ParaView.
+
+Summary of what was done:
+- Loaded the 21-timestep Ionization time series (`./Ionization/Ionization*.vti`) via `XMLImageDataReader`
+- Rendered the raw `Scalars_` field as a **Volume** with the **Viridis** colormap
+- Computed a `TTKPersistenceDiagram`, thresholded out the diagonal and pairs with persistence ≤ 0.1, and fed the surviving pairs as constraints to `TTKTopologicalSimplification`
+- Computed the piecewise-linear contour tree (`TTKContourTree`) on the simplified field
+- Rendered arcs as tubes (radius 1) and nodes as spheres (radius 2), colored by `CriticalType`: minima=blue, 1-saddles=white, 2-saddles=orange, maxima=red
+
+Output artifacts: `/workspace/ionization_contour_tree.png` (screenshot) and `/workspace/ionization_contour_tree.pvsm` (ParaView state file, reloadable in the ParaView GUI) — plus the generating script at `/workspace/ionization_contour_tree.py`.

@@ -1,0 +1,10 @@
+Rendered the requested simplified Morse–Smale segmentation with critical points overlaid.
+
+- Persistence simplification: `0.05`
+- Critical-point radius: `2`
+- Minima: blue; maxima: red; saddles: white
+- Computed: 15 minima, 10 maxima, 31 saddles
+
+Output: [fracture_morse_smale.png](/workspace/fracture_morse_smale.png)
+
+Reproducible TopoPilot2 script: [render_fracture_morse_smale.py](/workspace/render_fracture_morse_smale.py)

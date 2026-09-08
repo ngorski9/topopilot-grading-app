@@ -1,0 +1,11 @@
+Minima are present in the image (visible as dark blue dots near the bottom, e.g. around x≈525 and x≈1055 with a lighter blue outline) — they're just naturally low-contrast against the blue segmentation region, which is expected given the requested blue color. The pipeline is complete and correct:
+
+- **Persistence simplification** (threshold 0.05) applied via `TTKPersistenceDiagram` → `Threshold` → `TTKTopologicalSimplification`
+- **Piecewise-linear Morse-Smale complex** computed on the simplified field via `TTKMorseSmaleComplex`
+- **Segmentation** shown as the colored surface regions
+- **Critical points** glyphed as radius-2 spheres: maxima in red, saddles in white, minima in blue
+
+Outputs saved:
+- `/workspace/morse_smale_result.png` — rendered screenshot
+- `/workspace/morse_smale_result.pvsm` — ParaView state file you can open in the ParaView GUI to interact with the pipeline directly
+- `/workspace/ttk_pipeline.py` — the script itself, re-runnable with `pvpython ttk_pipeline.py`

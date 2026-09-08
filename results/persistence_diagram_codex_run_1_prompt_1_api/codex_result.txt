@@ -1,0 +1,6 @@
+Created and rendered the requested simplified persistence diagram.
+
+- Output: [QMCPACK_persistence_diagram.png](/workspace/QMCPACK_persistence_diagram.png)
+- Script: [persistence_diagram.py](/workspace/persistence_diagram.py)
+
+It loads `Scalars_`, applies relative persistence simplification ε = 0.04, then uses TopoPilot2’s FTM sublevel-set diagram (orders 0 and 2 for this 3D field).

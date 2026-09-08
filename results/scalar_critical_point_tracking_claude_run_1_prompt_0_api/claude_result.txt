@@ -1,0 +1,18 @@
+The pipeline ran successfully. The output at `/workspace/cloud_tracked.png` shows:
+
+- The original scalar cloud field (`Scalars_`) rendered with a cool-warm colormap
+- Persistence-simplified (ε=0.5) piecewise-linear maxima
+- Tracked across 3 time steps via earth mover's distance (`backend="emd"`)
+- Displayed as radius-2 spheres, colored by tracked identity
+
+Script is at `/workspace/cloud_pipeline.py`, built with:
+```python
+scalar = LoadScalarField(load_path, arrayName="Scalars_")
+field_view = EmbedScalarField(scalar.id, colormap="cool warm")
+simplified = PersistenceSimplification(scalar.id, epsilon=0.5)
+critical = ComputeScalarCriticalPoints(simplified.id, "maxima")
+tracked = TrackScalarCriticalPoints(critical.id, time_steps=3, backend="emd")
+tracked_view = EmbedTrackedScalarFieldCriticalPoints(tracked.id, radius=2.0)
+```
+
+Rendered via `pvbatch cloud_pipeline.py -i ./cloud -t 3 -o cloud_tracked.png -q session`. To render all 34 steps as an MP4 instead, rerun with `-t -1 -o cloud_tracked.mp4`.

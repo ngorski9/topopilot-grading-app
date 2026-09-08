@@ -1,0 +1,8 @@
+The pipeline is complete and verified working end-to-end. Summary of what was built (`/workspace/cloud_ttk_pipeline.py`, run with `pvpython`):
+
+1. **Original scalar field** — loads the 34-step cloud time-varying dataset from `./cloud`, uses the first 3 timesteps, renders `Scalars_` with a warm-to-cold colormap → `original_scalar_field.png`.
+2. **Persistence simplification (threshold 0.5)** — `TTKPersistenceDiagram` → `Threshold` on the `Persistence` field (which TTK expresses as 0–100% of the function span, so 0.5 normalized = 50) → `TTKTopologicalSimplification` → `simplified_scalar_field.png`, showing far fewer surviving extrema.
+3. **Maxima tracking via Earth Mover's Distance** — per timestep, computed a simplified persistence diagram, then fed all 3 diagrams as separate inputs into `TTKTrackingFromPersistenceDiagrams` (this filter takes one connection per timestep rather than looping over time internally), using Wasserstein-2 (`pparameter='2'`, i.e. EMD) assignment and weighting toward extrema (`Extremumweight=1, Saddleweight=0`) to follow maxima trajectories.
+4. **Visualization** — tracked critical points glyphed as spheres (radius 2) connected by trajectory edges, overlaid semi-transparently on the scalar field, both using warm-to-cold colormaps → `tracked_maxima_with_field.png`.
+
+All three output images are in `/workspace/`. Key debugging notes: the raw diagram had ~12k points making Wasserstein matching intractable until simplification was correctly applied (fixed a `ThresholdMethod` bug), and `TTKTrackingFromPersistenceDiagrams` required per-timestep diagrams as multiple input connections rather than a single time-varying source.

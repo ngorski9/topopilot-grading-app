@@ -1,0 +1,3 @@
+The visualization rendered correctly: the eigenvector partition (10 px/square resolution) fills the domain, with pink trisector and white wedge degenerate points (radius 1) overlaid.
+
+Script: `/workspace/ocean_pipeline.py`, output: `/workspace/ocean_output.png`.

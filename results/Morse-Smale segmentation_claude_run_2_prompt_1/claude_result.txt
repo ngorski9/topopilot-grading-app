@@ -1,0 +1,7 @@
+The visualization now shows everything correctly: the persistence-simplified Morse-Smale segmentation with all three critical point types overlaid — blue minima, white saddles, and red maxima, matching the field's ridges/valleys well. Saved to `/workspace/morse_smale_segmentation.png`.
+
+Summary of pipeline (`/workspace/ttk_morse_smale.py`):
+1. Read `fracture.vti`, tetrahedralize (triangulate) for TTK.
+2. `TTKPersistenceDiagram` → threshold pairs with `Persistence ≥ 0.05` → `TTKTopologicalSimplification` to simplify the scalar field.
+3. `TTKMorseSmaleComplex` on the simplified field, computing critical points + full segmentation.
+4. Segmentation (port 3) colored by `MorseSmaleManifold`; critical points (port 0) split by `CellDimension` into mins (0), saddles (1), maxima (2), rendered as spheres, radius 2 (point size 12), blue/white/red respectively.

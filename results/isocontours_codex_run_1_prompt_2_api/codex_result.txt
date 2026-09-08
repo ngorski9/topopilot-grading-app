@@ -1,0 +1,11 @@
+Created the requested TopoPilot2 visualization: [QMCPACK_topology.png](/workspace/QMCPACK_topology.png).
+
+It uses persistence simplification ε=0.04 and displays 649 piecewise-linear critical points:
+
+- 20 maxima — red
+- 315 2-saddles — orange
+- 288 1-saddles — white
+- 16 minima — blue
+- 10 degenerate/multi-saddles — black
+
+The four quantile isocontours divide the scalar values into five equal-sized regions. The reproducible pipeline is in [qmcpack_topology.py](/workspace/qmcpack_topology.py).

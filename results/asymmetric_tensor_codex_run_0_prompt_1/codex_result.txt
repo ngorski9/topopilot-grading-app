@@ -1,0 +1,5 @@
+Rendered the 1000×1000 eigenvector partition (10 pixels per square) with radius-1 markers: 46 pink trisectors and 48 white wedges.
+
+[View the rendered partition](/workspace/Ocean_eigenvector_partition.png)
+
+Outputs: [degenerate points CSV](/workspace/Ocean_degenerate_points.csv), [reproducible renderer](/workspace/render_ocean_partition.py).

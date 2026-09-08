@@ -1,0 +1,1 @@
+Rendered successfully at `/workspace/fracture_output.png`: the piecewise-linear Morse-Smale segmentation of `fracture.vti` (persistence-simplified with ε=0.05) with critical points overlaid at radius 2 — red maxima, white saddles, blue minima.

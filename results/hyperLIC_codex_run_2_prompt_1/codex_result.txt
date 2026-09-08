@@ -1,0 +1,7 @@
+Completed the ParaView visualization.
+
+- Trisectors: 357 pink spheres, radius 1
+- Wedges: 360 white spheres, radius 1
+- Tensor field is shown as a colored surface with a sparse tensor-glyph layer.
+
+Open [brain_degenerate_points.pvsm](/workspace/brain_degenerate_points.pvsm) in ParaView. A rendered preview is available at [brain_degenerate_points.png](/workspace/brain_degenerate_points.png).

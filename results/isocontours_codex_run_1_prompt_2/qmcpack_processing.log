@@ -1,0 +1,750 @@
+[32;1m[Common] [0m[32;1m                           [0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m
+[32;1m[Common] [0m[32;1m                    ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m
+[32;1m[Common] [0m[32;1m                [0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m
+[32;1m[Common] [0m[32;1m             ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░[0m[2;1m░[0m[2;1m▒░░░▒▒░[0m[32;1m░[0m[32;1m░[0m[32;1m▒▒▒▒▒▒▒[0m
+[32;1m[Common] [0m[32;1m          ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[2;1m░[0m[30;1m░[0m[30;1m░░░[0m[2;1m░   [0m[34;1m░[0m[34;1m░░░░░░[0m[30;1m░[0m[30;1m░░░▒[0m[2;1m▒[0m[32;1m▒[0m[32;1m▒▒▒▒[0m
+[32;1m[Common] [0m[32;1m        ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░[0m[30;1m░                    [0m[34;1m░[0m[34;1m░░[0m[30;1m░[0m[30;1m░░[0m[32;1m░[0m[32;1m▒▒▒[0m
+[32;1m[Common] [0m[32;1m      ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[2;1m░[0m[30;1m░    [0m[30;1m▒▒▒▒▒▒▒▒▒▒▒▒          [0m[34;1m░[0m[34;1m▒▒ [0m[30;1m░[0m[2;1m░[0m[32;1m▒[0m[32;1m▒▒[0m
+[32;1m[Common] [0m[32;1m     ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[30;1m░[0m[30;1m░   ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░▒▒       [0m[34;1m░[0m[34;1m░▒ [0m[30;1m░[0m[30;1m░[0m[32;1m▒[0m[32;1m▒[0m
+[32;1m[Common] [0m[32;1m    ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[30;1m░[0m[30;1m░  [0m[2;1m▒[0m[2;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[30;1m▒[0m[30;1m▒▒▒▒░▒▒    [0m[34;1m░[0m[34;1m░░░▒ [0m[30;1m░[0m[2;1m░[0m[32;1m▒[0m[32;1m▒[0m
+[32;1m[Common] [0m[32;1m   ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[30;1m░[0m[30;1m░ ▒[0m[2;1m▒[0m[2;1m▒▒▒▒▒[0m[2;1m▒[0m[2;1m▒▒▒[0m[37;1m▒[0m[37;1m▄[0m[37;1m▓█[0m[37;1m█▓████[0m[37;1m█▓▄[0m[2;1m▄[0m[2;1m░[0m[30;1m░[0m[30;1m░▒   [0m[34;1m░[0m[34;1m░░░░░[0m[30;1m░[0m[30;1m░[0m[32;1m░[0m[32;1m▒[0m
+[32;1m[Common] [0m[32;1m  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░  [0m[2;1m▒[0m[2;1m▒▒▒[0m[2;1m▒[0m[2;1m▒▒▒▒▓[0m[37;1m▓[0m[37;1m▓▀[0m[2;1m▀[0m[2;1m▀▀[0m[37;1m▀[0m[37;1m▀[0m[37;1m▀████▓▓▓▓[0m[2;1m▄[0m[30;1m░[0m[30;1m░   [0m[34;1m░[0m[34;1m░░░░▒ [0m[30;1m░[0m[2;1m░[0m[32;1m▒[0m
+[32;1m[Common] [0m[32;1m ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m░[0m[30;1m░ [0m[30;1m▒[0m[2;1m▒[0m[2;1m▒▒[0m[2;1m▒[0m[2;1m▒▒▒▒           [0m[30;1m░[0m[30;1m░[0m[2;1m░[0m[37;1m▀[0m[37;1m██▓▓▓▓[0m[2;1m▓[0m[30;1m░[0m[2;1m░    [0m[34;1m░[0m[34;1m░░▒ [0m[30;1m░[0m[2;1m░[0m[32;1m▒[0m
+[32;1m[Common] [0m[32;1m ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m▒[0m[32;1m░[0m[30;1m░ [0m[30;1m▒[0m[2;1m▒[0m[2;1m▒▒▒▒                  [0m[30;1m░[0m[2;1m▀[0m[37;1m█[0m[37;1m█▓▓▓[0m[37;1m▓[0m[2;1m░    [0m[34;1m░[0m[34;1m░░░▒ [0m[30;1m░[0m[32;1m░[0m[32;1m░[0m
+[32;1m[Common] [0m[32;1m ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m▒[0m[32;1m░[0m[32;1m▒[0m[30;1m░[0m[30;1m░ [0m[2;1m▒[0m[2;1m▒▒                     [0m[30;1m░[0m[30;1m░[0m[37;1m▀[0m[37;1m▓[0m[37;1m▓▓[0m[37;1m▓▒[0m[2;1m░    [0m[34;1m░[0m[34;1m░░▒░[0m[30;1m░[0m[30;1m░[0m[32;1m▒[0m
+[32;1m[Common] [0m[32;1m ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░[0m[30;1m░ [0m[30;1m▒▒                        ░[0m[2;1m▐[0m[37;1m▓[0m[37;1m▓[0m[37;1m▓▒[0m[37;1m▒    [0m[34;1m░[0m[34;1m░░░▒ [0m[30;1m░[0m[32;1m░[0m
+[32;1m[Common] [0m[32;1m ░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░                         [0m[32;1m░[0m[30;1m░[0m[30;1m░[0m[37;1m▐[0m[37;1m▓[0m[37;1m▓[0m[37;1m▒[0m[2;1m▒[0m[2;1m▒ [0m[34;1m░[0m[34;1m░░░░▒▒ [0m[30;1m░[0m[2;1m░[0m[32;1m▒[0m
+[32;1m[Common] [0m[30;1m░[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░                        ░░[0m[30;1m░[0m[2;1m▐[0m[37;1m▓[0m[37;1m▒[0m[37;1m▒[0m[2;1m▒[0m[30;1m░[0m[34;1m░[0m[34;1m░░░░░▒▒ [0m[30;1m░[0m[30;1m░[0m[32;1m▒[0m
+[32;1m[Common] [0m[30;1m░[0m[32;1m░[0m[32;1m░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░                   ░░░░░[0m[30;1m░[0m[2;1m▐[0m[37;1m▓[0m[37;1m▒[0m[2;1m▒[0m[2;1m▒[0m[34;1m░[0m[34;1m░░░░░░▒▒ [0m[30;1m░[0m[30;1m░[0m
+[32;1m[Common] [0m[32;1m  ░[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░           ░░░░░░▒[0m[30;1m▒[0m[30;1m░[0m[37;1m▓[0m[37;1m▒[0m[2;1m▒[0m[2;1m▒[0m[30;1m░[0m[34;1m░[0m[34;1m░░░░░▒▒▒░[0m[30;1m░[0m[32;1m░[0m
+[32;1m[Common] [0m[32;1m   [0m[30;1m░[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░[0m[30;1m░ [0m[37;1m▓[0m[2;1m▒[0m[2;1m▒[0m[30;1m░[0m[34;1m░[0m[34;1m░░░░▒▒▒▒▒[0m[30;1m░[0m[30;1m░[0m[32;1m░[0m
+[32;1m[Common] [0m[32;1m    [0m[30;1m░[0m[32;1m░[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m▒▒[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░▒░[0m[30;1m░[0m[30;1m░[0m[37;1m▓[0m[2;1m▒[0m[2;1m▒[0m[30;1m░[0m[34;1m▒[0m[34;1m░░▒▒▒▒▒▒▒░[0m[30;1m░[0m[30;1m░[0m
+[32;1m[Common] [0m[32;1m     ░░[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m▒▓▓▓▒▒[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░ [0m[2;1m▓[0m[2;1m▒[0m[30;1m░ [0m[34;1m▒[0m[34;1m▒▒▒▒▒▒▒▒▒▒[0m[30;1m░[0m[30;1m░[0m[32;1m▒[0m
+[32;1m[Common] [0m[32;1m      [0m[34;1m▒[0m[30;1m░[0m[2;1m░[0m[32;1m░[0m[32;1m▒▒▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m▒[0m[37;1m▓[0m[37;1m▓▓[0m[32;1m▓[0m[32;1m▒[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░[0m[30;1m░ [0m[37;1m▒[0m[2;1m▒  [0m[34;1m▒[0m[34;1m▒▒▒▒▒▒▒▒▒▒[0m[30;1m░[0m[30;1m░[0m[32;1m░[0m
+[32;1m[Common] [0m[32;1m      [0m[34;1m░[0m[34;1m░░[0m[30;1m░[0m[30;1m░[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░[0m[30;1m░ [0m[2;1m▒[0m[2;1m▒   [0m[34;1m▒[0m[34;1m▒▒▒▒▒▒▒▒▒▒[0m[30;1m░[0m[30;1m░[0m[32;1m░[0m
+[32;1m[Common] [0m[32;1m       [0m[34;1m░[0m[34;1m░░░░[0m[30;1m░[0m[2;1m░[0m[32;1m░[0m[32;1m▒▒▒▒▒▒▒▒[0m[32;1m▒[0m[32;1m▒[0m[32;1m▒[0m[32;1m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░[0m[30;1m░░[0m[2;1m░[0m[2;1m▒     [0m[34;1m▒[0m[34;1m▒▒▒▒▒▒▒▒▒▒[0m[30;1m░[0m[30;1m░[0m[32;1m░[0m
+[32;1m[Common] [0m[32;1m         [0m[34;1m▒[0m[34;1m░░░░░[0m[30;1m░[0m[30;1m░[0m[2;1m░[0m[32;1m░[0m[32;1m░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m[2;1m░[0m[30;1m░[0m[30;1m░░ [0m[2;1m░       [0m[34;1m░[0m[34;1m▒▒▒▒▒▒▒▒▒▒░[0m[30;1m░[0m[30;1m░[0m
+[32;1m[Common] [0m[32;1m          [0m[34;1m░[0m[34;1m░░░░░░░░░[0m[30;1m░[0m[30;1m░░░░░░░░░░░░░░░░            [0m[34;1m▒[0m[34;1m▒▒▒▒▒▒▒▒▒░[0m[30;1m░[0m[30;1m░[0m
+[32;1m[Common] [0m[32;1m            [0m[34;1m░[0m[34;1m▒░░░░░░░░░░                       ▒▒▒▒▒▒▒[0m[36;1m▒[0m[36;1m▒[0m[34;1m▒[0m[34;1m░[0m[30;1m░[0m[30;1m░[0m
+[32;1m[Common] [0m[32;1m              [0m[34;1m░[0m[34;1m▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░ ░▒[0m[36;1m▒[0m[36;1m▒▒▒▒▒▒[0m[34;1m░[0m[30;1m░[0m[30;1m░[0m[30;1m░[0m
+[32;1m[Common] [0m[32;1m                 [0m[34;1m░[0m[34;1m░▒░░░░░░░░░░░░░░░░░░░░░░░▒[0m[36;1m▒[0m[36;1m▒▒▒▒▒[0m[34;1m▒[0m[34;1m░[0m[30;1m░[0m[30;1m░[0m[30;1m░[0m
+[32;1m[Common] [0m[32;1m                      [0m[34;1m░[0m[34;1m░▒░░░░░░░░░░░░░░░▒[0m[36;1m▒[0m[36;1m▒▒[0m[34;1m▒[0m[34;1m▒░░[0m[30;1m░[0m[30;1m░░[0m
+[32;1m[Common] [0m[32;1m                              [0m[34;1m░[0m[34;1m░░░░░░░░░░[0m[30;1m░[0m[30;1m░▒░[0m
+[32;1m[Common] [0m[0;1m _____ _____ _  __                   __  __    ____   ___ ____  _  _[0m
+[32;1m[Common] [0m[0;1m|_   _|_   _| |/ /                  / /__\ \  |___ \ / _ \___ \| || |[0m
+[32;1m[Common] [0m[0;1m  | |   | | | ' /                  | |/ __| |   __) | | | |__) | || |_[0m
+[32;1m[Common] [0m[0;1m  | |   | | | . \                  | | (__| |  / __/| |_| / __/|__   _|[0m
+[32;1m[Common] [0m[0;1m  |_|   |_| |_|\_\                 | |\___| | |_____|\___/_____|  |_|[0m
+[32;1m[Common] [0m[0;1m                                    \_\  /_/[0m
+[32;1m[Common] [0m[0;1mWelcome![0m
+[32;1m[PLTS] [0m%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%[34;1m[0m
+[32;1m[PLTS] [0m-------------------------------------------------------------------------[34;1m[0m
+[32;1m[PLTS] [0m[33;1m[WARNING][0m No pre-existing order for array:
+[32;1m[PLTS] [0m[33;1m[WARNING][0m   `Scalars_`.
+[32;1m[PLTS] [0mInitializing order array. ...............................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0m-------------------------------------------------------------------------[34;1m[0m
+[32;1m[PLTS] [0mInitializing order array. .............................[34;1m [0.022s|20T|100%][0m
+[32;1m[PLTS] [0m-------------------------------------------------------------------------[34;1m[0m
+[32;1m[PLTS] [0m[33;1m[WARNING][0m TIP: run `ttkArrayPreconditioning` first
+[32;1m[PLTS] [0m[33;1m[WARNING][0m for improved performances :)
+[32;1m[PLTS] [0m-------------------------------------------------------------------------[34;1m[0m
+[32;1m[PLTS] [0mAllocating Memory .......................................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mAllocating Memory .....................................[34;1m [0.004s|20T|100%][0m
+[32;1m[PLTS] [0m----------- [Removing Non-Persistent Maxima] ----------------------------[34;1m[0m
+[32;1m[PLTS] [0mInitializing Memory .....................................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mInitializing Memory ...................................[34;1m [0.007s|20T|100%][0m
+[32;1m[PLTS] [0mInitializing Propagations ...............................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mInitializing Propagations (21|547515) .................[34;1m [0.010s|20T|100%][0m
+[32;1m[PLTS] [0mComputing Persistence-Sensitive Propagations (21) .......[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mComputing Persistence-Sensitive Propagations (21) .....[34;1m [0.003s|20T|100%][0m
+[32;1m[PLTS] [0mFinalizing Propagations (21) ............................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mFinalizing Propagations (2|0.10|0.01) .................[34;1m [0.002s|20T|100%][0m
+[32;1m[PLTS] [0mComputing Segments (2) ..................................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mComputing Segments (2) ................................[34;1m [0.006s|20T|100%][0m
+[32;1m[PLTS] [0mComputing Local Order of Segments (2) ...................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mComputing Local Order of Segments (2) .................[34;1m [0.012s|20T|100%][0m
+[32;1m[PLTS] [0mFlattening Order Array ..................................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mFlattening Order Array ................................[34;1m [0.008s|20T|100%][0m
+[32;1m[PLTS] [0mComputing Global Order .................................[34;1m [0.006s|20T|20%][0m[32;1m[PLTS] [0mComputing Global Order .................................[34;1m [0.023s|20T|80%][0m[32;1m[PLTS] [0mComputing Global Order ................................[34;1m [0.029s|20T|100%][0m
+[32;1m[PLTS] [0mFlattening Scalar Array .................................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mFlattening Scalar Array ...............................[34;1m [0.005s|20T|100%][0m
+[32;1m[PLTS] [0m----------- [Removing Non-Persistent Minima] ----------------------------[34;1m[0m
+[32;1m[PLTS] [0mInverting Order .........................................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mInverting Order .......................................[34;1m [0.000s|20T|100%][0m
+[32;1m[PLTS] [0mInitializing Memory .....................................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mInitializing Memory ...................................[34;1m [0.000s|20T|100%][0m
+[32;1m[PLTS] [0mInitializing Propagations ...............................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mInitializing Propagations (32|547515) .................[34;1m [0.001s|20T|100%][0m
+[32;1m[PLTS] [0mComputing Persistence-Sensitive Propagations (32) .......[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mComputing Persistence-Sensitive Propagations (32) .....[34;1m [0.002s|20T|100%][0m
+[32;1m[PLTS] [0mFinalizing Propagations (32) ............................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mFinalizing Propagations (16|0.50|0.02) ................[34;1m [0.001s|20T|100%][0m
+[32;1m[PLTS] [0mComputing Segments (16) .................................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mComputing Segments (16) ...............................[34;1m [0.000s|20T|100%][0m
+[32;1m[PLTS] [0mComputing Local Order of Segments (16) ..................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mComputing Local Order of Segments (16) ................[34;1m [0.001s|20T|100%][0m
+[32;1m[PLTS] [0mFlattening Order Array ..................................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mFlattening Order Array ................................[34;1m [0.001s|20T|100%][0m
+[32;1m[PLTS] [0mComputing Global Order .................................[34;1m [0.000s|20T|20%][0m[32;1m[PLTS] [0mComputing Global Order .................................[34;1m [0.004s|20T|80%][0m[32;1m[PLTS] [0mComputing Global Order ................................[34;1m [0.006s|20T|100%][0m
+[32;1m[PLTS] [0mFlattening Scalar Array .................................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mFlattening Scalar Array ...............................[34;1m [0.001s|20T|100%][0m
+[32;1m[PLTS] [0mInverting Order .........................................[34;1m [0.000s|20T|0%][0m[32;1m[PLTS] [0mInverting Order .......................................[34;1m [0.000s|20T|100%][0m
+[32;1m[PLTS] [0m-------------------------------------------------------------------------[34;1m[0m
+[32;1m[PLTS] [0mComplete ..............................................[34;1m [0.109s|20T|100%][0m
+[32;1m[PLTS] [0m=========================================================================[34;1m[0m
+Simplified scalar array: Scalars_
+Equal-volume isovalues: [0.39313673897428375, 0.4047109966265488, 0.40960144729617365, 0.41858010339906176]
+[32;1m[ScalarFieldCriticalPoints] [0m%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%[34;1m[0m
+[32;1m[ScalarFieldCriticalPoints] [0mStarting computation...
+[32;1m[ScalarFieldCriticalPoints] [0m  Scalar Array: Scalars_      
+[32;1m[ScalarFieldCriticalPoints] [0m  Offset Array: Scalars__Order
+[32;1m[ProgressiveTopology] [0mProgressive Critical Points computation
+[32;1m[ProgressiveTopology] [0m==========================================================[34;1m[0m
+[32;1m[ProgressiveTopology] [0mPre-allocating data structures ...........[34;1m [0.000s|20T|0%][0m[32;1m[ProgressiveTopology] [0mPre-allocating data structures .........[34;1m [0.040s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mTotal memory allocation ................[34;1m [0.051s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 0 .......................[34;1m [0.021s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 0 .....................[34;1m [0.025s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 1 .......................[34;1m [0.026s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 1 .....................[34;1m [0.026s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 2 .......................[34;1m [0.026s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 2 .....................[34;1m [0.026s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 3 .......................[34;1m [0.026s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 3 .....................[34;1m [0.026s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 4 .......................[34;1m [0.026s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 4 .....................[34;1m [0.026s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 5 .......................[34;1m [0.027s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 5 .....................[34;1m [0.027s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 6 .......................[34;1m [0.027s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 6 .....................[34;1m [0.031s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mResolution level 7 (final) ...............[34;1m [0.032s|20T|0%][0m[32;1m[ProgressiveTopology] [0mResolution level 7 (final) .............[34;1m [0.044s|20T|100%][0m
+[32;1m[ProgressiveTopology] [0mTotal ..................................[34;1m [0.045s|20T|100%][0m
+[32;1m[ScalarFieldCriticalPoints] [0m  #Minima       : 16 
+[32;1m[ScalarFieldCriticalPoints] [0m  #1-saddles    : 288
+[32;1m[ScalarFieldCriticalPoints] [0m  #2-saddles    : 315
+[32;1m[ScalarFieldCriticalPoints] [0m  #Multi-saddles: 10 
+[32;1m[ScalarFieldCriticalPoints] [0m  #Maxima       : 20 
+[32;1m[ScalarFieldCriticalPoints] [0m====================================================[34;1m[0m
+Critical point arrays: ['CriticalType', 'IsOnBoundary', 'ttkVertexScalarField', 'Scalars_', 'Scalars__Order']
+2-saddles: x=2 y=0 z=0 scalar=0.389571517
+2-saddles: x=68 y=0 z=0 scalar=0.389571517
+Maxima: x=3 y=3 z=0 scalar=0.70387276
+Maxima: x=68 y=3 z=0 scalar=0.682199481
+Minima: x=62 y=5 z=0 scalar=0
+2-saddles: x=63 y=21 z=0 scalar=0.406791717
+1-saddles: x=64 y=21 z=0 scalar=0.40666038
+1-saddles: x=29 y=30 z=0 scalar=0.375944444
+1-saddles: x=68 y=48 z=0 scalar=0.409832267
+Minima: x=5 y=62 z=0 scalar=0
+2-saddles: x=21 y=63 z=0 scalar=0.406791718
+2-saddles: x=63 y=63 z=0 scalar=0.55652248
+Minima: x=68 y=63 z=0 scalar=0.187002191
+1-saddles: x=21 y=65 z=0 scalar=0.406743816
+2-saddles: x=2 y=66 z=0 scalar=0.389571517
+1-saddles: x=66 y=66 z=0 scalar=0.347967941
+2-saddles: x=68 y=66 z=0 scalar=0.389571517
+Maxima: x=3 y=68 z=0 scalar=0.682199481
+1-saddles: x=48 y=68 z=0 scalar=0.409832267
+Minima: x=63 y=68 z=0 scalar=0.187002191
+Maxima: x=68 y=68 z=0 scalar=0.63278198
+2-saddles: x=0 y=1 z=1 scalar=0.392659427
+Degenerate critical points: x=1 y=1 z=1 scalar=0.38150487
+2-saddles: x=2 y=1 z=1 scalar=0.396916308
+2-saddles: x=66 y=1 z=1 scalar=0.392659427
+Degenerate critical points: x=67 y=1 z=1 scalar=0.38150487
+2-saddles: x=68 y=1 z=1 scalar=0.396916308
+1-saddles: x=65 y=20 z=1 scalar=0.406694363
+2-saddles: x=64 y=21 z=1 scalar=0.406857983
+2-saddles: x=0 y=67 z=1 scalar=0.392659427
+Degenerate critical points: x=1 y=67 z=1 scalar=0.38150487
+2-saddles: x=2 y=67 z=1 scalar=0.396916308
+2-saddles: x=66 y=67 z=1 scalar=0.392659427
+Degenerate critical points: x=67 y=67 z=1 scalar=0.38150487
+2-saddles: x=68 y=67 z=1 scalar=0.396916308
+1-saddles: x=19 y=0 z=2 scalar=0.406749965
+2-saddles: x=0 y=2 z=2 scalar=0.3840128
+1-saddles: x=1 y=2 z=2 scalar=0.357118599
+2-saddles: x=2 y=2 z=2 scalar=0.358844926
+2-saddles: x=66 y=2 z=2 scalar=0.3840128
+1-saddles: x=67 y=2 z=2 scalar=0.357118599
+2-saddles: x=68 y=2 z=2 scalar=0.358844926
+2-saddles: x=0 y=18 z=2 scalar=0.406909884
+2-saddles: x=66 y=18 z=2 scalar=0.406909884
+1-saddles: x=65 y=19 z=2 scalar=0.406743815
+2-saddles: x=65 y=20 z=2 scalar=0.40692271
+2-saddles: x=0 y=68 z=2 scalar=0.3840128
+1-saddles: x=1 y=68 z=2 scalar=0.357118599
+2-saddles: x=2 y=68 z=2 scalar=0.358844926
+2-saddles: x=66 y=68 z=2 scalar=0.3840128
+2-saddles: x=68 y=68 z=2 scalar=0.358844926
+Minima: x=5 y=0 z=3 scalar=0.199637015
+2-saddles: x=17 y=1 z=3 scalar=0.40685871
+1-saddles: x=3 y=2 z=3 scalar=0.308134178
+2-saddles: x=4 y=2 z=3 scalar=0.312507122
+1-saddles: x=2 y=3 z=3 scalar=0.308134178
+Minima: x=0 y=5 z=3 scalar=0.199637015
+2-saddles: x=1 y=17 z=3 scalar=0.40685871
+1-saddles: x=2 y=17 z=3 scalar=0.406626104
+2-saddles: x=67 y=17 z=3 scalar=0.40685871
+1-saddles: x=68 y=17 z=3 scalar=0.406626104
+1-saddles: x=0 y=18 z=3 scalar=0.40669191
+1-saddles: x=66 y=18 z=3 scalar=0.40669191
+2-saddles: x=17 y=67 z=3 scalar=0.40685871
+1-saddles: x=3 y=68 z=3 scalar=0.308134178
+2-saddles: x=4 y=68 z=3 scalar=0.312507122
+Maxima: x=65 y=0 z=4 scalar=1
+2-saddles: x=2 y=3 z=4 scalar=0.313094591
+1-saddles: x=3 y=3 z=4 scalar=0.294715814
+2-saddles: x=4 y=3 z=4 scalar=0.305936255
+1-saddles: x=16 y=3 z=4 scalar=0.406748676
+1-saddles: x=68 y=4 z=4 scalar=0.280764592
+2-saddles: x=3 y=15 z=4 scalar=0.406946721
+1-saddles: x=3 y=16 z=4 scalar=0.406748675
+2-saddles: x=2 y=17 z=4 scalar=0.406945948
+2-saddles: x=68 y=17 z=4 scalar=0.406945948
+Maxima: x=0 y=65 z=4 scalar=1
+Maxima: x=65 y=66 z=4 scalar=1
+1-saddles: x=4 y=68 z=4 scalar=0.280764592
+2-saddles: x=5 y=68 z=4 scalar=0.288189433
+1-saddles: x=16 y=68 z=4 scalar=0.406776459
+Maxima: x=0 y=0 z=5 scalar=0.969296728
+2-saddles: x=2 y=4 z=5 scalar=0.303791393
+Degenerate critical points: x=3 y=4 z=5 scalar=0.299310901
+2-saddles: x=15 y=4 z=5 scalar=0.406913335
+2-saddles: x=13 y=5 z=5 scalar=0.406952294
+1-saddles: x=14 y=5 z=5 scalar=0.406730154
+2-saddles: x=5 y=13 z=5 scalar=0.406952294
+1-saddles: x=5 y=14 z=5 scalar=0.406730154
+1-saddles: x=3 y=15 z=5 scalar=0.406660425
+2-saddles: x=4 y=15 z=5 scalar=0.406913334
+2-saddles: x=68 y=64 z=5 scalar=0.822121729
+1-saddles: x=5 y=68 z=5 scalar=0.286308313
+2-saddles: x=64 y=68 z=5 scalar=0.822121729
+1-saddles: x=12 y=6 z=6 scalar=0.406740719
+2-saddles: x=12 y=7 z=6 scalar=0.406845363
+2-saddles: x=10 y=8 z=6 scalar=0.406879955
+1-saddles: x=11 y=8 z=6 scalar=0.40675319
+2-saddles: x=9 y=9 z=6 scalar=0.406898741
+1-saddles: x=10 y=9 z=6 scalar=0.406704004
+2-saddles: x=8 y=10 z=6 scalar=0.406879955
+1-saddles: x=9 y=10 z=6 scalar=0.406704004
+1-saddles: x=8 y=11 z=6 scalar=0.40675319
+1-saddles: x=6 y=12 z=6 scalar=0.406740719
+2-saddles: x=7 y=12 z=6 scalar=0.406845362
+1-saddles: x=5 y=13 z=6 scalar=0.406633554
+2-saddles: x=6 y=13 z=6 scalar=0.406969483
+1-saddles: x=68 y=68 z=8 scalar=0.568518998
+1-saddles: x=15 y=12 z=15 scalar=0.41251654
+2-saddles: x=13 y=13 z=15 scalar=0.412533868
+1-saddles: x=13 y=13 z=16 scalar=0.412485389
+Degenerate critical points: x=14 y=13 z=16 scalar=0.412520834
+1-saddles: x=12 y=14 z=16 scalar=0.412505433
+2-saddles: x=13 y=14 z=16 scalar=0.412520834
+2-saddles: x=55 y=55 z=19 scalar=0.458231206
+1-saddles: x=13 y=5 z=22 scalar=0.406623533
+1-saddles: x=12 y=6 z=22 scalar=0.406633752
+2-saddles: x=13 y=6 z=22 scalar=0.406678786
+1-saddles: x=11 y=7 z=22 scalar=0.406641634
+2-saddles: x=12 y=7 z=22 scalar=0.406665655
+1-saddles: x=10 y=8 z=22 scalar=0.406646598
+2-saddles: x=11 y=8 z=22 scalar=0.406656377
+1-saddles: x=9 y=9 z=22 scalar=0.40664829
+2-saddles: x=10 y=9 z=22 scalar=0.406651583
+1-saddles: x=8 y=10 z=22 scalar=0.406646598
+2-saddles: x=9 y=10 z=22 scalar=0.406651583
+1-saddles: x=7 y=11 z=22 scalar=0.406641634
+2-saddles: x=8 y=11 z=22 scalar=0.406656377
+1-saddles: x=6 y=12 z=22 scalar=0.406633752
+2-saddles: x=7 y=12 z=22 scalar=0.406665655
+2-saddles: x=6 y=13 z=22 scalar=0.406678786
+1-saddles: x=21 y=21 z=22 scalar=0.410105666
+1-saddles: x=53 y=31 z=22 scalar=0.406636846
+1-saddles: x=52 y=32 z=22 scalar=0.406651573
+2-saddles: x=53 y=32 z=22 scalar=0.406730206
+1-saddles: x=51 y=33 z=22 scalar=0.406665645
+2-saddles: x=52 y=33 z=22 scalar=0.406713976
+1-saddles: x=50 y=34 z=22 scalar=0.406678745
+2-saddles: x=51 y=34 z=22 scalar=0.406698026
+2-saddles: x=49 y=35 z=22 scalar=0.406690548
+2-saddles: x=48 y=36 z=22 scalar=0.406700776
+1-saddles: x=49 y=36 z=22 scalar=0.406668568
+2-saddles: x=47 y=37 z=22 scalar=0.406709299
+1-saddles: x=48 y=37 z=22 scalar=0.406655792
+2-saddles: x=46 y=38 z=22 scalar=0.406716116
+1-saddles: x=47 y=38 z=22 scalar=0.40664469
+2-saddles: x=45 y=39 z=22 scalar=0.406721266
+1-saddles: x=46 y=39 z=22 scalar=0.406635489
+2-saddles: x=44 y=40 z=22 scalar=0.406724801
+1-saddles: x=45 y=40 z=22 scalar=0.406628402
+2-saddles: x=43 y=41 z=22 scalar=0.406726826
+1-saddles: x=44 y=41 z=22 scalar=0.406623595
+2-saddles: x=42 y=42 z=22 scalar=0.406727478
+1-saddles: x=43 y=42 z=22 scalar=0.406621169
+2-saddles: x=41 y=43 z=22 scalar=0.406726826
+1-saddles: x=42 y=43 z=22 scalar=0.406621169
+2-saddles: x=40 y=44 z=22 scalar=0.406724801
+1-saddles: x=41 y=44 z=22 scalar=0.406623595
+2-saddles: x=39 y=45 z=22 scalar=0.406721266
+1-saddles: x=40 y=45 z=22 scalar=0.406628402
+2-saddles: x=38 y=46 z=22 scalar=0.406716116
+1-saddles: x=39 y=46 z=22 scalar=0.406635489
+2-saddles: x=37 y=47 z=22 scalar=0.406709299
+1-saddles: x=38 y=47 z=22 scalar=0.40664469
+2-saddles: x=36 y=48 z=22 scalar=0.406700777
+1-saddles: x=37 y=48 z=22 scalar=0.406655793
+2-saddles: x=35 y=49 z=22 scalar=0.406690548
+1-saddles: x=36 y=49 z=22 scalar=0.406668568
+1-saddles: x=34 y=50 z=22 scalar=0.406678745
+1-saddles: x=33 y=51 z=22 scalar=0.406665646
+2-saddles: x=34 y=51 z=22 scalar=0.406698026
+1-saddles: x=32 y=52 z=22 scalar=0.406651573
+2-saddles: x=33 y=52 z=22 scalar=0.406713976
+2-saddles: x=32 y=53 z=22 scalar=0.406730206
+1-saddles: x=18 y=0 z=23 scalar=0.406639996
+2-saddles: x=19 y=0 z=23 scalar=0.406707334
+1-saddles: x=17 y=1 z=23 scalar=0.40664919
+2-saddles: x=18 y=1 z=23 scalar=0.406693185
+1-saddles: x=16 y=2 z=23 scalar=0.406659725
+2-saddles: x=17 y=2 z=23 scalar=0.406677329
+2-saddles: x=15 y=3 z=23 scalar=0.406670955
+2-saddles: x=14 y=4 z=23 scalar=0.406682161
+1-saddles: x=15 y=4 z=23 scalar=0.406643635
+2-saddles: x=13 y=5 z=23 scalar=0.406692621
+1-saddles: x=14 y=5 z=23 scalar=0.406627636
+2-saddles: x=4 y=14 z=23 scalar=0.40668216
+1-saddles: x=5 y=14 z=23 scalar=0.406627636
+2-saddles: x=3 y=15 z=23 scalar=0.406670954
+1-saddles: x=4 y=15 z=23 scalar=0.406643635
+1-saddles: x=2 y=16 z=23 scalar=0.406659724
+1-saddles: x=68 y=16 z=23 scalar=0.406659724
+1-saddles: x=1 y=17 z=23 scalar=0.40664919
+2-saddles: x=2 y=17 z=23 scalar=0.406677329
+1-saddles: x=67 y=17 z=23 scalar=0.40664919
+2-saddles: x=68 y=17 z=23 scalar=0.406677329
+2-saddles: x=1 y=18 z=23 scalar=0.406693185
+2-saddles: x=67 y=18 z=23 scalar=0.406693185
+1-saddles: x=59 y=25 z=23 scalar=0.406644921
+1-saddles: x=58 y=26 z=23 scalar=0.406656641
+2-saddles: x=59 y=26 z=23 scalar=0.406723702
+1-saddles: x=57 y=27 z=23 scalar=0.406670677
+2-saddles: x=58 y=27 z=23 scalar=0.406713332
+2-saddles: x=57 y=28 z=23 scalar=0.406700356
+2-saddles: x=55 y=29 z=23 scalar=0.406704486
+1-saddles: x=56 y=29 z=23 scalar=0.406685084
+2-saddles: x=54 y=30 z=23 scalar=0.40672358
+1-saddles: x=55 y=30 z=23 scalar=0.406667861
+2-saddles: x=53 y=31 z=23 scalar=0.406743514
+1-saddles: x=54 y=31 z=23 scalar=0.406649136
+2-saddles: x=30 y=54 z=23 scalar=0.40672358
+1-saddles: x=31 y=54 z=23 scalar=0.406649136
+2-saddles: x=29 y=55 z=23 scalar=0.406704486
+1-saddles: x=30 y=55 z=23 scalar=0.406667861
+1-saddles: x=29 y=56 z=23 scalar=0.406685084
+1-saddles: x=27 y=57 z=23 scalar=0.406670677
+2-saddles: x=28 y=57 z=23 scalar=0.406700356
+1-saddles: x=26 y=58 z=23 scalar=0.406656641
+2-saddles: x=27 y=58 z=23 scalar=0.406713332
+2-saddles: x=26 y=59 z=23 scalar=0.406723702
+1-saddles: x=18 y=66 z=23 scalar=0.406639996
+2-saddles: x=19 y=66 z=23 scalar=0.406707334
+1-saddles: x=17 y=67 z=23 scalar=0.40664919
+2-saddles: x=18 y=67 z=23 scalar=0.406693185
+2-saddles: x=17 y=68 z=23 scalar=0.406677329
+1-saddles: x=0 y=19 z=24 scalar=0.406640629
+2-saddles: x=65 y=19 z=24 scalar=0.406701932
+1-saddles: x=66 y=19 z=24 scalar=0.406640629
+2-saddles: x=64 y=20 z=24 scalar=0.406698641
+1-saddles: x=65 y=20 z=24 scalar=0.406650463
+2-saddles: x=63 y=21 z=24 scalar=0.40669803
+1-saddles: x=64 y=21 z=24 scalar=0.406657606
+2-saddles: x=62 y=22 z=24 scalar=0.406700333
+1-saddles: x=63 y=22 z=24 scalar=0.406661669
+2-saddles: x=61 y=23 z=24 scalar=0.406705657
+1-saddles: x=62 y=23 z=24 scalar=0.406662443
+2-saddles: x=60 y=24 z=24 scalar=0.406714054
+1-saddles: x=61 y=24 z=24 scalar=0.40665985
+2-saddles: x=59 y=25 z=24 scalar=0.406725533
+1-saddles: x=60 y=25 z=24 scalar=0.406653864
+2-saddles: x=24 y=60 z=24 scalar=0.406714054
+1-saddles: x=25 y=60 z=24 scalar=0.406653864
+2-saddles: x=23 y=61 z=24 scalar=0.406705658
+1-saddles: x=24 y=61 z=24 scalar=0.406659851
+2-saddles: x=22 y=62 z=24 scalar=0.406700333
+1-saddles: x=23 y=62 z=24 scalar=0.406662444
+2-saddles: x=21 y=63 z=24 scalar=0.40669803
+1-saddles: x=22 y=63 z=24 scalar=0.40666167
+2-saddles: x=20 y=64 z=24 scalar=0.406698641
+1-saddles: x=21 y=64 z=24 scalar=0.406657606
+2-saddles: x=19 y=65 z=24 scalar=0.406701932
+1-saddles: x=20 y=65 z=24 scalar=0.406650463
+1-saddles: x=19 y=66 z=24 scalar=0.40664063
+Maxima: x=51 y=51 z=25 scalar=0.500762209
+2-saddles: x=44 y=21 z=30 scalar=0.416307586
+2-saddles: x=21 y=44 z=30 scalar=0.416307586
+Minima: x=51 y=51 z=34 scalar=0.270473861
+1-saddles: x=45 y=0 z=40 scalar=0.383171703
+2-saddles: x=45 y=0 z=41 scalar=0.383171703
+1-saddles: x=46 y=0 z=41 scalar=0.383171703
+1-saddles: x=68 y=45 z=42 scalar=0.36914585
+1-saddles: x=45 y=68 z=42 scalar=0.36914585
+2-saddles: x=13 y=5 z=45 scalar=0.406723218
+2-saddles: x=12 y=6 z=45 scalar=0.406716952
+1-saddles: x=13 y=6 z=45 scalar=0.406689796
+2-saddles: x=11 y=7 z=45 scalar=0.406712508
+1-saddles: x=12 y=7 z=45 scalar=0.406694679
+2-saddles: x=10 y=8 z=45 scalar=0.406709859
+1-saddles: x=11 y=8 z=45 scalar=0.406697903
+2-saddles: x=9 y=9 z=45 scalar=0.406708979
+1-saddles: x=10 y=9 z=45 scalar=0.4066995
+2-saddles: x=8 y=10 z=45 scalar=0.406709858
+1-saddles: x=9 y=10 z=45 scalar=0.4066995
+2-saddles: x=7 y=11 z=45 scalar=0.406712508
+1-saddles: x=8 y=11 z=45 scalar=0.406697903
+2-saddles: x=6 y=12 z=45 scalar=0.406716952
+1-saddles: x=7 y=12 z=45 scalar=0.406694679
+1-saddles: x=6 y=13 z=45 scalar=0.406689796
+2-saddles: x=16 y=2 z=46 scalar=0.406719487
+1-saddles: x=17 y=2 z=46 scalar=0.40668771
+1-saddles: x=16 y=3 z=46 scalar=0.406699561
+1-saddles: x=14 y=4 z=46 scalar=0.406697624
+2-saddles: x=15 y=4 z=46 scalar=0.406709571
+1-saddles: x=13 y=5 z=46 scalar=0.40668954
+2-saddles: x=14 y=5 z=46 scalar=0.40671782
+1-saddles: x=4 y=14 z=46 scalar=0.406697624
+2-saddles: x=5 y=14 z=46 scalar=0.406717819
+2-saddles: x=4 y=15 z=46 scalar=0.406709571
+2-saddles: x=2 y=16 z=46 scalar=0.406719486
+1-saddles: x=3 y=16 z=46 scalar=0.406699561
+2-saddles: x=68 y=16 z=46 scalar=0.406719486
+1-saddles: x=17 y=68 z=46 scalar=0.40668771
+2-saddles: x=18 y=0 z=47 scalar=0.406713088
+1-saddles: x=19 y=0 z=47 scalar=0.406695243
+1-saddles: x=17 y=1 z=47 scalar=0.406697378
+2-saddles: x=17 y=2 z=47 scalar=0.406724273
+1-saddles: x=1 y=17 z=47 scalar=0.406697378
+1-saddles: x=67 y=17 z=47 scalar=0.406697378
+2-saddles: x=0 y=18 z=47 scalar=0.406713087
+2-saddles: x=66 y=18 z=47 scalar=0.406713087
+1-saddles: x=66 y=19 z=47 scalar=0.406695242
+2-saddles: x=19 y=65 z=47 scalar=0.406730846
+2-saddles: x=18 y=66 z=47 scalar=0.406713088
+1-saddles: x=19 y=66 z=47 scalar=0.406695243
+1-saddles: x=17 y=67 z=47 scalar=0.406697378
+2-saddles: x=17 y=68 z=47 scalar=0.406724273
+2-saddles: x=65 y=20 z=48 scalar=0.406716858
+1-saddles: x=64 y=21 z=48 scalar=0.406697711
+1-saddles: x=0 y=49 z=48 scalar=0.383171703
+2-saddles: x=21 y=63 z=48 scalar=0.406733523
+1-saddles: x=21 y=64 z=48 scalar=0.406697711
+1-saddles: x=19 y=65 z=48 scalar=0.406692448
+2-saddles: x=20 y=65 z=48 scalar=0.406716858
+2-saddles: x=63 y=22 z=49 scalar=0.406718263
+1-saddles: x=23 y=62 z=49 scalar=0.406695411
+1-saddles: x=21 y=63 z=49 scalar=0.406692421
+2-saddles: x=22 y=63 z=49 scalar=0.406718263
+1-saddles: x=61 y=23 z=50 scalar=0.406696823
+2-saddles: x=60 y=24 z=50 scalar=0.406723573
+2-saddles: x=24 y=60 z=50 scalar=0.406723573
+1-saddles: x=25 y=60 z=50 scalar=0.406688809
+1-saddles: x=23 y=61 z=50 scalar=0.406696824
+2-saddles: x=23 y=62 z=50 scalar=0.406739668
+1-saddles: x=59 y=25 z=51 scalar=0.406705082
+2-saddles: x=26 y=58 z=51 scalar=0.406735341
+1-saddles: x=25 y=59 z=51 scalar=0.406705082
+2-saddles: x=25 y=60 z=51 scalar=0.406736575
+2-saddles: x=58 y=27 z=52 scalar=0.406729952
+1-saddles: x=57 y=28 z=52 scalar=0.406698058
+Maxima: x=34 y=34 z=52 scalar=0.497568974
+2-saddles: x=28 y=56 z=52 scalar=0.406750257
+1-saddles: x=28 y=57 z=52 scalar=0.406698058
+1-saddles: x=26 y=58 z=52 scalar=0.406685335
+2-saddles: x=27 y=58 z=52 scalar=0.406729952
+2-saddles: x=55 y=29 z=53 scalar=0.40673095
+2-saddles: x=29 y=55 z=53 scalar=0.406730951
+1-saddles: x=30 y=55 z=53 scalar=0.406683977
+1-saddles: x=28 y=56 z=53 scalar=0.406696406
+1-saddles: x=30 y=31 z=54 scalar=0.384637109
+1-saddles: x=54 y=31 z=54 scalar=0.406707219
+2-saddles: x=31 y=53 z=54 scalar=0.406747074
+1-saddles: x=31 y=54 z=54 scalar=0.40670722
+2-saddles: x=30 y=55 z=54 scalar=0.406744483
+2-saddles: x=31 y=31 z=55 scalar=0.385679272
+1-saddles: x=31 y=32 z=55 scalar=0.383563679
+2-saddles: x=53 y=32 z=55 scalar=0.406733409
+1-saddles: x=33 y=52 z=55 scalar=0.406692068
+1-saddles: x=31 y=53 z=55 scalar=0.406686206
+2-saddles: x=32 y=53 z=55 scalar=0.406733409
+2-saddles: x=32 y=32 z=56 scalar=0.392751691
+1-saddles: x=33 y=32 z=56 scalar=0.39168677
+2-saddles: x=34 y=33 z=56 scalar=0.404031121
+1-saddles: x=51 y=33 z=56 scalar=0.406697844
+2-saddles: x=50 y=34 z=56 scalar=0.406736519
+2-saddles: x=34 y=50 z=56 scalar=0.406736519
+1-saddles: x=35 y=50 z=56 scalar=0.406676888
+1-saddles: x=33 y=51 z=56 scalar=0.406697844
+2-saddles: x=33 y=52 z=56 scalar=0.406762611
+Minima: x=38 y=29 z=57 scalar=0.33165157
+1-saddles: x=34 y=33 z=57 scalar=0.402469121
+2-saddles: x=34 y=34 z=57 scalar=0.40390255
+1-saddles: x=34 y=35 z=57 scalar=0.402988113
+1-saddles: x=49 y=35 z=57 scalar=0.40670628
+2-saddles: x=48 y=36 z=57 scalar=0.406743054
+Minima: x=29 y=38 z=57 scalar=0.331651565
+2-saddles: x=36 y=48 z=57 scalar=0.406743054
+1-saddles: x=35 y=49 z=57 scalar=0.406706281
+2-saddles: x=35 y=50 z=57 scalar=0.406753792
+2-saddles: x=34 y=35 z=58 scalar=0.403737031
+1-saddles: x=35 y=36 z=58 scalar=0.395381504
+2-saddles: x=36 y=36 z=58 scalar=0.397323723
+1-saddles: x=47 y=37 z=58 scalar=0.406705513
+2-saddles: x=46 y=38 z=58 scalar=0.406735833
+2-saddles: x=38 y=46 z=58 scalar=0.406735833
+1-saddles: x=39 y=46 z=58 scalar=0.406675589
+1-saddles: x=37 y=47 z=58 scalar=0.406705513
+1-saddles: x=36 y=48 z=58 scalar=0.406672304
+2-saddles: x=37 y=48 z=58 scalar=0.406750118
+1-saddles: x=36 y=37 z=59 scalar=0.392609633
+2-saddles: x=37 y=37 z=59 scalar=0.395353997
+1-saddles: x=45 y=39 z=59 scalar=0.40668789
+1-saddles: x=44 y=40 z=59 scalar=0.406706596
+2-saddles: x=45 y=40 z=59 scalar=0.406732557
+2-saddles: x=43 y=41 z=59 scalar=0.406718402
+2-saddles: x=42 y=42 z=59 scalar=0.406722441
+1-saddles: x=43 y=42 z=59 scalar=0.406702005
+2-saddles: x=41 y=43 z=59 scalar=0.406718402
+1-saddles: x=42 y=43 z=59 scalar=0.406702005
+1-saddles: x=40 y=44 z=59 scalar=0.406706596
+1-saddles: x=39 y=45 z=59 scalar=0.40668789
+2-saddles: x=40 y=45 z=59 scalar=0.406732558
+2-saddles: x=39 y=46 z=59 scalar=0.406760151
+2-saddles: x=68 y=68 z=59 scalar=0.393871071
+1-saddles: x=37 y=37 z=60 scalar=0.394767023
+Maxima: x=33 y=33 z=61 scalar=0.506059094
+2-saddles: x=28 y=28 z=69 scalar=0.439319466
+1-saddles: x=10 y=0 z=71 scalar=0.406586444
+1-saddles: x=43 y=41 z=74 scalar=0.406656246
+1-saddles: x=42 y=42 z=74 scalar=0.406658595
+2-saddles: x=43 y=42 z=74 scalar=0.406675993
+2-saddles: x=42 y=43 z=74 scalar=0.406675993
+2-saddles: x=33 y=0 z=75 scalar=0.426452692
+2-saddles: x=0 y=33 z=75 scalar=0.426452692
+1-saddles: x=45 y=39 z=75 scalar=0.406662567
+2-saddles: x=46 y=39 z=75 scalar=0.406683485
+2-saddles: x=44 y=40 z=75 scalar=0.406673103
+2-saddles: x=43 y=41 z=75 scalar=0.406679571
+1-saddles: x=44 y=41 z=75 scalar=0.406659627
+2-saddles: x=40 y=44 z=75 scalar=0.406673103
+1-saddles: x=41 y=44 z=75 scalar=0.406659627
+1-saddles: x=39 y=45 z=75 scalar=0.406662567
+2-saddles: x=47 y=38 z=76 scalar=0.406678819
+1-saddles: x=46 y=39 z=76 scalar=0.406662505
+1-saddles: x=48 y=36 z=77 scalar=0.406661161
+2-saddles: x=47 y=37 z=77 scalar=0.406678523
+1-saddles: x=47 y=38 z=77 scalar=0.406658741
+2-saddles: x=37 y=47 z=77 scalar=0.406678523
+1-saddles: x=49 y=35 z=78 scalar=0.406666597
+2-saddles: x=48 y=36 z=78 scalar=0.406684206
+2-saddles: x=51 y=34 z=79 scalar=0.406688134
+2-saddles: x=49 y=35 z=79 scalar=0.40669011
+1-saddles: x=50 y=35 z=79 scalar=0.406670382
+1-saddles: x=35 y=50 z=79 scalar=0.406670382
+1-saddles: x=50 y=0 z=80 scalar=0.418280829
+1-saddles: x=52 y=32 z=80 scalar=0.406665249
+2-saddles: x=51 y=33 z=80 scalar=0.40668187
+1-saddles: x=51 y=34 z=80 scalar=0.406664619
+1-saddles: x=0 y=50 z=80 scalar=0.418280829
+2-saddles: x=33 y=51 z=80 scalar=0.40668187
+Maxima: x=18 y=19 z=81 scalar=0.543749407
+1-saddles: x=54 y=30 z=81 scalar=0.40666525
+2-saddles: x=55 y=30 z=81 scalar=0.406694753
+2-saddles: x=54 y=31 z=81 scalar=0.406681641
+2-saddles: x=52 y=32 z=81 scalar=0.406694108
+1-saddles: x=53 y=32 z=81 scalar=0.406668512
+1-saddles: x=32 y=53 z=81 scalar=0.406668512
+1-saddles: x=30 y=54 z=81 scalar=0.40666525
+2-saddles: x=31 y=54 z=81 scalar=0.406681641
+2-saddles: x=10 y=9 z=82 scalar=0.406725763
+1-saddles: x=59 y=25 z=82 scalar=0.406645445
+2-saddles: x=60 y=25 z=82 scalar=0.406700868
+1-saddles: x=58 y=26 z=82 scalar=0.406656125
+2-saddles: x=59 y=26 z=82 scalar=0.406694029
+1-saddles: x=57 y=27 z=82 scalar=0.406666975
+2-saddles: x=58 y=27 z=82 scalar=0.406686558
+2-saddles: x=57 y=28 z=82 scalar=0.406678514
+2-saddles: x=55 y=29 z=82 scalar=0.406688913
+1-saddles: x=56 y=29 z=82 scalar=0.406669952
+1-saddles: x=55 y=30 z=82 scalar=0.40666094
+2-saddles: x=29 y=55 z=82 scalar=0.406688913
+1-saddles: x=29 y=56 z=82 scalar=0.406669952
+1-saddles: x=27 y=57 z=82 scalar=0.406666975
+2-saddles: x=28 y=57 z=82 scalar=0.406678514
+1-saddles: x=26 y=58 z=82 scalar=0.406656125
+2-saddles: x=27 y=58 z=82 scalar=0.406686558
+1-saddles: x=25 y=59 z=82 scalar=0.406645446
+2-saddles: x=26 y=59 z=82 scalar=0.406694029
+2-saddles: x=18 y=0 z=83 scalar=0.406693004
+2-saddles: x=17 y=1 z=83 scalar=0.406695838
+1-saddles: x=18 y=1 z=83 scalar=0.406627178
+2-saddles: x=16 y=2 z=83 scalar=0.406699688
+1-saddles: x=17 y=2 z=83 scalar=0.406621103
+2-saddles: x=15 y=3 z=83 scalar=0.406704302
+1-saddles: x=16 y=3 z=83 scalar=0.406614599
+2-saddles: x=14 y=4 z=83 scalar=0.406709355
+1-saddles: x=15 y=4 z=83 scalar=0.406608021
+2-saddles: x=13 y=5 z=83 scalar=0.406714452
+1-saddles: x=14 y=5 z=83 scalar=0.406601737
+2-saddles: x=12 y=6 z=83 scalar=0.40671914
+1-saddles: x=13 y=6 z=83 scalar=0.406596103
+2-saddles: x=11 y=7 z=83 scalar=0.40672294
+1-saddles: x=12 y=7 z=83 scalar=0.40659147
+2-saddles: x=10 y=8 z=83 scalar=0.406725421
+1-saddles: x=11 y=8 z=83 scalar=0.406588165
+2-saddles: x=50 y=8 z=83 scalar=0.420583112
+2-saddles: x=8 y=10 z=83 scalar=0.406725421
+1-saddles: x=9 y=10 z=83 scalar=0.406586445
+2-saddles: x=7 y=11 z=83 scalar=0.40672294
+1-saddles: x=8 y=11 z=83 scalar=0.406588165
+2-saddles: x=6 y=12 z=83 scalar=0.406719141
+1-saddles: x=7 y=12 z=83 scalar=0.40659147
+2-saddles: x=5 y=13 z=83 scalar=0.406714452
+1-saddles: x=6 y=13 z=83 scalar=0.406596103
+2-saddles: x=4 y=14 z=83 scalar=0.406709355
+1-saddles: x=5 y=14 z=83 scalar=0.406601737
+2-saddles: x=3 y=15 z=83 scalar=0.406704303
+1-saddles: x=4 y=15 z=83 scalar=0.406608022
+2-saddles: x=2 y=16 z=83 scalar=0.406699688
+1-saddles: x=3 y=16 z=83 scalar=0.406614599
+2-saddles: x=1 y=17 z=83 scalar=0.406695838
+1-saddles: x=2 y=17 z=83 scalar=0.406621103
+2-saddles: x=67 y=17 z=83 scalar=0.406695838
+1-saddles: x=68 y=17 z=83 scalar=0.406621103
+2-saddles: x=0 y=18 z=83 scalar=0.406693004
+1-saddles: x=1 y=18 z=83 scalar=0.406627179
+2-saddles: x=66 y=18 z=83 scalar=0.406693004
+1-saddles: x=67 y=18 z=83 scalar=0.406627179
+1-saddles: x=0 y=19 z=83 scalar=0.40663255
+2-saddles: x=65 y=19 z=83 scalar=0.406691331
+1-saddles: x=66 y=19 z=83 scalar=0.40663255
+2-saddles: x=64 y=20 z=83 scalar=0.406690834
+1-saddles: x=65 y=20 z=83 scalar=0.406637058
+2-saddles: x=63 y=21 z=83 scalar=0.406691435
+1-saddles: x=64 y=21 z=83 scalar=0.406640639
+2-saddles: x=62 y=22 z=83 scalar=0.406693029
+1-saddles: x=63 y=22 z=83 scalar=0.406643264
+2-saddles: x=61 y=23 z=83 scalar=0.406695543
+1-saddles: x=62 y=23 z=83 scalar=0.406644891
+2-saddles: x=60 y=24 z=83 scalar=0.406698931
+1-saddles: x=61 y=24 z=83 scalar=0.406645481
+1-saddles: x=60 y=25 z=83 scalar=0.406645026
+2-saddles: x=8 y=50 z=83 scalar=0.420583112
+2-saddles: x=24 y=60 z=83 scalar=0.406698931
+2-saddles: x=23 y=61 z=83 scalar=0.406695543
+1-saddles: x=24 y=61 z=83 scalar=0.406645481
+2-saddles: x=22 y=62 z=83 scalar=0.406693029
+1-saddles: x=23 y=62 z=83 scalar=0.406644892
+2-saddles: x=21 y=63 z=83 scalar=0.406691435
+1-saddles: x=22 y=63 z=83 scalar=0.406643264
+2-saddles: x=20 y=64 z=83 scalar=0.406690834
+1-saddles: x=21 y=64 z=83 scalar=0.406640639
+2-saddles: x=19 y=65 z=83 scalar=0.406691331
+1-saddles: x=20 y=65 z=83 scalar=0.406637058
+2-saddles: x=18 y=66 z=83 scalar=0.406693004
+1-saddles: x=19 y=66 z=83 scalar=0.406632549
+2-saddles: x=17 y=67 z=83 scalar=0.406695838
+1-saddles: x=18 y=67 z=83 scalar=0.406627178
+2-saddles: x=16 y=68 z=83 scalar=0.406699688
+1-saddles: x=17 y=68 z=83 scalar=0.406621103
+1-saddles: x=8 y=50 z=84 scalar=0.420576377
+2-saddles: x=9 y=50 z=84 scalar=0.42059173
+Minima: x=18 y=18 z=90 scalar=0.313805983
+2-saddles: x=45 y=39 z=97 scalar=0.406712036
+1-saddles: x=46 y=39 z=97 scalar=0.406689729
+2-saddles: x=44 y=40 z=97 scalar=0.406705814
+1-saddles: x=45 y=40 z=97 scalar=0.406697113
+1-saddles: x=44 y=41 z=97 scalar=0.406701957
+1-saddles: x=42 y=42 z=97 scalar=0.406700896
+2-saddles: x=43 y=42 z=97 scalar=0.406704352
+2-saddles: x=42 y=43 z=97 scalar=0.406704352
+2-saddles: x=40 y=44 z=97 scalar=0.406705814
+1-saddles: x=41 y=44 z=97 scalar=0.406701957
+2-saddles: x=39 y=45 z=97 scalar=0.406712036
+1-saddles: x=40 y=45 z=97 scalar=0.406697113
+2-saddles: x=48 y=36 z=98 scalar=0.406722995
+2-saddles: x=47 y=37 z=98 scalar=0.406707919
+1-saddles: x=48 y=37 z=98 scalar=0.406693722
+1-saddles: x=46 y=38 z=98 scalar=0.406695856
+2-saddles: x=46 y=39 z=98 scalar=0.40671741
+1-saddles: x=38 y=46 z=98 scalar=0.406695856
+2-saddles: x=37 y=47 z=98 scalar=0.406707919
+2-saddles: x=49 y=35 z=99 scalar=0.406714765
+1-saddles: x=50 y=35 z=99 scalar=0.406686568
+1-saddles: x=48 y=36 z=99 scalar=0.406695873
+1-saddles: x=36 y=48 z=99 scalar=0.406695874
+2-saddles: x=35 y=49 z=99 scalar=0.406714766
+1-saddles: x=51 y=34 z=100 scalar=0.406694573
+2-saddles: x=50 y=35 z=100 scalar=0.40671924
+2-saddles: x=52 y=32 z=101 scalar=0.406734659
+1-saddles: x=52 y=33 z=101 scalar=0.40670133
+2-saddles: x=51 y=34 z=101 scalar=0.406730663
+1-saddles: x=33 y=52 z=101 scalar=0.40670133
+2-saddles: x=53 y=31 z=102 scalar=0.406736102
+1-saddles: x=52 y=32 z=102 scalar=0.406698493
+2-saddles: x=54 y=30 z=103 scalar=0.406739434
+1-saddles: x=18 y=31 z=103 scalar=0.371333612
+1-saddles: x=53 y=31 z=103 scalar=0.406695834
+1-saddles: x=32 y=19 z=104 scalar=0.371289377
+2-saddles: x=55 y=29 z=104 scalar=0.406744574
+1-saddles: x=54 y=30 z=104 scalar=0.406694405
+2-saddles: x=18 y=31 z=104 scalar=0.371365559
+1-saddles: x=19 y=31 z=104 scalar=0.371274636
+2-saddles: x=20 y=31 z=104 scalar=0.3714146
+2-saddles: x=56 y=28 z=105 scalar=0.40675139
+1-saddles: x=55 y=29 z=105 scalar=0.406693946
+1-saddles: x=20 y=31 z=105 scalar=0.371381503
+2-saddles: x=57 y=27 z=106 scalar=0.406759685
+1-saddles: x=56 y=28 z=106 scalar=0.406694156
+1-saddles: x=0 y=0 z=107 scalar=0.609263023
+2-saddles: x=58 y=26 z=107 scalar=0.406768974
+1-saddles: x=57 y=27 z=107 scalar=0.406694551
+2-saddles: x=59 y=25 z=108 scalar=0.406778609
+1-saddles: x=58 y=26 z=108 scalar=0.406694425
+2-saddles: x=3 y=0 z=109 scalar=0.775280313
+1-saddles: x=62 y=0 z=109 scalar=0.20740626
+Maxima: x=2 y=2 z=109 scalar=0.872293313
+Maxima: x=68 y=2 z=109 scalar=0.872293313
+2-saddles: x=0 y=3 z=109 scalar=0.775280313
+2-saddles: x=60 y=24 z=109 scalar=0.406787623
+1-saddles: x=59 y=25 z=109 scalar=0.406692859
+1-saddles: x=0 y=62 z=109 scalar=0.20740626
+1-saddles: x=64 y=65 z=109 scalar=0.231225431
+Maxima: x=2 y=68 z=109 scalar=0.872293313
+Maxima: x=68 y=68 z=109 scalar=0.872293313
+2-saddles: x=61 y=23 z=110 scalar=0.406794355
+1-saddles: x=60 y=24 z=110 scalar=0.406688455
+Minima: x=68 y=62 z=110 scalar=0.118808326
+2-saddles: x=66 y=65 z=110 scalar=0.286498481
+Minima: x=62 y=68 z=110 scalar=0.118808326
+2-saddles: x=62 y=22 z=111 scalar=0.406796651
+1-saddles: x=61 y=23 z=111 scalar=0.406679385
+2-saddles: x=22 y=62 z=111 scalar=0.406796652
+1-saddles: x=65 y=66 z=111 scalar=0.275664604
+2-saddles: x=2 y=0 z=112 scalar=0.389571517
+2-saddles: x=68 y=0 z=112 scalar=0.389571517
+Minima: x=62 y=5 z=112 scalar=0
+1-saddles: x=64 y=21 z=112 scalar=0.40666038
+1-saddles: x=62 y=22 z=112 scalar=0.406663497
+2-saddles: x=63 y=22 z=112 scalar=0.406811436
+Minima: x=5 y=62 z=112 scalar=0
+2-saddles: x=2 y=66 z=112 scalar=0.389571517
+2-saddles: x=68 y=66 z=112 scalar=0.389571517
+2-saddles: x=0 y=1 z=113 scalar=0.392659427
+Degenerate critical points: x=1 y=1 z=113 scalar=0.38150487
+2-saddles: x=2 y=1 z=113 scalar=0.396916308
+2-saddles: x=66 y=1 z=113 scalar=0.392659427
+Degenerate critical points: x=67 y=1 z=113 scalar=0.38150487
+2-saddles: x=68 y=1 z=113 scalar=0.396916308
+1-saddles: x=65 y=20 z=113 scalar=0.406694363
+2-saddles: x=64 y=21 z=113 scalar=0.406857983
+2-saddles: x=0 y=67 z=113 scalar=0.392659427
+Degenerate critical points: x=1 y=67 z=113 scalar=0.38150487
+2-saddles: x=2 y=67 z=113 scalar=0.396916308
+2-saddles: x=66 y=67 z=113 scalar=0.392659427
+Degenerate critical points: x=67 y=67 z=113 scalar=0.38150487
+2-saddles: x=68 y=67 z=113 scalar=0.396916308
+Maxima: x=0 y=0 z=114 scalar=0.67311343
+Minima: x=4 y=0 z=114 scalar=0.236284726
+1-saddles: x=17 y=0 z=114 scalar=0.407004264
+2-saddles: x=24 y=0 z=114 scalar=0.406156927
+Maxima: x=64 y=0 z=114 scalar=0.79782381
+2-saddles: x=0 y=2 z=114 scalar=0.3840128
+1-saddles: x=1 y=2 z=114 scalar=0.357118599
+2-saddles: x=66 y=2 z=114 scalar=0.3840128
+Minima: x=0 y=4 z=114 scalar=0.236284726
+2-saddles: x=4 y=4 z=114 scalar=0.48030952
+1-saddles: x=63 y=6 z=114 scalar=0.0369633925
+1-saddles: x=0 y=17 z=114 scalar=0.407004263
+1-saddles: x=65 y=19 z=114 scalar=0.406743815
+2-saddles: x=66 y=19 z=114 scalar=0.406749965
+2-saddles: x=65 y=20 z=114 scalar=0.40692271
+2-saddles: x=0 y=24 z=114 scalar=0.406156927
+2-saddles: x=30 y=31 z=114 scalar=0.377795238
+1-saddles: x=6 y=63 z=114 scalar=0.0369633925
+Maxima: x=0 y=64 z=114 scalar=0.79782381
+1-saddles: x=19 y=65 z=114 scalar=0.406743816
+Maxima: x=65 y=65 z=114 scalar=0.844568199
+2-saddles: x=19 y=66 z=114 scalar=0.406749965
+2-saddles: x=0 y=68 z=114 scalar=0.3840128
+2-saddles: x=66 y=68 z=114 scalar=0.3840128

@@ -1,0 +1,11 @@
+The pipeline ran end-to-end and produced all three requested outputs in `./cloud_output/`.
+
+Summary of what was done:
+1. **Loaded** the time-dependent cloud dataset (34 `.vti` files, 256×256, scalar array `Scalars_`) as a ParaView time series.
+2. **Rendered the original scalar field** → `01_original_scalar_field.png` (warm-cold colormap).
+3. **Applied persistence simplification** (`TTKTopologicalSimplificationByPersistence`, threshold = 0.5, maxima-saddle pairs) → `02_simplified_scalar_field.png`.
+4. **Tracked piecewise-linear maxima over 3 time steps using Earth Mover's Distance**: extracted persistent maxima per timestep with `TTKScalarFieldCriticalPoints`, then matched maxima between consecutive timesteps via optimal transport (`ot.emd` from Python Optimal Transport), building piecewise-linear tracks.
+   - Note: `TTKTrackingFromPersistenceDiagrams` segfaults reliably in this environment's TTK 1.3.0 build (verified via both the ParaView proxy and raw VTK bindings, with the crash isolated to the compiled filter itself), so I substituted a POT-based EMD tracker to fulfill the same intent without relying on a broken filter.
+5. **Visualized** the tracked critical points as spheres (`TTKIcospheresFromPoints`, radius = 2) plus connecting track lines, overlaid on the scalar field, using the warm-cold colormap → `03_tracked_maxima_with_scalar_field.png` (337 → 286 → 258 persistent maxima across the 3 steps, 623 tracking segments).
+
+The full script is at `/workspace/cloud_pipeline.py`.

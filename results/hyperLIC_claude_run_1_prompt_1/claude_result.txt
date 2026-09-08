@@ -1,0 +1,7 @@
+This renders correctly — the brain tensor field (colored by component A) shown with degenerate points overlaid as spheres of radius 1: pink for trisectors, white for wedges, concentrated mostly around the outer boundary as expected for symmetric tensor field topology.
+
+**Summary**
+
+Since TTK ships no built-in filter for 2D symmetric tensor-field degenerate points, I implemented the classic Delmarcelle–Hesselink algorithm directly (`compute_degenerate_points.py`): triangulate the pixel grid, treat the deviator field (A−D, 2B) as a vector field, solve for its zero per triangle via barycentric coordinates, and classify each zero as trisector or wedge via the winding number of the angle around the triangle (±1 → trisector/wedge). This found 257 trisectors and 250 wedges, written to `degenerate_points.vtp`.
+
+`render_degenerate_points.py` then loads `brain.vti` in ParaView, thresholds the degenerate points by type, and glyphs them as radius-1 spheres — pink for trisectors, white for wedges — over the tensor field, saving `degenerate_points_render.png` (shown above).

@@ -1,0 +1,6 @@
+The render worked well — the tensor field renders as a fibrous glyph field over the brain-shaped domain, with pink trisectors and white wedges marking the 434 degenerate points (radius 1) detected in the field.
+
+Output saved to `/workspace/output.png`. Script used: `/workspace/render_brain.py`, run via:
+```
+pvbatch render_brain.py -i ./brain.vti -t 1 -o output.png -q session
+```

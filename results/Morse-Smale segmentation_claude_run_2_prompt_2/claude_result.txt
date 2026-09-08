@@ -1,0 +1,11 @@
+This is a solid, working script that fulfills all requirements. The final pipeline:
+
+1. Reads `fracture.vti` (2D 249×121 grid, scalar field `Scalars_`)
+2. Computes the persistence diagram, thresholds pairs with persistence < 0.05
+3. Runs `TTKTopologicalSimplification` (Legacy backend) to simplify the field using those pairs
+4. Runs `TTKMorseSmaleComplex` on the simplified field to get the piecewise-linear segmentation and critical points
+5. Renders the segmentation (colored by Morse-Smale region ID) with critical points as radius-2 spheres: **red = maxima**, **white = saddles**, **blue = minima**
+
+Output saved to `/workspace/fracture_morse_smale.png`. Two notable implementation issues I had to work around in this ParaView/TTK build:
+- `TTKTopologicalSimplification`'s default "LTS" backend segfaults on this dataset — switched to the "Legacy Approach (IEEE VIS 2012)" backend, which works correctly.
+- `TTKMorseSmaleComplex`'s segmentation output is port 3 (not port 2), and critical points are typed via `CellDimension` (0/1/2 for this 2D dataset), not `CriticalType`.

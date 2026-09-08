@@ -1,0 +1,5 @@
+The pipeline succeeded and produced a valid render: TTK persistence diagram (321 pairs found) → simplified at threshold 0.04 → piecewise-linear critical points extracted → colored by type (blue minima, white 1-saddles, orange 2-saddles, red maxima) → 4 translucent isocontours (isovalues 0.2, 0.4, 0.6, 0.8) dividing the scalar range [0,1] into 5 equal regions.
+
+Result saved to `/workspace/qmcpack_ttk_critical_points.png`. Pipeline script at `/workspace/ttk_pipeline.py`.
+
+Summary of critical points after simplification: 16 minima, 288 1-saddles, 312 2-saddles, 10 multi-saddles, 6 maxima.

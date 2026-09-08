@@ -1,0 +1,6 @@
+The pipeline ran successfully. The image shows:
+
+- The piecewise-linear Morse-Smale segmentation (colored regions) of the field after persistence simplification (ε=0.05)
+- Minima in **blue**, maxima in **red**, saddles in **white**, all with sphere radius 2
+
+Output saved to `/workspace/output.png`, generated via `/workspace/fracture_pipeline.py` (built on TopoPilot2's `LoadScalarField → PersistenceSimplification → ComputeMorseSmaleSegmentation`/`ComputeScalarCriticalPoints` chain).

@@ -1,0 +1,16 @@
+The rendering is actually correct — this is the standard persistence diagram layout: points sit along the diagonal (birth=death) line, with the diagonal itself drawn as a thin gray line, and each pair extends as a vertical segment showing its persistence (death − birth). The apparent "recession" is just tube-shading/lighting, not a camera tilt (confirmed camera is aligned exactly along -Z, parallel projection).
+
+**Summary of what was done** (`/workspace/persistence_pipeline.py`):
+
+1. Read `QMCPACK.vti` (`Scalars_` field, 68×68×114 grid) with `XMLImageDataReader`.
+2. Computed the initial sub-level set (ascending) persistence diagram with `TTKPersistenceDiagram`.
+3. Thresholded that diagram to keep only pairs with `Persistence ≥ 0.04` (the simplification constraint set).
+4. Ran `TTKTopologicalSimplification` on the raw field using those constraints, removing all critical point pairs less persistent than 0.04.
+5. Recomputed the persistence diagram on the simplified field — this is the final, persistence-simplified (ε = 0.04), piecewise-linear sub-level set filtration diagram (305 total pairs: 15 finite min-saddle H0 pairs + 1 essential/global H0 pair, 6 saddle-max H2 pairs, 282 saddle-saddle H1 pairs, filtered out).
+6. Extracted only the H0 (`PairType == 0`, min-saddle) and H2 (`PairType == 2`, saddle-max) pairs via two `Threshold` filters merged together — 16 H0 pairs (blue) and 6 H2 pairs (red).
+7. Rendered the result with the full simplified diagram shown faintly for context, colored by `PairType`, camera aligned orthogonally to the birth/death plane.
+
+Outputs:
+- `/workspace/persistence_diagram_H0_H2.vtu` — the H0/H2-only diagram
+- `/workspace/persistence_diagram_full.vtu` — the full simplified diagram (all homology groups)
+- `/workspace/persistence_diagram_H0_H2.png` — rendered image (shown above)

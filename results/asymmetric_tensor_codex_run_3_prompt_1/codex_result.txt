@@ -1,0 +1,6 @@
+Rendered the requested 10-pixels-per-square eigenvector partition with radius-1 degenerate-point markers.
+
+- Pink trisectors: 48
+- White wedges: 51
+
+Output: [rendered PNG](/workspace/Ocean_eigenvector_partition.png), [VTK partition data](/workspace/Ocean_eigenvector_partition.vti), and [reproducible render script](/workspace/render_ocean_eigenvectors.py).

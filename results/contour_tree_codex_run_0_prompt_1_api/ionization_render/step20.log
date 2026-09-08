@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "/workspace/ionization_topopilot.py", line 2, in <module>
+    from topopilot.nodes import *
+  File "/workspace/TopoPilot2Library/src/topopilot/nodes/__init__.py", line 1, in <module>
+    from .node import TimeMismatchError, TypeMismatchError
+  File "/workspace/TopoPilot2Library/src/topopilot/nodes/node.py", line 6, in <module>
+    import topopilot.config as config
+  File "/workspace/TopoPilot2Library/src/topopilot/config.py", line 64, in <module>
+    _make_session_folder()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/workspace/TopoPilot2Library/src/topopilot/config.py", line 21, in _make_session_folder
+    shutil.rmtree(cache_folder)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.13/shutil.py", line 763, in rmtree
+    _rmtree_safe_fd(stack, onexc)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.13/shutil.py", line 704, in _rmtree_safe_fd
+    onexc(func, path, err)
+    ~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.13/shutil.py", line 658, in _rmtree_safe_fd
+    os.rmdir(name, dir_fd=dirfd)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './.topopilot/cache'

@@ -1,0 +1,6 @@
+Created and rendered the requested TopoPilot2 visualization.
+
+- [Rendered PNG](/workspace/ocean_eigenvector_partition.png)
+- [TopoPilot2 pipeline script](/workspace/ocean_eigenvector_partition.py)
+
+It uses resolution 10, point radius 1, pink trisectors, and white wedges.

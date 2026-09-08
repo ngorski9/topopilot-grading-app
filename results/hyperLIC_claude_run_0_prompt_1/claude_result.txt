@@ -1,0 +1,3 @@
+This renders correctly: the brain tensor field (colored by component A) with degenerate points overlaid — pink spheres for trisectors (408 found) and white spheres for wedges (420 found), both radius 1.
+
+Summary: since the ParaView/TTK install here has no `TensorFieldDegeneratePoints` filter compiled in, I implemented the standard piecewise-linear tensor topology algorithm directly (`/workspace/degenerate_points.py`): built the delta-vector field (A−D, 2B), found its zeros per triangle (each image cell split in two), classified by the sign of the local Jacobian determinant (negative → trisector, positive → wedge), then loaded the field into ParaView, glyphed the two point sets as radius-1 spheres (pink/white), and saved `./brain_degenerate_points.png`.

@@ -1,0 +1,9 @@
+Completed the requested pipeline and saved the outputs:
+
+- [Visualization PNG](/workspace/cloud_tracking.png)
+- [ParaView state](/workspace/cloud_tracking.pvsm)
+- [Tracked maxima trajectories](/workspace/tracked_maxima.vtp)
+- [Fixed-radius sphere geometry (r=2)](/workspace/tracked_maxima_spheres_r2.vtp)
+- [Reproducible pipeline script](/workspace/cloud_tracking.py)
+
+It uses cloud time steps 1–3, persistence threshold 0.5, POT earth mover’s-distance matching, warm–cold scalar coloring, and radius-2 critical-point spheres.

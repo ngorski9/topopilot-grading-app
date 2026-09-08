@@ -1,0 +1,15 @@
+The diagram now renders cleanly on white background with axis labels visible (label text is light gray but readable). This is the final piecewise-linear sub-level set filtration persistence diagram for H0/H2.
+
+Summary of what was done:
+
+1. **Read** `QMCPACK.vti` (scalar array `Scalars_`) with `XMLImageDataReader`.
+2. **Computed** the initial `TTKPersistenceDiagram` on the raw field, then **thresholded** it to keep only critical-point pairs with `Persistence ≥ 0.04`.
+3. **Applied `TTKTopologicalSimplification`** using those surviving pairs as constraints, producing a scalar field simplified at persistence level 0.04.
+4. **Recomputed** the persistence diagram on the simplified field (`TTKPersistenceDiagram`, `EmbedinDomain=0`, giving the standard birth/death 2D layout), then re-thresholded to drop residual noise below 0.04.
+5. **Filtered** to homology dimensions 0 and 2 via the `PairType` array (0 = min–saddle/H0, 2 = saddle–max/H2), discarding the 1-saddle–saddle pairs.
+6. **Rendered** the piecewise-linear diagram (diagonal + persistence bars colored by `PairType`) orthographically with axis grid labeled Birth/Death.
+
+Outputs:
+- `/workspace/persistence_diagram.png` — rendered diagram (27 H0/H2 pairs surviving simplification)
+- `/workspace/persistence_diagram_H0_H2.csv` — raw pair data (vertex ids, critical type, persistence, pair type, coordinates)
+- `/workspace/persistence_diagram.py` — the reproducible pvpython script

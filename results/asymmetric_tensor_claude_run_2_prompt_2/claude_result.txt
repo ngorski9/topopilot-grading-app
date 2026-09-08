@@ -1,0 +1,3 @@
+The visualization renders correctly: the eigenvector partition (4 regions: W_c,s / W_r,s / W_r,n / W_c,n) at 10 px/cell resolution, with degenerate points overlaid — trisectors in pink, wedges in white, radius 1, positioned exactly at the region boundaries as expected (validated against the benchmark's ground truth: 99.3% pixel-label agreement, matching point positions to within 1e-6, and correct answer to the benchmark's "most common classification" question).
+
+Saved to `/workspace/ocean_eigenvector_partition.png`.

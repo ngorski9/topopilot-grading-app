@@ -1,0 +1,12 @@
+Completed the ParaView visualization with:
+
+- Eigenvector partition at 10 pixels per source square
+- 94 degenerate points, radius 1
+- Trisectors in pink; wedges in white
+
+Outputs:
+
+- [ParaView state file](/workspace/Ocean_eigenvector_partition.pvsm)
+- [Rendered visualization](/workspace/Ocean_eigenvector_partition.png)
+- [Partition dataset](/workspace/Ocean_eigenvector_partition.vti)
+- [Degenerate points dataset](/workspace/Ocean_degenerate_points.vtp)

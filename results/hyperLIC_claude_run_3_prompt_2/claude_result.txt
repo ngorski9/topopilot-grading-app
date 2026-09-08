@@ -1,0 +1,9 @@
+The result is good as-is — dense clustering is a genuine feature of this dataset (degenerate points concentrate at the brain-mask boundary, where the tensor field transitions from isotropic zero to anisotropic tissue).
+
+**Result:** `/workspace/brain_tensor_topology.png`
+
+Summary of what was done:
+1. Loaded `brain.vti` (108×66 2D image with symmetric tensor `[[A,B],[B,D]]` stored as separate point-data arrays).
+2. Since no bundled TTK filter directly computes tensor degenerate points, implemented the standard Delmarcelle–Hesselink (1994) method: triangulated each grid cell and located common zeros of the deviator fields `E=A−D`, `F=2B` per triangle via a barycentric linear solve, classifying each point by the sign of the local Jacobian determinant (positive → wedge, negative → trisector).
+3. Found 828 degenerate points (420 wedges, 408 trisectors).
+4. Rendered the tensor field as ellipse glyphs (via `vtkTensorGlyph`, colored by trace) and overlaid radius-1 spheres at the degenerate points — **pink for trisectors, white for wedges**.

@@ -1,0 +1,8 @@
+The visualization is done: 4 translucent isocontours (splitting the volume into 5 equal-count regions) plus all simplified critical points colored red=maxima, orange=2-saddles, white=1-saddles, blue=minima.
+
+Summary:
+- Loaded `/workspace/QMCPACK.vti`, computed the persistence diagram via `ttkPersistenceDiagram`, thresholded pairs with persistence ≥ 0.04, and applied `ttkTopologicalSimplification` to simplify the scalar field.
+- Extracted critical points on the simplified field with `ttkScalarFieldCriticalPoints`: 16 minima, 288 1-saddles, 312 2-saddles, 6 maxima (632 total).
+- Computed 4 isovalues at the 20/40/60/80 percentiles of the simplified field (≈0.393, 0.405, 0.407, 0.416) to split the volume into 5 equal-count regions, rendered as translucent contours.
+- Colored critical points: red = maxima, orange = 2-saddles, white = 1-saddles, blue = minima.
+- Screenshot saved to `/workspace/qmcpack_ttk_result.png` (rendered headlessly via `xvfb-run` since no display was otherwise available). Full pipeline script: `/workspace/qmcpack_ttk.py`.

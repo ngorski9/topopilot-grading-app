@@ -1,0 +1,7 @@
+The three time steps look nearly identical here (data changes slowly/subtly), and the tracked-identity colors remain consistent across frames — confirming the partial-optimal-transport tracking is working.
+
+Task complete. Summary:
+
+- Script: `/workspace/cylinder_tracked_critical_points.py` — loads the `cylinder` time series with `LoadVectorField(u, v)`, embeds the vector field as an LIC-style texture, computes vector critical points, tracks them across 3 time steps with `TrackVectorCriticalPoints(time_steps=3, backend="partial")`, and displays them via `EmbedTrackedVectorFieldCriticalPoints` (colored by tracked identity).
+- Rendered outputs: `cylinder_tracked_t1.png`, `_t2.png`, `_t3.png` (one per time step) and `cylinder_tracked.mp4` (full 21-step video) in `/workspace`.
+- Visualization shows vortex pairs shedding behind the cylinder, with critical-point spheres holding consistent colors across frames, confirming correct partial-OT tracking.

@@ -1,0 +1,6 @@
+Done. Since the installed TTK build has no tensor-field-topology filters (verified exhaustively — no `ttkTensor*`/`ttkDegenerate*`/`ttkWedge*`/`ttkTrisector*` module exists on this system), I implemented the Delmarcelle–Hesselink/Zheng–Pang asymmetric tensor topology algorithm directly against the A/B/C/D arrays:
+
+- **Eigenvector partition**: orange = real-eigenvalue regions, blue = complex-eigenvalue (rotational) regions, rasterized at 10 px per grid square (100×100 cells → ~1000×1000 px).
+- **Degenerate points**: found via per-cell Poincaré-index winding of the deviatoric vector field (a,b), radius-1 circle markers — white = wedges (94), pink = trisectors (86).
+
+Outputs: `/workspace/ocean_tensor_topology.png` (shown above) and `/workspace/ocean_degenerate_points.csv` (point locations + types).

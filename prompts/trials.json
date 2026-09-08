@@ -1,0 +1,151 @@
+[
+
+{
+    "name": "isocontours",
+    "data": "QMCPACK.vti",
+    "prompts": [
+        "Please load ./QMCPACK.vti. Apply persistence simplification using a threshold of 0.04 and visualize all piecewise-linear critical points. Additionally, visualize 4 isocontours dividing the volume into 5 evenly sized regions. Show maxima in red, 2-saddles in orange, 1-saddles in white, and minima in blue.",
+        "Load ./QMCPACK.vti and perform persistence simplification with a threshold of 0.04. Visualize all of its piecewise-linear critical points along with 4 isocontours dividing the volume into 5 evenly sized regions. Render maxima in red, 2-saddles in orange, 1-saddles in white, and minima in blue.",
+        "Please open ./QMCPACK.vti, simplify it using a persistence threshold of 0.04, and display all of its piecewise-linear critical points. Also include a visualization of 4 isocontours dividing the volume into 5 evenly sized regions. Display maxima using red, 2-saddles with orange, 1-saddles with white, and minima with blue."
+    ],
+    "data_requirements" : [
+        "PL persistence simplification is applied.",
+        "All critical points are computed after simplification.",
+        "4 isocontours are computed that divide the volume into 5 evenly sized regions."
+    ],
+    "vis_requirements" : [
+        "The isocontours are visualized.",
+        "Critical points are visualized with maxima in red, 2-saddles in orange, 1-saddles in white, and minima in blue."
+    ]
+},
+
+{
+    "name" : "contour_tree",
+    "data" : "Ionization",
+    "prompts": [
+        "Load the time-varying Ionization dataset located in ./Ionization (stored as a directory). Visualize the original scalar field with the viridis colormap, then apply persistence simplification with a threshold of 0.1 and display the resulting simplified piecewise-linear contour tree. Draw the maxima in red, 2-saddles in orange, 1-saddles in white, and minima in blue. Give the tree edges a radius of 1 and the vertices a radius of 2.",
+        "Please import the Ionization time-varying dataset from ./Ionization. First render the original scalar field using the viridis colormap, then perform persistence simplification with value 0.1 and visualize the simplified piecewise-linear contour tree. Give the vertices a radius of 2, rendering the maxima in red, 2-saddles in orange, 1-saddles in white, and minima in blue. Render the edges with a thickness of 1.",
+        "Open the time-dependent Ionization dataset stored in ./Ionization (directory format). Show the raw scalar field with the viridis colormap, apply persistence simplification with threshold 0.1, and visualize the simplified piecewise-linear contour tree with edges with a radius of 1 and vertices with a radius of 2. Show maxima in red, 2-saddles in orange, 1-saddles in white and minima in blue."
+    ],
+    "data_requirements" : [
+        "PL persistence simplification is applied with a relative threshold of 0.1.",
+        "The piecewise-linear contour tree is computed on the simplified field."
+    ],
+    "vis_requirements" : [
+        "The scalar field is visualized using the viridis colormap",
+        "The contour tree vertices are visualized with a radius of 2. Maxima are in red, 2-saddles in orange, 1-saddles in white, and minima are in blue",
+        "The contour tree edges are visualized with a radius of 1."
+    ]
+},
+
+{
+    "name" : "vector_critical_point_tracking",
+    "data" : "cylinder",
+    "prompts": [
+        "Load the time-varying cylinder dataset located in ./cylinder (stored as a directory). The piecewise-linear vector field components are in the arrays 'u' and 'v'. Track the critical points over 3 time steps using partial optimal transport and visualize the tracked critical points together with the original vector field.",
+        "Open the time-dependent cylinder dataset from ./cylinder (directory format). It represents a piecewise-linear vector field with component array names 'u' and 'v'. Use partial optimal transport to track critical points across 3 time steps and display the tracked critical points along with the original vector field.",
+        "Import the cylinder time-varying dataset in ./cylinder (provided as a directory). The piecewise-linear vector field is defined by component array names 'u' and 'v'. Track its critical points for 3 time steps using partial optimal transport and visualize the tracked points together with the original vector field."
+    ],
+    "data_requirements" : [
+        "The vector field critical points are computed.",
+        "The vector field critical points are tracked over 3 time steps using partial optimal transport."
+    ],
+    "vis_requirements" : [
+        "The original vector field is visualized.",
+        "The critical points are visualized.",
+        "The tracking is visualized."
+    ]
+},
+
+{
+    "name": "scalar_critical_point_tracking",
+    "data": "cloud",
+    "prompts": [
+        "Load the time-varying cloud dataset located in ./cloud (stored as a directory). Visualize the original scalar field, then apply persistence simplification with a threshold of 0.5 and track the piecewise-linear maxima across 3 time steps using earth mover's distance. Display the tracked critical points together with the scalar field using a sphere radius of 2 and a warm-cold colormap.",
+        "Open the time-dependent cloud dataset from ./cloud (directory format). First render the original scalar field, then perform persistence simplification with value 0.5 and track piecewise-linear maxima over 3 time steps using earth mover's distance. Visualize the tracked critical points along with the scalar field using a sphere radius of 2 and a warm-cold colormap.",
+        "Import the cloud time-varying dataset in ./cloud (provided as a directory). Show the original scalar field, apply persistence simplification with threshold 0.5, and track the piecewise-linear maxima for 3 time steps using earth mover's distance. Visualize the tracked critical points together with the scalar field using a sphere radius of 2 and a warm-cold colormap."
+    ],
+    "data_requirements" : [
+        "PL persistence simplification is applied with a relative threshold of 0.5.",
+        "The PL maxima are computed.",
+        "The PL maxima are tracked over 3 time steps using EMD."
+    ],
+    "vis_requirements" : [
+        "The scalar field is rendered using a warm-cold colormap.",
+        "The maxima are visualized with a radius of 2.",
+        "the tracking results are visualized."
+    ]
+},
+
+{
+    "name" : "Morse-Smale segmentation",
+    "data": "fracture.vti",
+    "prompts": [
+    "Load ./fracture.vti, apply a persistence simplification threshold of 0.05, and visualize the piecewise-linear Morse-Smale segmentation of the simplified scalar field together with all critical points, including minima, maxima, and saddles. Give the critical points a radius of 2. Render maxima in red, saddles in white, and minima in blue.",
+    "Open ./fracture.vti and perform persistence simplification with a value of 0.05. Then display the piecewise-linear Morse-Smale segmentation for the simplified field along with every critical point type: mins, maxes, and saddles. Show maxes in red, saddles in white, and mins in blue with a radius of 2.",
+    "Read ./fracture.vti, simplify the field using persistence simplification set to 0.05, and render the resulting piecewise-linear Morse-Smale segmentation plus all associated critical points (minimums, maximums, and saddles). Give the critical point markers a radius of 2 and show maximums in red, saddles in white, and minimums in blue."
+    ],
+    "data_requirements" : [
+        "Persistence simplification is applied with a threshold of 0.05.",
+        "the piecewise-linear Morse-Smale segmentation of the simplified field is computed.",
+        "all critical points of the simplified field are computed."
+    ],
+    "vis_requirements" : [
+        "The piecewise-linear Morse-Smale segmentation is visualized.",
+        "The critical points are visualized with a radius of 2 with maxes in red, saddles in white, and mins in blue."
+    ]
+},
+
+{
+    "name": "hyperLIC",
+    "data": "brain.vti",
+    "prompts": [
+        "Load ./brain.vti, a symmetric piecewise-linear tensor field with component arrays named \"A\", \"B\", and \"D\", and visualize the dataset together with its degenerate points. Give them a radius of 1. Show trisectors in pink and wedges in white.",
+        "Open ./brain.vti, which represents a symmetric piecewise-linear tensor field with components \"A\", \"B\", and \"D\", and display it along with its degenerate points. Render trisectors in pink and wedges in white all with a radius of 1.",
+        "Read ./brain.vti (a symmetric piecewise-linear tensor field whose component arrays are \"A\", \"B\", and \"D\") and render it together with all detected degenerate points (with a radius of 1) showing trisectors in pink and wedges in white."
+    ],
+    "data_requirements" : [
+        "The degenerate points are computed."
+    ],
+    "vis_requirements" : [
+        "The degenerate points are visualized with a radius of 1 with trisectors in pink and wedges in white.",
+        "The tensor field is visualized."
+    ]
+},
+
+{
+    "name": "asymmetric_tensor",
+    "data": "Ocean.vti",
+    "prompts": [
+        "Load ./Ocean.vti, an asymmetric piecewise-linear tensor field with component arrays \"A\", \"B\", \"C\", and \"D\", and visualize the eigenvector partition together with the degenerate points. Give the partition a resolution of 10 pixels per square. Use a radius of 1 for the degenerate points, coloring trisectors in pink and wedges in white.",
+        "Open ./Ocean.vti, which represents an asymmetric piecewise-linear tensor field whose components are \"A\", \"B\", \"C\", and \"D\", and display the eigenvector partition (with a resolution of 10 pixels per square) along with its degenerate points. Render trisectors in pink and wedges in white with a radius of 1.",
+        "Read ./Ocean.vti (an asymmetric piecewise-linear tensor field with component arrays \"A\", \"B\", \"C\", and \"D\") and render the eigenvector partition (resolution: 10 pixels per square) together with all degenerate points, keeping trisectors pink, wedges white, and giving them a radius of 1."
+    ],
+    "data_requirements" : [
+        "The eigenvector partition is computed with a resolution of 10 pixels per square.",
+        "The degenerate points are computed."
+    ],
+    "vis_requirements" : [
+        "the eigenvector partition is visualized.",
+        "the degenerate points are visualized with trisectors in pink and wedges in white with a radius of 1."
+    ]
+},
+
+{
+    "name": "persistence_diagram",
+    "data": "QMCPACK.vti",
+    "prompts": [
+        "Load the scalar field located at ./QMCPACK.vti, apply persistence simplification with a threshold of 0.04, and visualize its persistence diagram from the sublevel set filtration showing orders 0 and 2.",
+        "Open ./QMCPACK.vti as a scalar field, perform persistence simplification with value 0.04, and display the piecewise linear persistence diagram featuring orders 0 and 2 using the sublevel set filtration.",
+        "Read the scalar field ./QMCPACK.vti, apply persistence simplification set to 0.04, and render the piecewise-linear sub-level set filtration persistence diagram reflecting homology groups of order 0 and 2."
+    ],
+    "data_requirements" : [
+        "PL persistence simplification is applied with a threshold of 0.04.",
+        "the 0-order PL persistence diagram is computed."
+    ],
+    "vis_requirements" : [
+        "the persistence diagram is visualized."
+    ]
+}
+
+]

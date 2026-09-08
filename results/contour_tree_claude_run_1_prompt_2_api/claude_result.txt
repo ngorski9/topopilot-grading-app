@@ -1,0 +1,5 @@
+The pipeline ran successfully and produced the visualization at `/workspace/ionization_output.png`. It shows the Ionization time series (time step 1) with the raw scalar field volume-rendered in viridis, overlaid with the persistence-simplified (ε=0.1) piecewise-linear contour tree — vertices as spheres (radius 2) and edges as tubes (radius 1), colored blue (minima), white (1-saddles), orange (2-saddles), and red (maxima).
+
+Script saved at `/workspace/ionization_pipeline.py`. To render other time steps or the full series to video, run e.g.:
+- `pvbatch ionization_pipeline.py -i ./Ionization -t 5 -o step5.png -q session`
+- `pvbatch ionization_pipeline.py -i ./Ionization -t -1 -o full.mp4 -q session`

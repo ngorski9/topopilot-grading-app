@@ -1,0 +1,13 @@
+Done. The script `/workspace/ttk_analysis.py` (run via `pvpython`) does the following:
+
+1. **Loads** `QMCPACK.vti`.
+2. **Persistence simplification**: computes the TTK persistence diagram, thresholds pairs with persistence > 0.04, and feeds them as constraints to `TTKTopologicalSimplification`.
+3. **Critical points**: runs `TTKMorseSmaleComplex` on the simplified field to extract the piecewise-linear critical points, colored by `CellDimension` (0=min, 1=1-saddle, 2=2-saddle, 3=max):
+   - Minima → blue
+   - 1-saddles → white
+   - 2-saddles → orange
+   - Maxima → red
+4. **Isocontours**: computes 4 isovalues at the 20th/40th/60th/80th percentiles of the scalar field (equal voxel-count, i.e. equal-volume bins on the uniform grid), and renders them as 4 semi-transparent contour surfaces dividing the volume into 5 evenly sized regions.
+5. Saves the render to `/workspace/QMCPACK_ttk_visualization.png` (1400×1000).
+
+The rendered image confirms all four critical-point types are present and correctly colored, overlaid on the nested isocontour surfaces.

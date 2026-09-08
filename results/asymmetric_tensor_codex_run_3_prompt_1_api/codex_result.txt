@@ -1,0 +1,6 @@
+Rendered the requested visualization successfully.
+
+- [PNG output](/workspace/Ocean_eigenvector_partition.png)
+- [TopoPilot2 rendering script](/workspace/render_ocean_eigenvector_partition.py)
+
+It uses A/B/C/D as the asymmetric tensor components, partition resolution 10, a 1000×1000 view (10 pixels per domain square), and radius-1 degenerate points: trisectors pink and wedges white.

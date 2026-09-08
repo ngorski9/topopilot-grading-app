@@ -1,0 +1,10 @@
+The rendering is complete and saved to `/workspace/Ocean_eigenvector_partition.png`.
+
+Since TTK/ParaView have no built-in filter for asymmetric-tensor eigenvector-topology, I computed it directly from the field:
+
+- For `T = [[A,B],[C,D]]`, derived δ=(A−D)/2, β=(B+C)/2, γ=(B−C)/2, and discriminant Δ=δ²+β²−γ².
+- **Partition**: real-eigenvalue domain (Δ>0, cream) vs. complex-eigenvalue domain (Δ<0, blue) — the "eigenvector partition."
+- **Degenerate points**: found as zeros of the piecewise-linear (δ,β) field within each triangulated grid cell (barycentric solve); classified as wedge vs. trisector by the sign of the local Jacobian determinant of (δ,β).
+- Rendered at 10 px/unit square (1000×1000 px domain), trisectors pink, wedges white, both radius 1, black outline for visibility.
+
+Result: 99 degenerate points found (51 wedges, 48 trisectors).

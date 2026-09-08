@@ -1,0 +1,11 @@
+## Summary
+
+I built a full pipeline (`/workspace/track_critical_points.py`) that:
+
+1. **Imports** the `cylinder` dataset (`.vti` series), reading the `u`/`v` component arrays with VTK.
+2. **Picks 3 time steps** spread across the series (t=1, 11, 21) so the flow visibly evolves.
+3. **Extracts critical points** of the piecewise-linear (u,v) vector field per time step, using the standard Helman–Hesselink approach: each grid quad is split into two triangles, and a critical point exists wherever the origin lies inside the triangle's image in (u,v)-value space (found via barycentric coordinates), classified as saddle/sink/source/focus from the local Jacobian. Cells touching the cylinder's zero-velocity mask are excluded to avoid spurious boundary artifacts.
+4. **Tracks critical points across consecutive time steps with partial optimal transport** (`ot.partial.partial_wasserstein` from the POT library), using a Euclidean cost matrix with a large penalty for mismatched critical-point types — since the number of critical points differs per step, only `min(n_i, n_j)` mass is transported, correctly modeling births/deaths of critical points.
+5. **Visualizes** the result: 3 side-by-side panels (one per time step) showing the vector field (magnitude background + quiver glyphs) with critical points overlaid (colored/shaped by type, labeled by persistent track ID) and green trajectory segments connecting matched points between consecutive steps.
+
+Output image saved to `/workspace/cylinder_critical_point_tracking.png`. The near-wake recirculation critical points stay essentially fixed while the downstream vortex-street points shift slightly — consistent with the underlying flow physics, confirming the tracking is behaving sensibly.

@@ -1,0 +1,3 @@
+The visualization is complete and correctly framed. The brain tensor field is rendered as a geometric symmetric tensor embedding, with its degenerate points overlaid: pink spheres for trisectors and white spheres for wedges, both at radius 1.
+
+Script: `/workspace/brain_pipeline.py`. Output: `/workspace/brain_output.png`.

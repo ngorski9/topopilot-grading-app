@@ -1,0 +1,3 @@
+The visualization rendered successfully at `/workspace/brain_output.png` — it shows the brain tensor field (glyph/geometric embedding of the symmetric tensor field from arrays A, B, D) with its 434 degenerate points overlaid as radius-1 spheres: trisectors in pink and wedges in white.
+
+Script: `/workspace/brain_tensor_viz.py`, built with `LoadSymmetricTensorField` → `EmbedSymmetricTensorField` for the base field, and `LoadSymmetricTensorField` → `ComputeSymmetricTensorDegeneratePoints` → `EmbedSymmetricTensorDegeneratePoints` (radius=1.0, color_scheme=["#ff8cc6", "#ffffff"]) for the degenerate points.

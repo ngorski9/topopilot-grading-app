@@ -1,0 +1,13 @@
+This now shows a proper piecewise-linear persistence diagram (each vertical/diagonal segment is a birth–death pair) with the global pair highlighted in red and the dimension-0/dimension-2 pairs remaining after simplification at threshold 0.04.
+
+Summary of the pipeline built in `/workspace/ttk_persistence.py` (run with `pvpython`):
+
+1. **Load** `QMCPACK.vti` (`XMLImageDataReader`), scalar array `Scalars_`.
+2. **Compute persistence diagram** via `TTKPersistenceDiagram` (sublevel-set filtration, `EmbedinDomain=0` so output is the actual birth/death plane).
+3. **Threshold pairs** by `Persistence > 0.04` (`Threshold` on `Persistence`, `Between 0.04–1e9`) to get the simplification constraints.
+4. **Simplify** the original field with `TTKTopologicalSimplification`, using the thresholded diagram as constraints.
+5. **Recompute the diagram** on the simplified field (`TTKPersistenceDiagram` again) — this is the simplified persistence diagram.
+6. **Filter to orders 0 and 2** using `Threshold` on `PairType` (0 = min-saddle, 2 = saddle-max pairs), then `AppendDatasets` to combine them.
+7. **Display** the result colored by `Persistence`, viewed along the birth/death plane, saved to `/workspace/persistence_diagram.png`.
+
+The final diagram (304 total pairs after simplification, 15 order-0 and 6 order-2 pairs isolated) is rendered as line segments — the standard piecewise-linear persistence diagram representation, with the single high-persistence red pair being the global min–max feature.

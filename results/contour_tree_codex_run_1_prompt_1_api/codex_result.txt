@@ -1,0 +1,9 @@
+Completed the TopoPilot2 visualization pipeline and rendered all 21 time steps.
+
+Outputs:
+
+- [Pipeline script](/workspace/ionization_contour_tree.py)
+- [Time-varying MP4 render](/workspace/ionization_simplified_contour_tree.mp4)
+- [First-frame PNG preview](/workspace/ionization_contour_tree_t1.png)
+
+The render uses the original `Scalars_` field in viridis, then overlays the piecewise-linear contour tree computed after persistence simplification at `0.1`. Vertices have radius 2: minima blue, 1-saddles white, 2-saddles orange, maxima red; edges have thickness 1.

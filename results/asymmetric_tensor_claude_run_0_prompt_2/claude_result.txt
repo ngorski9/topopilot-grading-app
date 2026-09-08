@@ -1,0 +1,9 @@
+This matches the expected structure — degenerate points sit right on the boundaries between the real-eigenvalue (yellow) and complex-eigenvalue (blue) regions, which is the correct topological signature for wedges/trisectors.
+
+Rendered `/workspace/Ocean_eigenvector_partition.png` (1000×1000 px, 10 px/grid-square):
+- **Yellow** regions: real, distinct eigenvalues (Δ = (A−D)² + 4BC ≥ 0)
+- **Blue** regions: complex-conjugate eigenvalues (Δ < 0)
+- **99 degenerate points** found at zeros of the deviator field (A−D, B+C), each on a cell's linear triangulation
+  - **White** = wedges (51, Jacobian of deviator field > 0)
+  - **Pink** = trisectors (48, Jacobian < 0)
+  - Radius 1 (grid units) in both colors, matching the boundary points as expected.

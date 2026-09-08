@@ -1,0 +1,11 @@
+Completed the ParaView/TTK pipeline for the Ionization time series.
+
+Outputs:
+
+- [Original scalar field — Viridis](/workspace/ionization_renderings/ionization_original_viridis.png)
+- [Simplified contour tree](/workspace/ionization_renderings/ionization_simplified_contour_tree.png)
+- [Reproducible ParaView state](/workspace/ionization_renderings/ionization_contour_tree.pvsm)
+- [Contour-tree arcs](/workspace/ionization_renderings/ionization_simplified_contour_tree_arcs.vtu)
+- [Contour-tree vertices](/workspace/ionization_renderings/ionization_simplified_contour_tree_vertices.vtu)
+
+Persistence simplification used absolute threshold 0.1; vertices have radius 2 and the requested critical-point colors; arc thickness is 1. The script is saved as [render_ionization.py](/workspace/render_ionization.py).
