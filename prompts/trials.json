@@ -9,7 +9,7 @@
         "Please open ./QMCPACK.vti, simplify it using a persistence threshold of 0.04, and display all of its piecewise-linear critical points. Also include a visualization of 4 isocontours dividing the volume into 5 evenly sized regions. Display maxima using red, 2-saddles with orange, 1-saddles with white, and minima with blue."
     ],
     "data_requirements" : [
-        "PL persistence simplification is applied.",
+        "PL persistence simplification is applied with a threshold of 0.04 (relative or absolute).",
         "All critical points are computed after simplification.",
         "4 isocontours are computed that divide the volume into 5 evenly sized regions."
     ],
@@ -28,7 +28,7 @@
         "Open the time-dependent Ionization dataset stored in ./Ionization (directory format). Show the raw scalar field with the viridis colormap, apply persistence simplification with threshold 0.1, and visualize the simplified piecewise-linear contour tree with edges with a radius of 1 and vertices with a radius of 2. Show maxima in red, 2-saddles in orange, 1-saddles in white and minima in blue."
     ],
     "data_requirements" : [
-        "PL persistence simplification is applied with a relative threshold of 0.1.",
+        "PL persistence simplification is applied with a threshold of 0.1 (relative or absolute).",
         "The piecewise-linear contour tree is computed on the simplified field."
     ],
     "vis_requirements" : [
@@ -66,7 +66,7 @@
         "Import the cloud time-varying dataset in ./cloud (provided as a directory). Show the original scalar field, apply persistence simplification with threshold 0.5, and track the piecewise-linear maxima for 3 time steps using earth mover's distance. Visualize the tracked critical points together with the scalar field using a sphere radius of 2 and a warm-cold colormap."
     ],
     "data_requirements" : [
-        "PL persistence simplification is applied with a relative threshold of 0.5.",
+        "PL persistence simplification is applied with a threshold of 0.5 (relative or absolute).",
         "The PL maxima are computed.",
         "The PL maxima are tracked over 3 time steps using EMD."
     ],
@@ -86,7 +86,7 @@
     "Read ./fracture.vti, simplify the field using persistence simplification set to 0.05, and render the resulting piecewise-linear Morse-Smale segmentation plus all associated critical points (minimums, maximums, and saddles). Give the critical point markers a radius of 2 and show maximums in red, saddles in white, and minimums in blue."
     ],
     "data_requirements" : [
-        "Persistence simplification is applied with a threshold of 0.05.",
+        "Persistence simplification is applied with a threshold of 0.05 (relative or absolute).",
         "the piecewise-linear Morse-Smale segmentation of the simplified field is computed.",
         "all critical points of the simplified field are computed."
     ],
