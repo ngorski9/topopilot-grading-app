@@ -47,8 +47,7 @@ DATA_RUBRIC = [
 ]
 VIS_RUBRIC = [
     "Correctly visualized",
-    # "Visualized, but design choices impair interpretability",
-    "Visualized, but design choices impair interpretability"
+    "Visualized, but design choices impair interpretability",
     "Visualization requirements are only partially fulfilled",
     "Not visualized",
 ]
@@ -162,8 +161,9 @@ def row_has_no_errors(row):
     return all(grade.get("rating") in (DATA_RUBRIC[0], VIS_RUBRIC[0]) for grade in grades_from_row(row, "data_grades") + grades_from_row(row, "vis_grades"))
 
 
-def row_has_no_minor_errors(row):
-    return all(grade.get("rating") in DATA_RUBRIC[:2] + VIS_RUBRIC[:2] for grade in grades_from_row(row, "data_grades") + grades_from_row(row, "vis_grades"))
+def row_has_no_major_errors(row):
+    allowed_ratings = DATA_RUBRIC[:2] + VIS_RUBRIC[:2]
+    return all(grade.get("rating") in allowed_ratings for grade in grades_from_row(row, "data_grades") + grades_from_row(row, "vis_grades"))
 
 
 def make_summary():
@@ -177,8 +177,8 @@ def make_summary():
         count = len(rows)
         benchmark = benchmark_for(trial["id"])
         metadata = trial.get("metadata", {})
-        output.append({"trial_id": trial["id"], "task": trial["task"], "agent": trial["agent"], "run": trial["run"], "prompt": trial["prompt"], "api": trial["api"], "input tokens": metadata.get("total input", ""), "output": metadata.get("total output", ""), "cost (usd)": metadata.get("cost (usd)", ""), "time": metadata.get("time", ""), "grader_count": count, "benchmark_score": benchmark.get("benchmark_score", ""), "benchmark_not_applicable": benchmark.get("benchmark_not_applicable") == "1", "percent_no_errors": round(100 * sum(row_has_no_errors(row) for row in rows) / count, 1), "percent_no_minor_errors": round(100 * sum(row_has_no_minor_errors(row) for row in rows) / count, 1)})
-    fields = ["trial_id", "task", "agent", "run", "prompt", "api", "input tokens", "output", "cost (usd)", "time", "grader_count", "benchmark_score", "benchmark_not_applicable", "percent_no_errors", "percent_no_minor_errors"]
+        output.append({"trial_id": trial["id"], "task": trial["task"], "agent": trial["agent"], "run": trial["run"], "prompt": trial["prompt"], "api": trial["api"], "input tokens": metadata.get("total input", ""), "output": metadata.get("total output", ""), "cost (usd)": metadata.get("cost (usd)", ""), "time": metadata.get("time", ""), "grader_count": count, "benchmark_score": benchmark.get("benchmark_score", ""), "benchmark_not_applicable": benchmark.get("benchmark_not_applicable") == "1", "percent_no_errors": round(100 * sum(row_has_no_errors(row) for row in rows) / count, 1), "percent_no_major_errors": round(100 * sum(row_has_no_major_errors(row) for row in rows) / count, 1)})
+    fields = ["trial_id", "task", "agent", "run", "prompt", "api", "input tokens", "output", "cost (usd)", "time", "grader_count", "benchmark_score", "benchmark_not_applicable", "percent_no_errors", "percent_no_major_errors"]
     write_csv(SUMMARY, output, fields)
 
 

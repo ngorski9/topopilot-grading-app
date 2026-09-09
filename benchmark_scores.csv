@@ -361,7 +361,6 @@ Morse-Smale segmentation_codex_run_0_prompt_2,9,0
 Morse-Smale segmentation_codex_run_1_prompt_2,9,0
 Morse-Smale segmentation_codex_run_2_prompt_2,9,0
 Morse-Smale segmentation_codex_run_3_prompt_2,9,0
-asymmetric_tensor_claude_run_0_prompt_0,3.5,0
 asymmetric_tensor_claude_run_1_prompt_0,5.0,0
 asymmetric_tensor_claude_run_2_prompt_0,5.5,0
 asymmetric_tensor_codex_run_0_prompt_0,10,0
@@ -383,3 +382,4 @@ hyperLIC_codex_run_3_prompt_2_api,10,0
 hyperLIC_claude_run_1_prompt_2_api,10,0
 hyperLIC_claude_run_2_prompt_2,9,0
 asymmetric_tensor_codex_run_3_prompt_0,5.0,0
+asymmetric_tensor_claude_run_0_prompt_0,3.5,0
