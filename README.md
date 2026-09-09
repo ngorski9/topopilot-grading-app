@@ -2,6 +2,8 @@
 
 Grading app from the TopoPilot submission. This app can be used to insepct the grading results from using Claude Code and Codex, including the manual grading and the evaluation using the SciVisAgentBench scores. By logging in as a grader, you also can see what the grading interface is like.
 
+Note: This application was developed with heavy AI usage.
+
 ## Prerequisites
 
 No libraries are required. Requires Python 3.9+
